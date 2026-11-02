@@ -1,4 +1,4 @@
-/* Updated for the current itinerary. All reservations remain unconfirmed. */
+/* Hotel identities checked against official platform property pages. */
 const HOTELS = [
   {
     "id": 0,
@@ -22,7 +22,10 @@ const HOTELS = [
         "2026-12-17"
       ]
     ],
-    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。"
+    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。",
+    "agoda": "https://www.agoda.com/sheraton-grand-hiroshima-hotel/hotel/hiroshima-jp.html",
+    "agodaId": "335019",
+    "agodaName": "Sheraton Grand Hiroshima Hotel"
   },
   {
     "id": 1,
@@ -46,7 +49,11 @@ const HOTELS = [
         "2026-12-17"
       ]
     ],
-    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。"
+    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。",
+    "agoda": "https://www.agoda.com/hotel-granvia-hiroshima-south-gate-h59710862/hotel/hiroshima-jp.html",
+    "agodaId": "59710862",
+    "agodaName": "HOTEL GRANVIA HIROSHIMA SOUTH GATE",
+    "officialBooking": "https://go-jrhotel-m.reservation.jp/en/hotels/granvia-hiroshima-southgate/plans"
   },
   {
     "id": 2,
@@ -70,7 +77,10 @@ const HOTELS = [
         "2026-12-17"
       ]
     ],
-    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。"
+    "note": "首段与末段回访可选择同一家酒店；车站附近方便两次城际移动。",
+    "agoda": "https://www.agoda.com/hilton-hiroshima/hotel/hiroshima-jp.html",
+    "agodaId": "31735233",
+    "agodaName": "Hilton Hiroshima"
   },
   {
     "id": 3,
@@ -90,7 +100,10 @@ const HOTELS = [
         "2026-12-01"
       ]
     ],
-    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。"
+    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。",
+    "agoda": "https://www.agoda.com/onyado-chikurintei/hotel/takeo-jp.html",
+    "agodaId": "1631765",
+    "agodaName": "Onyado-Chikurintei"
   },
   {
     "id": 4,
@@ -110,7 +123,10 @@ const HOTELS = [
         "2026-12-01"
       ]
     ],
-    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。"
+    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。",
+    "agoda": "https://www.agoda.com/takeo-onsen-mori-no-resort-hotel_2/hotel/saga-jp.html",
+    "agodaId": "56359515",
+    "agodaName": "Urari Takeo Garden Terrace Spa Resorts"
   },
   {
     "id": 5,
@@ -130,7 +146,10 @@ const HOTELS = [
         "2026-12-01"
       ]
     ],
-    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。"
+    "note": "四晚温泉住宿，先确认晚餐变化；可在武雄市区酒店与高级旅馆间拆住。",
+    "agoda": "https://www.agoda.com/mifuneyama-kanko-hotel-h9078702/hotel/takeo-jp.html",
+    "agodaId": "9078702",
+    "agodaName": "Mifuneyama Rakuen Hotel"
   },
   {
     "id": 6,
@@ -150,7 +169,10 @@ const HOTELS = [
         "2026-12-02"
       ]
     ],
-    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。"
+    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。",
+    "agoda": "https://www.agoda.com/nagasaki-marriott-hotel/hotel/nagasaki-jp.html",
+    "agodaId": "49415614",
+    "agodaName": "Nagasaki Marriott Hotel"
   },
   {
     "id": 7,
@@ -170,7 +192,10 @@ const HOTELS = [
         "2026-12-02"
       ]
     ],
-    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。"
+    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。",
+    "agoda": "https://www.agoda.com/hotel-indigo-nagasaki-glover-street/hotel/nagasaki-jp.html",
+    "agodaId": "60123050",
+    "agodaName": "Hotel Indigo Nagasaki Glover Street By IHG"
   },
   {
     "id": 8,
@@ -190,7 +215,10 @@ const HOTELS = [
         "2026-12-02"
       ]
     ],
-    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。"
+    "note": "长崎美术馆已在 11/28 日归参观，此次只住一晚，12/2 转往别府。",
+    "agoda": "https://www.agoda.com/hilton-nagasaki/hotel/nagasaki-jp.html",
+    "agodaId": "28037203",
+    "agodaName": "Hilton Nagasaki"
   },
   {
     "id": 9,
@@ -214,7 +242,10 @@ const HOTELS = [
         "2026-12-07"
       ]
     ],
-    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。"
+    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。",
+    "agoda": "https://www.agoda.com/hoshino-resorts-kai-beppu/hotel/beppu-jp.html",
+    "agodaId": "21769776",
+    "agodaName": "Hoshino Resorts KAI Beppu"
   },
   {
     "id": 10,
@@ -238,7 +269,10 @@ const HOTELS = [
         "2026-12-07"
       ]
     ],
-    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。"
+    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。",
+    "agoda": "https://www.agoda.com/shiosai-no-yado-seikai/hotel/beppu-jp.html",
+    "agodaId": "812991",
+    "agodaName": "AMANE RESORT SEIKAI (SHIOSAI NO YADO SEIKAI)"
   },
   {
     "id": 11,
@@ -262,7 +296,10 @@ const HOTELS = [
         "2026-12-07"
       ]
     ],
-    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。"
+    "note": "别府分前段一晚、后段两晚；中间 12/3–5 尝试入住由布院无量塔。首尾同一酒店及跨夜寄存需事先确认。",
+    "agoda": "https://www.agoda.com/ana-intercontinental-beppu-resort-and-spa/hotel/beppu-jp.html",
+    "agodaId": "6405045",
+    "agodaName": "ANA InterContinental Beppu Resort & Spa By IHG"
   },
   {
     "id": 12,
@@ -282,7 +319,10 @@ const HOTELS = [
         "2026-12-16"
       ]
     ],
-    "note": "连续五晚，雾岛景点包车往返；优先核对连续入住的独立双床。"
+    "note": "连续五晚，雾岛景点包车往返；优先核对连续入住的独立双床。",
+    "agoda": "https://www.agoda.com/sheraton-kagoshima/hotel/kagoshima-jp.html",
+    "agodaId": "35908948",
+    "agodaName": "Sheraton Kagoshima"
   },
   {
     "id": 13,
@@ -302,7 +342,10 @@ const HOTELS = [
         "2026-12-16"
       ]
     ],
-    "note": "连续五晚，雾岛景点包车往返；优先核对连续入住的独立双床。"
+    "note": "连续五晚，雾岛景点包车往返；优先核对连续入住的独立双床。",
+    "agoda": "https://www.agoda.com/shiroyama-hotel-kagoshima/hotel/kagoshima-jp.html",
+    "agodaId": "3575710",
+    "agodaName": "Shiroyama Hotel Kagoshima"
   },
   {
     "id": 14,
@@ -322,7 +365,10 @@ const HOTELS = [
         "2026-12-11"
       ]
     ],
-    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。"
+    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。",
+    "agoda": "https://www.agoda.com/the-ritz-carlton-fukuoka/hotel/fukuoka-jp.html",
+    "agodaId": "39786143",
+    "agodaName": "The Ritz-Carlton, Fukuoka"
   },
   {
     "id": 15,
@@ -342,7 +388,11 @@ const HOTELS = [
         "2026-12-11"
       ]
     ],
-    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。"
+    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。",
+    "agoda": "https://www.agoda.com/one-fukuoka-hotel/hotel/fukuoka-jp.html",
+    "agodaId": "62659575",
+    "agodaName": "One Fukuoka Hotel",
+    "officialBooking": "https://go-pdshotels.reservation.jp/en/hotels/onefukuokahotel/plans"
   },
   {
     "id": 16,
@@ -362,7 +412,10 @@ const HOTELS = [
         "2026-12-11"
       ]
     ],
-    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。"
+    "note": "四晚城市基地，需兼顾博多站与市内建筑游览。",
+    "agoda": "https://www.agoda.com/miyako-hotel-hakata/hotel/fukuoka-jp.html",
+    "agodaId": "6576254",
+    "agodaName": "Miyako Hotel Hakata"
   },
   {
     "id": 17,
@@ -383,6 +436,9 @@ const HOTELS = [
         "2026-12-05"
       ]
     ],
-    "note": "官网公开库存查询返回西别墅 12/3、4 的单日可售记录，未锁房；两人同房连住、早晚餐与完整人民币报价待核。西卧室在二楼，有楼梯。"
+    "note": "官网公开库存查询返回西别墅 12/3、4 的单日可售记录，未锁房；两人同房连住、早晚餐与完整人民币报价待核。西卧室在二楼，有楼梯。",
+    "agoda": "https://www.agoda.com/sansou-murata/hotel/yufu-jp.html",
+    "agodaId": "15402281",
+    "agodaName": "Sanso Murata"
   }
 ];

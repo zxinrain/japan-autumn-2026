@@ -60,7 +60,7 @@ for r in rows:
     for k in ['Agoda每晚含税价','Booking每晚含税价','携程每晚含税价','一休折算每晚价','官网折算每晚价']:
         if r[k] not in ['待查询','收录待确认']: errors.append('Unverified price carried forward')
 
-for name in ['data.js','app.js','hotels-data.js','hotels.js','architecture-data.js','reservations-data.js','itinerary.md','.nojekyll']:
+for name in ['hotel-links.js','hotel-link-status.json','data.js','app.js','hotels-data.js','hotels.js','architecture-data.js','reservations-data.js','itinerary.md','.nojekyll']:
     if not (ROOT/name).is_file(): errors.append(f'Missing deployment file {name}')
 
 if errors:

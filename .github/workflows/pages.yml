@@ -14,4 +14,6 @@ jobs:
         run: python3 scripts/validate.py
       - name: Validate itinerary, architecture and booking data
         run: node scripts/check-data.cjs
+      - name: Validate all hotel date and App links
+        run: node scripts/check-hotel-links.cjs
 # Publication is managed by GitHub Pages: main branch / (root).

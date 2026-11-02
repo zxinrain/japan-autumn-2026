@@ -65,3 +65,13 @@ GitHub 官方步骤：https://docs.github.com/en/pages/getting-started-with-gith
 删除佐贺市两座建筑参观点，九年庵与武雄御船山保留。11/28从武雄日归长崎美术馆，长崎住宿缩为一晚，12/2转别府。大分县段五晚：别府12/2–3、无量塔候选12/3–5、别府12/5–7。
 
 官网公开日历在2026/11/3返回“西 Nishi”12/3、4的单日可售记录，提供两晚入住线索；同房连住、两位成人、餐食及完整人民币报价未完成订单验证，未锁房。西约115㎡，卧室在二楼，有楼梯。查询快照见`murata-feasibility.json`。
+
+## 酒店日期与 Android App 跳转
+
+`hotel-links.js` 统一生成 App 目标、Android Intent 与同日期网页备用入口。携程使用移动页实际读取的 `atime` 和 `days`；仅传 `checkin/checkout` 会使页面沿用默认日期。每日行程通过 `date` 选择对应住宿段，同城候选的日期选择同步，避免回广岛或第二段别府错用首段日期。
+
+2026-11-03 读取目标网页数据核对：携程 24/24、Agoda 24/24、一休 22/22 日期匹配。Agoda 18 家酒店的 ID 与 App scheme 取自各自移动页。Booking 返回访问验证，暂使用官方支持的日期搜索参数，未声称目标页面已验证。一休未核实“界·别府”收录，暂不提供其 App 按钮。
+
+Android Intent 使用 Chrome 文档格式和同日期网页 fallback。App 未在实体 Android 手机上实测；指定包与携带参数不代表客户端必定接收。官网没有统一 App，部分预订系统仍需手选日期。核对记录见 `hotel-link-status.json`。CSV 同步提供 App 优先入口及各项限制。
+
+验证：`node scripts/check-hotel-links.cjs` 覆盖 24 个酒店入住段、编码后的 App 目标、包名、网页回退与每日住宿段对应关系。

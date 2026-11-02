@@ -4,7 +4,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = path.resolve(__dirname,'..');
 const context = vm.createContext({});
-for(const file of ['data.js','app.js','hotels.js','hotels-data.js','architecture-data.js','reservations-data.js']) new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
+for(const file of ['hotel-links.js','data.js','app.js','hotels.js','hotels-data.js','architecture-data.js','reservations-data.js']) new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
 vm.runInContext(fs.readFileSync(path.join(root,'data.js'),'utf8')+';this.trip=TRIP;',context);
 vm.runInContext(fs.readFileSync(path.join(root,'hotels-data.js'),'utf8')+';this.hotels=HOTELS;',context);
 vm.runInContext(fs.readFileSync(path.join(root,'architecture-data.js'),'utf8')+';this.architecture=ARCHITECTURE_DETAILS;',context);

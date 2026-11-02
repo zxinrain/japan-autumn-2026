@@ -1,0 +1,542 @@
+{
+  "checkedDate": "2026-11-03",
+  "target": "Android Chrome",
+  "physicalDeviceTested": false,
+  "note": "目标网页收到正确日期不等于App已正确接收；未进行订房或锁房。",
+  "platforms": {
+    "ctrip": {
+      "serverDateChecks": 24,
+      "matched": 24,
+      "appRoute": "ctrip://wireless/h5，Android Intent指定官方包，fallback同日期网页",
+      "sources": [
+        "https://m.ctrip.com/",
+        "https://pages.ctrip.com/commerce/promote/common/tools/converturl/index.html"
+      ]
+    },
+    "agoda": {
+      "serverDateChecks": 24,
+      "matched": 24,
+      "propertyPages": 18,
+      "appRoute": "酒店官网移动页横幅中的agoda://hotel/酒店名/酒店ID",
+      "sources": [
+        "https://www.agoda.com/"
+      ]
+    },
+    "ikyu": {
+      "serverDateChecks": 22,
+      "matched": 22,
+      "missingProperty": "界·别府尚未核实收录",
+      "appRoute": "Android Intent请求当前官方宿泊App接收HTTPS酒店页；未实测，可能回退网页",
+      "sources": [
+        "https://www.ikyu.com/special/01/app/",
+        "https://www.ikyu.com/.well-known/assetlinks.json"
+      ]
+    },
+    "booking": {
+      "serverDateChecks": 0,
+      "status": "网页返回访问验证，未完成目标页面日期验证；使用官方支持的checkin/checkout酒店名称搜索链接",
+      "appRoute": "Android Intent请求com.booking打开同一HTTPS搜索URL；未实测",
+      "sources": [
+        "https://developers.booking.com/demand/docs/accommodations/search-examples",
+        "https://www.booking.com/.well-known/assetlinks.json"
+      ]
+    },
+    "official": {
+      "datedEntries": 4,
+      "status": "官网无统一App；无量塔、广岛南门格兰比亚、ONE FUKUOKA提供带日期预订入口，其余需手选日期。"
+    }
+  },
+  "chromeIntentReference": "https://developer.chrome.com/docs/android/intents",
+  "checks": [
+    {
+      "hotelId": 0,
+      "platform": "ctrip",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 0,
+      "platform": "ctrip",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "ctrip",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "ctrip",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "ctrip",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "ctrip",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 3,
+      "platform": "ctrip",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 4,
+      "platform": "ctrip",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 5,
+      "platform": "ctrip",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 6,
+      "platform": "ctrip",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 7,
+      "platform": "ctrip",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 8,
+      "platform": "ctrip",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 9,
+      "platform": "ctrip",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 9,
+      "platform": "ctrip",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "ctrip",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "ctrip",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "ctrip",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "ctrip",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 12,
+      "platform": "ctrip",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 13,
+      "platform": "ctrip",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 14,
+      "platform": "ctrip",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 15,
+      "platform": "ctrip",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 16,
+      "platform": "ctrip",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 17,
+      "platform": "ctrip",
+      "checkin": "2026-12-03",
+      "checkout": "2026-12-05",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 0,
+      "platform": "agoda",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 0,
+      "platform": "ikyu",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 0,
+      "platform": "agoda",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 0,
+      "platform": "ikyu",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "agoda",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "ikyu",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "agoda",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 1,
+      "platform": "ikyu",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "agoda",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "ikyu",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-27",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "agoda",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 2,
+      "platform": "ikyu",
+      "checkin": "2026-12-16",
+      "checkout": "2026-12-17",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 3,
+      "platform": "agoda",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 3,
+      "platform": "ikyu",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 4,
+      "platform": "agoda",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 4,
+      "platform": "ikyu",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 5,
+      "platform": "agoda",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 5,
+      "platform": "ikyu",
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-01",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 6,
+      "platform": "agoda",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 6,
+      "platform": "ikyu",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 7,
+      "platform": "agoda",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 7,
+      "platform": "ikyu",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 8,
+      "platform": "agoda",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 8,
+      "platform": "ikyu",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 9,
+      "platform": "agoda",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 9,
+      "platform": "agoda",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "agoda",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "ikyu",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "agoda",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 10,
+      "platform": "ikyu",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "agoda",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "ikyu",
+      "checkin": "2026-12-02",
+      "checkout": "2026-12-03",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "agoda",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 11,
+      "platform": "ikyu",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 12,
+      "platform": "agoda",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 12,
+      "platform": "ikyu",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 13,
+      "platform": "agoda",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 13,
+      "platform": "ikyu",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-16",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 14,
+      "platform": "agoda",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 14,
+      "platform": "ikyu",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 15,
+      "platform": "agoda",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 15,
+      "platform": "ikyu",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 16,
+      "platform": "agoda",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 16,
+      "platform": "ikyu",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-11",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 17,
+      "platform": "agoda",
+      "checkin": "2026-12-03",
+      "checkout": "2026-12-05",
+      "serverDateMatch": true
+    },
+    {
+      "hotelId": 17,
+      "platform": "ikyu",
+      "checkin": "2026-12-03",
+      "checkout": "2026-12-05",
+      "serverDateMatch": true
+    }
+  ]
+}
