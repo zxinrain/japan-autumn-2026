@@ -1,0 +1,32 @@
+{
+  "checkedDate": "2026-11-03",
+  "source": "https://sansou-murata.com/reservation/",
+  "roomSource": "https://sansou-murata.com/room/nishi/",
+  "queryRange": [
+    "2026-12-02",
+    "2026-12-08"
+  ],
+  "availableDateSignals": [
+    {
+      "room": "西 Nishi",
+      "dates": [
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-05"
+      ]
+    },
+    {
+      "room": "相 Sou",
+      "dates": [
+        "2026-12-03"
+      ]
+    }
+  ],
+  "preferredStay": [
+    "2026-12-03",
+    "2026-12-05"
+  ],
+  "status": "单日库存线索，未完成成人2位同房连住订单验证，未锁房",
+  "priceStatus": "完整套餐人民币报价待核；不将不含餐基础计价当作含早晚餐报价",
+  "stairs": "西 Nishi 卧室位于二楼"
+}

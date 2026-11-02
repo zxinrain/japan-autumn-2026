@@ -1,5 +1,6 @@
 """Check deployment inputs and internal references using only the stdlib."""
 import csv
+import json
 import re
 from pathlib import Path
 from html.parser import HTMLParser
@@ -37,7 +38,8 @@ for name in ['index.html','hotels.html']:
     if not p.heading: errors.append(f'{name}: missing h1')
     if any(word in p.heading for word in ['方案','提案']): errors.append(f'{name}: forbidden title text')
 
-dynamic_ids = {'day-list','hotel-list','building-list','source-links'}
+hotel_data=json.loads((ROOT/'hotels-data.js').read_text().split('const HOTELS = ',1)[1].rstrip(';\n'))
+dynamic_ids = {'day-list','hotel-list','building-list','source-links'} | {f"hotel-{h['id']}" for h in hotel_data}
 for name,p in pages.items():
     for link in p.links:
         u = urlsplit(link)
@@ -51,7 +53,7 @@ for url in re.findall(r"url\(['\"]?([^)'\"]+)", (ROOT/'style.css').read_text()):
     if not (ROOT/url).is_file(): errors.append(f'missing CSS image {url}')
 
 rows = list(csv.DictReader((ROOT/'hotel-comparison.csv').open(encoding='utf-8-sig')))
-if len(rows) != 20: errors.append(f'Expected 20 hotel/stay comparison rows, got {len(rows)}')
+if len(rows) != 24: errors.append(f'Expected 24 hotel/stay comparison rows, got {len(rows)}')
 for r in rows:
     if r['价格币种'] != 'CNY': errors.append('Non-CNY comparison row')
     if not r['入住'] >= '2026-11-23': errors.append('Outdated hotel dates')

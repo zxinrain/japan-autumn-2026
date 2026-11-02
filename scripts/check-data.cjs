@@ -21,8 +21,8 @@ trip.daysData.forEach((d,i)=>{
   assert.ok(trip.cities.some(c=>c.id===d.city));
   if(i<24) nights[d.stay]=(nights[d.stay]||0)+1;
 });
-assert.deepEqual(nights,{'广岛':5,'武雄':4,'长崎':2,'别府':4,'福冈':4,'鹿儿岛':5});
-assert.equal(hotels.length,17);
+assert.deepEqual(nights,{'广岛':5,'武雄':4,'长崎':1,'别府':3,'由布院':2,'福冈':4,'鹿儿岛':5});
+assert.equal(hotels.length,18);
 for(const h of hotels){
   assert.ok(h.cn&&h.en&&h.official&&h.ctripId);
   assert.ok(fs.existsSync(path.join(root,'assets',`hotel${String(h.id).padStart(2,'0')}.webp`)));
@@ -32,8 +32,8 @@ assert.equal(trip.daysData.find(d=>d.date==='2026-11-27').city,'takeo');
 assert.ok(trip.daysData.find(d=>d.date==='2026-11-30').title.includes('御船山'));
 assert.ok(trip.daysData.find(d=>d.date==='2026-12-12').title.includes('艺术之森'));
 assert.ok(trip.daysData.at(-1).note.includes('未核实'));
-assert.ok(trip.daysData.find(d=>d.date==='2026-12-04').note.includes('暂停'));
-assert.equal(trip.buildings.length,18);
+assert.ok(trip.daysData.find(d=>d.date==='2026-12-03').note.includes('暂停'));
+assert.equal(trip.buildings.length,17);
 for(const b of trip.buildings){
   const a=context.architecture[b[1]];
   assert.ok(a,`Missing architecture detail: ${b[1]}`);
@@ -45,10 +45,15 @@ for(const r of context.reservations.rail){
   assert.equal(r.release,dt.toISOString().slice(0,10));
   assert.ok(trip.daysData.some(d=>d.date===r.date));
 }
-assert.equal(context.reservations.rail.length,9);
+assert.equal(context.reservations.rail.length,10);
 assert.equal(context.reservations.tickets.find(t=>t.id==='comico').level,'recommend');
 assert.equal(context.reservations.tickets.find(t=>t.id==='shrine').level,'onsite');
 for(const t of context.reservations.tickets){assert.ok(context.reservations.levels[t.level]);for(const date of t.dates)assert.ok(trip.daysData.some(d=>d.date===date));}
 assert.ok(!trip.daysData.some(d=>/云仙|大船山/.test(d.title)));
 assert.ok(trip.daysData.find(d=>d.date==='2026-12-15').pm.includes('13:15–15:30'));
-console.log('PASS: JS syntax, 25 days / 24 nights, 18 illustrated buildings, 19 ticket items, 9 rail opening dates, 17 hotels.');
+console.log('PASS: JS syntax, 25 days / 24 nights, 17 illustrated buildings, 19 ticket items, 10 rail opening dates, 18 hotels.');
+
+assert.ok(!trip.buildings.some(b=>/佐贺县立|大隈/.test(b[1])));
+assert.equal(trip.daysData.find(d=>d.date==='2026-12-04').stay,'由布院');
+assert.equal(trip.daysData.find(d=>d.date==='2026-11-28').stayCity,'takeo');
+assert.equal(JSON.stringify(hotels.find(h=>h.id===17).stays),JSON.stringify([['2026-12-03','2026-12-05']]));
