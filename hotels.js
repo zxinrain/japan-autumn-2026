@@ -1,0 +1,20 @@
+const safe = value => String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cities=[['all','全部'],['hiroshima','广岛'],['takeo','武雄'],['nagasaki','长崎'],['beppu','别府'],['fukuoka','福冈'],['kagoshima','鹿儿岛']];
+const requested=new URLSearchParams(location.search).get('city');
+let city=cities.some(c=>c[0]===requested)?requested:'all';
+const filters=document.querySelector('#hotel-filters');
+filters.innerHTML=cities.map(c=>`<button type="button" data-city="${c[0]}" aria-pressed="${city===c[0]}">${c[1]}</button>`).join('');
+function links(h,stay){
+  const [checkin,checkout]=stay;
+  const rel=`hotel/hoteldetail/${h.ctripId}.html?checkin=${checkin}&checkout=${checkout}&adult=2&room=1&currency=CNY`;
+  return {booking:`https://www.booking.com/searchresults.html?${new URLSearchParams({ss:h.en,checkin,checkout,group_adults:'2',no_rooms:'1',selected_currency:'CNY'})}`,ikyu:h.ikyu?`${h.ikyu}?${new URLSearchParams({cid:checkin.replaceAll('-',''),cod:checkout.replaceAll('-',''),rc:'1',ppc:'2'})}`:null,ctrip:'https://m.ctrip.com/webapp/'+rel,app:'ctrip://wireless/h5?url='+encodeURIComponent(btoa(rel))+'&type=1'};
+}
+function row(h,stay){const l=links(h,stay);const a=(url,label)=>`<a href="${safe(url)}"${url.startsWith('https:')?' target="_blank" rel="noopener noreferrer"':''}>${label} ↗</a>`;return `<tr><td><span class="price-status">CNY 待查询</span>${a('https://www.agoda.com/','平台首页')}<small>需输入酒店与入住日期</small></td><td><span class="price-status">CNY 待查询</span>${a(l.booking,'按日期查询')}<small>已选择人民币显示</small></td><td><span class="price-status">CNY 待查询</span>${a(l.app,'打开 App')}${a(l.ctrip,'网页备用')}<small>App 唤起受设备影响</small></td><td><span class="price-status">${l.ikyu?'CNY 待查询':'收录待确认'}</span>${l.ikyu?a(l.ikyu,'按日期查询'):a('https://www.ikyu.com/','平台首页')}<small>${l.ikyu?'常以日元显示，需另行折算':'尚无已核对的该酒店直达页'}</small></td><td><span class="price-status">CNY 待查询</span>${a(h.official,'酒店官网')}<small>进入后选择日期与双床</small></td></tr>`;}
+function render(){
+  const hotels=HOTELS.filter(h=>city==='all'||h.city===city);
+  document.querySelector('#hotel-count').textContent=`${hotels.length} 家候选酒店 · 2 位成人／1 间房 · 当前价格与房态均待查询`;
+  document.querySelector('#hotel-list').innerHTML=hotels.map(h=>`<article class="hotel-card" id="hotel-${h.id}"><div class="hotel-card-top"><figure><img src="assets/hotel${String(h.id).padStart(2,'0')}.webp" alt="${safe(h.cn)}酒店图片参考" loading="lazy"><figcaption>历史图片参考 · <a href="${safe(h.imageSource)}" target="_blank" rel="noopener noreferrer">图片来源：一休 ↗</a></figcaption></figure><div><p class="eyebrow">${safe(h.region)}</p><h3>${safe(h.cn)}</h3><p class="hotel-en">${safe(h.en)}</p><span class="hotel-feature">${safe(h.feature)}</span><p class="hotel-detail">房型方向：${safe(h.room)}<br>${safe(h.note)}</p><div class="hotel-date-label"><label for="dates-${h.id}">查询入住段</label><select id="dates-${h.id}" data-hotel="${h.id}">${h.stays.map((s,i)=>`<option value="${i}">${s[0]} → ${s[1]} · ${(Date.parse(s[1])-Date.parse(s[0]))/86400000} 晚</option>`).join('')}</select></div><p class="hotel-warn">未确认独立双床库存、餐食及取消政策；照片不等同最终预订房型。</p></div></div><div class="comparison-scroll" tabindex="0" role="region" aria-label="${safe(h.cn)}五平台比较，窄屏可横向滚动"><table class="comparison-table"><caption class="sr-only">${safe(h.cn)}五平台价格状态与查询入口</caption><thead><tr><th scope="col">Agoda</th><th scope="col">Booking</th><th scope="col">携程</th><th scope="col">一休 Ikyu</th><th scope="col">酒店官网</th></tr></thead><tbody>${row(h,h.stays[0])}</tbody></table></div></article>`).join('');
+  document.querySelectorAll('[data-hotel]').forEach(select=>select.addEventListener('change',()=>{const h=HOTELS.find(h=>h.id===Number(select.dataset.hotel));document.querySelector(`#hotel-${h.id} tbody`).innerHTML=row(h,h.stays[Number(select.value)]);}));
+}
+filters.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;city=b.dataset.city;filters.querySelectorAll('button').forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.city===city)));render();});
+render();
