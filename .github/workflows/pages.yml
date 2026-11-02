@@ -1,34 +1,17 @@
-name: Deploy travel website to GitHub Pages
+name: Validate travel website
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: false
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Validate website
+      - name: Validate static files and internal links
         run: python3 scripts/validate.py
-      - uses: actions/configure-pages@v5
-      - name: Prepare static public directory
-        run: |
-          mkdir -p _site
-          cp index.html hotels.html style.css app.js data.js hotels.js hotels-data.js itinerary.md hotel-comparison.csv .nojekyll _site/
-          cp -R assets _site/
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Validate itinerary, architecture and booking data
+        run: node scripts/check-data.cjs
+# Publication is managed by GitHub Pages: main branch / (root).

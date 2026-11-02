@@ -8,7 +8,10 @@
 
 - 交互路线示意图、六城停留信息与交通。
 - 25 天可筛选、可展开的详细行程。
-- 建筑索引、四个包车日、航班及开放限制说明。
+- 18 个可折叠建筑图文条目：照片、设计者、简介、看点、预约提示与图片来源。
+- 19 项门票／场馆规则，区分条件必约、建议提前订、通常可现场与先联系确认。
+- 9 段铁路车票清单，逐段列出指定席开售日期、预订优先级及官方入口。
+- 四个包车日、航班及开放限制说明；12/15 雾岛神宫午后约 2–2.5 小时，不安排登山。
 - 独立酒店页：17 家双语酒店、图片、特点、按日期查询链接。
 - `hotel-comparison.csv`：独立人民币口径比价表，旧价不沿用；实时报价均待查询。
 - `itinerary.md`：完整文字行程备份。
@@ -30,25 +33,23 @@ python3 scripts/validate.py
 node scripts/check-data.cjs
 ```
 
-检查静态资源、文档锚点、JS 语法、连续 25 天日期、24 晚住宿、酒店新日期、五平台状态及携程协议。
+检查静态资源、文档锚点、JS 语法、连续 25 天日期、24 晚住宿、18 个建筑图文资源、铁路开售日期及酒店新日期。
 
 ## 发布到 GitHub Pages
 
-目标公开仓库：[`zxinrain/japan-autumn-2026`](https://github.com/zxinrain/japan-autumn-2026)。仓库已创建；网站是否已上线以 GitHub Pages 部署结果为准。
+公开仓库：[`zxinrain/japan-autumn-2026`](https://github.com/zxinrain/japan-autumn-2026)。站点：<https://zxinrain.github.io/japan-autumn-2026/>。
 
-1. 在 GitHub 创建公开仓库 `japan-autumn-2026`，可初始化 README；确保当前 GitHub 连接有该仓库访问权。
-2. 将本目录内容上传至仓库 `main` 分支根目录，包含 `assets/` 和 `.github/workflows/pages.yml`。
-3. 仓库 **Settings → Pages → Build and deployment → Source → GitHub Actions**。
-4. 在 **Actions** 中运行 `Deploy travel website to GitHub Pages`，或再次推送 `main`。
-5. 等待 Actions 成功后检查站点。预期网址（部署前不可用）：`https://zxinrain.github.io/japan-autumn-2026/`。
+当前采用 GitHub Pages 分支发布：**Settings → Pages → Deploy from a branch → main → /(root)**。
 
-纯静态文件也支持分支部署：移除 Actions 工作流后，选择 `Deploy from a branch → main → /(root)`。不要同时混用两种发布方式。
+将源码推送至 `main` 后，GitHub 自动运行 `pages build and deployment` 发布网站。自定义 `.github/workflows/pages.yml` 仅执行校验，避免与分支发布重复部署。无需安装依赖或执行构建。
 
 GitHub 官方步骤：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## 维护内容
 
 - `data.js`：路线、每日行程、建筑、包车及来源。
+- `architecture-data.js`：建筑图片、版权来源、简介、看点及预约提示。
+- `reservations-data.js`：门票／场馆要求、铁路车票开售日期、预约优先级与官方渠道。
 - `hotels-data.js`：酒店、入住段、查询 ID；不保存历史价格。
 - `style.css`：桌面／移动端响应式布局，系统中文字体与打印样式。
 - `app.js` / `hotels.js`：交互，不依赖第三方脚本，不收集访问者信息。
@@ -57,4 +58,4 @@ GitHub 官方步骤：https://docs.github.com/en/pages/getting-started-with-gith
 
 ## 当前核验范围
 
-数据、语法、资源及本地 HTTP 检查可运行。当前 Work 设置禁用了浏览器操作，未完成桌面及手机浏览器截图验收；上线前建议补做两端目视检查。
+已完成数据、语法、资源检查，并用本地 DOM 环境验证建筑折叠、预约筛选、铁路表、行程筛选与酒店日期切换。当前 Work 设置禁用了浏览器操作，未完成桌面及手机浏览器截图验收；DOM 测试不替代视觉验收。

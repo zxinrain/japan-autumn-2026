@@ -4,9 +4,11 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = path.resolve(__dirname,'..');
 const context = vm.createContext({});
-for(const file of ['data.js','app.js','hotels.js','hotels-data.js']) new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
+for(const file of ['data.js','app.js','hotels.js','hotels-data.js','architecture-data.js','reservations-data.js']) new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
 vm.runInContext(fs.readFileSync(path.join(root,'data.js'),'utf8')+';this.trip=TRIP;',context);
 vm.runInContext(fs.readFileSync(path.join(root,'hotels-data.js'),'utf8')+';this.hotels=HOTELS;',context);
+vm.runInContext(fs.readFileSync(path.join(root,'architecture-data.js'),'utf8')+';this.architecture=ARCHITECTURE_DETAILS;',context);
+vm.runInContext(fs.readFileSync(path.join(root,'reservations-data.js'),'utf8')+';this.reservations=RESERVATIONS;',context);
 const {trip,hotels} = context;
 assert.equal(trip.daysData.length,25);
 assert.equal(trip.daysData[0].date,'2026-11-23');
@@ -31,4 +33,22 @@ assert.ok(trip.daysData.find(d=>d.date==='2026-11-30').title.includes('御船山
 assert.ok(trip.daysData.find(d=>d.date==='2026-12-12').title.includes('艺术之森'));
 assert.ok(trip.daysData.at(-1).note.includes('未核实'));
 assert.ok(trip.daysData.find(d=>d.date==='2026-12-04').note.includes('暂停'));
-console.log('PASS: JS syntax, 25 continuous days / 24 nights, protected dates, 17 hotels and current stay dates.');
+assert.equal(trip.buildings.length,18);
+for(const b of trip.buildings){
+  const a=context.architecture[b[1]];
+  assert.ok(a,`Missing architecture detail: ${b[1]}`);
+  assert.ok(a.intro&&a.booking&&a.credit&&a.source);
+  assert.ok(fs.existsSync(path.join(root,a.image)),`Missing architecture image: ${a.image}`);
+}
+for(const r of context.reservations.rail){
+  const dt=new Date(r.date+'T10:00:00Z');dt.setUTCMonth(dt.getUTCMonth()-1);
+  assert.equal(r.release,dt.toISOString().slice(0,10));
+  assert.ok(trip.daysData.some(d=>d.date===r.date));
+}
+assert.equal(context.reservations.rail.length,9);
+assert.equal(context.reservations.tickets.find(t=>t.id==='comico').level,'recommend');
+assert.equal(context.reservations.tickets.find(t=>t.id==='shrine').level,'onsite');
+for(const t of context.reservations.tickets){assert.ok(context.reservations.levels[t.level]);for(const date of t.dates)assert.ok(trip.daysData.some(d=>d.date===date));}
+assert.ok(!trip.daysData.some(d=>/云仙|大船山/.test(d.title)));
+assert.ok(trip.daysData.find(d=>d.date==='2026-12-15').pm.includes('13:15–15:30'));
+console.log('PASS: JS syntax, 25 days / 24 nights, 18 illustrated buildings, 19 ticket items, 9 rail opening dates, 17 hotels.');
