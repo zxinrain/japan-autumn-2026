@@ -1,19 +1,47 @@
-name: Validate travel website
+name: Validate and publish travel website
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
+
+concurrency:
+  group: travel-pages
+  cancel-in-progress: false
+
 jobs:
-  validate:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Validate static files and internal links
-        run: python3 scripts/validate.py
-      - name: Validate itinerary, architecture and booking data
-        run: node scripts/check-data.cjs
-      - name: Validate all hotel date and App links
-        run: node scripts/check-hotel-links.cjs
-# Publication is managed by GitHub Pages: main branch / (root).
+      - name: Validate the site
+        run: |
+          python3 scripts/validate.py
+          node scripts/check-data.cjs
+          node scripts/check-hotel-links.cjs
+      - name: Stage public files
+        run: |
+          mkdir _site
+          git archive HEAD .nojekyll assets '*.html' '*.css' '*.js' '*.csv' '*.json' itinerary.md | tar -x -C _site
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 1200000
