@@ -40,12 +40,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Clear the previous stalled Pages deployment
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/deployments/a0cb3e3b506f7959aa6bb4e49da2c81a7add386a/cancel"
-          gh api "repos/$GITHUB_REPOSITORY/pages/deployments/a0cb3e3b506f7959aa6bb4e49da2c81a7add386a"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
