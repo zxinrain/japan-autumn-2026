@@ -43,9 +43,9 @@ node scripts/check-data.cjs
 
 公开仓库：[`zxinrain/japan-autumn-2026`](https://github.com/zxinrain/japan-autumn-2026)。站点：<https://zxinrain.github.io/japan-autumn-2026/>。
 
-当前采用 GitHub Pages 分支发布：**Settings → Pages → Deploy from a branch → main → /(root)**。
+当前采用 GitHub Actions 发布：**Settings → Pages → GitHub Actions**。
 
-将源码推送至 `main` 后，GitHub 自动运行 `pages build and deployment` 发布网站。自定义 `.github/workflows/pages.yml` 仅执行校验，避免与分支发布重复部署。无需安装依赖或执行构建。
+推送到 `main` 后，`.github/workflows/pages.yml` 会校验网站、打包静态文件并部署。也可从 Actions 手动运行该工作流。
 
 GitHub 官方步骤：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
