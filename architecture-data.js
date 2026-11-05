@@ -37,7 +37,7 @@ const ARCHITECTURE_DETAILS = {
     "source": "https://www.opam.jp/about/construction.html",
     "intro": "坂茂以木格构立面和开放的公共空间回应城市。建筑本身的通透感，与内部展览、入口大厅及街道之间的联系同样值得停留。",
     "look": "立面木格构、底层公共空间、内外视线。",
-    "booking": "建筑公共空间与展览票分开；特展可能单独售票，按 12/4 当期展览页面确认。",
+    "booking": "建筑公共空间与展览票分开；特展可能单独售票，按 12/3 当期展览页面确认。",
     "level": "onsite"
   },
   "Art Plaza 旧大分县立图书馆": {
