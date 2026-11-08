@@ -1,9 +1,15 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
-for(const file of ['app.js','hotel-links.js','travel-data.js','destination-notes.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
+for(const file of ['app.js','hotel-links.js','travel-data.js','destination-notes.js','map-geography.js','route-data.js','route-map.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
 const context=vm.createContext({window:{}});vm.runInContext(fs.readFileSync(path.join(root,'travel-data.js'),'utf8'),context);
 const {trip,catalog,hotelMeta}=context.window.JAPAN_TRIP;
 vm.runInContext(fs.readFileSync(path.join(root,'destination-notes.js'),'utf8'),context);
+vm.runInContext(fs.readFileSync(path.join(root,'route-data.js'),'utf8'),context);
+const map=context.window.JAPAN_ROUTE_DATA;
+assert.equal(map.routes.length,20,'Map must cover every travel day');
+for(const p of Object.values(map.points))assert(Number.isFinite(p.lat)&&Number.isFinite(p.lng)&&p.lat>32.5&&p.lat<34.7&&p.lng>129&&p.lng<133.3,'Map point is outside the trip region');
+for(const route of map.routes)for(const id of route)assert(map.points[id],'Unknown route point: '+id);
+for(const place of catalog){assert(Object.values(map.points).some(p=>p.place===place.id),'Destination missing from the map: '+place.id);assert(context.window.JAPAN_DESTINATION_CONTEXT[place.id],'Missing destination background: '+place.id);}
 const noteIds=new Set();
 for(const n of context.window.JAPAN_DESTINATION_NOTES){
   assert(!noteIds.has(n.id),'Duplicate note: '+n.id);noteIds.add(n.id);

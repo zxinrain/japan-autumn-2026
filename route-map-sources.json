@@ -1,0 +1,332 @@
+{
+  "verified": "2026-11-09",
+  "coastline": {
+    "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_admin_0_countries.geojson",
+    "license": "Public domain; https://www.naturalearthdata.com/about/terms-of-use/",
+    "processing": "Japan polygons, small islands filtered, Douglas-Peucker simplification .0018 degrees"
+  },
+  "points_license": "OpenStreetMap contributors; ODbL 1.0 https://www.openstreetmap.org/copyright ; official coordinates separately marked",
+  "points": {
+    "hiroshima": {
+      "name": "广岛站",
+      "lng": 132.4755766,
+      "lat": 34.3978256,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/121045837",
+      "matched": "広島駅, 広島駅南北自由通路, 猿猴橋町, 南区, 広島市, 広島県, 732-0823, 日本"
+    },
+    "airport": {
+      "name": "广岛机场",
+      "lng": 132.9195109,
+      "lat": 34.4374791,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/57010613",
+      "matched": "広島空港, 広島県三原市本郷町善入寺64-31, 管理用通路, 本郷町善入寺, 三原市, 広島県, 729-0416, 日本"
+    },
+    "hilton": {
+      "name": "广岛希尔顿",
+      "lng": 132.462385,
+      "lat": 34.3864971,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/1432179304",
+      "matched": "Hilton Hiroshima, 11-12, 駅前通り, 富士見町, 中区, 広島市, 広島県, 730-0043, 日本"
+    },
+    "miyajima": {
+      "name": "严岛神社",
+      "lng": 132.3190065,
+      "lat": 34.2965274,
+      "place": "miyajima",
+      "osm": "https://www.openstreetmap.org/way/1306168429",
+      "matched": "厳島神社, 廿日市市, 広島県, 日本"
+    },
+    "peace": {
+      "name": "和平纪念资料馆",
+      "lng": 132.4530979,
+      "lat": 34.3915495,
+      "place": "peace",
+      "osm": "https://www.openstreetmap.org/way/60867022",
+      "matched": "広島平和記念資料館東館, 2, 平和大通り, 中島町, 中区, 広島市, 広島県, 730-0811, 日本"
+    },
+    "peacepark": {
+      "name": "和平纪念公园",
+      "lng": 132.4523008,
+      "lat": 34.3931714,
+      "place": "peace",
+      "osm": "https://www.openstreetmap.org/relation/1971933",
+      "matched": "広島平和記念公園, 中区, 広島市, 広島県, 730-0811, 日本"
+    },
+    "dome": {
+      "name": "原爆圆顶",
+      "lng": 132.4535245,
+      "lat": 34.3954661,
+      "place": "peace",
+      "osm": "https://www.openstreetmap.org/relation/1506282",
+      "matched": "原爆ドーム, 10, 大手町一丁目, 中区, 広島市, 広島県, 730-0051, 日本"
+    },
+    "takeo": {
+      "name": "武雄温泉站",
+      "lng": 130.0230661,
+      "lat": 33.1964792,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/node/4837988927",
+      "matched": "武雄温泉, 武雄多久線, 武雄町大字昭和, 武雄市, 佐賀県, 843-0024, 日本"
+    },
+    "mifuneyama": {
+      "name": "御船山乐园",
+      "lng": 130.0182516,
+      "lat": 33.1819093,
+      "place": "mifuneyama",
+      "osm": "https://www.openstreetmap.org/way/991958955",
+      "matched": "御船山楽園, 国道34号, 東川登町大字永野, 武雄市, 佐賀県, 843-0233, 日本"
+    },
+    "chikurintei": {
+      "name": "御宿竹林亭",
+      "lng": 130.0171113,
+      "lat": 33.1819766,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/node/12175049769",
+      "matched": "御宿 竹林亭, 国道34号, 東川登町大字永野, 武雄市, 佐賀県, 843-0233, 日本"
+    },
+    "nagasaki": {
+      "name": "长崎站",
+      "lng": 129.8689158,
+      "lat": 32.7523858,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/785406364",
+      "matched": "長崎駅, 長崎式見港線, 尾上町, 長崎市, 長崎県, 850-8685, 日本"
+    },
+    "dejima": {
+      "name": "出岛",
+      "lng": 129.8725468,
+      "lat": 32.7436624,
+      "place": "nagasaki",
+      "osm": "https://www.openstreetmap.org/way/484294967",
+      "matched": "出島和蘭商館跡, 国道499号, 出島町, 長崎市, 長崎県, 850-8685, 日本"
+    },
+    "nagasakimuseum": {
+      "name": "长崎县美术馆",
+      "lng": 129.8704873,
+      "lat": 32.7417323,
+      "place": "nagasaki",
+      "osm": "https://www.openstreetmap.org/node/1423822086",
+      "matched": "長崎県美術館, 国道499号, 出島町, 長崎市, 長崎県, 850-8685, 日本"
+    },
+    "seaside": {
+      "name": "长崎水边之森公园",
+      "lng": 129.868831,
+      "lat": 32.7407948,
+      "place": "nagasaki",
+      "osm": "https://www.openstreetmap.org/way/496820922",
+      "matched": "長崎水辺の森公園, 常磐町, 長崎市, 長崎県, 850-8685, 日本"
+    },
+    "beppu": {
+      "name": "别府站",
+      "lng": 131.5003073,
+      "lat": 33.2796163,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/node/8269550070",
+      "matched": "別府, 駅前通り, 駅前町, 別府市, 大分県, 874-0934, 日本"
+    },
+    "opam": {
+      "name": "大分 OPAM",
+      "lng": 131.60193,
+      "lat": 33.23961,
+      "place": "opam",
+      "osm": "https://www.openstreetmap.org/node/11433320892",
+      "matched": "大分県立美術館（OPAM), 国道197号, 中央町四丁目, 高砂町, 大分市, 大分県, 870-8504, 日本"
+    },
+    "artplaza": {
+      "name": "Art Plaza",
+      "lng": 131.6095752,
+      "lat": 33.2404554,
+      "place": "opam",
+      "osm": "https://www.openstreetmap.org/relation/12891652",
+      "matched": "アートプラザ, 31, 荷揚町, 大分市, 大分県, 870-0046, 日本"
+    },
+    "fukiji": {
+      "name": "富贵寺",
+      "lng": 131.528481,
+      "lat": 33.5379125,
+      "place": "kunisaki",
+      "osm": "https://www.openstreetmap.org/way/192395631",
+      "matched": "富貴寺, 新城山香線, 田染蕗, 豊後高田市, 大分県, 日本"
+    },
+    "makiodo": {
+      "name": "真木大堂",
+      "lng": 131.5176674,
+      "lat": 33.5011061,
+      "place": "kunisaki",
+      "osm": "https://www.openstreetmap.org/way/613816081",
+      "matched": "真木大堂, 新城山香線, 山香町大字倉成, 豊後高田市, 大分県, 日本"
+    },
+    "bamboo": {
+      "name": "别府竹工艺馆",
+      "lng": 131.4848992,
+      "lat": 33.2979682,
+      "place": "beppu",
+      "osm": "https://www.openstreetmap.org/node/5254019425",
+      "matched": "別府市竹細工伝統産業会館, 別府山香線, 荘園, 南立石, 別府市, 大分県, 874-0833, 日本"
+    },
+    "kannawa": {
+      "name": "铁轮温泉",
+      "lng": 131.4761942,
+      "lat": 33.315443,
+      "place": "beppu",
+      "osm": "https://www.openstreetmap.org/way/364559888",
+      "matched": "地獄蒸し工房鉄輪, 5, いでゆ坂, 風呂本, 別府市, 大分県, 874-0044, 日本"
+    },
+    "comico": {
+      "name": "COMICO",
+      "lng": 131.3615766,
+      "lat": 33.2652693,
+      "place": "comico",
+      "osm": "https://www.openstreetmap.org/node/14127434568",
+      "matched": "Comico Art Museum Yufuin, 湯之坪街道, 湯布院町川上, 由布市, 大分県, 879-5102, 日本"
+    },
+    "fukuoka": {
+      "name": "博多站",
+      "lng": 130.4199026,
+      "lat": 33.5900413,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/72653571",
+      "matched": "博多駅, 博多駅中央街７号線, 博多駅前三丁目, 博多駅中央街, 博多区, 福岡市, 福岡県, 812-0012, 日本"
+    },
+    "kyuhaku": {
+      "name": "九州国立博物馆",
+      "lng": 130.5363361,
+      "lat": 33.5202385,
+      "place": "dazaifu",
+      "osm": "https://www.openstreetmap.org/node/13733831689",
+      "matched": "Kyushu National Museum, 虹のトンネル (動く歩道), 宰府三丁目, 白川, 太宰府市, 福岡県, 818-0117, 日本"
+    },
+    "kokura": {
+      "name": "小仓站",
+      "lng": 130.8821843,
+      "lat": 33.8867602,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/relation/2532836",
+      "matched": "小倉駅, 小倉停車場線, 京町二丁目, 船頭町, 小倉北区, 北九州市, 福岡県, 802-0002, 日本"
+    },
+    "acros": {
+      "name": "ACROS 福冈",
+      "lng": 130.402445,
+      "lat": 33.5914878,
+      "place": "fukuoka",
+      "osm": "https://www.openstreetmap.org/way/33111546",
+      "matched": "アクロス福岡, 市役所通り, 天神一丁目, 天神, 中央区, 福岡市, 福岡県, 810-8620, 日本"
+    },
+    "ohori": {
+      "name": "大濠公园",
+      "lng": 130.3763271,
+      "lat": 33.5861263,
+      "place": "fukuoka",
+      "osm": "https://www.openstreetmap.org/node/8484186712",
+      "matched": "大濠公園, 中央区, 福岡市, 福岡県, 810-0051, 日本"
+    },
+    "fukuokamuseum": {
+      "name": "福冈市美术馆",
+      "lng": 130.3797313,
+      "lat": 33.583939,
+      "place": "geibun",
+      "osm": "https://www.openstreetmap.org/relation/14988554",
+      "matched": "福岡市美術館, 国体道路, 草香江一丁目, 城内, 中央区, 福岡市, 福岡県, 810-0045, 日本"
+    },
+    "chikugo": {
+      "name": "筑后船小屋站",
+      "lng": 130.4916083,
+      "lat": 33.1782158,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/node/5875685168",
+      "matched": "筑後船小屋, 八女瀬高線, 瀬高町本郷, 大字津島, 筑後市, 福岡県, 833-0015, 日本"
+    },
+    "geibun": {
+      "name": "九州芸文馆",
+      "lng": 130.493856,
+      "lat": 33.1785109,
+      "place": "geibun",
+      "osm": "https://www.openstreetmap.org/way/754903240",
+      "matched": "九州芸文館, 八女瀬高線, 瀬高町本郷, 大字津島, 筑後市, 福岡県, 833-0015, 日本"
+    },
+    "moca": {
+      "name": "广岛 MOCA",
+      "lng": 132.4733314,
+      "lat": 34.386388,
+      "place": "moca",
+      "osm": "https://www.openstreetmap.org/node/1375543445",
+      "matched": "現代美術館, 比治山スカイウォーク, 比治山公園, 南区, 広島市, 広島県, 732-0815, 日本"
+    },
+    "simose": {
+      "name": "下濑美术馆 SIMOSE",
+      "lng": 132.2271649,
+      "lat": 34.2419526,
+      "place": "simose",
+      "osm": "https://www.openstreetmap.org/way/1445462589",
+      "matched": "下瀬美術館, 国道2号, 黒川一丁目, 明治新開, 大竹市, 広島県, 739-0621, 日本"
+    },
+    "miyajimaguchi": {
+      "lng": 132.3034408,
+      "lat": 34.3117801,
+      "osm": "https://www.openstreetmap.org/node/260753330",
+      "matched": "宮島口駅前, 厳島公園線, 宮島口一丁目, 廿日市市, 広島県, 739-0411, 日本",
+      "name": "宫岛口站（接驳渡轮）",
+      "place": null
+    },
+    "gardenterrace": {
+      "lng": 129.853401,
+      "lat": 32.7456394,
+      "osm": "https://www.openstreetmap.org/way/253832249",
+      "matched": "ガーデンテラス長崎, 変電所の坂, 飽の浦町, 長崎市, 長崎県, 850-8685, 日本",
+      "name": "长崎花园露台酒店",
+      "place": null
+    },
+    "kinrin": {
+      "lng": 131.3690386,
+      "lat": 33.2667196,
+      "osm": "https://www.openstreetmap.org/way/162781794",
+      "matched": "金鱗湖, 湯布院町川上, 由布市, 大分県, 日本",
+      "name": "金鳞湖",
+      "place": "comico"
+    },
+    "ritz": {
+      "lng": 130.3958835,
+      "lat": 33.5896794,
+      "osm": "https://www.openstreetmap.org/node/12803459738",
+      "matched": "Ritz-Carlton Fukuoka, 天神西通り, 天神二丁目, 天神, 中央区, 福岡市, 福岡県, 810-0041, 日本",
+      "name": "福冈丽思卡尔顿",
+      "place": null
+    },
+    "starbucks": {
+      "lat": 33.5196326373,
+      "lng": 130.533390785,
+      "source": "https://store.starbucks.co.jp/detail-1058/",
+      "matched": "Official store 1058 latitude/longitude",
+      "name": "太宰府木构星巴克",
+      "place": "dazaifu"
+    },
+    "kitakyushumuseum": {
+      "lng": 130.8264257,
+      "lat": 33.8698006,
+      "osm": "https://www.openstreetmap.org/way/89231549",
+      "matched": "北九州市立美術館, 国道3号, 東大谷三丁目, 西鞘ケ谷町, 戸畑区, 北九州市, 福岡県, 804-0042, 日本",
+      "name": "北九州市立美术馆本馆",
+      "place": "kitakyushu"
+    },
+    "intercontinental": {
+      "lat": 33.3181273,
+      "lng": 131.4608113,
+      "source": "https://anaicbeppu.com/access/",
+      "matched": "Official hotel embedded map reference point",
+      "name": "别府洲际度假酒店",
+      "place": null
+    },
+    "simosevilla": {
+      "name": "SIMOSE 别墅",
+      "lng": 132.2271649,
+      "lat": 34.2419526,
+      "place": null,
+      "osm": "https://www.openstreetmap.org/way/1445462589",
+      "matched": "SIMOSE complex reference point; not individual villa entrance",
+      "source": "https://artsimose.jp/en/architecture/"
+    }
+  }
+}
