@@ -1,0 +1,97 @@
+/* Frozen layout v1 — 2026-11-09. LAYOUT-RULES.md is the maintenance contract. */
+:root {
+  --type-body: 16px;
+  --leading-body: 1.75;
+  --leading-reading: 1.85;
+  --leading-title: 1.25;
+  --weight-body: 400;
+  --weight-label: 500;
+}
+body {font-size:var(--type-body);font-weight:var(--weight-body);line-height:var(--leading-body);letter-spacing:0;font-synthesis:none}
+h1,h2,h3 {font-weight:400;line-height:var(--leading-title);letter-spacing:-.015em;text-wrap:balance}
+h1 {line-height:1.18} h2 {line-height:1.28} h3 {line-height:1.38}
+strong,b {font-weight:500}
+.page-intro {gap:14px}
+.page-intro>p:last-child {font-size:16px;line-height:1.75;max-width:68ch}
+.overlabel {font-weight:500;font-size:12px;line-height:1.5;letter-spacing:.12em}
+.meta,.small,figcaption {font-weight:400;line-height:1.65;letter-spacing:.015em}
+.story-body p,.reading-card p,.day-card .summary,.hotel-card .story-body>p {font-weight:400;line-height:1.8}
+.story-body h3,.hotel-card h3 {font-weight:400;line-height:1.35}
+.reading-card h2,.day-sidebar h2 {font-size:25px;line-height:1.3;margin-bottom:16px}
+.info-list dt {font-size:13px;font-weight:500;line-height:1.55;margin-bottom:7px}
+.info-list dd {font-weight:400;line-height:1.8}
+.button {font-size:14px;font-weight:500;line-height:1.45;letter-spacing:.015em}
+.tags {row-gap:8px}.tags .meta,.pill {line-height:1.55;font-size:12px}
+.wordmark {font-weight:400}.wordmark span {line-height:1.7}
+.hero-grid .cover-card {width:100%;min-width:0}
+.app-nav a {font-weight:400;line-height:1.45}.app-nav a[aria-current] {font-weight:500}
+.dossier-content p,.dossier-content dd {line-height:var(--leading-reading)}
+.dossier-content>section+section {margin-top:36px;padding-top:32px}
+.dossier-content h2 {font-size:27px;line-height:1.3;margin-bottom:20px}
+.dossier-content h3 {font-size:26px;line-height:1.4;margin:16px 0 12px}
+.dossier-person {font-weight:400}.dossier-credit,.photo-credit,.map-credit {font-size:12px;line-height:1.65}
+.booking-list p,.data-table {line-height:1.75}.booking-list h3 {font-weight:500;line-height:1.45}
+
+/* One lead-image frame, manually swiped. Every photo keeps its own caption/source. */
+.place-gallery {min-width:0}
+.gallery-track {position:relative;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--green) var(--soft);border-radius:12px;gap:0}
+.gallery-slide {flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+.gallery-slide img {width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px}
+.gallery-slide figcaption {margin:12px 2px 0;font-size:12px;line-height:1.65;color:var(--muted);max-width:100%;padding-bottom:4px}
+.gallery-tools {display:flex;gap:16px;align-items:center;margin-top:16px;flex-wrap:wrap}
+.gallery-progress {font-size:13px;color:var(--green);font-variant-numeric:tabular-nums;min-width:32px}
+.gallery-hint {font-size:12px;color:var(--muted);flex:1}
+.gallery-buttons {display:flex;gap:10px}.gallery-buttons .button {min-height:44px;padding:9px 14px}
+.gallery-track:focus-visible {outline:2px solid var(--green);outline-offset:5px}
+
+/* The only disclosure entry is the top-right icon + text control. */
+details.card-fold {border:0;border-radius:12px;background:var(--surface);box-shadow:var(--shadow-paper);padding:0;overflow:hidden}
+details.card-fold>summary.fold-summary {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:start;min-height:104px;padding:24px 28px;list-style:none;cursor:default;pointer-events:none}
+details.card-fold>summary.fold-summary::-webkit-details-marker {display:none}
+.fold-heading {display:flex;flex-direction:column;gap:9px;min-width:0}
+.fold-title {font:400 26px/1.3 var(--serif);letter-spacing:-.015em}
+.fold-description {font:400 13px/1.6 var(--font);color:var(--muted)}
+.fold-control {display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:70px;min-height:44px;padding:4px 2px;color:var(--green);font:500 14px/1.4 var(--font);white-space:nowrap;pointer-events:auto;cursor:pointer}
+.fold-icon {width:20px;height:20px;flex:none;transition:transform .22s ease}
+.fold-open {display:none}details[open]>.fold-summary .fold-open {display:inline}details[open]>.fold-summary .fold-closed {display:none}details[open]>.fold-summary .fold-icon {transform:rotate(180deg)}
+.fold-control:hover {color:var(--ink)}
+.fold-summary:focus-visible {outline:none}.fold-summary:focus-visible .fold-control {outline:2px solid var(--green);outline-offset:4px;border-radius:4px}
+.dossier-content {padding:4px 28px 32px}.meal-content {padding:0 28px 28px;max-width:900px}
+.meal-content>p {font-size:14px;line-height:1.75;color:var(--muted);margin-bottom:24px}
+.meal-content .info-list {display:grid;gap:24px}
+details.map-destinations.card-fold {background:var(--paper);box-shadow:none;margin-top:20px}
+details.map-destinations.card-fold>summary.fold-summary {padding:18px 20px;min-height:88px;gap:16px}
+.map-destinations .fold-title {font:500 15px/1.5 var(--font);letter-spacing:0}
+.map-destinations .fold-description {font-size:12px}
+.map-destinations .actions {padding:0 20px 20px}
+
+/* A single continuous horizontal timeline card; no step cards, arrows or ordinals. */
+.timeline-shell {min-width:0}
+.schedule.horizontal-timeline {display:flex;position:relative;gap:0;padding:0 0 12px;background:var(--surface);border:0;border-radius:12px;box-shadow:var(--shadow-paper);overflow-x:auto;scroll-snap-type:x proximity;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--green) var(--soft)}
+.horizontal-timeline::after {display:none;content:none}
+.horizontal-timeline .session {flex:0 0 clamp(290px,31vw,390px);min-width:0;min-height:0;display:flex;flex-direction:column;gap:20px;align-items:start;padding:28px;background:transparent;border:0;border-radius:0;box-shadow:none;scroll-snap-align:start}
+.horizontal-timeline .session+.session {border-left:1px solid var(--line)}
+.horizontal-timeline .session h3 {font:400 29px/1.25 var(--serif);letter-spacing:-.015em}
+.horizontal-timeline .session p {font-size:16px;font-weight:400;line-height:1.85;max-width:40ch}
+.timeline-hint {font-size:12px;line-height:1.6;color:var(--muted);margin-top:14px}
+.day-layout>.day-sidebar:only-child {grid-template-columns:repeat(2,minmax(0,1fr))}
+
+@media(max-width:767px) {
+  .overlabel {font-size:11px;letter-spacing:.1em}
+  .page-intro>p:last-child {font-size:15px;line-height:1.75}
+  .story-body h3,.hotel-card .story-body h3 {line-height:1.35}
+  .reading-card h2,.day-sidebar h2 {font-size:23px;margin-bottom:14px}
+  .dossier-content h2 {font-size:25px}.dossier-content h3 {font-size:24px;line-height:1.4}
+  .dossier-content>section+section {margin-top:28px;padding-top:28px}
+  details.card-fold>summary.fold-summary {padding:20px;gap:10px;min-height:98px}
+  .fold-title {font-size:23px;line-height:1.35}.fold-description {font-size:12px;line-height:1.6}
+  .fold-control {min-width:62px;font-size:13px;gap:4px}.fold-icon {width:18px;height:18px}
+  .dossier-content {padding:2px 20px 24px}.meal-content {padding:0 20px 24px}
+  .gallery-tools {gap:12px}.gallery-hint {min-width:100px}
+  .gallery-buttons .button {font-size:13px;padding:9px 12px}
+  .horizontal-timeline .session {flex:0 0 86%;padding:24px 20px;gap:18px;min-height:0}
+  .horizontal-timeline .session h3 {font-size:27px}
+  .horizontal-timeline .session p {font-size:16px;line-height:1.8}
+  .day-layout>.day-sidebar:only-child {grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce) {.fold-icon {transition:none}}

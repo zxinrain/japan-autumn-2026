@@ -1,11 +1,15 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
-for(const file of ['app.js','hotel-links.js','travel-data.js','destination-notes.js','map-geography.js','route-data.js','route-map.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
+for(const file of ['app.js','hotel-links.js','travel-data.js','destination-notes.js','map-geography.js','route-data.js','route-map.js','layout.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
 const context=vm.createContext({window:{}});vm.runInContext(fs.readFileSync(path.join(root,'travel-data.js'),'utf8'),context);
 const {trip,catalog,hotelMeta}=context.window.JAPAN_TRIP;
 vm.runInContext(fs.readFileSync(path.join(root,'destination-notes.js'),'utf8'),context);
 vm.runInContext(fs.readFileSync(path.join(root,'route-data.js'),'utf8'),context);
 const map=context.window.JAPAN_ROUTE_DATA;
+assert.equal(trip.routing.outbound.from,'香港');assert.equal(trip.routing.outbound.to,'广岛');
+assert.equal(trip.routing.inbound.from,'福冈');assert.equal(trip.routing.inbound.to,'香港');
+assert.match(trip.days[19].title,/福冈/);assert(!trip.days[19].maps.includes('Hiroshima Airport'));
+assert(map.routes[19].includes('fukuokaairport')&&!map.routes[19].includes('airport'),'Return map must use Fukuoka airport');
 assert.equal(map.routes.length,20,'Map must cover every travel day');
 for(const p of Object.values(map.points))assert(Number.isFinite(p.lat)&&Number.isFinite(p.lng)&&p.lat>32.5&&p.lat<34.7&&p.lng>129&&p.lng<133.3,'Map point is outside the trip region');
 for(const route of map.routes)for(const id of route)assert(map.points[id],'Unknown route point: '+id);

@@ -53,5 +53,16 @@
     "licence": "ISC",
     "url": "https://github.com/lucide-icons/lucide",
     "trademark": false
+  },
+  {
+    "file": "ui-chevron-down.svg",
+    "icon": "ui:chevron-down",
+    "name": "Chevron Down",
+    "kind": "line",
+    "source": "@iconify-json/lucide@1.2.100",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide",
+    "trademark": false
   }
 ]

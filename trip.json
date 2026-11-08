@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-08-luxury-20-days",
+  "version": "2026-11-09-layout-v1",
   "departure": "2026-11-30",
   "returnDate": "2026-12-19",
   "travellers": "沿用两位成人、1 间房、独立双床优先；预算不设上限，景观与设计优先",
@@ -517,27 +517,27 @@
     },
     {
       "city": "香港",
-      "title": "广岛直飞香港 · 当天抵港",
-      "am": "08:30–09:30 早餐与整理，10:00–10:30 左右预约车从 SIMOSE 出发去广岛机场；目标 12:00 前到达，按航空公司国际航班要求再确认。",
-      "noon": "机场办理值机、托运及出境；留 45–60 分钟午餐和缓冲，不安排宫岛口购物。",
-      "pm": "暂留 UO823／CX5823，14:40 广岛起飞，18:00 香港到达，均为当地时间。公布班表已核，余票未查询。",
-      "night": "入境、取行李后香港晚餐，行程至抵港结束。",
-      "transport": "SIMOSE → 广岛机场道路交通按 90–120 分钟规划，再加拥堵缓冲；前一天由司机复核实际路线与出发时刻。",
-      "breakfast": "SIMOSE 住客早餐，选择不影响退房接车的席次。",
-      "lunch": "广岛机场餐饮，按航站楼营业与安检流程选定，不把吃饭时间挤入登机前最后一刻。",
-      "dinner": "香港机场或返家后正餐，取决于香港最终目的地。",
-      "rest": "机场与飞行途中休息。",
+      "title": "福冈返回香港 · 航班待确认",
+      "am": "返程准备。末段住宿与前往福冈机场的跨城衔接待确认，本版不固定出发时刻。",
+      "noon": "福冈机场国际航站楼值机、托运与出境。抵达机场时间随航班与地面交通确认。",
+      "pm": "福冈 → 香港；航空公司、班次和起降时刻待确认，不沿用广岛返港航班。",
+      "night": "抵港后入境、取行李，再按到达时间安排晚餐。",
+      "transport": "出境机场已改为福冈。现有末段仍为 SIMOSE 住宿占位，需后续重排赴福冈接驳；今晚不将跨城路线定稿。",
+      "breakfast": "随末段住宿与出发安排后续确认。",
+      "lunch": "福冈机场或出发前简餐，后续确认。",
+      "dinner": "香港机场或返家后用餐，后续确认。",
+      "rest": "候机与飞行途中休息，依最终班次调整。",
       "cut": "返程日不安排附加景点。",
       "photo": "收起拍摄任务，留意行李、证件和预约车会合。",
       "maps": [
-        "Simose Art Garden Villa",
-        "Hiroshima Airport",
+        "Fukuoka Airport International Terminal",
         "Hong Kong International Airport"
       ],
       "sources": [
-        "flight"
+        "returnFlight",
+        "fukuokaAirport"
       ],
-      "tag": "14:40 → 18:00 · 未订"
+      "tag": "福冈回港 · 衔接待确认"
     }
   ],
   "alternative": {
@@ -894,6 +894,26 @@
     "elements": [
       "ANA 别府洲际 Elements 餐饮",
       "https://anaicbeppu.com/en/dining/elements/"
+    ],
+    "returnFlight": [
+      "福冈机场官网（返港班次待核）",
+      "https://www.fukuoka-airport.jp/en/"
+    ],
+    "fukuokaAirport": [
+      "福冈机场交通与国际航站楼",
+      "https://www.fukuoka-airport.jp/en/access/"
     ]
+  },
+  "contentStatus": "待确认；本版只确定版式",
+  "routing": {
+    "outbound": {
+      "from": "香港",
+      "to": "广岛"
+    },
+    "inbound": {
+      "from": "福冈",
+      "to": "香港"
+    },
+    "returnDetails": "返程班次、末段住宿与赴福冈衔接待确认"
   }
 }

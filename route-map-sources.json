@@ -327,6 +327,14 @@
       "osm": "https://www.openstreetmap.org/way/1445462589",
       "matched": "SIMOSE complex reference point; not individual villa entrance",
       "source": "https://artsimose.jp/en/architecture/"
+    },
+    "fukuokaairport": {
+      "name": "福冈机场（返港）",
+      "lat": 33.586802,
+      "lng": 130.4473939,
+      "osm": "https://www.openstreetmap.org/way/529445584",
+      "source": "https://www.fukuoka-airport.jp/en/access/",
+      "matched": "福岡空港; airport reference point, use named international-terminal navigation"
     }
   }
 }
