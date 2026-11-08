@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "new_assets": [
     {
       "file": "assets/miyajima-shrine.webp",
@@ -20,6 +20,38 @@
     {
       "file": "assets/nagasaki-garden.webp",
       "source_image": "https://www.gt-nagasaki.jp/wp-content/themes/gtn/assets/images/stay/room24.jpg"
+    },
+    {
+      "file": "assets/kai-miyajima.jpg",
+      "imageUrl": "https://media.hoshinoresorts.com/image/authenticated/s--54wK8hmt--/c_fill,g_auto,h_630,w_1200/f_auto,q_auto/v1770371040/%E7%95%8C_%E5%AE%AE%E5%B3%B6_%E5%AE%A2%E5%AE%A4_1_fpyyjr.jpg",
+      "source": "https://hoshinoresorts.com/ja/hotels/kaimiyajima/",
+      "description": "KAI Miyajima official guest room",
+      "checked": "2026-11-09",
+      "status": "Historical official reference; not booked room or current weather"
+    },
+    {
+      "file": "assets/ond-twin.jpg",
+      "imageUrl": "https://www.ondhotel.jp/wp-content/uploads/2025/07/twin01.jpg",
+      "source": "https://www.ondhotel.jp/stay/",
+      "description": "OND HOTEL official twin room",
+      "checked": "2026-11-09",
+      "status": "Historical official reference; not booked room or current weather"
+    },
+    {
+      "file": "assets/itoshima-coast.jpg",
+      "imageUrl": "https://kanko-itoshima.jp/app/wp-content/uploads/2022/03/IMG_0863-scaled.jpg",
+      "source": "https://kanko-itoshima.jp/spot/sakuraihutamigaura/",
+      "description": "Sakurai Futamigaura coast",
+      "checked": "2026-11-09",
+      "status": "Historical official reference; not booked room or current weather"
+    },
+    {
+      "file": "assets/itoshima-rocks.jpg",
+      "imageUrl": "https://kanko-itoshima.jp/app/wp-content/uploads/2022/03/58704a919eb159bab03f2a6a69e707c6-scaled.jpg",
+      "source": "https://kanko-itoshima.jp/spot/sakuraihutamigaura/",
+      "description": "Sakurai Futamigaura rocks",
+      "checked": "2026-11-09",
+      "status": "Historical official reference; not booked room or current weather"
     }
   ]
 }

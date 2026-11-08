@@ -344,6 +344,46 @@
       "query": "Shin-Iwakuni Station Japan",
       "osm": "https://www.openstreetmap.org/node/8558302338",
       "source": "https://eki.jr-odekake.net/premises?id=0800665"
+    },
+    "kai": {
+      "name": "界宮島",
+      "lat": 34.303387,
+      "lng": 132.295156,
+      "place": null,
+      "query": "KAI Miyajima",
+      "source": "https://hoshinoresorts.com/ja/hotels/kaimiyajima/",
+      "verified": "2026-11-09",
+      "accuracy": "reference point; OND is official map embed center, not surveyed entrance"
+    },
+    "ond": {
+      "name": "OND HOTEL（暂定）",
+      "lat": 33.173519378471724,
+      "lng": 130.0217428186405,
+      "place": null,
+      "query": "OND HOTEL 武雄",
+      "source": "https://www.ondhotel.jp/access/",
+      "verified": "2026-11-09",
+      "accuracy": "reference point; OND is official map embed center, not surveyed entrance"
+    },
+    "futamigaura": {
+      "name": "二见浦鸟居与夫妇岩",
+      "lat": 33.6395409,
+      "lng": 130.1978976,
+      "place": "itoshima",
+      "query": "桜井二見ヶ浦",
+      "source": "https://mapfan.com/spots/SCCW4%2CJ%2C2W",
+      "verified": "2026-11-09",
+      "accuracy": "reference point; OND is official map embed center, not surveyed entrance"
+    },
+    "palmbeach": {
+      "name": "PALM BEACH 前站",
+      "lat": 33.6425162,
+      "lng": 130.2014642,
+      "place": "itoshima",
+      "query": "PALM BEACH THE GARDENS 福岡",
+      "source": "https://www.openstreetmap.org/node/12000142989",
+      "verified": "2026-11-09",
+      "accuracy": "reference point; OND is official map embed center, not surveyed entrance"
     }
   }
 }

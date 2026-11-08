@@ -22,28 +22,6 @@
       "status": "非指定日期公开样本，不是本行程实时可售报价"
     }
   },
-  "chikurintei": {
-    "ctripId": "1498446",
-    "agoda": "https://www.agoda.com/onyado-chikurintei/hotel/takeo-jp.html",
-    "ikyu": "https://www.ikyu.com/00000735/",
-    "photo": [
-      "hotel03.webp",
-      "竹林亭庭园与旅馆环境参考",
-      "一休酒店图库",
-      "https://www.ikyu.com/00000735/"
-    ],
-    "official": "https://www.chikurintei.jp/en/",
-    "priceReference": {
-      "lowJPY": 117500,
-      "highJPY": 239600,
-      "rateCNYPer100JPY": 4.2286,
-      "exchangeDate": "2026-11-08",
-      "checked": "2026-11-09",
-      "source": "https://www.ikyu.com/00000735/",
-      "scope": "和室、和洋室至贵宾室公开起价样本，2人含早晚餐；未扣积分。",
-      "status": "非指定日期公开样本，不是本行程实时可售报价"
-    }
-  },
   "garden": {
     "photo": [
       "nagasaki-garden.webp",
@@ -107,26 +85,25 @@
       "status": "非指定日期公开样本，不是本行程实时可售报价"
     }
   },
-  "simoseVilla": {
+  "kai": {
+    "official": "https://hoshinoresorts.com/ja/hotels/kaimiyajima/",
     "photo": [
-      "simose-villa.webp",
-      "SIMOSE 海边别墅 Kielsteg House A 参考，非已确认栋型",
-      "SIMOSE 官网",
-      "https://artsimose.jp/en/villa-waterfront/"
+      "kai-miyajima.jpg",
+      "界宮島海景公共／客房空间参考，非已订房型",
+      "星野集团官网",
+      "https://hoshinoresorts.com/ja/hotels/kaimiyajima/"
     ],
-    "official": "https://artsimose.jp/en/villa-waterfront/",
-    "ikyu": "https://www.ikyu.com/00003031/",
-    "agoda": "https://www.agoda.com/simose-art-garden-villa/hotel/hiroshima-jp.html",
-    "booking": "https://www.booking.com/hotel/jp/simose-art-garden-villa-guang-dao-xian-da-zhu-shi3.html",
-    "priceReference": {
-      "lowJPY": 145000,
-      "highJPY": 155000,
-      "rateCNYPer100JPY": 4.2286,
-      "exchangeDate": "2026-11-08",
-      "checked": "2026-11-09",
-      "source": "https://www.ikyu.com/00003031/",
-      "scope": "Kielsteg B/C/D纯住宿至早餐方案公开起价样本；不含晚餐和接送。",
-      "status": "非指定日期公开样本，不是本行程实时可售报价"
-    }
+    "priceReference": null
+  },
+  "ond": {
+    "official": "https://www.ondhotel.jp/stay/",
+    "ikyu": "https://www.ikyu.com/00003206/",
+    "photo": [
+      "ond-twin.jpg",
+      "OND HOTEL 双床客房参考，具体房型待确认",
+      "OND HOTEL 官网",
+      "https://www.ondhotel.jp/stay/"
+    ],
+    "priceReference": null
   }
 }

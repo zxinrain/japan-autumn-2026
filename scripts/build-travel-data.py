@@ -20,6 +20,7 @@ payload={'trip':trip,'catalog':catalog,'hotelMeta':meta}
 with (R/'hotel-comparison.csv').open('w',encoding='utf-8-sig',newline='') as f:
  w=csv.writer(f,lineterminator='\n');w.writerow(['酒店中文','Hotel English','入住','退房','晚数','成人','房间','价格币种','房型条件','官网含税总价','携程含税总价','Agoda含税总价','Booking含税总价','一休含税总价','状态','公开参考人民币每房晚','原始样本日元','样本条件','样本来源','核对日'])
  for s,m in zip(trip['stays'],meta):
-  p=m['priceReference'];convert=lambda v:round(v*p['rateCNYPer100JPY']/100/10)*10
-  w.writerow([s['cn'],s['en'],s['in'],s['out'],s['nights'],2,1,'CNY',s['room'],*(['待查询']*5),'未取得本次日期同口径报价；目标页日期仍需复核',f"约{convert(p['lowJPY'])}–{convert(p['highJPY'])}",f"{p['lowJPY']}–{p['highJPY']}",p['scope']+' 非指定日期起价样本，不代表本次可售。',p['source'],p['checked']])
-print('Built 20 days / 19 nights, 14 illustrated destination themes, 6 hotel comparison rows.')
+  p=m.get('priceReference');convert=lambda v:round(v*p['rateCNYPer100JPY']/100/10)*10
+  ref=[f"约{convert(p['lowJPY'])}–{convert(p['highJPY'])}",f"{p['lowJPY']}–{p['highJPY']}",p['scope']+' 非指定日期样本，非本次可售。',p['source'],p['checked']] if p else ['待查询','待查询','未取得可靠公开价格，不引用其他酒店报价',m['official'],trip['verified']]
+  w.writerow([s['cn'],s['en'],s['in'],s['out'],s['nights'],2,1,'CNY',s['room'],*(['待查询']*5),'未取得本次同口径报价；目标页日期待复核',*ref])
+print(f"Built {len(trip['days'])} days / 19 nights, {len(catalog)} illustrated destination themes, 6 hotel rows.")

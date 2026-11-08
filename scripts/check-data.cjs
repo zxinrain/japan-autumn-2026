@@ -24,18 +24,20 @@ for(const n of context.window.JAPAN_DESTINATION_NOTES){
   if(n.period){const date=new Date(Date.parse(trip.departure+'T00:00:00Z')+n.day*86400000).toISOString().slice(0,10);assert(date>=n.period[0]&&date<=n.period[1],'Exhibition does not cover the visit: '+n.id);}
 }
 assert.equal(trip.days.length,20);assert.equal(trip.departure,'2026-11-30');assert.equal(trip.returnDate,'2026-12-19');
-assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.length,6);assert.equal(catalog.length,14);
+assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.length,6);assert.equal(catalog.length,15);
 let cursor=trip.departure,index=0;
 for(const s of trip.stays){assert.equal(s.in,cursor);assert.equal((Date.parse(s.out)-Date.parse(s.in))/86400000,s.nights);for(let n=0;n<s.nights;n++)assert.equal(trip.days[index++].city,s.city);cursor=s.out;}
 assert.equal(cursor,trip.returnDate);
 for(const d of trip.days){for(const k of ['am','noon','pm','night','transport','breakfast','lunch','dinner','rest','cut','photo'])assert(d[k]);for(const s of d.sources)assert(trip.sources[s]);}
-assert.match(trip.days[6].title,/御船山/);assert.match(trip.days[3].title,/MOCA/);assert.match(trip.days[4].title,/SIMOSE/);
+assert.match(trip.days[6].title,/御船山/);assert.match(trip.days[4].title,/MOCA/);assert.match(trip.days[3].title,/SIMOSE/);
 assert.match(trip.days[7].pm,/16:00/);assert.match(trip.days[12].title,/由布院日归/);
 assert(trip.days.slice(5,19).every(d=>!d.city.includes('广岛')),'Do not return to Hiroshima after leaving');
-assert.deepEqual(Array.from(trip.stays,s=>s.source),['hilton','simoseVilla','chikurintei','garden','beppuHotel','ritz']);
+assert.deepEqual(Array.from(trip.stays,s=>s.source),['kai','hilton','ond','garden','beppuHotel','ritz']);
 assert.equal(trip.stays[5].out,'2026-12-19');
-for(let i=0;i<trip.stays.length;i++){assert.equal(hotelMeta[i].official,trip.sources[trip.stays[i].source][1]);const p=hotelMeta[i].priceReference;assert(p&&p.lowJPY>0&&p.highJPY>=p.lowJPY&&p.source&&p.status);}
+for(let i=0;i<trip.stays.length;i++){assert.equal(hotelMeta[i].official,trip.sources[trip.stays[i].source][1]);const p=hotelMeta[i].priceReference;if(p)assert(p.lowJPY>0&&p.highJPY>=p.lowJPY&&p.source&&p.status);else assert(['kai','ond'].includes(trip.stays[i].source));}
 for(const p of catalog){assert(p.reason&&p.tradeoff&&p.look&&p.effort);for(const image of p.images){assert(fs.existsSync(path.join(root,'assets',image[0])),image[0]);assert(trip.sources[image[3]]);}for(const day of p.days)assert(day>=0&&day<20);}
 for(const m of hotelMeta)if(m.photo)assert(fs.existsSync(path.join(root,'assets',m.photo[0])),m.photo[0]);
 assert(!trip.days.some(d=>/鹿儿岛|雾岛|陶瓷镇|云仙|大船山/.test(d.title)));
-console.log('PASS: JS syntax; 20 continuous days / 19 nights; 14 illustrated themes; six hotel stays; required full days preserved.');
+console.log('PASS: JS syntax; 20 continuous days / 19 nights; 15 illustrated themes; six hotel stays; required full days preserved.');
+
+assert.equal(map.routes[13].filter(x=>x==='kokura').length,2);assert.match(trip.days[13].transport,/分段/);assert.match(trip.days[16].title,/糸岛/);assert.match(trip.days[17].title,/福冈市美术馆/);assert.match(trip.days[18].title,/九州芸文馆/);
