@@ -1,0 +1,59 @@
+[
+  {
+    "ctripId": "97964943",
+    "agoda": "https://www.agoda.com/hilton-hiroshima/hotel/hiroshima-jp.html",
+    "ikyu": "https://www.ikyu.com/00002983/",
+    "photo": [
+      "hotel02.webp",
+      "希尔顿广岛客房环境参考，非已订房型",
+      "一休酒店图库",
+      "https://www.ikyu.com/00002983/"
+    ],
+    "official": "https://hiroshima.hiltonjapan.co.jp/rooms/"
+  },
+  {
+    "ctripId": "1498446",
+    "agoda": "https://www.agoda.com/onyado-chikurintei/hotel/takeo-jp.html",
+    "ikyu": "https://www.ikyu.com/00000735/",
+    "photo": [
+      "hotel03.webp",
+      "竹林亭庭园与旅馆环境参考",
+      "一休酒店图库",
+      "https://www.ikyu.com/00000735/"
+    ],
+    "official": "https://www.chikurintei.jp/en/"
+  },
+  {
+    "photo": [
+      "nagasaki-garden.webp",
+      "长崎花园露台客房参考；具体房型待核",
+      "酒店官网",
+      "https://www.gt-nagasaki.jp/stay/"
+    ],
+    "official": "https://www.gt-nagasaki.jp/stay/"
+  },
+  {
+    "ctripId": "27391867",
+    "agoda": "https://www.agoda.com/ana-intercontinental-beppu-resort-and-spa/hotel/beppu-jp.html",
+    "ikyu": "https://www.ikyu.com/00002626/",
+    "photo": [
+      "hotel11.webp",
+      "别府洲际客房环境参考，非已订房型",
+      "一休酒店图库",
+      "https://www.ikyu.com/00002626/"
+    ],
+    "official": "https://anaicbeppu.com/faq/"
+  },
+  {
+    "official": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/"
+  },
+  {
+    "photo": [
+      "simose-villa.webp",
+      "SIMOSE 海边别墅 Kielsteg House A 参考，非已确认栋型",
+      "SIMOSE 官网",
+      "https://artsimose.jp/en/villa-waterfront/"
+    ],
+    "official": "https://artsimose.jp/en/villa-waterfront/"
+  }
+]

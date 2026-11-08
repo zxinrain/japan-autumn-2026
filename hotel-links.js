@@ -1,33 +1,22 @@
-/* Date-preserving links. App handoff still depends on the installed client. */
-const HOTEL_LINKS = (() => {
-  const compact = d => d.replaceAll('-', '');
-  const nights = ([a,b]) => (Date.parse(b)-Date.parse(a))/86400000;
-  const query = obj => new URLSearchParams(obj).toString();
-  function intent(appUrl, packageName, fallback) {
-    const u = new URL(appUrl);
-    if (!['https:','ctrip:','agoda:'].includes(u.protocol)) throw new Error('Unsupported app destination');
-    return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=${u.protocol.slice(0,-1)};package=${packageName};S.browser_fallback_url=${encodeURIComponent(fallback)};end`;
-  }
-  function initialStay(h, date) {
-    const i = h.stays.findIndex(([a,b])=>a<=date&&date<b);
-    return i<0?0:i;
-  }
-  function build(h, stay) {
-    if (!h.stays.some(s=>s[0]===stay[0]&&s[1]===stay[1])) throw new Error('Stay must match the itinerary');
-    const [checkin,checkout]=stay;
-    // The mobile hotel page actually reads atime + days; checkin/checkout alone silently use today.
-    const rel=`hotel/hoteldetail/${h.ctripId}.html?${query({atime:compact(checkin),days:String(nights(stay)),checkin,checkout,adult:'2',room:'1',currency:'CNY'})}`;
-    const ctrip='https://m.ctrip.com/webapp/'+rel;
-    const ctripApp='ctrip://wireless/h5?url='+encodeURIComponent(btoa(rel))+'&type=1';
-    const booking=`https://www.booking.com/searchresults.html?${query({ss:h.en,checkin,checkout,group_adults:'2',group_children:'0',no_rooms:'1',selected_currency:'CNY'})}`;
-    const agoda=`${h.agoda}?${query({checkIn:checkin,checkOut:checkout,adults:'2',children:'0',rooms:'1',currency:'CNY'})}`;
-    // Scheme and hotel IDs were read from each property's own Agoda mobile banner.
-    const agodaApp=`agoda://hotel/${encodeURIComponent(h.agodaName||h.en).replaceAll('%20','+')}/${h.agodaId}?${query({site_id:'-1',adults:'2',children:'0',rooms:'1',checkIn:checkin,checkOut:checkout})}`;
-    const ikyu=h.ikyu?`${h.ikyu}?${query({cid:compact(checkin),cod:compact(checkout),rc:'1',ppc:'2'})}`:null;
-    let official=h.official, officialDated=false;
-    if(h.id===17){official=`https://sansou-murata.com/reservation/result/?${query({startDate:checkin,endDate:checkout,adult:'2',age7to12:'0',age6under:'0',rooms:'raku.shin.kichi.tou.meiji.showa.nishi.higashi.hou.sou.gyou.kyu'})}`;officialDated=true;}
-    if(h.officialBooking){official=`${h.officialBooking}?${query({checkin_date:compact(checkin),checkout_date:compact(checkout),adults:'2',rooms:'1'})}`;officialDated=true;}
-    return {ctrip,app:ctripApp,ctripIntent:intent(ctripApp,'ctrip.android.view',ctrip),booking,bookingIntent:intent(booking,'com.booking',booking),agoda,agodaApp,agodaIntent:intent(agodaApp,'com.agoda.mobile.consumer',agoda),ikyu,ikyuIntent:ikyu?intent(ikyu,'com.ikyu.stay.android',ikyu):null,official,officialDated};
-  }
-  return {build,initialStay,intent};
+/* Query dates are explicit; real Android App acceptance remains unverified. */
+window.HOTEL_LINKS=(()=>{
+ const compact=d=>d.replaceAll('-','');
+ function intent(url,packageName,web){const u=new URL(url);return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=${u.protocol.slice(0,-1)};package=${packageName};S.browser_fallback_url=${encodeURIComponent(web)};end`;}
+ function build(s,m){
+  const dates={checkin:s.in,checkout:s.out,adults:'2',rooms:'1',currency:'CNY'};
+  const q=o=>new URLSearchParams(o).toString();
+  const days=(Date.parse(s.out)-Date.parse(s.in))/86400000;
+  const ctrip=m.ctripId?`https://m.ctrip.com/webapp/hotel/hoteldetail/${m.ctripId}.html?${q({atime:compact(s.in),days:String(days),checkin:s.in,checkout:s.out,adult:'2',room:'1',currency:'CNY'})}`:`https://hotels.ctrip.com/hotels/list?${q({...dates,keyword:s.en})}`;
+  const booking=`https://www.booking.com/searchresults.html?${q({ss:s.en,checkin:s.in,checkout:s.out,group_adults:'2',group_children:'0',no_rooms:'1',selected_currency:'CNY'})}`;
+  const agoda=m.agoda?`${m.agoda}?${q({checkIn:s.in,checkOut:s.out,adults:'2',children:'0',rooms:'1',currency:'CNY'})}`:`https://www.agoda.com/search?${q({textToSearch:s.en,checkIn:s.in,checkOut:s.out,adults:'2',rooms:'1',currency:'CNY'})}`;
+  const ikyu=m.ikyu?`${m.ikyu}?${q({cid:compact(s.in),cod:compact(s.out),rc:'1',ppc:'2'})}`:'https://www.ikyu.com/';
+  return [
+   {name:'酒店官网',web:m.official,label:'打开官网订房入口',note:'官网按具体系统手选本次日期；有无官方 App 依酒店实际服务。'},
+   {name:'携程',web:ctrip,intent:m.ctripId?intent(ctrip,'ctrip.android.view',ctrip):null,label:m.ctripId?'按本次日期查看酒店':'按名称搜索，核对日期',note:m.ctripId?'具体酒店入口已匹配；本次目标日期与 App 接收仍待实测。':'酒店具体 ID 尚未匹配；搜索页接收日期待核，不能保证显示本次日期。'},
+   {name:'Agoda',web:agoda,intent:m.agoda?intent(agoda,'com.agoda.mobile.consumer',agoda):null,label:m.agoda?'按本次日期查看酒店':'搜索酒店并核对日期',note:'价格、税费、餐食、收录与跳转后的日期均需重新核对。'},
+   {name:'Booking',web:booking,intent:intent(booking,'com.booking',booking),label:'按名称与本次日期搜索',note:'带日期搜索入口；酒店具体房型、库存及 App 接收日期未实测。'},
+   {name:'一休',web:ikyu,intent:m.ikyu?intent(ikyu,'com.ikyu.stay.android',ikyu):null,label:m.ikyu?'按本次日期查看酒店':'打开一休，手选酒店日期',note:m.ikyu?'酒店入口已匹配；本次日期、海外支付与餐食条件待核。':'平台收录及酒店页面待匹配，需手选日期；不提供未经验证的 App 深链。'}
+  ];
+ }
+ return {build,intent};
 })();

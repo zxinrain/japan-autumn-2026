@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "new_assets": [
+    {
+      "file": "assets/miyajima-shrine.webp",
+      "source_image": "https://www.miyajima.or.jp/sightseeing/img/img_itsukushima.jpg"
+    },
+    {
+      "file": "assets/kunisaki-makiodo.webp",
+      "source_image": "https://www.makiodo.jp/img/top/f-sl-02.jpg"
+    },
+    {
+      "file": "assets/beppu-bamboo.webp",
+      "source_image": "https://beppu-tourism.com/wp-content/uploads/2023/01/%E5%9B%9B%E6%B5%B7%E6%B3%A2%E8%8A%B1%E7%B1%A0%E8%A3%BD%E4%BD%9C.jpg"
+    },
+    {
+      "file": "assets/simose-villa.webp",
+      "source_image": "https://artsimose.jp/en/villa-waterfront/img/slide1_1.jpg?3="
+    },
+    {
+      "file": "assets/nagasaki-garden.webp",
+      "source_image": "https://www.gt-nagasaki.jp/wp-content/themes/gtn/assets/images/stay/room24.jpg"
+    }
+  ]
+}
