@@ -1,8 +1,18 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
-for(const file of ['app.js','hotel-links.js','travel-data.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
+for(const file of ['app.js','hotel-links.js','travel-data.js','destination-notes.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});
 const context=vm.createContext({window:{}});vm.runInContext(fs.readFileSync(path.join(root,'travel-data.js'),'utf8'),context);
 const {trip,catalog,hotelMeta}=context.window.JAPAN_TRIP;
+vm.runInContext(fs.readFileSync(path.join(root,'destination-notes.js'),'utf8'),context);
+const noteIds=new Set();
+for(const n of context.window.JAPAN_DESTINATION_NOTES){
+  assert(!noteIds.has(n.id),'Duplicate note: '+n.id);noteIds.add(n.id);
+  const place=catalog.find(p=>p.id===n.place);assert(place,'Unknown destination: '+n.place);
+  assert(place.days.includes(n.day),'Note is assigned to a different travel day: '+n.id);
+  assert(place.images[n.imageIndex||0],'Missing credited venue image: '+n.id);
+  assert(new URL(n.source[1]).protocol==='https:','Official source must use HTTPS');
+  if(n.period){const date=new Date(Date.parse(trip.departure+'T00:00:00Z')+n.day*86400000).toISOString().slice(0,10);assert(date>=n.period[0]&&date<=n.period[1],'Exhibition does not cover the visit: '+n.id);}
+}
 assert.equal(trip.days.length,20);assert.equal(trip.departure,'2026-11-30');assert.equal(trip.returnDate,'2026-12-19');
 assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.length,6);assert.equal(catalog.length,14);
 let cursor=trip.departure,index=0;
