@@ -1,16 +1,441 @@
 [
- {"id":"simose","region":"广岛","name":"下濑美术馆 SIMOSE","en":"Simose Art Museum","date":"12/18 · 完整一天","priority":"必保留","featured":true,"days":[18],"images":[["simose2.webp","彩色展厅与海边水面","下濑美术馆官网","simoseArch"],["simose.webp","木构大厅与玻璃立面","下濑美术馆官网","simoseArch"]],"feature":"坂茂将彩色展厅、水面与濑户内群岛联系在一起，建筑本身就是观看对象。","reason":"最贴合你对建筑、艺术与景观融合的兴趣；把一整天留给看展、庭园和海光变化。","look":"水面中的展厅倒影、木构节点、望洋露台；本次展期对应加莱陶艺。","effort":"园区分段慢行；午后回别墅休息约 1 小时。","tradeoff":"入住 SIMOSE 可减少当天接驳，但 MOCA 那天往返车程较长；展厅移动不保证能看到。","decision":"完整日保留；别墅入住仍以栋型、双床与接送落实为条件。","sources":["simoseSchedule","simoseArch"]},
- {"id":"mifuneyama","region":"武雄","name":"御船山乐园","en":"Mifuneyama Rakuen","date":"12/4 · 完整一天","priority":"必保留","featured":true,"days":[4],"images":[["mifuneyama.webp","庭园、水池与借景山体","御船山乐园官网","mifuneyama"],["mifuneyama_night.webp","夜间灯光与倒影参考","御船山乐园官网","mifuneyama"]],"feature":"山体成为庭园的背景，池岸、树木和倒影共同组织视线，白天与夜间有不同观看方式。","reason":"让旅行从城市与美术馆转入自然和温泉；两晚竹林亭住宿有充分时间体验庭园。","look":"在相近池岸比较昼夜倒影，不以把所有坡道走完为目标。","effort":"上午约 2 小时分段慢游；午后私汤，晚间短段灯光。","tradeoff":"12/4 在红叶祭期间，但叶况可能进入尾段；照片是历史参考，不代表今年盛况。","decision":"保留庭园与夜游；先协调旅馆晚餐时段。","sources":["mifuneyama","chikurintei"]},
- {"id":"moca","region":"广岛","name":"广岛市现代美术馆","en":"Hiroshima MOCA","date":"12/17 · 完整一天","priority":"必保留","featured":true,"days":[17],"images":[["building-moca.webp","比治山上的馆舍与城市环境","MOCA 官网，署名见原页","moca"]],"feature":"黑川纪章把几何馆舍放入山丘地形，建筑与城市远景之间形成距离。","reason":"与和平公园、SIMOSE 对照，可读出不同年代的广岛如何通过建筑呈现记忆与艺术。","look":"入口材料变化、公共空间与地形；当期收藏展及绘本特展。","effort":"出租车送至馆区，避免步行上山；约 5–6 小时含午餐休息。","tradeoff":"从 SIMOSE 别墅往返约 2.5–3.5 小时；不与跨城转移或其他美术馆压在半天。","decision":"完整日保留；优先用预约车解决坡道与长接驳。","sources":["moca","mocaEx"]},
- {"id":"peace","region":"广岛","name":"和平纪念资料馆与公园","en":"Hiroshima Peace Memorial Museum & Park","date":"12/2 · 完整一天","priority":"必保留","featured":true,"days":[2],"images":[["building-peace.webp","丹下健三本馆的架空层与水平体量","广岛县建筑资料","tange"]],"feature":"资料馆、慰灵碑与原爆圆顶的视线轴线，把纪念与公共空间组织在一起。","reason":"这趟建筑旅行的重要历史基点；理解战后广岛，能让后面的当代美术馆观看更有背景。","look":"列柱下的尺度、轴线中的远景、日常行人与纪念仪式的并置。","effort":"两段看展，中间午餐与休息；不设置情绪与阅读速度要求。","tradeoff":"展陈内容沉重，下午可能需要更多休息；离馆再入的票券规则先询问。","decision":"保留完整日，体力不足先减少公园绕行。","sources":["peace","tange"]},
- {"id":"miyajima","region":"广岛","name":"宫岛","en":"Miyajima / Itsukushima","date":"12/1 · 完整一天","priority":"必保留","featured":false,"days":[1],"images":[],"gallery":"https://www.miyajima.or.jp/","feature":"海面、神社回廊、渡轮与旧商街共同构成岛屿生活景观。","reason":"为以美术馆为主的旅行补足传统空间与海边日常，不登山也有完整体验。","look":"回廊框景、渡轮旅客、主街背后的町家尺度；按实际潮位观看严岛神社。","effort":"车至宫岛口再乘船；岛上短段步行，大圣院台阶只作备选。","tradeoff":"冬季红叶不保证；不安排弥山、索道或清晨追潮位。","decision":"完整日保留；以神社、海岸与町家街为主。","sources":["miyajima","mametanuki"]},
- {"id":"nagasaki","region":"长崎","name":"长崎县美术馆与港湾","en":"Nagasaki Prefectural Art Museum","date":"12/6 · 完整一天","priority":"重点推荐","featured":true,"days":[6],"images":[["building-nagasaki.webp","运河两侧馆舍与水岸公共空间","长崎县美术馆官网","nagasaki"]],"feature":"日本设计与隈研吾合作，将桥、运河、玻璃和石材变成连续的观览空间。","reason":"建筑、港口城市生活与摄影展能放在同一天理解，不必靠密集景点制造内容。","look":"跨运河连接空间、玻璃的反射、杂贺雄二关于军舰岛的摄影。","effort":"馆内为主，穿插滨町午餐与港边短走；酒店往返用车。","tradeoff":"周日可能受同期 Hello Kitty 特展人流影响；屋顶是否开放按天气确认。","decision":"美术馆留完整日；不再增加军舰岛登岛。","sources":["nagasaki","nagasakiEx"]},
- {"id":"opam","region":"别府·大分","name":"大分 OPAM 与 Art Plaza","en":"Oita Prefectural Art Museum / Art Plaza","date":"12/8 · 建筑双馆日","priority":"重点推荐","featured":false,"days":[8],"images":[["opam.webp","OPAM 的透光木格立面","OPAM 官网","opam"],["building-artplaza.webp","Art Plaza 历史外观；施工状态另核","Art Plaza 官网","artplaza"]],"feature":"坂茂的木格与公共大厅，对照矶崎新早期混凝土构件与错层空间。","reason":"同一天就能比较两代建筑语言，且两馆距离近，符合减少折返的偏好。","look":"木格如何调节街道视线；混凝土梁与突出体量如何组织空间。","effort":"预约车直达；午餐就在 OPAM，同馆休息后再去第二站。","tradeoff":"Art Plaza 三楼建筑展仍有暂停公告；不能保证看到模型或所有室内区域。","decision":"保留 OPAM；Art Plaza 以当天安全开放范围执行。","sources":["opam","artplaza","charite"]},
- {"id":"kunisaki","region":"别府·大分","name":"国东半岛：富贵寺与真木大堂","en":"Kunisaki Peninsula / Fuki-ji & Maki Odo","date":"12/9 · 两寺包车日","priority":"条件推荐","featured":false,"days":[9],"images":[],"gallery":"https://www.city.bungotakada.oita.jp/site/showanomachi/1251.html","gallery2":"https://www.makiodo.jp/","feature":"古代木构、佛教造像与六乡满山文化，为当代建筑主线补上历史纵深。","reason":"两处内容互补、距离近，值得用一天从海滨度假区走进乡村宗教空间。","look":"富贵寺的屋顶与檐下光线、真木大堂的重要文化财造像。","effort":"6–7 小时包车；富贵寺有石阶，不去深山寺院与磨崖佛长阶。","tradeoff":"堂内开放资料表述不一致，须电话确认；若雨天只能看外部，价值会下降。","decision":"晴天、能确认开放时保留；否则整天换别府竹工艺与铁轮。","sources":["fukiji","fukijiPref","makiodo"]},
- {"id":"beppu","region":"别府·大分","name":"别府：竹工艺与铁轮","en":"Beppu Bamboo Crafts / Kannawa Onsen","date":"12/9 替代日；竹馆也可 12/11 短看","priority":"低强度替代","featured":false,"days":[9,11],"images":[],"gallery":"https://beppu-tourism.com/spot/beppu-city-traditional-bamboo-crafts-center/","gallery2":"https://beppu-tourism.com/gourmet/jigokumushikouboukannawa/","feature":"从竹器编织到温泉蒸食，看设计和地热怎样进入当地生活。","reason":"与你的器物设计、街头摄影兴趣直接相连；雨天比国东稳妥，也能多留时间给洲际温泉。","look":"编织纹理、器物的使用方式、街巷蒸汽与公共浴场外部。","effort":"多段短途车＋短走；午后咖啡和酒店温泉，不把七个地狱全部巡完。","tradeoff":"竹编体验需预约并另留时长；蒸汽设施可能临停。与国东为整天二选一。","decision":"若更想轻松度假选这一组；12/11 不重复竹馆。","sources":["bamboo","jigokumushi","space"]},
- {"id":"comico","region":"别府·大分","name":"由布院 COMICO","en":"COMICO Art Museum Yufuin","date":"12/10 · 日归别府","priority":"重点推荐","featured":true,"days":[10],"images":[["building-comico.webp","低矮屋顶下的由布岳框景","© Mitsumasa Fujitsuka／隈研吾事务所","comicoArch"]],"feature":"烧杉、木材、庭院和山景让艺术空间保持接近居住的尺度。","reason":"建筑与自然相互映照，能补充大型公共美术馆之外的观看方式；当天往返减少换酒店。","look":"材料接缝、屋顶边缘、室内框景；湖边观察水岸生活。","effort":"专车单程约 50–70 分钟，馆后午餐、湖畔咖啡，17:00 前回酒店。","tradeoff":"时段以实际预约为准；不安排清晨等雾，Café La Ruche 周四通常不售面包。","decision":"优先订上午参观；无量塔继续删除。","sources":["comico","comicoArch","laruche"]},
- {"id":"dazaifu","region":"福冈","name":"太宰府与九州国立博物馆","en":"Dazaifu / Kyushu National Museum","date":"12/12 · 文化交流与木构","priority":"重点推荐","featured":false,"days":[12],"images":[["building-kyuhaku.webp","起伏屋顶与山林环境","九州国立博物馆官网","kyuhaku"],["building-starbucks.webp","太宰府星巴克的斜交木构","© Masao Nishikawa／隈研吾事务所","starbucks"]],"feature":"菊竹清训／久米设计的大跨度屋顶，与隈研吾在参道店铺内的木构尺度形成对照。","reason":"把建筑、人文和文化交流展放在邻近区域，内容丰富而不依赖频繁跨城。","look":"旧参道商业生活与当代木构的连接，博物馆屋顶与山林的比例。","effort":"预约车往返；上午短走，中午会席休息，下午馆内看展。","tradeoff":"周六人流可能多，星巴克不保证有座；神社修缮状态出发前核实。","decision":"保留九博，购物与外围绕行优先删减。","sources":["kyuhaku","starbucks"]},
- {"id":"kitakyushu","region":"福冈","name":"北九州市立美术馆本馆","en":"Kitakyushu Municipal Museum of Art","date":"12/13 · 山丘上的美术馆","priority":"重点推荐","featured":false,"days":[13],"images":[["building-kitakyushu.webp","向外伸出的双筒形馆舍","北九州市官方旅游资料","kitakyushu"]],"feature":"矶崎新的悬挑体量如望远镜般面向城市，把山丘地形转化为空间体验。","reason":"是理解其经典公共建筑的重要一站，本次又能结合摄影收藏展观看。","look":"双筒体量、入口转折、城市远景与展厅之间的收放。","effort":"新干线＋预约车上山，午餐留在馆内；单向门到门约 90–120 分钟。","tradeoff":"总交通成本偏高，值得为建筑而去；不再加门司港。12/15 才开的特展当天不可看。","decision":"保留本馆；小仓街区散步仅作余力选项。","sources":["kitakyushu","cafemusee"]},
- {"id":"fukuoka","region":"福冈","name":"福冈：ACROS 与大濠公园","en":"ACROS Fukuoka / Ohori Park","date":"12/14 · 城市休整日","priority":"节奏缓冲","featured":false,"days":[14],"images":[["building-acros.webp","阶梯绿化与城市公园的连接","日本设计项目官网","acros"]],"feature":"建筑阶梯绿化延续公园地面，通勤、午休和散步成为观看内容。","reason":"连续美术馆与跨城后，留一天观察日常城市，也让高端酒店的空间和服务真正被使用。","look":"阶梯立面与街道立面的对照，公园中人的停留方式。","effort":"短途车或短走，不登顶；午后完整 2 小时酒店休息。","tradeoff":"周一多数主力美术馆通常休息，不把这一天塞成补漏马拉松。","decision":"保留弹性，可因天气或体力删去所有外出。","sources":["acros","ritzDining"]},
- {"id":"geibun","region":"福冈","name":"福冈市美术馆与九州芸文馆","en":"Fukuoka Art Museum / Kyushu Geibunkan","date":"12/15 · 前川国男与隈研吾","priority":"经典建筑保留","featured":true,"days":[15],"images":[["fukuoka.webp","福冈市美术馆与公园环境","福冈市美术馆官网","fukuokaMuseum"],["building-geibun.webp","九州芸文馆的折坡屋顶","© Hiroyuki Kawano／隈研吾事务所","geibunArch"]],"feature":"从战后现代主义的庭院与外墙，到近似聚落的低矮坡屋顶，比较公共建筑怎样亲近人。","reason":"保留经典现代建筑，避免行程只看最新、最容易拍照的馆舍。","look":"上午看庭院与公共层；下午看屋顶、馆舍间隙和平原住宅的关系。","effort":"上午市内美术馆，馆内午餐休息；午后新干线去筑后船小屋，站前步行。","tradeoff":"一天两处需准时接续；只选重点展览，不保证所有活动用房可入内。","decision":"两处建筑保留，公园长走和购物优先删除。","sources":["fukuokaMuseum","geibun","geibunArch"]}
+  {
+    "id": "simose",
+    "region": "广岛",
+    "name": "下濑美术馆 SIMOSE",
+    "en": "Simose Art Museum",
+    "date": "12/4 · 完整一天",
+    "priority": "必保留",
+    "featured": true,
+    "days": [
+      4
+    ],
+    "images": [
+      [
+        "simose2.webp",
+        "彩色展厅与海边水面",
+        "下濑美术馆官网",
+        "simoseArch"
+      ],
+      [
+        "simose.webp",
+        "木构大厅与玻璃立面",
+        "下濑美术馆官网",
+        "simoseArch"
+      ]
+    ],
+    "feature": "坂茂将彩色展厅、水面与濑户内群岛联系在一起，建筑本身就是观看对象。",
+    "reason": "最贴合你对建筑、艺术与景观融合的兴趣；把一整天留给看展、庭园和海光变化。",
+    "look": "水面中的展厅倒影、木构节点、望洋露台；本次展期对应加莱陶艺。",
+    "effort": "园区分段慢行；午后回别墅休息约 1 小时。",
+    "tradeoff": "前移至广岛段，两晚住宿需确认床型、餐饮与新岩国接送；展厅移动仍不保证能看到。",
+    "decision": "完整日保留；别墅入住仍以栋型、双床与接送落实为条件。",
+    "sources": [
+      "simoseSchedule",
+      "simoseArch"
+    ]
+  },
+  {
+    "id": "mifuneyama",
+    "region": "武雄",
+    "name": "御船山乐园",
+    "en": "Mifuneyama Rakuen",
+    "date": "12/6 · 红叶祭最后一天",
+    "priority": "必保留",
+    "featured": true,
+    "days": [
+      6
+    ],
+    "images": [
+      [
+        "mifuneyama.webp",
+        "庭园、水池与借景山体",
+        "御船山乐园官网",
+        "mifuneyama"
+      ],
+      [
+        "mifuneyama_night.webp",
+        "夜间灯光与倒影参考",
+        "御船山乐园官网",
+        "mifuneyama"
+      ]
+    ],
+    "feature": "山体成为庭园的背景，池岸、树木和倒影共同组织视线，白天与夜间有不同观看方式。",
+    "reason": "让旅行从城市与美术馆转入自然和温泉；两晚竹林亭住宿有充分时间体验庭园。",
+    "look": "在相近池岸比较昼夜倒影，不以把所有坡道走完为目标。",
+    "effort": "上午约 2 小时分段慢游；午后私汤，晚间短段灯光。",
+    "tradeoff": "12/6为红叶祭最后一天且是周日；叶况可能偏晚、人流增多。保留庭园与温泉，不承诺盛叶。",
+    "decision": "保留庭园与夜游；先协调旅馆晚餐时段。",
+    "sources": [
+      "mifuneyama",
+      "chikurintei"
+    ]
+  },
+  {
+    "id": "moca",
+    "region": "广岛",
+    "name": "广岛市现代美术馆",
+    "en": "Hiroshima MOCA",
+    "date": "12/3 · 完整一天",
+    "priority": "必保留",
+    "featured": true,
+    "days": [
+      3
+    ],
+    "images": [
+      [
+        "building-moca.webp",
+        "比治山上的馆舍与城市环境",
+        "MOCA 官网，署名见原页",
+        "moca"
+      ]
+    ],
+    "feature": "黑川纪章把几何馆舍放入山丘地形，建筑与城市远景之间形成距离。",
+    "reason": "与和平公园、SIMOSE 对照，可读出不同年代的广岛如何通过建筑呈现记忆与艺术。",
+    "look": "入口材料变化、公共空间与地形；当期收藏展及绘本特展。",
+    "effort": "出租车送至馆区，避免步行上山；约 5–6 小时含午餐休息。",
+    "tradeoff": "希尔顿退房后完整看馆，行李随预约车；16:00后向西入住SIMOSE，不压缩成半天。",
+    "decision": "保留完整馆日，再单向转往海边住宿；不再从SIMOSE往返市区。",
+    "sources": [
+      "moca",
+      "mocaEx"
+    ]
+  },
+  {
+    "id": "peace",
+    "region": "广岛",
+    "name": "和平纪念资料馆与公园",
+    "en": "Hiroshima Peace Memorial Museum & Park",
+    "date": "12/2 · 完整一天",
+    "priority": "必保留",
+    "featured": true,
+    "days": [
+      2
+    ],
+    "images": [
+      [
+        "building-peace.webp",
+        "丹下健三本馆的架空层与水平体量",
+        "广岛县建筑资料",
+        "tange"
+      ]
+    ],
+    "feature": "资料馆、慰灵碑与原爆圆顶的视线轴线，把纪念与公共空间组织在一起。",
+    "reason": "这趟建筑旅行的重要历史基点；理解战后广岛，能让后面的当代美术馆观看更有背景。",
+    "look": "列柱下的尺度、轴线中的远景、日常行人与纪念仪式的并置。",
+    "effort": "两段看展，中间午餐与休息；不设置情绪与阅读速度要求。",
+    "tradeoff": "展陈内容沉重，下午可能需要更多休息；离馆再入的票券规则先询问。",
+    "decision": "保留完整日，体力不足先减少公园绕行。",
+    "sources": [
+      "peace",
+      "tange"
+    ]
+  },
+  {
+    "id": "miyajima",
+    "region": "广岛",
+    "name": "宫岛",
+    "en": "Miyajima / Itsukushima",
+    "date": "12/1 · 完整一天",
+    "priority": "必保留",
+    "featured": false,
+    "days": [
+      1
+    ],
+    "images": [],
+    "gallery": "https://www.miyajima.or.jp/",
+    "feature": "海面、神社回廊、渡轮与旧商街共同构成岛屿生活景观。",
+    "reason": "为以美术馆为主的旅行补足传统空间与海边日常，不登山也有完整体验。",
+    "look": "回廊框景、渡轮旅客、主街背后的町家尺度；按实际潮位观看严岛神社。",
+    "effort": "车至宫岛口再乘船；岛上短段步行，大圣院台阶只作备选。",
+    "tradeoff": "冬季红叶不保证；不安排弥山、索道或清晨追潮位。",
+    "decision": "完整日保留；以神社、海岸与町家街为主。",
+    "sources": [
+      "miyajima",
+      "mametanuki"
+    ]
+  },
+  {
+    "id": "nagasaki",
+    "region": "长崎",
+    "name": "长崎县美术馆与港湾",
+    "en": "Nagasaki Prefectural Art Museum",
+    "date": "12/8 · 完整一天",
+    "priority": "重点推荐",
+    "featured": true,
+    "days": [
+      8
+    ],
+    "images": [
+      [
+        "building-nagasaki.webp",
+        "运河两侧馆舍与水岸公共空间",
+        "长崎县美术馆官网",
+        "nagasaki"
+      ]
+    ],
+    "feature": "日本设计与隈研吾合作，将桥、运河、玻璃和石材变成连续的观览空间。",
+    "reason": "建筑、港口城市生活与摄影展能放在同一天理解，不必靠密集景点制造内容。",
+    "look": "跨运河连接空间、玻璃的反射、杂贺雄二关于军舰岛的摄影。",
+    "effort": "馆内为主，穿插滨町午餐与港边短走；酒店往返用车。",
+    "tradeoff": "周日可能受同期 Hello Kitty 特展人流影响；屋顶是否开放按天气确认。",
+    "decision": "美术馆留完整日；不再增加军舰岛登岛。",
+    "sources": [
+      "nagasaki",
+      "nagasakiEx"
+    ]
+  },
+  {
+    "id": "opam",
+    "region": "别府·大分",
+    "name": "大分 OPAM 与 Art Plaza",
+    "en": "Oita Prefectural Art Museum / Art Plaza",
+    "date": "12/10 · 建筑双馆日",
+    "priority": "重点推荐",
+    "featured": false,
+    "days": [
+      10
+    ],
+    "images": [
+      [
+        "opam.webp",
+        "OPAM 的透光木格立面",
+        "OPAM 官网",
+        "opam"
+      ],
+      [
+        "building-artplaza.webp",
+        "Art Plaza 历史外观；施工状态另核",
+        "Art Plaza 官网",
+        "artplaza"
+      ]
+    ],
+    "feature": "坂茂的木格与公共大厅，对照矶崎新早期混凝土构件与错层空间。",
+    "reason": "同一天就能比较两代建筑语言，且两馆距离近，符合减少折返的偏好。",
+    "look": "木格如何调节街道视线；混凝土梁与突出体量如何组织空间。",
+    "effort": "预约车直达；午餐就在 OPAM，同馆休息后再去第二站。",
+    "tradeoff": "Art Plaza 三楼建筑展仍有暂停公告；不能保证看到模型或所有室内区域。",
+    "decision": "保留 OPAM；Art Plaza 以当天安全开放范围执行。",
+    "sources": [
+      "opam",
+      "artplaza",
+      "charite"
+    ]
+  },
+  {
+    "id": "kunisaki",
+    "region": "别府·大分",
+    "name": "国东半岛：富贵寺与真木大堂",
+    "en": "Kunisaki Peninsula / Fuki-ji & Maki Odo",
+    "date": "12/11 · 两寺包车日",
+    "priority": "条件推荐",
+    "featured": false,
+    "days": [
+      11
+    ],
+    "images": [],
+    "gallery": "https://www.city.bungotakada.oita.jp/site/showanomachi/1251.html",
+    "gallery2": "https://www.makiodo.jp/",
+    "feature": "古代木构、佛教造像与六乡满山文化，为当代建筑主线补上历史纵深。",
+    "reason": "两处内容互补、距离近，值得用一天从海滨度假区走进乡村宗教空间。",
+    "look": "富贵寺的屋顶与檐下光线、真木大堂的重要文化财造像。",
+    "effort": "6–7 小时包车；富贵寺有石阶，不去深山寺院与磨崖佛长阶。",
+    "tradeoff": "堂内开放资料表述不一致，须电话确认；若雨天只能看外部，价值会下降。",
+    "decision": "晴天、能确认开放时保留；否则整天换别府竹工艺与铁轮。",
+    "sources": [
+      "fukiji",
+      "fukijiPref",
+      "makiodo"
+    ]
+  },
+  {
+    "id": "beppu",
+    "region": "别府·大分",
+    "name": "别府：竹工艺与铁轮",
+    "en": "Beppu Bamboo Crafts / Kannawa Onsen",
+    "date": "12/11 · 替代国东，不另排重复参观",
+    "priority": "低强度替代",
+    "featured": false,
+    "days": [
+      11
+    ],
+    "images": [],
+    "gallery": "https://beppu-tourism.com/spot/beppu-city-traditional-bamboo-crafts-center/",
+    "gallery2": "https://beppu-tourism.com/gourmet/jigokumushikouboukannawa/",
+    "feature": "从竹器编织到温泉蒸食，看设计和地热怎样进入当地生活。",
+    "reason": "与你的器物设计、街头摄影兴趣直接相连；雨天比国东稳妥，也能多留时间给洲际温泉。",
+    "look": "编织纹理、器物的使用方式、街巷蒸汽与公共浴场外部。",
+    "effort": "多段短途车＋短走；午后咖啡和酒店温泉，不把七个地狱全部巡完。",
+    "tradeoff": "竹编体验需预约并另留时长；蒸汽设施可能临停。与国东为整天二选一。",
+    "decision": "竹工艺馆与铁轮保留为国东整日替代；为顺路参观北九州，离开别府当天不再另加竹馆。",
+    "sources": [
+      "bamboo",
+      "jigokumushi",
+      "space"
+    ]
+  },
+  {
+    "id": "comico",
+    "region": "别府·大分",
+    "name": "由布院 COMICO",
+    "en": "COMICO Art Museum Yufuin",
+    "date": "12/12 · 日归别府",
+    "priority": "重点推荐",
+    "featured": true,
+    "days": [
+      12
+    ],
+    "images": [
+      [
+        "building-comico.webp",
+        "低矮屋顶下的由布岳框景",
+        "© Mitsumasa Fujitsuka／隈研吾事务所",
+        "comicoArch"
+      ]
+    ],
+    "feature": "烧杉、木材、庭院和山景让艺术空间保持接近居住的尺度。",
+    "reason": "建筑与自然相互映照，能补充大型公共美术馆之外的观看方式；当天往返减少换酒店。",
+    "look": "材料接缝、屋顶边缘、室内框景；湖边观察水岸生活。",
+    "effort": "专车单程约 50–70 分钟，馆后午餐、湖畔咖啡，17:00 前回酒店。",
+    "tradeoff": "周六按实际预约时段安排；不沿用旧版周四咖啡／面包判断，营业和菜单另核。",
+    "decision": "优先订上午参观；无量塔继续删除。",
+    "sources": [
+      "comico",
+      "comicoArch",
+      "laruche"
+    ]
+  },
+  {
+    "id": "dazaifu",
+    "region": "福冈",
+    "name": "太宰府与九州国立博物馆",
+    "en": "Dazaifu / Kyushu National Museum",
+    "date": "12/15 · 文化交流与木构",
+    "priority": "重点推荐",
+    "featured": false,
+    "days": [
+      15
+    ],
+    "images": [
+      [
+        "building-kyuhaku.webp",
+        "起伏屋顶与山林环境",
+        "九州国立博物馆官网",
+        "kyuhaku"
+      ],
+      [
+        "building-starbucks.webp",
+        "太宰府星巴克的斜交木构",
+        "© Masao Nishikawa／隈研吾事务所",
+        "starbucks"
+      ]
+    ],
+    "feature": "菊竹清训／久米设计的大跨度屋顶，与隈研吾在参道店铺内的木构尺度形成对照。",
+    "reason": "把建筑、人文和文化交流展放在邻近区域，内容丰富而不依赖频繁跨城。",
+    "look": "旧参道商业生活与当代木构的连接，博物馆屋顶与山林的比例。",
+    "effort": "预约车往返；上午短走，中午会席休息，下午馆内看展。",
+    "tradeoff": "周六人流可能多，星巴克不保证有座；神社修缮状态出发前核实。",
+    "decision": "保留九博，购物与外围绕行优先删减。",
+    "sources": [
+      "kyuhaku",
+      "starbucks"
+    ]
+  },
+  {
+    "id": "kitakyushu",
+    "region": "福冈",
+    "name": "北九州市立美术馆本馆",
+    "en": "Kitakyushu Municipal Museum of Art",
+    "date": "12/13 · 别府至福冈顺路参观",
+    "priority": "重点推荐",
+    "featured": false,
+    "days": [
+      13
+    ],
+    "images": [
+      [
+        "building-kitakyushu.webp",
+        "向外伸出的双筒形馆舍",
+        "北九州市官方旅游资料",
+        "kitakyushu"
+      ]
+    ],
+    "feature": "矶崎新的悬挑体量如望远镜般面向城市，把山丘地形转化为空间体验。",
+    "reason": "是理解其经典公共建筑的重要一站，本次又能结合摄影收藏展观看。",
+    "look": "双筒体量、入口转折、城市远景与展厅之间的收放。",
+    "effort": "别府至美术馆包车，馆内午餐休息后继续福冈；不从福冈往返。",
+    "tradeoff": "转移与参观同日，省去一次跨城往返；取消门司港等附加点，行李随车。12/15才开的特展仍不在当天展期。",
+    "decision": "保留本馆；小仓街区散步仅作余力选项。",
+    "sources": [
+      "kitakyushu",
+      "cafemusee"
+    ]
+  },
+  {
+    "id": "fukuoka",
+    "region": "福冈",
+    "name": "福冈：ACROS 与大濠公园",
+    "en": "ACROS Fukuoka / Ohori Park",
+    "date": "12/14 · 福冈休整日",
+    "priority": "节奏缓冲",
+    "featured": false,
+    "days": [
+      14
+    ],
+    "images": [
+      [
+        "building-acros.webp",
+        "阶梯绿化与城市公园的连接",
+        "日本设计项目官网",
+        "acros"
+      ]
+    ],
+    "feature": "建筑阶梯绿化延续公园地面，通勤、午休和散步成为观看内容。",
+    "reason": "连续美术馆与跨城后，留一天观察日常城市，也让高端酒店的空间和服务真正被使用。",
+    "look": "阶梯立面与街道立面的对照，公园中人的停留方式。",
+    "effort": "短途车或短走，不登顶；午后完整 2 小时酒店休息。",
+    "tradeoff": "周一多数主力美术馆通常休息，不把这一天塞成补漏马拉松。",
+    "decision": "保留弹性，可因天气或体力删去所有外出。",
+    "sources": [
+      "acros",
+      "ritzDining"
+    ]
+  },
+  {
+    "id": "geibun",
+    "region": "福冈",
+    "name": "福冈市美术馆与九州芸文馆",
+    "en": "Fukuoka Art Museum / Kyushu Geibunkan",
+    "date": "12/16 · 经典建筑日",
+    "priority": "经典建筑保留",
+    "featured": true,
+    "days": [
+      16
+    ],
+    "images": [
+      [
+        "fukuoka.webp",
+        "福冈市美术馆与公园环境",
+        "福冈市美术馆官网",
+        "fukuokaMuseum"
+      ],
+      [
+        "building-geibun.webp",
+        "九州芸文馆的折坡屋顶",
+        "© Hiroyuki Kawano／隈研吾事务所",
+        "geibunArch"
+      ]
+    ],
+    "feature": "从战后现代主义的庭院与外墙，到近似聚落的低矮坡屋顶，比较公共建筑怎样亲近人。",
+    "reason": "保留经典现代建筑，避免行程只看最新、最容易拍照的馆舍。",
+    "look": "上午看庭院与公共层；下午看屋顶、馆舍间隙和平原住宅的关系。",
+    "effort": "上午市内美术馆，馆内午餐休息；午后新干线去筑后船小屋，站前步行。",
+    "tradeoff": "一天两处需准时接续；只选重点展览，不保证所有活动用房可入内。",
+    "decision": "两处建筑保留，公园长走和购物优先删除。",
+    "sources": [
+      "fukuokaMuseum",
+      "geibun",
+      "geibunArch"
+    ]
+  }
 ]

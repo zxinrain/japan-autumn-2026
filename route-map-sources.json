@@ -335,6 +335,15 @@
       "osm": "https://www.openstreetmap.org/way/529445584",
       "source": "https://www.fukuoka-airport.jp/en/access/",
       "matched": "福岡空港; airport reference point, use named international-terminal navigation"
+    },
+    "shinIwakuni": {
+      "name": "新岩国站",
+      "lat": 34.1645738,
+      "lng": 132.1495132,
+      "place": null,
+      "query": "Shin-Iwakuni Station Japan",
+      "osm": "https://www.openstreetmap.org/node/8558302338",
+      "source": "https://eki.jr-odekake.net/premises?id=0800665"
     }
   }
 }

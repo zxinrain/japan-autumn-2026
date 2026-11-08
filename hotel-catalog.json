@@ -1,0 +1,132 @@
+{
+  "hilton": {
+    "ctripId": "97964943",
+    "agoda": "https://www.agoda.com/hilton-hiroshima-h31437637/hotel/hiroshima-jp.html",
+    "ikyu": "https://www.ikyu.com/00002983/",
+    "photo": [
+      "hotel02.webp",
+      "希尔顿广岛客房环境参考，非已订房型",
+      "一休酒店图库",
+      "https://www.ikyu.com/00002983/"
+    ],
+    "official": "https://hiroshima.hiltonjapan.co.jp/rooms/",
+    "booking": "https://www.booking.com/hotel/jp/hilton-hiroshima.html",
+    "priceReference": {
+      "lowJPY": 15180,
+      "highJPY": 19046,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00002983/",
+      "scope": "豪华／优选客房公开起价样本；行政层与高楼层双床另查。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  },
+  "chikurintei": {
+    "ctripId": "1498446",
+    "agoda": "https://www.agoda.com/onyado-chikurintei/hotel/takeo-jp.html",
+    "ikyu": "https://www.ikyu.com/00000735/",
+    "photo": [
+      "hotel03.webp",
+      "竹林亭庭园与旅馆环境参考",
+      "一休酒店图库",
+      "https://www.ikyu.com/00000735/"
+    ],
+    "official": "https://www.chikurintei.jp/en/",
+    "priceReference": {
+      "lowJPY": 117500,
+      "highJPY": 239600,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00000735/",
+      "scope": "和室、和洋室至贵宾室公开起价样本，2人含早晚餐；未扣积分。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  },
+  "garden": {
+    "photo": [
+      "nagasaki-garden.webp",
+      "长崎花园露台客房参考；具体房型待核",
+      "酒店官网",
+      "https://www.gt-nagasaki.jp/stay/"
+    ],
+    "official": "https://www.gt-nagasaki.jp/stay/",
+    "ctripId": "1642091",
+    "ikyu": "https://www.ikyu.com/00001558/",
+    "agoda": "https://www.agoda.com/garden-terrace-nagasaki-hotel-resort_3/hotel/nagasaki-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/garden-terrace-nagasaki.html",
+    "priceReference": {
+      "lowJPY": 109000,
+      "highJPY": 171000,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://yado.knt.co.jp/planlist/S420036/?SortOrder=4&fgid=a1208",
+      "scope": "Tower Suite Twin双人含两餐公开区间：每人54,500–85,500日元，按2人换算。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  },
+  "beppuHotel": {
+    "ctripId": "27391867",
+    "agoda": "https://www.agoda.com/ana-intercontinental-beppu-resort-and-spa/hotel/beppu-jp.html",
+    "ikyu": "https://www.ikyu.com/00002626/",
+    "photo": [
+      "hotel11.webp",
+      "别府洲际客房环境参考，非已订房型",
+      "一休酒店图库",
+      "https://www.ikyu.com/00002626/"
+    ],
+    "official": "https://anaicbeppu.com/faq/",
+    "booking": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html",
+    "priceReference": {
+      "lowJPY": 75000,
+      "highJPY": 96750,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00002626/",
+      "scope": "基础客房公开起价样本；非本次优先Club双床报价，升级另查。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  },
+  "ritz": {
+    "official": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/",
+    "ctripId": "106966995",
+    "ikyu": "https://www.ikyu.com/00003070/",
+    "agoda": "https://www.agoda.com/the-ritz-carlton-fukuoka/hotel/fukuoka-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/the-ritz-carlton-fukuoka.html",
+    "priceReference": {
+      "lowJPY": 120176,
+      "highJPY": 136620,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00003070/",
+      "scope": "豪华／优选客房住宿及早餐方案公开起价样本；海湾双床另查。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  },
+  "simoseVilla": {
+    "photo": [
+      "simose-villa.webp",
+      "SIMOSE 海边别墅 Kielsteg House A 参考，非已确认栋型",
+      "SIMOSE 官网",
+      "https://artsimose.jp/en/villa-waterfront/"
+    ],
+    "official": "https://artsimose.jp/en/villa-waterfront/",
+    "ikyu": "https://www.ikyu.com/00003031/",
+    "agoda": "https://www.agoda.com/simose-art-garden-villa/hotel/hiroshima-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/simose-art-garden-villa-guang-dao-xian-da-zhu-shi3.html",
+    "priceReference": {
+      "lowJPY": 145000,
+      "highJPY": 155000,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00003031/",
+      "scope": "Kielsteg B/C/D纯住宿至早餐方案公开起价样本；不含晚餐和接送。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
+  }
+}
