@@ -1,0 +1,540 @@
+{
+  "version": "2026-11-09-user-revision-text",
+  "verified": "2026-11-09",
+  "scope": "Latest text revision; live web app trip.json remains previous snapshot",
+  "travellers": {
+    "adults": 2,
+    "rooms": 1,
+    "bedPreference": "independent twin"
+  },
+  "stays": [
+    {
+      "city": "宫岛口",
+      "cn": "界宮島",
+      "en": "KAI Miyajima",
+      "checkin": "2026-11-30",
+      "checkout": "2026-12-01",
+      "nights": 1,
+      "status": "tentative-not-booked"
+    },
+    {
+      "city": "广岛",
+      "cn": "希尔顿广岛",
+      "en": "Hilton Hiroshima",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-05",
+      "nights": 4,
+      "status": "tentative-not-booked"
+    },
+    {
+      "city": "武雄",
+      "cn": "OND HOTEL（暂定）",
+      "en": "OND HOTEL",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "nights": 2,
+      "status": "tentative-not-booked"
+    },
+    {
+      "city": "长崎",
+      "cn": "长崎花园露台酒店及度假村",
+      "en": "Garden Terrace Nagasaki Hotel & Resort",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-10",
+      "nights": 3,
+      "status": "tentative-not-booked"
+    },
+    {
+      "city": "别府",
+      "cn": "ANA 别府洲际度假酒店及水疗中心",
+      "en": "ANA InterContinental Beppu Resort & Spa",
+      "checkin": "2026-12-10",
+      "checkout": "2026-12-14",
+      "nights": 4,
+      "status": "tentative-not-booked"
+    },
+    {
+      "city": "福冈",
+      "cn": "福冈丽思卡尔顿酒店",
+      "en": "The Ritz-Carlton, Fukuoka",
+      "checkin": "2026-12-14",
+      "checkout": "2026-12-19",
+      "nights": 5,
+      "status": "tentative-not-booked"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-30",
+      "title": "香港 → 广岛机场 → 界宮島",
+      "text": "### Day 1｜11/30 周一｜香港 → 广岛机场 → 界宮島\n\n**上午**：暂留 UO822／CX5822，09:30 香港起飞、13:45 广岛到达；机场公布冬季班表列周一运营。两编号为同一香港快运承运的共享航班，并非两班备选。建议 06:30—07:00 到机场，早出发仍待用户确认。[机场班表](https://www.hij.airport.jp/flight/kokusai/hongkong.html)\n\n**中午／下午**：机上或机场简餐；入境取行李留 60—90 分钟，15:00—15:30 预约司机会合，至酒店暂按 75—100 分钟含缓冲，16:15—17:10 到店，原稿 15:30 入住过紧。\n\n**夜晚**：18:30—19:00 酒店会席，预先确认延误处理，20:30 前休息。摄影只在房内看海峡层次；延误删泡汤，保留入住与可供应晚餐。机场车费待询价。",
+      "navigation": [
+        {
+          "name": "Hiroshima Airport",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Airport"
+        },
+        {
+          "name": "KAI Miyajima",
+          "url": "https://www.google.com/maps/search/?api=1&query=KAI%20Miyajima"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 2,
+      "date": "2026-12-01",
+      "title": "宫岛完整日 → 希尔顿",
+      "text": "### Day 2｜12/1 周二｜宫岛完整日 → 希尔顿\n\n**上午**：08:00 早餐，09:00 左右退房寄存大件行李，须酒店事先同意寄至傍晚。按可售船班约 09:30 出发、10:00 前后到岛；严岛神社、千叠阁与参道分段参观，不上弥山。\n\n**中午**：12:00—13:15 穴子饭／牡蛎，候位过长改备用店；13:15—14:00 咖啡休息。\n\n**下午／夜晚**：14:00—16:00 红叶谷低处、五重塔与海边；按已确认返航回酒店取件，目标 17:00—17:30。车至希尔顿留 45—65 分钟，约 18:00—18:40 入住，19:30 酒店附近晚餐。\n\n**交通与取舍**：付费船约 20 分钟，无合适班次则出租车至宫岛口公共渡轮，不默认酒店送迎。[酒店交通](https://hoshinoresorts.com/ja/hotels/kaimiyajima/access/) 删除未经完整核算的“全程约 2,000 日元”及出租车精确总价。疲劳先删红叶谷；日落与潮位出行前另核，不为拍照错过末班船。",
+      "navigation": [
+        {
+          "name": "KAI Miyajima",
+          "url": "https://www.google.com/maps/search/?api=1&query=KAI%20Miyajima"
+        },
+        {
+          "name": "Itsukushima Shrine",
+          "url": "https://www.google.com/maps/search/?api=1&query=Itsukushima%20Shrine"
+        },
+        {
+          "name": "KAI Miyajima",
+          "url": "https://www.google.com/maps/search/?api=1&query=KAI%20Miyajima"
+        },
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 3,
+      "date": "2026-12-02",
+      "title": "和平纪念资料馆与公园完整日",
+      "text": "### Day 3｜12/2 周三｜和平纪念资料馆与公园完整日\n\n**上午**：09:30 车约 10—20 分钟，10:00—12:00 看展，按情绪承受度停留。\n\n**中午**：12:15—13:15 长田屋／Nagataya 广岛烧候选，排队长改附近简餐；休息至 14:00。临休待复核。\n\n**下午／夜晚**：14:00—16:00 继续馆内或公园，看丹下健三本馆、慰灵碑和原爆圆顶轴线；17:00 酒店，18:30 泉水／Sensui 会席或寿司候选。\n\n**执行与摄影**：离馆前问再入规则，不默认同票自由重入；遵守馆内摄影要求。先删购物与公园长绕行，保留纪念空间整日。",
+      "navigation": [
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        },
+        {
+          "name": "Hiroshima Peace Memorial Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Museum"
+        },
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 4,
+      "date": "2026-12-03",
+      "title": "SIMOSE 完整日归",
+      "text": "### Day 4｜12/3 周四｜SIMOSE 完整日归\n\n**上午**：09:00 酒店车到广岛站；留候车，山阳本线至大竹运行约 40 分钟，再预约车约 10—15 分钟；酒店到馆按 75—100 分钟，目标 10:30 入馆。\n\n**中午**：12:30—13:30 馆内咖啡厅候选，提前确认是否有合适正餐；休息至 14:00。\n\n**下午／夜晚**：14:00—15:45 展览、木构大厅、彩色展厅、庭园与露台；15:45—16:00 约车返大竹，约 17:00—17:30 回酒店，18:30 附近晚餐。\n\n**导览与删减**：坂茂的水面、彩色盒子与海景视线是主角，不保证参观时展厅正在移动。加莱陶瓷展官方展期 2026/9/12—2027/1/11，覆盖本日。[展览](https://simose-museum.jp/en/exhibition/post-3275/) 天气差删露台；周四往返车都需约，不以提前离馆压缩完整日。",
+      "navigation": [
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        },
+        {
+          "name": "Simose Art Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Simose%20Art%20Museum"
+        },
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 5,
+      "date": "2026-12-04",
+      "title": "广岛 MOCA 完整日",
+      "text": "### Day 5｜12/4 周五｜广岛 MOCA 完整日\n\n**上午**：09:30 出发，车约 15—25 分钟，10:00—12:00 黑川纪章建筑、圆形柱廊及展览。\n\n**中午**：12:00—13:00 Kaze 候选，营业餐食另核；休息至 14:00。\n\n**下午／夜晚**：14:00—16:00 收藏与特展，约车下山；18:30 酒店或市区晚餐，20:30 整理行李。\n\n**导览与删减**：看石材、几何形与山体的衔接，先删公园，不把整日缩成只看一层。收藏展 2026-II 至 2027/1/24、千崎千惠夫展至 12/13，均覆盖本日，票种另核。[官方展览](https://www.hiroshima-moca.jp/exhibition_list)",
+      "navigation": [
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        },
+        {
+          "name": "Hiroshima City Museum of Contemporary Art",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20City%20Museum%20of%20Contemporary%20Art"
+        },
+        {
+          "name": "Hilton Hiroshima",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 6,
+      "date": "2026-12-05",
+      "title": "广岛 → 武雄 OND HOTEL",
+      "text": "### Day 6｜12/5 周六｜广岛 → 武雄 OND HOTEL\n\n**上午**：09:40 退房送站，选约 10:20—11:00 的合适新干线；广岛至博多约 65—80 分钟，不锁未经查询的列车号。\n\n**中午**：博多留 45—60 分钟便当／午餐及换乘；みどり或リレーかもめ均可直达武雄温泉站，运行约 60—80 分钟。到武雄温泉不必再乘西九州新干线。\n\n**下午／夜晚**：约 13:30—14:30 到站，预约送迎或车约 10 分钟到 OND，15:00 后进房，休息至 16:00；18:00—18:30 酒店餐厅候选，再泡汤休息。\n\n**执行**：门到门含用餐、候车按 4—5 小时，不保证 13:30 入住。当天不强塞神社和图书馆；早到有精神才短访图书馆。送迎建议最迟 12/2 订好，晚餐及双床房型另核。",
+      "navigation": [
+        {
+          "name": "Hiroshima Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Station"
+        },
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        },
+        {
+          "name": "Takeo Onsen Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station"
+        },
+        {
+          "name": "OND HOTEL",
+          "url": "https://www.google.com/maps/search/?api=1&query=OND%20HOTEL"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 7,
+      "date": "2026-12-06",
+      "title": "御船山完整日与点灯",
+      "text": "### Day 7｜12/6 周日｜御船山完整日与点灯\n\n**上午**：09:30 OND 预约车，暂按 10—20 分钟待酒店确认；10:00—12:00 低处园路和大池，每 30—40 分钟休息，不走陡坡环线。\n\n**中午／下午**：12:00—13:00 园外已确认餐厅或酒店午餐，13:30—15:00 回 OND 休息，15:30 再往庭园。删殿样汤排队，保留庭园与午休。\n\n**夜晚**：17:30—18:45 看灯与倒影，19:00—19:30 OND 晚餐需提前确认；若酒店只能早席，改 16:15 附近早晚餐再看灯。20:30 前回房。\n\n**执行与摄影**：购票时核日夜票与再入，预约往返车，不依赖未公布的临时免费巴士；末场周日与落叶尾段是取舍，不保证红叶最好状态。[活动官网](https://www.mifuneyamarakuen.jp/autumn/)",
+      "navigation": [
+        {
+          "name": "OND HOTEL",
+          "url": "https://www.google.com/maps/search/?api=1&query=OND%20HOTEL"
+        },
+        {
+          "name": "Mifuneyama Rakuen",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mifuneyama%20Rakuen"
+        },
+        {
+          "name": "OND HOTEL",
+          "url": "https://www.google.com/maps/search/?api=1&query=OND%20HOTEL"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 8,
+      "date": "2026-12-07",
+      "title": "OND → 长崎",
+      "text": "### Day 8｜12/7 周一｜OND → 长崎\n\n**上午**：09:00 早餐，09:30—10:00 退房，11:00 退房仅适用已确认方案；预约送站，かもめ至长崎约 30—35 分钟。\n\n**中午**：11:30—12:30 长崎站午餐，再车约 15—25 分钟到 Garden Terrace 寄存，公共空间咖啡休息。\n\n**下午／夜晚**：可选港边平地散步 45—60 分钟，16:00 按方案入住；18:00 酒店晚餐和港景，不赶稻佐山。\n\n**导览与取舍**：看隈研吾水平线条与港湾视线。候房不舒适时留站区咖啡，不反复往返；先删散步。",
+      "navigation": [
+        {
+          "name": "OND HOTEL",
+          "url": "https://www.google.com/maps/search/?api=1&query=OND%20HOTEL"
+        },
+        {
+          "name": "Takeo Onsen Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station"
+        },
+        {
+          "name": "Nagasaki Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station"
+        },
+        {
+          "name": "Garden Terrace Nagasaki Hotel Resort",
+          "url": "https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 9,
+      "date": "2026-12-08",
+      "title": "长崎县美术馆完整日",
+      "text": "### Day 9｜12/8 周二｜长崎县美术馆完整日\n\n**上午**：09:30 车约 15—25 分钟，10:00—12:00 建筑与收藏。\n\n**中午**：12:00 车往滨町吉宗／Yossou，茶碗蒸（蒸蛋）与蒸寿司候选；13:00—13:45 咖啡，再车回馆，先问再入规则。\n\n**下午／夜晚**：14:00—16:15 雜贺雄二与军舰岛摄影、运河及咖啡；17:00 酒店，18:30 秋月或竹彩候选。\n\n**导览**：两岸馆舍与连接桥回应港口城市；摄影展官网期为 2026/10/28—2027/2/7。[官方展览](https://www.nagasaki-museum.jp/exhibition) 先删屋顶、无关特展及海边长走。",
+      "navigation": [
+        {
+          "name": "Garden Terrace Nagasaki Hotel Resort",
+          "url": "https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort"
+        },
+        {
+          "name": "Nagasaki Prefectural Art Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nagasaki%20Prefectural%20Art%20Museum"
+        },
+        {
+          "name": "Garden Terrace Nagasaki Hotel Resort",
+          "url": "https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 10,
+      "date": "2026-12-09",
+      "title": "军舰岛或出岛二选一",
+      "text": "### Day 10｜12/9 周三｜军舰岛或出岛二选一\n\n**上午**：默认 09:30 后出门，选集合时间合适的军舰岛团，集合、航行、参观暂按 3—4 小时；若只剩清晨团不默认接受。登陆要核上下船台阶与步行要求。\n\n**中午**：随船班约 12:30—13:30 在中华街或出岛附近吃ちゃんぽん（什锦面）／皿うどん（脆面）。\n\n**下午／夜晚**：登陆后只留咖啡休息；不登岛分支为上午出岛、午餐午休、14:00—15:00 港边短走。18:30 酒店晚餐与港景，不步行登锅冠山。\n\n**执行**：酒店到码头车约 15—25 分钟；海况取消改出岛，订前核退费。荷兰坡有坡度，仅体力允许才短访，不同时执行两个完整分支。",
+      "navigation": [
+        {
+          "name": "Garden Terrace Nagasaki Hotel Resort",
+          "url": "https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort"
+        },
+        {
+          "name": "Dejima Nagasaki",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dejima%20Nagasaki"
+        },
+        {
+          "name": "Garden Terrace Nagasaki Hotel Resort",
+          "url": "https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 11,
+      "date": "2026-12-10",
+      "title": "长崎 → 别府纯转移",
+      "text": "### Day 11｜12/10 周四｜长崎 → 别府纯转移\n\n**上午**：09:30 退房送站，かもめ至武雄温泉，同站接续リレーかもめ至博多，按实际联程票核接续。\n\n**中午**：博多留 60—75 分钟午餐与换乘；博多魚がし／Hakata Uogashi 寿司候选，排队超 20 分钟改便当。\n\n**下午／夜晚**：Sonic 至别府约 2—2.5 小时，预约车上洲际约 20—30 分钟，目标 16:00—17:30 入住；18:30—19:00 Elements 候选。\n\n**交通与取舍**：酒店到酒店含午餐按 6—7 小时；不加铁轮或地狱巡游。想减少换乘可另询单向包车，但未报价，本版铁路主线保留。",
+      "navigation": [
+        {
+          "name": "Nagasaki Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station"
+        },
+        {
+          "name": "Takeo Onsen Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station"
+        },
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        },
+        {
+          "name": "Beppu Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Beppu%20Station"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 12,
+      "date": "2026-12-11",
+      "title": "OPAM 与 Art Plaza",
+      "text": "### Day 12｜12/11 周五｜OPAM 与 Art Plaza\n\n**上午**：09:30 专车约 45—60 分钟至 OPAM，10:30—12:15 木格立面、公共大厅与当期展览。\n\n**中午**：12:15—13:15 Café Charité 候选，休息至 14:00。\n\n**下午／夜晚**：车 5—10 分钟到 Art Plaza，14:15—15:15 安全开放区与建筑外部，15:30 返别府，约 16:30 酒店；晚餐 Elements 或东洋轩／Toyoken 鸡肉天妇罗，营业候位另核。\n\n**限制**：三楼矶崎新建筑展示仍有暂停公告，不承诺模型可见。[官方公告](https://www.art-plaza.jp/category/お知らせ/) 受限则提前回酒店；竹馆如定为必看，可事先替代 Art Plaza，不另加第三馆。",
+      "navigation": [
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        },
+        {
+          "name": "Oita Prefectural Art Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Oita%20Prefectural%20Art%20Museum"
+        },
+        {
+          "name": "Art Plaza Oita",
+          "url": "https://www.google.com/maps/search/?api=1&query=Art%20Plaza%20Oita"
+        },
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 13,
+      "date": "2026-12-12",
+      "title": "国东两寺与返程竹工艺",
+      "text": "### Day 13｜12/12 周六｜国东两寺与返程竹工艺\n\n**上午**：09:30 包车，约 10:30—10:45 富贵寺，停约 60 分钟，木构、屋顶与境内仍有台阶。\n\n**中午**：11:45—13:00 蕗邨／Roson 荞麦面及乡土料理候选，含坐下休息；提前确认散客营业，否则请酒店备外带并让司机找合法可用餐地点。\n\n**下午**：车 10—15 分钟到真木大堂，13:20—14:20 佛教造像；回别府约 60—75 分钟，目标 15:30—16:20 竹工艺馆，17:00 前酒店。\n\n**夜晚**：18:30 Atelier 法式料理候选，核营业与预约，备用 Elements。\n\n**交通与取舍**：包车询 7.5—8 小时，明确竹馆末段和等待费；延误先删竹馆，不压两寺。雨天改竹馆＋铁轮，避免半岛环线、両子寺深处与熊野磨崖佛。竹馆准确闭馆时刻出行前再次核对。",
+      "navigation": [
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        },
+        {
+          "name": "Fukiji Temple",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fukiji%20Temple"
+        },
+        {
+          "name": "Maki Odo",
+          "url": "https://www.google.com/maps/search/?api=1&query=Maki%20Odo"
+        },
+        {
+          "name": "Beppu City Traditional Bamboo Crafts Center",
+          "url": "https://www.google.com/maps/search/?api=1&query=Beppu%20City%20Traditional%20Bamboo%20Crafts%20Center"
+        },
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 14,
+      "date": "2026-12-13",
+      "title": "由布院日归",
+      "text": "### Day 14｜12/13 周日｜由布院日归\n\n**上午**：09:30 专车 50—70 分钟；COMICO 以 10:30 或后续可订时段为目标，订到票再倒排车，不假定固定 90 分钟票种。\n\n**中午**：12:15—13:30 由布まぶし 心／Yufumabushi Shin 金鳞湖店土锅饭候选，13:30—14:15 Café La Ruche 咖啡休息。\n\n**下午／夜晚**：14:15—15:00 湖边短走，15:30 前后返程，17:00 前洲际，18:30 酒店晚餐；不逛长商业街、不赶晨雾、不访无量塔。\n\n**预约与取舍**：一般提前一个月预约，11/13 起检查 12/13；先删购物再缩湖边，保留已约 COMICO。[FAQ](https://www.camy.oita.jp/museumfaq-1) · [预约](https://reserva.be/comicoartmuseumyufuin) 周日道路拥堵需余量。",
+      "navigation": [
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        },
+        {
+          "name": "COMICO ART MUSEUM YUFUIN",
+          "url": "https://www.google.com/maps/search/?api=1&query=COMICO%20ART%20MUSEUM%20YUFUIN"
+        },
+        {
+          "name": "Lake Kinrin",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lake%20Kinrin"
+        },
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 15,
+      "date": "2026-12-14",
+      "title": "别府 → 福冈",
+      "text": "### Day 15｜12/14 周一｜别府 → 福冈\n\n**上午**：09:30—10:00 退房，车 20—30 分钟到别府站；竹工艺馆周一闭馆，本日不去。\n\n**中午／下午**：选约 11:00—12:00 Sonic，便当午餐，车程约 2—2.5 小时；博多车约 20—35 分钟到丽思，早到先寄存，按方案 15:00 后进房休息。Green 车厢只是待订候选。\n\n**夜晚**：18:30 Genjyu／幻珠，席别菜单待定；20:00 前结束。不补 ACROS 或工艺点，保留转移后的空白。",
+      "navigation": [
+        {
+          "name": "ANA InterContinental Beppu",
+          "url": "https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu"
+        },
+        {
+          "name": "Beppu Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Beppu%20Station"
+        },
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        },
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 16,
+      "date": "2026-12-15",
+      "title": "太宰府与九州国立博物馆",
+      "text": "### Day 16｜12/15 周二｜太宰府与九州国立博物馆\n\n**上午**：09:30 专车 45—75 分钟，10:30—11:15 星巴克木构与参道短走，不保证座位，神社修缮状态另核。\n\n**中午**：11:30—12:45 梅之花自然庵豆腐／汤叶会席候选，休息至 13:30。\n\n**下午／夜晚**：13:45—16:15 九州国立博物馆建筑与文化交流展示，使用开放电梯和通道；16:30 回程，约 18:00 酒店，Viridis 或 Toriden 水炊锅候选。\n\n**取舍**：删购物与神社外围，保留博物馆和星巴克建筑；专车减少换乘但仍须步行。",
+      "navigation": [
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        },
+        {
+          "name": "Starbucks Dazaifu Tenmangu",
+          "url": "https://www.google.com/maps/search/?api=1&query=Starbucks%20Dazaifu%20Tenmangu"
+        },
+        {
+          "name": "Kyushu National Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kyushu%20National%20Museum"
+        },
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 17,
+      "date": "2026-12-16",
+      "title": "北九州市立美术馆本馆",
+      "text": "### Day 17｜12/16 周三｜北九州市立美术馆本馆\n\n**上午**：09:30 酒店到博多，新干线至小仓约 15—20 分钟，车约 25—40 分钟上山；单向门到门留 90—120 分钟，约 11:00 入馆。\n\n**中午**：12:15—13:15 Café Musée 候选，景观休息至 14:00。\n\n**下午／夜晚**：14:00—15:15 收藏与矶崎新建筑，15:30 约车回小仓，约 17:30—18:00 福冈；18:30 水炊锅或 Genjyu，20:30 前休息。\n\n**展览与取舍**：官方年度计划摄影收藏展至 12/27、松尾铃木展自 12/15，票务临休另核。[年度计划](https://kmma.jp/wp-content/uploads/2026/03/2026-schedule.pdf) 保留日归意味着往返小仓方向；提前至 12/14 途中参观会遇周一闭馆且早于新展，因此不为减少往返牺牲入馆。",
+      "navigation": [
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        },
+        {
+          "name": "Kokura Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kokura%20Station"
+        },
+        {
+          "name": "Kitakyushu Municipal Museum of Art Main Building",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Municipal%20Museum%20of%20Art%20Main%20Building"
+        },
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 18,
+      "date": "2026-12-17",
+      "title": "福冈休整",
+      "text": "### Day 18｜12/17 周四｜福冈休整\n\n**上午**：10:00 出门，10:30—11:45 ACROS 与天神中央公园，只看立面与公共层，不登顶。\n\n**中午／下午**：12:00—13:00 Viridis 候选，13:00—15:00 房间休息；15:00—16:00 大濠平地短走或大名咖啡，二选一。\n\n**夜晚**：18:30 酒店或礼宾确认的市内餐厅，20:00—21:00 回房。疲劳可全删外出；也可与次日市美术馆对调，不挤午休。",
+      "navigation": [
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        },
+        {
+          "name": "ACROS Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=ACROS%20Fukuoka"
+        },
+        {
+          "name": "Ohori Park",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ohori%20Park"
+        },
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 19,
+      "date": "2026-12-18",
+      "title": "福冈市美术馆与九州芸文馆",
+      "text": "### Day 19｜12/18 周五｜福冈市美术馆与九州芸文馆\n\n**上午**：09:30 车 10—20 分钟，10:00—11:30 前川国男建筑与精选收藏。\n\n**中午**：11:30—12:30 馆内正餐与咖啡休息，12:30—13:00 车到博多，不为换乘省掉用餐。\n\n**下午／夜晚**：选停筑后船小屋的新干线，运行约 25—40 分钟，步行约 5 分钟；14:00—16:00 九州芸文馆建筑与开放展厅，约 17:30—18:30 酒店，19:00 告别晚餐，20:30 整理行李。[芸文馆](https://www.kyushu-geibun.jp/)\n\n**执行与取舍**：并非所有新干线都停此站；建筑设计看隈研吾／末广香织参与的空间与公园关系。删公园长绕行和购物，保留两处建筑；体力不足可提前一天完成市美术馆，不新增未经核实的图书馆支线。",
+      "navigation": [
+        {
+          "name": "Fukuoka Art Museum",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Art%20Museum"
+        },
+        {
+          "name": "Hakata Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Station"
+        },
+        {
+          "name": "Chikugo Funagoya Station",
+          "url": "https://www.google.com/maps/search/?api=1&query=Chikugo%20Funagoya%20Station"
+        },
+        {
+          "name": "Kyushu Geibunkan",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kyushu%20Geibunkan"
+        }
+      ],
+      "status": "proposed-not-booked"
+    },
+    {
+      "day": 20,
+      "date": "2026-12-19",
+      "title": "福冈国际线 → 香港",
+      "text": "### Day 20｜12/19 周六｜福冈国际线 → 香港\n\n**上午**：08:30—09:30 早餐整理。若最终选 14:00 后起飞，约 10:30 退房，预约车直达国际线暂留 30—50 分钟，目标 11:15 左右到达；航班较早则整体提前。\n\n**中午／下午**：建议起飞前约 3 小时到机场，完成托运、安检、出境后午餐，删除原稿仅留 90 分钟。直飞班次、承运航空与抵港时间仍待核，不能凭航段存在认定当日时刻。\n\n**夜晚**：抵香港后回家。若实际飞行 3 小时 45 分钟，则香港当地到达为日本起飞加 2 小时 45 分钟，仅为时差换算示例，非已公布班表。\n\n**交通**：地铁备选门到门留 60—80 分钟；天神至机场约 11 分钟只是运行时间，出站还需国内线转国际线免费巴士，巴士约 10 分钟，等待步行另计。[机场地铁](https://www.fukuoka-airport.jp/access/subway.html) · [航站楼接驳](https://www.fukuoka-airport.jp/flight/transit/)",
+      "navigation": [
+        {
+          "name": "The Ritz Carlton Fukuoka",
+          "url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka"
+        },
+        {
+          "name": "Fukuoka Airport International Terminal",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Airport%20International%20Terminal"
+        }
+      ],
+      "status": "proposed-not-booked"
+    }
+  ],
+  "notBooked": [
+    "flights",
+    "hotels",
+    "trains",
+    "charters",
+    "tickets",
+    "restaurants"
+  ]
+}
