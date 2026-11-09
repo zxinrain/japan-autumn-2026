@@ -159,15 +159,22 @@
   {
     "id": "nagasaki",
     "region": "长崎",
-    "name": "长崎县美术馆与港湾",
+    "name": "长崎 · 港湾、艺术与纪念空间",
     "en": "Nagasaki Prefectural Art Museum",
-    "date": "12/8 · 完整一天",
+    "date": "12/7–12/8 · 两日",
     "priority": "重点推荐",
     "featured": true,
     "days": [
+      7,
       8
     ],
     "images": [
+      [
+        "nagasaki-port.jpg",
+        "长崎港与水边之森的海湾空间",
+        "长崎市官方旅游网站",
+        "nagasakiPort"
+      ],
       [
         "building-nagasaki.webp",
         "运河两侧馆舍与水岸公共空间",
@@ -175,15 +182,17 @@
         "nagasaki"
       ]
     ],
-    "feature": "日本设计与隈研吾合作，将桥、运河、玻璃和石材变成连续的观览空间。",
-    "reason": "建筑、港口城市生活与摄影展能放在同一天理解，不必靠密集景点制造内容。",
+    "feature": "港湾连接隈研吾的运河美术馆与栗生明的地下纪念空间，两天从水岸走向城市记忆。",
+    "reason": "用两天阅读长崎：12/7保留栗生明祈念馆，12/8完整留给县美术馆；不为合并卡片删掉任何参观。",
     "look": "跨运河连接空间、玻璃的反射、杂贺雄二关于军舰岛的摄影。",
     "effort": "馆内为主，穿插滨町午餐与港边短走；酒店往返用车。",
     "tradeoff": "周日可能受同期 Hello Kitty 特展人流影响；屋顶是否开放按天气确认。",
-    "decision": "美术馆留完整日；不再增加军舰岛登岛。",
+    "decision": "12/7抵达与祈念馆；12/8县美术馆完整日，港边散步按体力安排。",
     "sources": [
       "nagasaki",
-      "nagasakiEx"
+      "nagasakiEx",
+      "nagasakiPort",
+      "memorialNagasaki"
     ]
   },
   {
@@ -510,7 +519,8 @@
     "sources": [
       "memorialNagasaki",
       "memorialDesign"
-    ]
+    ],
+    "atlasParent": "nagasaki"
   },
   {
     "id": "unagihime",

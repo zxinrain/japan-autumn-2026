@@ -161,7 +161,7 @@
       "feature": "高砂的小型吧台烧鸟套餐；适合喜欢安静、看师傅火候的人。",
       "dishes": "鸡串、季节配菜",
       "rules": "套餐资料8,800日元含税，另5%服务费；不定休、需预约，价格出行前再核。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "menuReference": {
         "totalJPY": 9240,
         "from": false,
@@ -195,7 +195,7 @@
       "feature": "老派关东煮气氛，适合宫岛回来后吃一顿轻松热食。",
       "dishes": "萝卜、鸡蛋、鱼糕等关东煮，按当日供应",
       "rules": "营业与空位提前核实；回城延误就留在酒店吃，不追赶。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -222,7 +222,7 @@
       "feature": "大名的现代居酒屋，海鲜、天妇罗与小菜适合按胃口点，比连续套餐更灵活。",
       "dishes": "海鲜、天妇罗、当季小菜",
       "rules": "需预约，不定休；19:00席若有供应再安排，21:00前回酒店。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -249,7 +249,7 @@
       "feature": "西中洲的关东煮老店，适合不想吃完整套餐的一晚。",
       "dishes": "关东煮、当日小菜",
       "rules": "通常周日休；现金为主，营业与座位需确认。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -303,7 +303,7 @@
       "feature": "低温炸制的猪排，天神店适合美术馆后返城午餐，不需要另辟半天。",
       "dishes": "猪里脊或猪腰肉炸排定食",
       "rules": "炸制及候位可能较久；营业、当前排队规则出行前核实。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -357,8 +357,8 @@
       "feature": "白岛的季节日本料理；若想在广岛专程吃一次会席，可替换另一顿正式套餐。",
       "dishes": "当季鱼鲜、会席",
       "rules": "通常周日及节假日休；需预约，目标日套餐与价格询店。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
-      "userPriority": "backup",
+      "suggestion": "已收藏，暂未排入餐段；广岛两晚正式晚餐已有主选，可按最终席位替换其一。",
+      "userPriority": "preferred",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
     },
@@ -384,7 +384,7 @@
       "feature": "长崎ちゃんぽん的代表性餐厅，港湾视野与当地港口饮食史相连。",
       "dishes": "ちゃんぽん什锦汤面、皿うどん炸细面",
       "rules": "官方2026年12月公告12/2、12/16、12/30、12/31休业，12/8不在其中；午餐11:30起，普通两人餐不接受预约，排队超过20分钟回馆内咖啡。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -520,7 +520,7 @@
       "feature": "本店堺大航主厨席，以熟成与温度控制见长；与我逢人、在两店分开订，不自动替换。",
       "dishes": "主厨寿司套餐",
       "rules": "本店套餐44,000日元含税起，饮品另计；周三18:00/20:30，周四仅午餐，通常周日及周一休。选12/16 18:00，先核座位。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "reservation": "https://www.tablecheck.com/ja/shops/sushi-sakai/reserve",
       "menuReference": {
         "totalJPY": 44000,
@@ -609,7 +609,7 @@
       "feature": "浓厚豚骨、细面的小店；药院位置可达，但必须先确认是否能早晚餐。",
       "dishes": "豚骨拉面",
       "rules": "开门资料冲突：食べログ列18:00，拉面博物馆关联资料曾列21:00。需向本店确认；如仅21:00开门则不纳入主线，不安排深夜赶场。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "extraSources": [
         [
           "营业时间冲突资料：新横滨拉面博物馆",
@@ -750,7 +750,7 @@
       "feature": "药院高端寿司收藏，介绍制比普通网络订位更有门槛。",
       "dishes": "主厨寿司套餐",
       "rules": "完全介绍制；无介绍渠道时不把它当作可直接预约的备选。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -831,7 +831,7 @@
       "feature": "表参道上的牡蛎专门店，严岛神社参观后顺路，符合宫岛地方饮食体验。",
       "dishes": "烤牡蛎、炸牡蛎、牡蛎饭",
       "rules": "官网套餐2,900日元含税仅作当前菜单参考；生蚝依当日供应，营业与普通订位规则再核。候位超过20分钟改表参道穴子饭。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "menuReference": {
         "totalJPY": 2900,
         "from": false,
@@ -892,7 +892,7 @@
       "feature": "早良区的社区面馆；适合专程看城市生活，但不在天神或博多步行范围。",
       "dishes": "豚骨拉面",
       "rules": "周二休息资料需出行前再核；不排12/15。由福冈酒店单程按35–60分钟公共交通加步行，不为一碗面压缩美术馆。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "userPriority": "backup",
       "priorityVerified": "2026-11-10",
       "ratingChecked": "2026-11-09"
@@ -994,7 +994,7 @@
       "feature": "界别府附近的北浜烧肉店，未标优先，仅作为酒店晚餐未含或需要改餐时的备选。",
       "dishes": "烤肉，部位与套餐按店方菜单确认",
       "rules": "Google门店页显示17:00起营业；目标日休息、菜单和预约规则询店。本版不替换ENOWA及界的夕食。",
-      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "suggestion": "",
       "googleRating": 4.6,
       "googleReviews": 246,
       "priceJPY": {
@@ -1006,7 +1006,7 @@
       "ratingChecked": "2026-11-10"
     }
   ],
-  "priorityMark": "Google Maps收藏备注中的👍；逐项读取，非Google评分或商家评价点赞",
-  "priorityCount": 17,
+  "priorityMark": "网页右上角收藏星标（默认沿用用户收藏备注）",
+  "priorityCount": 18,
   "priorityChecked": "2026-11-10"
 }

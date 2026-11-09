@@ -52,6 +52,22 @@
       "description": "Sakurai Futamigaura rocks",
       "checked": "2026-11-09",
       "status": "Historical official reference; not booked room or current weather"
+    },
+    {
+      "file": "assets/nagasaki-port.jpg",
+      "source_image": "https://www.at-nagasaki.jp/storage/tourism_attractions/61026/responsive_images/dIbnzj98pj0XXBavHn57j6tovQta4yGWtZYplVCQ__1171_780.jpg",
+      "source": "https://www.at-nagasaki.jp/spot/61026",
+      "description": "长崎市官方：水边之森面向长崎港与女神大桥",
+      "checked": "2026-11-10",
+      "status": "历史实景参考，版权归原网站"
+    },
+    {
+      "file": "assets/beppu-steam.jpg",
+      "source_image": "https://beppu-tourism.com/wp-content/uploads/2023/01/湯けむり展望台／昼間-6.jpg",
+      "source": "https://beppu-tourism.com/spot/yukemuri-tenbodai/",
+      "description": "别府市官方：铁轮温泉汤烟景观",
+      "checked": "2026-11-10",
+      "status": "历史实景参考，非本次保证叶况"
     }
   ]
 }

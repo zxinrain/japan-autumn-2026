@@ -8,500 +8,684 @@
       {
         "from": "airport",
         "to": "kai",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "机场预约车",
+        "duration": "75–100分钟"
       }
     ],
     [
       {
         "from": "kai",
         "to": "miyajimaguchi",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "miyajimaguchi",
         "to": "miyajima",
-        "mode": "ferry"
+        "mode": "ferry",
+        "label": "渡轮",
+        "duration": "约10分钟＋候船"
       },
       {
         "from": "miyajima",
         "to": "kai",
-        "mode": "ferry"
+        "mode": "ferry",
+        "label": "渡轮／酒店船",
+        "duration": "船班待确认"
       },
       {
         "from": "kai",
         "to": "hilton",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车",
+        "duration": "45–65分钟"
       }
     ],
     [
       {
         "from": "hilton",
         "to": "peace",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟"
       },
       {
         "from": "peace",
         "to": "peacepark",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "5–10分钟"
       },
       {
         "from": "peacepark",
         "to": "dome",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "10–15分钟"
       },
       {
         "from": "dome",
         "to": "hilton",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "hilton",
         "to": "hiroshima",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟"
       },
       {
         "from": "hiroshima",
         "to": "simose",
-        "mode": "mixed"
+        "mode": "mixed",
+        "label": "JR＋出租车",
+        "duration": "JR约40分＋车10分"
       },
       {
         "from": "simose",
         "to": "hilton",
-        "mode": "mixed"
+        "mode": "mixed",
+        "label": "出租车＋JR",
+        "duration": "约60–90分钟"
       },
       {
         "from": "hilton",
         "to": "food-sottaku",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-sottaku",
         "to": "hilton",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "hilton",
         "to": "moca",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–25分钟"
       },
       {
         "from": "moca",
         "to": "hilton",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–25分钟"
       },
       {
         "from": "hilton",
         "to": "food-kiyotan",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-kiyotan",
         "to": "hilton",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "hilton",
         "to": "hiroshima",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟"
       },
       {
         "from": "hiroshima",
         "to": "fukuoka",
-        "mode": "rail"
+        "mode": "rail",
+        "label": "新干线",
+        "duration": "65–80分钟"
       },
       {
         "from": "fukuoka",
         "to": "takeo",
-        "mode": "rail"
+        "mode": "rail",
+        "label": "特急铁路",
+        "duration": "65–80分钟"
       },
       {
         "from": "takeo",
         "to": "food-gyoza-kaikan",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-gyoza-kaikan",
         "to": "ond",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "ond",
         "to": "mifuneyama",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "5–15分钟"
       },
       {
         "from": "mifuneyama",
         "to": "ond",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "5–15分钟"
       }
     ],
     [
       {
         "from": "ond",
         "to": "takeoromon",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "takeoromon",
         "to": "mifuneyama",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "mifuneyama",
         "to": "food-kairodo",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "约10分钟"
       },
       {
         "from": "food-kairodo",
         "to": "ond",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "ond",
         "to": "takeoshrine",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "takeoshrine",
         "to": "takeolibrary",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "5–10分钟"
       },
       {
         "from": "takeolibrary",
         "to": "ond",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "ond",
         "to": "food-anbai",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "food-anbai",
         "to": "ond",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约出租车",
+        "duration": "10–15分钟"
       }
     ],
     [
       {
         "to": "takeo",
         "mode": "driving",
-        "from": "ond"
+        "from": "ond",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "to": "nagasaki",
-        "mode": "driving",
-        "from": "takeo"
+        "mode": "rail",
+        "from": "takeo",
+        "label": "西九州新干线",
+        "duration": "30–35分钟"
       },
       {
         "from": "nagasaki",
         "to": "food-yossou",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–15分钟"
       },
       {
         "from": "food-yossou",
         "to": "nagasakimemorial",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车",
+        "duration": "20–30分钟"
       },
       {
         "to": "hotelNagasaki",
         "mode": "driving",
-        "from": "nagasakimemorial"
+        "from": "nagasakimemorial",
+        "label": "预约车",
+        "duration": "20–30分钟"
       }
     ],
     [
       {
         "to": "indigo",
         "mode": "driving",
-        "from": "hotelNagasaki"
+        "from": "hotelNagasaki",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "to": "nagasakimuseum",
         "mode": "driving",
-        "from": "indigo"
+        "from": "indigo",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "nagasakimuseum",
         "to": "food-shianbashi",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "5–10分钟"
       },
       {
         "from": "food-shianbashi",
         "to": "nagasakimuseum",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "5–10分钟"
       },
       {
         "to": "indigo",
         "mode": "driving",
-        "from": "nagasakimuseum"
+        "from": "nagasakimuseum",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "to": "intercontinental",
         "mode": "driving",
-        "from": "indigo"
+        "from": "indigo",
+        "label": "跨城包车",
+        "duration": "驾驶3.5–4.5小时"
       }
     ],
     [
       {
         "to": "comico",
         "mode": "driving",
-        "from": "intercontinental"
+        "from": "intercontinental",
+        "label": "预约出租车",
+        "duration": "50–70分钟"
       },
       {
         "to": "kinrin",
         "mode": "driving",
-        "from": "comico"
+        "from": "comico",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "to": "enowa",
         "mode": "driving",
-        "from": "kinrin"
+        "from": "kinrin",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "to": "opam",
         "mode": "driving",
-        "from": "enowa"
+        "from": "enowa",
+        "label": "预约车",
+        "duration": "60–90分钟"
       },
       {
         "to": "artplaza",
         "mode": "driving",
-        "from": "opam"
+        "from": "opam",
+        "label": "出租车",
+        "duration": "5–10分钟"
       },
       {
         "to": "kaiBeppu",
         "mode": "driving",
-        "from": "artplaza"
+        "from": "artplaza",
+        "label": "预约车",
+        "duration": "45–60分钟"
       }
     ],
     [
       {
         "to": "bamboo",
         "mode": "driving",
-        "from": "kaiBeppu"
+        "from": "kaiBeppu",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "bamboo",
         "to": "food-hirokado",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-hirokado",
         "to": "kaiBeppu",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "to": "kitakyushumuseum",
         "mode": "driving",
-        "from": "kaiBeppu"
+        "from": "kaiBeppu",
+        "label": "跨城包车",
+        "duration": "1小时45分–2小时15分"
       },
       {
         "to": "miyako",
         "mode": "driving",
-        "from": "kitakyushumuseum"
+        "from": "kitakyushumuseum",
+        "label": "跨城包车",
+        "duration": "1小时15分–1小时45分"
       },
       {
         "from": "miyako",
         "to": "food-issou",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-issou",
         "to": "miyako",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "miyako",
         "to": "acros",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "用时待核"
       },
       {
         "from": "acros",
         "to": "food-genki",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-genki",
         "to": "miyako",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "miyako",
         "to": "tochoji",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "tochoji",
         "to": "kushida",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "用时待核"
       },
       {
         "from": "kushida",
         "to": "miyako",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "miyako",
         "to": "food-nagano",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-nagano",
         "to": "miyako",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "miyako",
         "to": "starbucks",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "starbucks",
         "to": "kyuhaku",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "用时待核"
       },
       {
         "from": "kyuhaku",
         "to": "miyako",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "miyako",
         "to": "food-tsugumi",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-tsugumi",
         "to": "miyako",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "miyako",
         "to": "futamigaura",
-        "mode": "bus"
+        "mode": "bus",
+        "label": "West Coast Liner",
+        "duration": "约70分钟＋候车"
       },
       {
         "from": "futamigaura",
         "to": "palmbeach",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "用时待核"
       },
       {
         "from": "palmbeach",
         "to": "miyako",
-        "mode": "bus"
+        "mode": "bus",
+        "label": "West Coast Liner",
+        "duration": "约60–70分钟"
       },
       {
         "from": "miyako",
         "to": "food-koto",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-koto",
         "to": "miyako",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "to": "one",
         "mode": "driving",
-        "from": "miyako"
+        "from": "miyako",
+        "label": "出租车",
+        "duration": "20–35分钟"
       },
       {
         "to": "fukuokamuseum",
         "mode": "driving",
-        "from": "one"
+        "from": "one",
+        "label": "出租车",
+        "duration": "10–20分钟"
       },
       {
         "to": "ohori",
-        "mode": "driving",
-        "from": "fukuokamuseum"
+        "mode": "walking",
+        "from": "fukuokamuseum",
+        "label": "步行",
+        "duration": "5–10分钟"
       },
       {
         "from": "ohori",
         "to": "food-hirao",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-hirao",
         "to": "one",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "one",
         "to": "food-choji",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-choji",
         "to": "one",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "one",
         "to": "fukuoka",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "fukuoka",
         "to": "chikugo",
-        "mode": "rail"
+        "mode": "rail",
+        "label": "新干线",
+        "duration": "25–40分钟"
       },
       {
         "from": "chikugo",
         "to": "geibun",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "约5分钟"
       },
       {
         "from": "geibun",
         "to": "chikugo",
-        "mode": "walking"
+        "mode": "walking",
+        "label": "步行",
+        "duration": "约5分钟"
       },
       {
         "from": "chikugo",
         "to": "fukuoka",
-        "mode": "rail"
+        "mode": "rail",
+        "label": "新干线",
+        "duration": "25–40分钟"
       },
       {
         "from": "fukuoka",
         "to": "one",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "one",
         "to": "food-hyogodori-fukuoka",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-hyogodori-fukuoka",
         "to": "one",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     [
       {
         "from": "one",
         "to": "fukuokaairport",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "机场预约车",
+        "duration": "30–50分钟"
       }
     ]
   ],
@@ -510,34 +694,46 @@
       {
         "to": "bamboo",
         "mode": "driving",
-        "from": "kaiBeppu"
+        "from": "kaiBeppu",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "bamboo",
         "to": "food-hirokado",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "food-hirokado",
         "to": "kaiBeppu",
-        "mode": "mixed"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ],
     "kunisaki": [
       {
         "from": "kaiBeppu",
         "to": "fukiji",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "fukiji",
         "to": "makiodo",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       },
       {
         "from": "makiodo",
         "to": "kaiBeppu",
-        "mode": "driving"
+        "mode": "driving",
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
     ]
   }
