@@ -20,11 +20,12 @@ jobs:
         run: |
           python3 scripts/validate.py
           node scripts/check-data.cjs
+          node scripts/check-dining.cjs
           node scripts/check-hotel-links.cjs
       - name: Stage public files
         run: |
           mkdir _site
-          git archive HEAD .nojekyll assets '*.html' '*.css' '*.js' '*.csv' '*.json' itinerary.md | tar -x -C _site
+          git archive HEAD .nojekyll assets '*.html' '*.css' '*.js' '*.csv' '*.json' itinerary.md restaurants.md | tar -x -C _site
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
