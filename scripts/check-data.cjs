@@ -43,3 +43,5 @@ console.log('PASS: JS syntax; 20 continuous days / 19 nights; 17 destination the
 assert.deepEqual(Array.from(map.routes[13].slice(0,3)),['kaiBeppu','kitakyushumuseum','miyako']);assert.match(trip.days[13].transport,/包车/);assert.match(trip.days[16].title,/糸岛/);assert.match(trip.days[17].title,/福冈市美术馆/);assert.match(trip.days[18].title,/九州芸文馆/);
 
 if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'selected');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[10].includes('kinrin'));assert(map.routes[10].includes('enowa'));assert(map.routes[14].includes('tochoji'));assert(map.routes[12].includes('food-hirokado'));assert(map.routes[16].includes('food-koto'));}
+
+require('./check-local-maps.cjs');

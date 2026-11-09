@@ -68,6 +68,14 @@
       "description": "别府市官方：铁轮温泉汤烟景观",
       "checked": "2026-11-10",
       "status": "历史实景参考，非本次保证叶况"
+    },
+    {
+      "file": "assets/nagasaki-panorama.jpg",
+      "source_image": "https://www.at-nagasaki.jp/storage/tourism_attractions/115/responsive_images/d6cug79ZG2nOscjMJ3WutxJMFU5VbQv2XG4H87va__1744_1160.jpg",
+      "source": "https://www.at-nagasaki.jp/spot/115",
+      "description": "长崎市官方稻佐山港湾夜景；仅为城市代表图，不新增登山行程",
+      "checked": "2026-11-10",
+      "status": "历史实景参考，版权归原网站"
     }
   ]
 }

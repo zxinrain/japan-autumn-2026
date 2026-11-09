@@ -170,10 +170,10 @@
     ],
     "images": [
       [
-        "nagasaki-port.jpg",
-        "长崎港与水边之森的海湾空间",
+        "nagasaki-panorama.jpg",
+        "长崎港与坡地城区夜景，稻佐山视角历史参考",
         "长崎市官方旅游网站",
-        "nagasakiPort"
+        "nagasakiPanorama"
       ],
       [
         "building-nagasaki.webp",
@@ -192,7 +192,8 @@
       "nagasaki",
       "nagasakiEx",
       "nagasakiPort",
-      "memorialNagasaki"
+      "memorialNagasaki",
+      "nagasakiPanorama"
     ]
   },
   {

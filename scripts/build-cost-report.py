@@ -27,20 +27,34 @@ with (R/'cost-estimate.csv').open('w',encoding='utf-8-sig',newline='') as f:
  for v in b['other']:w.writerow(['其余费用',v['name'],'20天','2人',v['low'],v['high'],v['note'],'cost-estimate.json'])
  w.writerow(['合计','基础总额（不含可选包车与国际机票）','20天19晚','2人',b['totals']['baseLow'],b['totals']['baseHigh'],'规划预算','']);w.writerow(['合计','另留10%后','20天19晚','2人',b['totals']['withReserveLow'],b['totals']['withReserveHigh'],'规划预算',''])
  for v in b['tickets']:w.writerow(['门票明细（已包含在门票预留，勿重复相加）',v['name'],v['date'],'2成人',None if v['totalJPY'] is None else round(v['totalJPY']*b['rate'],2),'',v['method']+'；'+v['status']+'；'+v['note'],v['url']])
-# Plain Markdown renderer supporting links, tables, paragraphs; no remote assets.
-import re
-def inline(s):
- s=esc(s);s=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>',s);s=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',s);return s
-out=[];intable=False
-for line in lines:
- if line.startswith('|'):
-  if re.match(r'^\|[-:| ]+\|$',line):continue
-  if not intable:out.append('<div class="table-wrap"><table class="data-table">');intable=True
-  out.append('<tr>'+''.join('<td>'+inline(x.strip())+'</td>' for x in line.strip('|').split('|'))+'</tr>');continue
- if intable:out.append('</table></div>');intable=False
- if line.startswith('# '):out.append('<header class="page-intro"><p class="overlabel">旅行费用</p><h1>'+inline(line[2:])+'</h1></header>')
- elif line.startswith('## '):out.append('<h2 class="detail-block">'+inline(line[3:])+'</h2>')
- elif line:out.append('<p>'+inline(line)+'</p>')
-if intable:out.append('</table></div>')
-(R/'cost-estimate.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f1f4f7"><title>旅行费用与购票｜广岛与北九州</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="layout.css"><style>.data-table td:nth-child(2),.data-table td:nth-child(3){white-space:nowrap}.data-table td{min-width:80px}.data-table tr:first-child{font-weight:500;background:#e7ecf2}main>p{max-width:65ch;line-height:1.8}</style><body><main style="max-width:1120px;margin:auto;padding:32px 20px 100px"><div class="actions"><a class="button" href="index.html#booking">返回行前预约</a><a class="button" href="hotels.html">酒店比价</a><a class="button" href="cost-estimate.csv">下载费用表</a></div>'+''.join(out)+'</main></body></html>')
-print('Wrote cost HTML, Markdown and CSV; all derive from cost-estimate.json.')
+# Generate the same figures in a restrained, consistent reading layout.
+def inline_link(text,url):return '<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(text)+'</a>'
+def money(low,high):return '¥'+f'{low:,.0f}'+'–'+f'{high:,.0f}'
+def table(headers,body,kind='detail'):
+ return '<div class="cost-table-scroll" role="region" tabindex="0" aria-label="'+esc(headers[0])+'明细，窄屏可横向滚动"><table class="cost-table '+kind+'"><thead><tr>'+''.join('<th scope="col">'+esc(h)+'</th>' for h in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+v+'</td>' for v in row)+'</tr>' for row in body)+'</tbody></table></div>'
+def section(title,content,anchor):return '<section class="cost-section" id="'+anchor+'"><h2>'+title+'</h2>'+content+'</section>'
+summary=table(['费用类别','两人合计 · 人民币'],[[esc(v[0]),money(v[1],v[2])] for v in rows],'summary')
+summary+='<dl class="cost-totals"><div><dt>基础合计</dt><dd>'+money(b['totals']['baseLow'],b['totals']['baseHigh'])+'</dd></div><div><dt>另留10%后</dt><dd>'+money(b['totals']['withReserveLow'],b['totals']['withReserveHigh'])+'</dd></div></dl><p class="cost-note">'+esc(b['scope'])+'</p>'
+hotelrows=[]
+for v in b['hotels']:
+ q=v['quote'];snapshot=inline_link(q['platform']+'样本 ¥'+f"{q['totalCNY']:,.2f}",q['url'])+'<small>'+esc(q['scope'])+'<br>核对 '+q['checked']+'</small>' if q else '待查询本次日期报价'
+ hotelrows.append([inline_link(v['name'],v['official'])+'<small>'+esc(v['en'])+'<br>'+v['checkin']+' — '+v['checkout']+'</small>',str(v['nights'])+'晚',money(v['low'],v['high']),snapshot if q else snapshot+'<small>'+esc(v['basis'])+'</small>'])
+hotels=table(['住宿／入住与退房','晚数','整段预留 · 人民币','平台样本'],hotelrows)
+hotels+='<p class="cost-note">酒店已选定；表中为规划预留，平台快照与同条件可售报价分开。'+inline_link('五平台详细比价','hotels.html')+'</p>'
+charterrows=[]
+for v in b['transfers']:
+ charterrows.append([inline_link(v['date']+' '+v['name'],v['source']),esc(v['hours']),money(round(v['lowJPY']*b['rate']),round(v['highJPY']*b['rate'])),esc(v['status'])+'<small>日元整车预留 '+f"{v['lowJPY']:,}–{v['highJPY']:,}"+'</small>'])
+charters=table(['已选包车路线','时长','整车预留 · 人民币','报价口径'],charterrows)+'<p class="cost-note">2位成人与行李，舒适MPV／Alphard级。司机语言、等待、空驶、高速、停车及超时由供应商写入固定报价。</p>'
+optional=table(['可选包车路线','日期','整车预留 · 人民币','采用理由'],[[inline_link(v['name'],v['source']),esc(v['date']),money(round(v['lowJPY']*b['rate']),round(v['highJPY']*b['rate'])),esc(v['reason'])] for v in b['optional']])+'<p class="cost-note">上表未纳入总额。若启用12/11全日车，先扣除原分段接送预留1,500元，再加实际报价。</p>'
+ticketrows=[]
+for v in b['tickets']:
+ j='待核' if v['perAdultJPY'] is None else f"{v['perAdultJPY']:,}円";c='待核' if v['totalJPY'] is None else '¥'+f"{v['totalJPY']*b['rate']:,.2f}"
+ ticketrows.append([esc(v['date']+' '+v['name']),j,c,inline_link(v['method'],v['url'])+'<small>'+esc(v['note']+' '+v['status'])+'</small>'])
+tickets=table(['门票／参观项目','成人每人 · 日元','两人 · 人民币','官方渠道与说明'],ticketrows)+'<p class="cost-note">只读官方指南的链接保留为指南；现场售票按现场购买。金额已列入门票预留，勿重复相加。</p>'
+notes='<ul class="cost-assumptions"><li>'+esc(b['rateNote'])+'</li><li>假设界宮島、ENOWA和界别府含夕朝食；OND及城市酒店餐食按最终订单核对，避免重复计入外食。</li><li>酒店费用优先独立双床，具体房型、加价、住宿税及取消政策以订单为准。</li><li>国际机票、购物、水疗和高额酒水另计。酒店、交通及餐厅付款状态未提供。</li></ul>'
+paths={'back':'<path d="m12 5-7 7 7 7M5 12h15"/>','hotel':'<path d="M3 20V7h18v13M3 14h18M7 7V4h10v3M7 14v-3m10 3v-3M3 18h18"/>','download':'<path d="M12 3v12m-4-4 4 4 4-4M4 17v4h16v-4"/>'}
+def icon(label,url,name,download=False):return '<a class="utility-icon" aria-label="'+label+'" title="'+label+'" href="'+url+'"'+(' download' if download else '')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+paths[name]+'</svg></a>'
+nav='<nav class="utility-bar" aria-label="费用资料">'+icon('返回行前预约','index.html#booking','back')+icon('查看酒店比价','hotels.html','hotel')+icon('下载费用表','cost-estimate.csv','download',True)+'</nav>'
+content=nav+'<header class="cost-intro"><h1>两人的旅行费用</h1><p>2026.11.30—12.19 · 20天19晚</p><p class="cost-note">人民币估算 · 核对2026-11-10</p></header>'+section('总额预留',summary,'total')+section('住宿',hotels,'hotels')+section('两段跨城包车',charters,'charters')+section('可选用车',optional,'optional')+section('门票与购票',tickets,'tickets')+section('估算口径',notes,'notes')
+(R/'cost-estimate.html').write_text('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f1f4f7"><title>旅行费用｜广岛与北九州</title><link rel="stylesheet" href="style.css?v=20261110-polish"><link rel="stylesheet" href="layout.css?v=20261110-polish"><link rel="stylesheet" href="cost-layout.css?v=20261110-polish"></head><body class="cost-page"><a class="skip-link" href="#cost-content">跳到费用明细</a><main id="cost-content" class="cost-content">'+content+'</main></body></html>')
+print('Wrote matching cost HTML, Markdown and CSV from cost-estimate.json.')
