@@ -6,7 +6,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const data=window.JAPAN_ROUTE_DATA;
 const unique=a=>[...new Set(a)];
 const latitude=lat=>-Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))*180/Math.PI;
-const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['intercontinental','bamboo','kannawa','intercontinental']:data.routes[i];
+const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['intercontinental','bamboo','selectbeppu','takegawara','watertower','intercontinental']:data.routes[i];
 function render({day=null,choice='kunisaki',picker=true,title,transport}){
  const all=unique(Array.from({length:20},(_,i)=>dayRoute(i,choice)).flat());
  const ids=day===null?['hiroshima','simose','takeo','nagasaki','beppu','kitakyushumuseum','fukuoka']:dayRoute(day,choice);

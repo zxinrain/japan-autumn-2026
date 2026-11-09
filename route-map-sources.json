@@ -527,6 +527,104 @@
       "map": "https://www.google.com/maps?cid=14654651940468593869",
       "source": "https://www.google.com/maps?cid=14654651940468593869",
       "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "unagihime": {
+      "name": "宇奈岐日女神社",
+      "lat": 33.2568585,
+      "lng": 131.3654926,
+      "place": "unagihime",
+      "query": "宇奈岐日女神社",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E5%AE%87%E5%A5%88%E5%B2%90%E6%97%A5%E5%A5%B3%E7%A5%9E%E7%A4%BE&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/412349256",
+      "matched": "宇奈岐日女神社, 別府一の宮線, 湯布院町川南, 由布市, 大分県, 879-5102, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "takeoshrine": {
+      "name": "武雄神社（可删短停）",
+      "lat": 33.1884302,
+      "lng": 130.0211412,
+      "place": null,
+      "query": "武雄神社",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E6%AD%A6%E9%9B%84%E7%A5%9E%E7%A4%BE&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/992250981",
+      "matched": "武雄神社, 武雄塩田線, 武雄町大字昭和, 武雄市, 佐賀県, 843-0022, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "takeolibrary": {
+      "name": "武雄市图书馆（可删短停）",
+      "lat": 33.1891306,
+      "lng": 130.0236617,
+      "place": null,
+      "query": "武雄市図書館",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E6%AD%A6%E9%9B%84%E5%B8%82%E5%9B%B3%E6%9B%B8%E9%A4%A8&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/454252769",
+      "matched": "武雄市図書館・歴史資料館, 1, 武雄町大字武雄, 武雄市, 佐賀県, 843-0022, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "selectbeppu": {
+      "name": "SELECT BEPPU",
+      "lat": 33.2772309,
+      "lng": 131.5027423,
+      "place": "beppu",
+      "query": "SELECT BEPPU",
+      "source": "https://nominatim.openstreetmap.org/search?q=SELECT+BEPPU&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/node/12864965008",
+      "matched": "SELECT BEPPU, 34, 中央町, 別府市, 大分県, 874-0936, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "takegawara": {
+      "name": "竹瓦温泉外观",
+      "lat": 33.277449,
+      "lng": 131.5059764,
+      "place": "beppu",
+      "query": "竹瓦温泉",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E7%AB%B9%E7%93%A6%E6%B8%A9%E6%B3%89&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/338231731",
+      "matched": "竹瓦温泉, 23, 元町, 別府市, 大分県, 874-0944, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "watertower": {
+      "name": "北浜公园·彩色水塔",
+      "lat": 33.2787704,
+      "lng": 131.5068656,
+      "place": "beppu",
+      "query": "北浜公園 別府市",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E5%8C%97%E6%B5%9C%E5%85%AC%E5%9C%92+%E5%88%A5%E5%BA%9C%E5%B8%82&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/1383882209",
+      "matched": "北浜公園, 元町, 別府市, 大分県, 874-0920, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "tochoji": {
+      "name": "东长寺",
+      "lat": 33.5952317,
+      "lng": 130.4138692,
+      "place": "fukuoka",
+      "query": "東長寺 福岡市",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E6%9D%B1%E9%95%B7%E5%AF%BA+%E7%A6%8F%E5%B2%A1%E5%B8%82&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/767775372",
+      "matched": "東長寺, 博多停車場線, 博多駅前二丁目, 冷泉町, 博多区, 福岡市, 福岡県, 812-0025, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "kushida": {
+      "name": "栉田神社",
+      "lat": 33.59307,
+      "lng": 130.4106837,
+      "place": "fukuoka",
+      "query": "櫛田神社 福岡市",
+      "source": "https://nominatim.openstreetmap.org/search?q=%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE+%E7%A6%8F%E5%B2%A1%E5%B8%82&countrycodes=jp&format=jsonv2&limit=1",
+      "osm": "https://www.openstreetmap.org/way/45779975",
+      "matched": "櫛田神社, 博多川端商店街, 中洲四丁目, 上川端町, 博多区, 福岡市, 福岡県, 810-0801, 日本",
+      "coordinateSystem": "WGS-84"
+    },
+    "nagasakimemorial": {
+      "name": "长崎原爆死没者追悼平和祈念馆",
+      "lat": 32.77220115330752,
+      "lng": 129.8650224637862,
+      "place": "nagasaki-memorial",
+      "query": "国立長崎原爆死没者追悼平和祈念館",
+      "source": "https://www.peace-nagasaki.go.jp/",
+      "coordinateSystem": "WGS-84",
+      "provenance": "馆方公开网页嵌入的入口附近街景坐标，作位置参考，非建筑测绘中心"
     }
   }
 }

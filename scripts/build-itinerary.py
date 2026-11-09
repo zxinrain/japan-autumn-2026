@@ -6,23 +6,24 @@ parser.add_argument("--workspace-output",type=Path,help="Optional directory for 
 args=parser.parse_args()
 import json,datetime,urllib.parse,shutil
 R=Path(__file__).resolve().parents[1];t=json.loads((R/'trip.json').read_text());c=json.loads((R/'destinations.json').read_text());start=datetime.date.fromisoformat(t['departure'])
-lines=['# 广岛与北九州 2026｜最新文字行程','', '2026/11/30—12/19 · 20天19晚｜香港进广岛、福冈回香港｜两位成人、1间房、独立双床优先。','', '资料核对：2026-11-09。航班、酒店、车票、门票与餐位均未预订。未取得2026年12月最终时刻的交通以合理区间规划，不能当作已订班次。','', '## 本版的决定与取舍','', '- 广岛全部安排在前段：宫岛、和平资料馆、SIMOSE、MOCA保留完整日，离开后不返回。','- 12/9长崎→别府采用铁路纯转移；长崎两晚，取消原独立军舰岛日。','- 12/13别府→小仓乘Sonic，寄存行李、出租车往返北九州市立美术馆本馆，再另买小仓→博多Sonic，不从福冈折返。','- 12/16新增糸岛公共交通日归，只走二见浦一个海湾，不包车、不登山。','- 福冈市美术馆12/17、九州芸文馆12/18分开；福冈第二家酒店尚未选定，当前丽思连住6晚。','- 首日09:30出发直航暂保留，早出门例外仍待确认；御船山12/6为红叶祭末日，不承诺盛叶。','', '## 六段住宿','', '| 地区 | 酒店（中／英） | 入住—退房 | 晚数 | 房型与状态 |','|---|---|---|---:|---|']
+lines=['# 广岛与北九州 2026｜最新文字行程','', '2026/11/30—12/19 · 20天19晚｜香港进广岛、福冈回香港｜两位成人、1间房、独立双床优先。','', '资料核对：2026-11-09。航班、酒店、车票、门票与餐位均未预订。未取得2026年12月最终时刻的交通以合理区间规划，不能当作已订班次。','', '## 本版的决定与取舍','', '- 广岛全部安排在前段：宫岛、和平资料馆、SIMOSE、MOCA保留完整日，离开后不返回。','- 12/9长崎→别府采用铁路纯转移；长崎两晚，取消原独立军舰岛日。','- 12/13别府→小仓乘Sonic，寄存行李、出租车往返北九州市立美术馆本馆，再另买小仓→博多Sonic，不从福冈折返。','- 12/16新增糸岛公共交通日归，只走二见浦一个海湾，不包车、不登山。','- 福冈市美术馆12/17、九州芸文馆12/18分开；福冈第二家酒店尚未选定，当前丽思连住6晚。','- 首日09:30出发直航暂保留，早出门例外仍待确认；御船山12/6为红叶祭末日，不承诺盛叶。','', '本版按城市清单细化：12/7新增栗生明祈念馆；12/12加宇奈岐日女神社车接短停；12/14以博多旧城替代重复大濠，12/17保留美术馆与湖岸。12/11国东主线保留，别府市内改竹艺与老城艺术作为替代。详细筛选与事实纠错见[城市细化说明](city-refinement.md)。','', '## 六段住宿','', '| 地区 | 酒店（中／英） | 入住—退房 | 晚数 | 房型与状态 |','|---|---|---|---:|---|']
 for s in t['stays']:
  lines+=[f"| {s['city']} | [{s['cn']} / {s['en']}]({t['sources'][s['source']][1]}) | {s['in']}—{s['out']} | {s['nights']} | {s['room']} |"]
 lines+=['','酒店均为推荐，房量未核。OND暂定；界宮島寄存至傍晚和附近付费船班需单独确认。官网、携程、Agoda、Booking、一休入口及人民币公开参考见[独立住宿页](https://zxinrain.github.io/japan-autumn-2026/hotels.html)。价格样本不等于本次日期报价；界宮島与OND暂无可靠公开范围。','', '## 每日行程','']
 restaurants={r['id']:r for r in json.loads((R/'restaurants.json').read_text())['restaurants']}
-lines +=['## 收藏餐厅与晚餐安排','', '31家餐厅按10个城市分类，详见[餐厅收藏索引](restaurants.md)；网页在「每日行程→按城市查看31家收藏餐厅」，各日「餐食推荐」卡片内有主选与备选。每个餐段只设一个主选，所有餐位均未预约。','', '| 日期 | 晚餐主选建议 | 衔接要点 |','|---|---|---|', '| 12/14 周一 | 水たき長野 18:00 | 市内休整，下午先回酒店 |','| 12/16 周三 | 鮨さかい本店 18:00 | 糸岛16:00–16:30返店，留休息与去西中洲时间 |','| 12/17 周四 | 嗣味 18:00 | 美术馆后下午留市内休息 |','| 12/18 周五 | 焼き鳥こと 18:00 | 芸文馆14:30前后离馆、16:30前返店才执行，否则预约前改晚席备选 |','', '吉宗通常周二休，已移到12/7周一；12/8改四海楼午餐。12/9铁路转移在博多站内用餐，不排站外拉面店。','']
+lines +=['餐食本版待确认：三餐模板留空，既有餐厅收藏另见[美食清单](restaurants.md)，不作为已订席次。','']
 for i,d in enumerate(t['days']):
  date=start+datetime.timedelta(days=i);week='一二三四五六日'[date.weekday()];lines +=[f"### Day {i+1}｜{date:%m/%d} 周{week}｜{d['title']}",'',f"住宿：{d['city']}。{d.get('tag','')}",'']
- for k,label in [('am','上午'),('noon','中午'),('pm','下午'),('night','夜晚'),('transport','交通'),('breakfast','早餐推荐'),('lunch','午餐推荐'),('dinner','晚餐推荐'),('rest','休息'),('cut','天气与体力删减'),('photo','摄影观察')]:lines +=[f"**{label}**：{d[k]}",'']
+ for k,label in [('am','上午'),('noon','中午'),('pm','下午'),('night','夜晚'),('transport','交通'),('breakfast','早餐推荐'),('lunch','午餐推荐'),('dinner','晚餐推荐'),('rest','休息'),('cut','天气与体力删减'),('photo','摄影观察')]:lines +=[f"**{label}**：{('待确认；每日餐食模板留空，可先浏览目的地图鉴的美食专栏。' if t.get('mealPresentation')=='template' and k in ['breakfast','lunch','dinner'] else d[k])}",'']
  
- for a in d.get('dining',[]):
+ lines +=[f"**步行与体力**：{d.get('walkingNote','以现场体力为准')}",'']
+ for a in ([] if t.get('mealPresentation')=='template' else d.get('dining',[])):
   r=restaurants[a['restaurant']];label={'primary':'建议主选','backup':'替换备选','conditional':'条件备选'}[a['priority']];meal={'lunch':'午餐','dinner':'晚餐'}[a['meal']]
   lines +=[f"**收藏餐厅 · {meal} · {label}**：[ {r['name']} / {r['en']}]({r['map']}) · {a['time']}。{a['reason']} {r['rules']} [营业与订位资料]({r['source']})。未预约。",'']
  links=[f"[{q}](https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(q)})" for q in d['maps']]
  lines +=['导航顺序：'+' → '.join(links),'','资料来源（核对2026-11-09）：'+' · '.join(f"[{t['sources'][k][0]}]({t['sources'][k][1]})" for k in dict.fromkeys(d['sources'])),'']
  if i==11:
-  alt=t['alternative'];lines +=['**国东替代方案**：若天气差或不想包车，改别府竹工艺馆＋铁轮。'+alt.get('note',''),'']
+  alt=t['alternative'];lines +=['**国东替代方案**：若天气差或不想包车，改别府竹工艺馆＋老城艺术。'+alt.get('note','')+' 上午：'+alt['am']+' 午后：'+alt['pm'],'']
 lines+=['## 目的地导读与推荐理由','']
 for d in c:
  lines +=[f"### {d['name']} / {d['en']}",'',d['feature'],'',f"**为什么去**：{d['reason']}",'',f"**现场看什么**：{d['look']}",'',f"**强度与取舍**：{d['effort']} {d['tradeoff']}",'', '来源：'+' · '.join(f"[{t['sources'][k][0]}]({t['sources'][k][1]})" for k in d['sources']),'']
