@@ -7,7 +7,7 @@ def write(n,v):(R/n).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
 restaurants={r['id']:r for r in json.loads((R/'restaurants.json').read_text())['restaurants']}
 lines=['# 广岛与北九州 2026｜确定酒店版','',f"11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港",'', '更新2026-11-10。酒店与两段包车方案已由用户确定，订单付款状态未提供。独立双床、含餐、取消与库存仍以实际订单为准。','', '## 住宿安排','', '| 入住—退房 | 酒店（中／英） | 晚数 |','|---|---|---:|']
 for s in t['stays']:lines.append(f"| {s['in']}—{s['out']} | [{s['cn']} / {s['en']}]({t['sources'][s['source']][1]}) | {s['nights']} |")
-lines+=['','## 此次调整','', '- 12/9长崎英迪格包车直达洲际；12/13界别府经北九州美术馆包车到博多都，不再安排Sonic和小仓寄存。','- 12/10先COMICO、金鳞湖，下午入住ENOWA；12/11退房顺路参观大分两馆，傍晚入住界。','- 12/12默认别府休整，国东两寺是整日替换选项。12/17博多都退房先送行李到ONE，再去市美术馆与大濠。','', '## 每日安排','']
+lines+=['','## 此次调整','', '- 12/9长崎英迪格包车直达洲际；12/13界别府经北九州美术馆包车到博多都，不再安排Sonic和小仓寄存。','- 12/10先COMICO、金鳞湖，下午入住ENOWA；12/11退房顺路参观大分两馆，傍晚入住界。','- 12/12默认别府休整，国东两寺是整日替换选项。12/17博多都退房先送行李到ONE，再去市美术馆与大濠。','', '- 武雄12/5抵达后看御船山夜枫；12/6先楼门与御船山日景，午后回OND休息后参观神社、图书馆，あん梅移至第二晚。', '', '## 每日安排','']
 for i,d in enumerate(t['days']):
  if i==t['keyDays']['kunisaki'] and t.get('defaultKunisakiPlan')=='beppu':d={**d,**t['alternative']}
  dt=datetime.date(2026,11,30)+datetime.timedelta(days=i);stay=next((s for s in t['stays'] if s['in']<=dt.isoformat()<s['out']),None)

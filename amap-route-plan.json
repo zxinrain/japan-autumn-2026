@@ -132,18 +132,23 @@
       },
       {
         "from": "ond",
-        "to": "food-anbai",
-        "mode": "mixed"
+        "to": "mifuneyama",
+        "mode": "driving"
       },
       {
-        "from": "food-anbai",
+        "from": "mifuneyama",
         "to": "ond",
-        "mode": "mixed"
+        "mode": "driving"
       }
     ],
     [
       {
         "from": "ond",
+        "to": "takeoromon",
+        "mode": "driving"
+      },
+      {
+        "from": "takeoromon",
         "to": "mifuneyama",
         "mode": "driving"
       },
@@ -159,11 +164,26 @@
       },
       {
         "from": "ond",
-        "to": "mifuneyama",
+        "to": "takeoshrine",
         "mode": "driving"
       },
       {
-        "from": "mifuneyama",
+        "from": "takeoshrine",
+        "to": "takeolibrary",
+        "mode": "walking"
+      },
+      {
+        "from": "takeolibrary",
+        "to": "ond",
+        "mode": "driving"
+      },
+      {
+        "from": "ond",
+        "to": "food-anbai",
+        "mode": "driving"
+      },
+      {
+        "from": "food-anbai",
         "to": "ond",
         "mode": "driving"
       }

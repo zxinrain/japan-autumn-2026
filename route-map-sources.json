@@ -542,7 +542,7 @@
       "coordinateSystem": "WGS-84"
     },
     "takeoshrine": {
-      "name": "武雄神社（可删短停）",
+      "name": "武雄神社",
       "lat": 33.1884302,
       "lng": 130.0211412,
       "place": null,
@@ -553,7 +553,7 @@
       "coordinateSystem": "WGS-84"
     },
     "takeolibrary": {
-      "name": "武雄市图书馆（可删短停）",
+      "name": "武雄市图书馆",
       "lat": 33.1891306,
       "lng": 130.0236617,
       "place": null,
@@ -627,6 +627,18 @@
       "source": "https://www.peace-nagasaki.go.jp/",
       "coordinateSystem": "WGS-84",
       "provenance": "馆方公开网页嵌入的入口附近街景坐标，作位置参考，非建筑测绘中心"
+    },
+    "takeoromon": {
+      "name": "武雄温泉楼门",
+      "lat": 33.196238,
+      "lng": 130.014662,
+      "place": null,
+      "query": "武雄温泉楼門",
+      "source": "https://www.asobo-saga.jp/spots/detail/14245175-209b-4449-9e14-8ad3ed22037b",
+      "coordinateNote": "佐贺县官方旅游页Google地图嵌入坐标；WGS-84，非保证上车位置",
+      "verified": "2026-11-10",
+      "coordinateSystem": "WGS-84",
+      "sourceMap": "https://maps.google.co.jp/maps?iwloc=A&ll=33.196238%2C130.014662&output=embed&q=33.196238%2C130.014662&t=m&z=17"
     }
   },
   "coordinateAudit": {
