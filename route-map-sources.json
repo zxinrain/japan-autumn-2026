@@ -329,12 +329,14 @@
       "source": "https://artsimose.jp/en/architecture/"
     },
     "fukuokaairport": {
-      "name": "福冈机场（返港）",
-      "lat": 33.586802,
-      "lng": 130.4473939,
-      "osm": "https://www.openstreetmap.org/way/529445584",
+      "name": "福冈机场国际航站楼（返港）",
+      "lat": 33.5848221,
+      "lng": 130.4442945,
+      "osm": "https://www.openstreetmap.org/way/164790583",
       "source": "https://www.fukuoka-airport.jp/en/access/",
-      "matched": "福岡空港; airport reference point, use named international-terminal navigation"
+      "matched": "福岡空港 国際線ターミナル; aeroway=terminal; Nominatim bounded lookup 2026-11-09",
+      "place": null,
+      "query": "Fukuoka Airport International Terminal Japan"
     },
     "shinIwakuni": {
       "name": "新岩国站",
@@ -626,5 +628,14 @@
       "coordinateSystem": "WGS-84",
       "provenance": "馆方公开网页嵌入的入口附近街景坐标，作位置参考，非建筑测绘中心"
     }
+  },
+  "coordinateAudit": {
+    "date": "2026-11-09",
+    "method": "Used OSM object IDs rechecked with Nominatim lookup; hotel coordinates checked against official access pages. Airport marker corrected to the named international terminal building; building points are not guaranteed vehicle entrances.",
+    "officialHotels": [
+      "https://hoshinoresorts.com/ja/hotels/kaimiyajima/access/",
+      "https://anaicbeppu.com/access/",
+      "https://www.ondhotel.jp/access/"
+    ]
   }
 }

@@ -3,3 +3,7 @@ _site/
 .qa/
 __pycache__/
 *.zip
+
+.env
+.env.*
+!.env.example

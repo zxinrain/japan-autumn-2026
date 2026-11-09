@@ -1,0 +1,437 @@
+{
+  "schema": 1,
+  "provider": "AMap Global Routes",
+  "coordinateSystem": "WGS-84 (Japan)",
+  "docs": "https://developer.amap.com/api/web-service/guide/routes",
+  "days": [
+    [
+      {
+        "from": "airport",
+        "to": "kai",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "kai",
+        "to": "miyajimaguchi",
+        "mode": "driving"
+      },
+      {
+        "from": "miyajimaguchi",
+        "to": "miyajima",
+        "mode": "ferry"
+      },
+      {
+        "from": "miyajima",
+        "to": "kai",
+        "mode": "ferry"
+      },
+      {
+        "from": "kai",
+        "to": "hilton",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "hilton",
+        "to": "peace",
+        "mode": "driving"
+      },
+      {
+        "from": "peace",
+        "to": "peacepark",
+        "mode": "walking"
+      },
+      {
+        "from": "peacepark",
+        "to": "dome",
+        "mode": "walking"
+      },
+      {
+        "from": "dome",
+        "to": "hilton",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "hilton",
+        "to": "hiroshima",
+        "mode": "driving"
+      },
+      {
+        "from": "hiroshima",
+        "to": "simose",
+        "mode": "mixed"
+      },
+      {
+        "from": "simose",
+        "to": "hilton",
+        "mode": "mixed"
+      }
+    ],
+    [
+      {
+        "from": "hilton",
+        "to": "moca",
+        "mode": "driving"
+      },
+      {
+        "from": "moca",
+        "to": "hilton",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "hilton",
+        "to": "hiroshima",
+        "mode": "driving"
+      },
+      {
+        "from": "hiroshima",
+        "to": "fukuoka",
+        "mode": "rail"
+      },
+      {
+        "from": "fukuoka",
+        "to": "takeo",
+        "mode": "rail"
+      },
+      {
+        "from": "takeo",
+        "to": "ond",
+        "mode": "driving"
+      },
+      {
+        "from": "ond",
+        "to": "takeoshrine",
+        "mode": "driving"
+      },
+      {
+        "from": "takeoshrine",
+        "to": "takeolibrary",
+        "mode": "walking"
+      },
+      {
+        "from": "takeolibrary",
+        "to": "ond",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ond",
+        "to": "mifuneyama",
+        "mode": "driving"
+      },
+      {
+        "from": "mifuneyama",
+        "to": "ond",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ond",
+        "to": "takeo",
+        "mode": "driving"
+      },
+      {
+        "from": "takeo",
+        "to": "nagasaki",
+        "mode": "rail"
+      },
+      {
+        "from": "nagasaki",
+        "to": "nagasakimemorial",
+        "mode": "driving"
+      },
+      {
+        "from": "nagasakimemorial",
+        "to": "gardenterrace",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "gardenterrace",
+        "to": "nagasakimuseum",
+        "mode": "driving"
+      },
+      {
+        "from": "nagasakimuseum",
+        "to": "seaside",
+        "mode": "walking"
+      },
+      {
+        "from": "seaside",
+        "to": "gardenterrace",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "gardenterrace",
+        "to": "nagasaki",
+        "mode": "driving"
+      },
+      {
+        "from": "nagasaki",
+        "to": "takeo",
+        "mode": "rail"
+      },
+      {
+        "from": "takeo",
+        "to": "fukuoka",
+        "mode": "rail"
+      },
+      {
+        "from": "fukuoka",
+        "to": "beppu",
+        "mode": "rail"
+      },
+      {
+        "from": "beppu",
+        "to": "intercontinental",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "intercontinental",
+        "to": "opam",
+        "mode": "driving"
+      },
+      {
+        "from": "opam",
+        "to": "artplaza",
+        "mode": "driving"
+      },
+      {
+        "from": "artplaza",
+        "to": "intercontinental",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "intercontinental",
+        "to": "fukiji",
+        "mode": "driving"
+      },
+      {
+        "from": "fukiji",
+        "to": "makiodo",
+        "mode": "driving"
+      },
+      {
+        "from": "makiodo",
+        "to": "intercontinental",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "intercontinental",
+        "to": "comico",
+        "mode": "driving"
+      },
+      {
+        "from": "comico",
+        "to": "unagihime",
+        "mode": "driving"
+      },
+      {
+        "from": "unagihime",
+        "to": "kinrin",
+        "mode": "driving"
+      },
+      {
+        "from": "kinrin",
+        "to": "intercontinental",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "intercontinental",
+        "to": "beppu",
+        "mode": "driving"
+      },
+      {
+        "from": "beppu",
+        "to": "kokura",
+        "mode": "rail"
+      },
+      {
+        "from": "kokura",
+        "to": "kitakyushumuseum",
+        "mode": "driving"
+      },
+      {
+        "from": "kitakyushumuseum",
+        "to": "kokura",
+        "mode": "driving"
+      },
+      {
+        "from": "kokura",
+        "to": "fukuoka",
+        "mode": "rail"
+      },
+      {
+        "from": "fukuoka",
+        "to": "ritz",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "acros",
+        "mode": "walking"
+      },
+      {
+        "from": "acros",
+        "to": "ritz",
+        "mode": "walking"
+      },
+      {
+        "from": "ritz",
+        "to": "tochoji",
+        "mode": "driving"
+      },
+      {
+        "from": "tochoji",
+        "to": "kushida",
+        "mode": "walking"
+      },
+      {
+        "from": "kushida",
+        "to": "ritz",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "starbucks",
+        "mode": "driving"
+      },
+      {
+        "from": "starbucks",
+        "to": "kyuhaku",
+        "mode": "walking"
+      },
+      {
+        "from": "kyuhaku",
+        "to": "ritz",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "futamigaura",
+        "mode": "bus"
+      },
+      {
+        "from": "futamigaura",
+        "to": "palmbeach",
+        "mode": "walking"
+      },
+      {
+        "from": "palmbeach",
+        "to": "ritz",
+        "mode": "bus"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "fukuokamuseum",
+        "mode": "driving"
+      },
+      {
+        "from": "fukuokamuseum",
+        "to": "ohori",
+        "mode": "walking"
+      },
+      {
+        "from": "ohori",
+        "to": "ritz",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "fukuoka",
+        "mode": "driving"
+      },
+      {
+        "from": "fukuoka",
+        "to": "chikugo",
+        "mode": "rail"
+      },
+      {
+        "from": "chikugo",
+        "to": "geibun",
+        "mode": "walking"
+      },
+      {
+        "from": "geibun",
+        "to": "chikugo",
+        "mode": "walking"
+      },
+      {
+        "from": "chikugo",
+        "to": "fukuoka",
+        "mode": "rail"
+      },
+      {
+        "from": "fukuoka",
+        "to": "ritz",
+        "mode": "driving"
+      }
+    ],
+    [
+      {
+        "from": "ritz",
+        "to": "fukuokaairport",
+        "mode": "driving"
+      }
+    ]
+  ],
+  "alternatives": {
+    "beppu": [
+      {
+        "from": "intercontinental",
+        "to": "bamboo",
+        "mode": "driving"
+      },
+      {
+        "from": "bamboo",
+        "to": "selectbeppu",
+        "mode": "driving"
+      },
+      {
+        "from": "selectbeppu",
+        "to": "takegawara",
+        "mode": "walking"
+      },
+      {
+        "from": "takegawara",
+        "to": "watertower",
+        "mode": "walking"
+      },
+      {
+        "from": "watertower",
+        "to": "intercontinental",
+        "mode": "driving"
+      }
+    ]
+  }
+}

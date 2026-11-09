@@ -22,6 +22,7 @@ jobs:
           node scripts/check-data.cjs
           node scripts/check-dining.cjs
           node scripts/check-hotel-links.cjs
+          node scripts/check-amap-routes.cjs
       - name: Stage public files
         run: |
           mkdir _site

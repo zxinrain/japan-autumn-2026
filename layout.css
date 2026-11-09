@@ -220,3 +220,45 @@ h1 {line-height:1.12} h2 {line-height:1.18} h3 {line-height:1.25}
 @media(prefers-reduced-motion:reduce){.calendar-week button,.date-controls .button{transition:none}}
 /* Bound horizontal view transitions without changing vertical scroll or nested scrollers. */
 body {overflow-x:clip}
+
+/* V1.3: navigation is a text list, and supporting notes sit directly on the page. */
+:root {--route-ink:var(--green);--route-land:#fafbfd;--route-water:#e7edf2;--route-coast:#b9c8d5}
+.route-map-canvas {background:var(--route-water)}
+.map-land {fill:var(--route-land);stroke:var(--route-coast)}
+.map-link {stroke:var(--route-ink);stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.map-verified {opacity:1}
+.map-pin circle {fill:var(--route-ink);stroke:white;stroke-width:2}
+.map-pin a:hover circle,.map-pin a:focus-visible circle {fill:var(--route-ink);stroke:white;stroke-width:3}
+.map-pin text {font-weight:500}
+.map-route-list {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 24px;margin-bottom:20px}
+.map-route-list li {min-width:0;display:grid;grid-template-columns:24px minmax(0,1fr);gap:0 8px;align-items:start;font-size:14px;line-height:1.6}
+.map-route-list .map-stop-number {padding-top:10px;font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.map-route-list a {display:block;min-height:44px;padding:10px 0;color:var(--green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;overflow-wrap:anywhere}
+.map-route-list .map-stop-note {grid-column:2;font:400 11px/1.6 var(--font);color:var(--muted);margin-top:-6px;padding-bottom:6px}
+.map-transport {margin-bottom:20px;max-width:82ch;line-height:1.8;font-size:14px}
+.map-legend {display:flex;gap:20px;flex-wrap:wrap;font-size:11px;line-height:1.6;color:var(--muted);margin-bottom:10px}
+.map-legend>span {display:inline-flex;align-items:center;gap:8px}
+.map-legend-solid::before {content:'';width:24px;border-top:2px solid var(--route-ink)}
+.map-credit {font-size:11px;line-height:1.6}
+.day-notes {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-block:40px}
+.day-notes>section {border-top:1px solid var(--line);padding-top:24px;min-width:0}
+.day-notes h2 {font-size:25px;line-height:1.25;margin-bottom:16px}
+.day-notes p {font-size:16px;line-height:1.8;max-width:60ch}
+@media(min-width:768px) and (max-width:1100px){.map-route-list{grid-template-columns:repeat(2,minmax(0,1fr))}.day-notes{grid-template-columns:1fr 1fr}.day-notes>section:last-child{grid-column:1/-1}}
+@media(max-width:767px){.map-route-list{grid-template-columns:1fr;gap:4px}.map-route-list li{font-size:14px}.day-notes{grid-template-columns:1fr;gap:28px;margin-block:32px}.day-notes>section{padding-top:20px}.day-notes h2{font-size:23px}}
+
+/* Street tiles are requested only for the visible map; the local fallback remains usable offline. */
+.route-map-canvas {height:clamp(300px,42vw,480px)}
+.route-map-canvas > .map-fallback {height:100%;width:100%}
+.street-map {position:absolute;inset:0;z-index:1;opacity:0;pointer-events:none;background:var(--route-water);font-family:var(--font)}
+.has-street-map .street-map {opacity:1;pointer-events:auto}
+.has-street-map > .map-fallback {visibility:hidden}
+.street-map .leaflet-tile-pane {filter:saturate(.45)}
+.street-marker {display:grid;place-items:center;background:var(--route-ink);color:white;border:2px solid white;border-radius:50%;font:500 13px/1 var(--font);box-shadow:0 2px 5px #1f293329;font-variant-numeric:tabular-nums}
+.street-marker:focus-visible {outline:3px solid var(--route-ink);outline-offset:3px}
+.street-map .leaflet-bar {border:0;box-shadow:0 2px 8px #1f29331f}
+.street-map .leaflet-bar a {color:var(--green);background:var(--surface);width:44px;height:44px;line-height:44px}
+.street-map .leaflet-control-attribution {font:400 10px/1.5 var(--font);background:#ffffffed;color:var(--muted)}
+.street-map .leaflet-popup-content a {color:var(--green);display:block;padding-block:8px;text-underline-offset:4px}
+.street-map .leaflet-tooltip {font:400 12px/1.5 var(--font);border:0;color:var(--ink);box-shadow:0 2px 8px #1f293314}
+@media(max-width:767px){.route-map-canvas{height:340px}}

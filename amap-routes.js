@@ -1,0 +1,1 @@
+window.JAPAN_AMAP_ROUTES={"schema":1,"provider":"AMap Global Routes","status":"awaiting-key","generatedAt":null,"coordinateSystem":"WGS-84 (Japan)","segments":{},"docs":"https://developer.amap.com/api/web-service/guide/routes"};
