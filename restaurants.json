@@ -1,8 +1,8 @@
 {
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "title": "九州 · Winn 餐厅收藏",
-  "sourceCount": 53,
-  "restaurantCount": 31,
+  "sourceCount": 82,
+  "restaurantCount": 35,
   "priceNote": "Google用户消费区间，非本次套餐报价；按每100日元人民币4.2286元估算，实际结算以付款日为准。",
   "cnyPerJPY": 0.042286,
   "exchangeSource": "https://www.boc.cn/sourcedb/whpj/",
@@ -19,7 +19,8 @@
     "冷面": "soup",
     "拉面": "soup",
     "牛排": "beef",
-    "海鲜": "fish"
+    "海鲜": "fish",
+    "烧肉": "beef"
   },
   "restaurants": [
     {
@@ -41,10 +42,13 @@
       "map": "https://www.google.com/maps?cid=193274711000022323",
       "address": "赤坂1-10-7",
       "source": "https://tabelog.com/fukuoka/A4001/A400104/40045539/",
-      "feature": "炭火鸡串与鸡汤；赤坂店离丽思近，适合作为烧鸟晚餐备选。",
+      "feature": "炭火鸡串与鸡汤；赤坂店离福冈酒店近，适合作为烧鸟晚餐备选。",
       "dishes": "鸡串、鸡汤",
-      "rules": "预约；与熊本本店是不同门店，勿串店。",
-      "suggestion": "12/18烧鸟备选"
+      "rules": "营业与定休资料有冲突，不排12/13周日；拟12/18周五18:30，必须获门店确认。赤坂店不自动替换熊本本店或同址新店。",
+      "suggestion": "12/18 晚餐建议主选 18:30",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "hyogodori-kumamoto",
@@ -68,7 +72,10 @@
       "feature": "熊本市中心的同名烧鸟店；不在此次主线路线上。",
       "dishes": "鸡串",
       "rules": "营业与预约待向门店确认。",
-      "suggestion": "路线外收藏，不增加熊本"
+      "suggestion": "路线外备选，不新增城市或专程绕行",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "choji",
@@ -89,10 +96,13 @@
       "map": "https://www.google.com/maps?cid=5615244489185309654",
       "address": "大手门1-8-14",
       "source": "https://tabelog.com/fukuoka/A4001/A400105/40004687/",
-      "feature": "烧鸟为主，也有水炊锅组合；靠近大濠一带，适合替换一次正式烧鸟晚餐。",
+      "feature": "大手门的烧鸟店，结合大濠与市美术馆日，晚餐前先回ONE休息。",
       "dishes": "鸡串、水炊鸡锅",
       "rules": "通常周日及节假日休；先预约，不与长野叠加水炊锅。",
-      "suggestion": "12/18烧鸟备选"
+      "suggestion": "12/17 晚餐建议主选 18:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "koto",
@@ -116,7 +126,7 @@
       "feature": "以套餐呈现鸡肉不同部位，适合此行留一晚完整体验高端烧鸟。",
       "dishes": "鸡肉各部位串烧、时令小菜",
       "rules": "套餐13,000日元含税，另10%服务费，基础14,300日元，不含饮品及可选包间；约2.5小时。需预约。",
-      "suggestion": "12/18 18:00建议主选，须提前返城",
+      "suggestion": "12/16 晚餐建议主选 18:00",
       "reservation": "https://www.tablecheck.com/ja/shops/yakitori-koto/reserve",
       "menuReference": {
         "totalJPY": 14300,
@@ -124,7 +134,10 @@
         "scope": "当前公开套餐基础，已计已知强制服务费；饮品、加点和可选包间另计，目标日期仍须核价",
         "source": "https://www.tablecheck.com/ja/shops/yakitori-koto/reserve",
         "checked": "2026-11-09"
-      }
+      },
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "taka",
@@ -148,14 +161,17 @@
       "feature": "高砂的小型吧台烧鸟套餐；适合喜欢安静、看师傅火候的人。",
       "dishes": "鸡串、季节配菜",
       "rules": "套餐资料8,800日元含税，另5%服务费；不定休、需预约，价格出行前再核。",
-      "suggestion": "12/18烧鸟备选",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
       "menuReference": {
         "totalJPY": 9240,
         "from": false,
         "scope": "当前公开套餐基础，已计已知强制服务费；饮品、加点和可选包间另计，目标日期仍须核价",
         "source": "https://tabelog.com/fukuoka/A4001/A400104/40033935/",
         "checked": "2026-11-09"
-      }
+      },
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "gonbei",
@@ -179,7 +195,10 @@
       "feature": "老派关东煮气氛，适合宫岛回来后吃一顿轻松热食。",
       "dishes": "萝卜、鸡蛋、鱼糕等关东煮，按当日供应",
       "rules": "营业与空位提前核实；回城延误就留在酒店吃，不追赶。",
-      "suggestion": "12/1 19:30晚餐备选"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "komikan",
@@ -203,7 +222,10 @@
       "feature": "大名的现代居酒屋，海鲜、天妇罗与小菜适合按胃口点，比连续套餐更灵活。",
       "dishes": "海鲜、天妇罗、当季小菜",
       "rules": "需预约，不定休；19:00席若有供应再安排，21:00前回酒店。",
-      "suggestion": "12/15 19:00晚餐建议主选"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "yasube",
@@ -227,7 +249,10 @@
       "feature": "西中洲的关东煮老店，适合不想吃完整套餐的一晚。",
       "dishes": "关东煮、当日小菜",
       "rules": "通常周日休；现金为主，营业与座位需确认。",
-      "suggestion": "12/15晚餐备选，替换こみかん"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "hirao",
@@ -238,7 +263,7 @@
       "category": "天妇罗",
       "icon": "shrimp",
       "googleRating": 4.4,
-      "googleReviews": 2821,
+      "googleReviews": 2823,
       "priceJPY": {
         "low": 1000,
         "high": 2000
@@ -247,11 +272,14 @@
       "lng": 130.3942887,
       "map": "https://www.google.com/maps?cid=18392552247942850334",
       "address": "大名2-6-20",
-      "source": "https://tabelog.com/fukuoka/A4001/A400104/40046106/",
-      "feature": "一件件送上桌的天妇罗定食，距丽思近，适合休整日午餐。",
+      "source": "https://www.hirao-foods.net/shop/",
+      "feature": "一件件送上桌的天妇罗定食；大名店位于天神西侧，适合美术馆日午餐后去ONE入住。",
       "dishes": "天妇罗定食",
-      "rules": "通常周二休；不接受普通订位，准备现金。候位超过20分钟改酒店午餐。",
-      "suggestion": "12/14 12:00午餐建议主选"
+      "rules": "官网确认全店不接受预约；大名店当日营业查官网公告。12/17周四拟午餐，队列超过20分钟留空或另择附近餐饮。",
+      "suggestion": "12/17 午餐建议主选 12:40",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "wakaba",
@@ -275,7 +303,10 @@
       "feature": "低温炸制的猪排，天神店适合美术馆后返城午餐，不需要另辟半天。",
       "dishes": "猪里脊或猪腰肉炸排定食",
       "rules": "炸制及候位可能较久；营业、当前排队规则出行前核实。",
-      "suggestion": "12/17 12:30午餐建议主选"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "kiku",
@@ -298,8 +329,11 @@
       "source": "https://tabelog.com/fukuoka/A4003/A400301/40010675/",
       "feature": "在春日市的高端寿司，不是天神步行范围；可作为鮨さかい订不到时的替代。",
       "dishes": "主厨寿司套餐",
-      "rules": "通常周日休；礼宾确认席次与可订渠道。太宰府返程需预约车绕行，约30–50分钟到店，返丽思约30–50分钟。",
-      "suggestion": "12/15晚餐条件备选，替换当晚餐厅"
+      "rules": "通常周日休；礼宾确认席次与可订渠道。太宰府返程需预约车绕行，约30–50分钟到店，返福冈酒店约30–50分钟。",
+      "suggestion": "路线外备选，不新增城市或专程绕行",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "nakashima",
@@ -323,7 +357,10 @@
       "feature": "白岛的季节日本料理；若想在广岛专程吃一次会席，可替换另一顿正式套餐。",
       "dishes": "当季鱼鲜、会席",
       "rules": "通常周日及节假日休；需预约，目标日套餐与价格询店。",
-      "suggestion": "12/3 18:30晚餐备选，不与啐啄一十都设为必做"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "shikairou",
@@ -347,7 +384,10 @@
       "feature": "长崎ちゃんぽん的代表性餐厅，港湾视野与当地港口饮食史相连。",
       "dishes": "ちゃんぽん什锦汤面、皿うどん炸细面",
       "rules": "官方2026年12月公告12/2、12/16、12/30、12/31休业，12/8不在其中；午餐11:30起，普通两人餐不接受预约，排队超过20分钟回馆内咖啡。",
-      "suggestion": "12/8 12:15午餐建议主选"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "yossou",
@@ -371,7 +411,10 @@
       "feature": "木结构老店的大碗蒸蛋与蒸寿司，适合作为到长崎后的第一顿地方饭。",
       "dishes": "茶碗蒸蒸蛋、蒸寿司",
       "rules": "通常周二休，移至12/7周一；电话预约，临休再核。长崎站至滨町车约10–15分钟，行李留车须先获司机同意。",
-      "suggestion": "12/7 12:00午餐建议主选"
+      "suggestion": "12/07 午餐建议主选 12:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "nagano",
@@ -395,7 +438,10 @@
       "feature": "以鸡汤、鸡肉、蔬菜展开的博多水炊锅，暖和、节奏舒展，适合休整日晚上。",
       "dishes": "水炊鸡锅、收尾杂炊",
       "rules": "通常周日休；电话092-281-2200预约，12/14周一18:00仅为建议，未取得座位。",
-      "suggestion": "12/14 18:00晚餐建议主选"
+      "suggestion": "12/14 晚餐建议主选 18:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "rokusei",
@@ -419,7 +465,10 @@
       "feature": "别府冷面的代表，适合留在别府市内那天换一种口味。",
       "dishes": "别府冷面、温面按当日供应",
       "rules": "营业需核；在老城南部，距铁轮有车程，不是步行顺路。仅选择别府替代日时考虑，铁轮往返额外车程约20–30分钟一段。",
-      "suggestion": "12/11别府替代日午餐备选，国东主线不去"
+      "suggestion": "12/12 午餐替换备选 12:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "tsugumi",
@@ -443,8 +492,11 @@
       "feature": "以九州地方食材与乡土料理为线索，适合在行程后段把吃过的地区串起来。",
       "dishes": "时令海鲜、乡土料理套餐",
       "rules": "需预约，不定休；先确认海鲜忌口与过敏能否对应。",
-      "suggestion": "12/17 18:00晚餐建议主选",
-      "reservation": "https://www.tablecheck.com/ja/shops/tsugumi-fukuoka/reserve"
+      "suggestion": "12/15 晚餐建议主选 18:30",
+      "reservation": "https://www.tablecheck.com/ja/shops/tsugumi-fukuoka/reserve",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "sakai",
@@ -468,7 +520,7 @@
       "feature": "本店堺大航主厨席，以熟成与温度控制见长；与我逢人、在两店分开订，不自动替换。",
       "dishes": "主厨寿司套餐",
       "rules": "本店套餐44,000日元含税起，饮品另计；周三18:00/20:30，周四仅午餐，通常周日及周一休。选12/16 18:00，先核座位。",
-      "suggestion": "12/16 18:00晚餐建议主选",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
       "reservation": "https://www.tablecheck.com/ja/shops/sushi-sakai/reserve",
       "menuReference": {
         "totalJPY": 44000,
@@ -476,7 +528,10 @@
         "scope": "当前公开套餐基础，已计已知强制服务费；饮品、加点和可选包间另计，目标日期仍须核价",
         "source": "https://www.tablecheck.com/ja/shops/sushi-sakai/reserve",
         "checked": "2026-11-09"
-      }
+      },
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "shianbashi",
@@ -496,11 +551,14 @@
       "lng": 129.8792298,
       "map": "https://www.google.com/maps?cid=17207842959802552025",
       "address": "滨町6-17",
-      "source": "https://www.google.com/maps?cid=17207842959802552025",
+      "source": "https://www.at-nagasaki.jp/gourmet/shop/862/index.html",
       "feature": "偏市井的长崎面馆，适合替代一次简餐，不额外加作宵夜。",
       "dishes": "ちゃんぽん什锦汤面、拉面，以当日菜单为准",
-      "rules": "午间营业与临休未可靠核实；只有确认当天开门才作为吉宗或四海楼备选。",
-      "suggestion": "12/7或12/8午餐备选"
+      "rules": "长崎观光资料列11:30起、不定休；Google与食べログ时间及休息规则有差异。12/8午间先确认；不预约，准备现金，不安排深夜。",
+      "suggestion": "12/08 午餐建议主选 12:30",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "maruboshi",
@@ -524,7 +582,10 @@
       "feature": "久留米的公路边老式豚骨面馆，有地方生活气氛，但不在福冈市中心。",
       "dishes": "豚骨拉面",
       "rules": "营业与休息日待核，不默认24小时。12/18若绕久留米至少增加约1–1.5小时并另核车票；本版不加入，避免影响烧鸟晚餐。",
-      "suggestion": "路线外收藏，不作为芸文馆顺路必去"
+      "suggestion": "路线外备选，不新增城市或专程绕行",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "hacchan",
@@ -548,13 +609,16 @@
       "feature": "浓厚豚骨、细面的小店；药院位置可达，但必须先确认是否能早晚餐。",
       "dishes": "豚骨拉面",
       "rules": "开门资料冲突：食べログ列18:00，拉面博物馆关联资料曾列21:00。需向本店确认；如仅21:00开门则不纳入主线，不安排深夜赶场。",
-      "suggestion": "12/15早晚餐条件备选，不叠加宵夜",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
       "extraSources": [
         [
           "营业时间冲突资料：新横滨拉面博物馆",
           "https://www.raumen.co.jp/shop/hacchanramen.html"
         ]
-      ]
+      ],
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "genki",
@@ -565,7 +629,7 @@
       "category": "拉面",
       "icon": "soup",
       "googleRating": 3.7,
-      "googleReviews": 2207,
+      "googleReviews": 2208,
       "priceJPY": {
         "low": 1000,
         "high": 2000
@@ -578,7 +642,10 @@
       "feature": "浓汤豚骨的风格鲜明；适合真正想吃浓厚汤底时替换午餐。",
       "dishes": "浓汤豚骨拉面",
       "rules": "资料列11:00–20:00、19:30末单，不定休；不预约，候位过长放弃。",
-      "suggestion": "12/14午餐备选，替换天妇罗"
+      "suggestion": "12/14 午餐建议主选 12:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "issou",
@@ -589,7 +656,7 @@
       "category": "拉面",
       "icon": "soup",
       "googleRating": 4.0,
-      "googleReviews": 7310,
+      "googleReviews": 7317,
       "priceJPY": {
         "low": 1000,
         "high": 2000
@@ -602,7 +669,10 @@
       "feature": "泡沫感浓厚豚骨，博多站东侧；排队成本高于普通站内简餐。",
       "dishes": "豚骨拉面",
       "rules": "不在12/9紧凑换乘时硬排；12/14午餐如专程前往，队列超过20分钟改备选。",
-      "suggestion": "12/14午餐备选，与元气一杯二选一"
+      "suggestion": "12/13 晚餐建议主选 18:30",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "hirokado",
@@ -623,10 +693,13 @@
       "map": "https://www.google.com/maps?cid=12842902959093357174",
       "address": "堀田23-14",
       "source": "https://beppu-hirokado.jp/",
-      "feature": "山坡上的小规模日本料理，适合大分建筑日回酒店休息后，再出门吃一次完整晚餐。",
+      "feature": "堀田山坡的小规模日本料理，本版优先放在别府休整日午餐，保留酒店晚餐。",
       "dishes": "时令日本料理套餐",
       "rules": "午餐12:00、晚餐18:00同时开席，不定休；TableCheck通常前3个月、食べログ前2个月，具体开放以目标日为准。",
-      "suggestion": "12/10 18:00晚餐建议主选"
+      "suggestion": "12/12 午餐建议主选 12:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "takeuchi",
@@ -649,8 +722,11 @@
       "source": "https://tabelog.com/fukuoka/A4003/A400301/40013636/",
       "feature": "高端吧台天妇罗，位于那珂川；值得专程，但交通明显长于大名的ひらお。",
       "dishes": "主厨天妇罗套餐",
-      "rules": "通常周一休，预约与开席须核；太宰府至店约35–60分钟，回丽思约35–60分钟，建议预约车。",
-      "suggestion": "12/15晚餐条件备选，替换当晚餐厅"
+      "rules": "通常周一休，预约与开席须核；太宰府至店约35–60分钟，回福冈酒店约35–60分钟，建议预约车。",
+      "suggestion": "路线外备选，不新增城市或专程绕行",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "chikamatsu",
@@ -674,7 +750,10 @@
       "feature": "药院高端寿司收藏，介绍制比普通网络订位更有门槛。",
       "dishes": "主厨寿司套餐",
       "rules": "完全介绍制；无介绍渠道时不把它当作可直接预约的备选。",
-      "suggestion": "收藏保留，不作为可执行预约主线"
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "kiyotan",
@@ -698,7 +777,10 @@
       "feature": "鹰野桥一带的创意日本料理与日本酒，距希尔顿较近，适合和平资料馆后从容晚餐。",
       "dishes": "季节料理、日本酒按喜好",
       "rules": "通常周日休，18:00起；需预约。若纪念馆后只想安静休息，直接改酒店。",
-      "suggestion": "12/2 18:30晚餐建议主选"
+      "suggestion": "12/04 晚餐建议主选 18:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "caravan",
@@ -722,7 +804,10 @@
       "feature": "唐津市的牛排铁板烧；与二见浦不同区域，不能视为糸岛一日游里的邻近餐厅。",
       "dishes": "牛排、铁板烧",
       "rules": "目标日菜单、价格与营业待核；本版不增加唐津长距离绕行。",
-      "suggestion": "路线外收藏，不塞入糸岛日"
+      "suggestion": "路线外备选，不新增城市或专程绕行",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "kakiya",
@@ -746,14 +831,17 @@
       "feature": "表参道上的牡蛎专门店，严岛神社参观后顺路，符合宫岛地方饮食体验。",
       "dishes": "烤牡蛎、炸牡蛎、牡蛎饭",
       "rules": "官网套餐2,900日元含税仅作当前菜单参考；生蚝依当日供应，营业与普通订位规则再核。候位超过20分钟改表参道穴子饭。",
-      "suggestion": "12/1 12:00午餐建议主选",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
       "menuReference": {
         "totalJPY": 2900,
         "from": false,
         "scope": "当前公开套餐基础，已计已知强制服务费；饮品、加点和可选包间另计，目标日期仍须核价",
         "source": "https://www.kaki-ya.jp/",
         "checked": "2026-11-09"
-      }
+      },
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
     },
     {
       "id": "sottaku",
@@ -777,7 +865,10 @@
       "feature": "离希尔顿很近的少席位日本料理，将广岛正式晚餐留在离城前一晚较从容。",
       "dishes": "季节主厨料理套餐",
       "rules": "完全预约，现金为主；目标日套餐、席次与取消条款询店，不将奖项视为有余位。",
-      "suggestion": "12/4 18:00晚餐建议主选"
+      "suggestion": "12/03 晚餐建议主选 18:00",
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     },
     {
       "id": "fukuchan",
@@ -800,8 +891,122 @@
       "source": "https://www.google.com/maps?cid=1299239818781180257",
       "feature": "早良区的社区面馆；适合专程看城市生活，但不在天神或博多步行范围。",
       "dishes": "豚骨拉面",
-      "rules": "周二休息资料需出行前再核；不排12/15。由丽思单程按35–60分钟公共交通加步行，不为一碗面压缩美术馆。",
-      "suggestion": "12/14午餐条件备选，替换半天外出节奏"
+      "rules": "周二休息资料需出行前再核；不排12/15。由福冈酒店单程按35–60分钟公共交通加步行，不为一碗面压缩美术馆。",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-09"
+    },
+    {
+      "id": "gyoza-kaikan",
+      "listIndex": 46,
+      "city": "武雄市",
+      "name": "饺子会馆／餃子会館",
+      "en": "Gyoza Kaikan",
+      "category": "乡土简餐",
+      "icon": "utensils",
+      "lat": 33.1989562,
+      "lng": 130.0331927,
+      "map": "https://www.google.com/maps?cid=14479798018477298872",
+      "address": "武雄町富冈12397-1",
+      "source": "https://gyouza-kaikan.jp/",
+      "feature": "白饺子与豚骨拉面，适合抵达武雄后先吃午餐，再去OND入住。",
+      "dishes": "焼き餃子（煎饺）、もしもしラーメン（豚骨拉面）",
+      "rules": "官网11:00–18:00或售完，周四及另有月内临休；12/5营业需复核，不保证无需排队。",
+      "suggestion": "12/05 午餐建议主选 13:15",
+      "googleRating": 3.9,
+      "googleReviews": 1863,
+      "priceJPY": {
+        "low": 1000,
+        "high": 2000
+      },
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
+    },
+    {
+      "id": "kairodo",
+      "listIndex": 47,
+      "city": "武雄市",
+      "name": "カイロ堂／武雄站佐贺牛便当",
+      "en": "Kairodo",
+      "category": "乡土简餐",
+      "icon": "utensils",
+      "lat": 33.1961883,
+      "lng": 130.022665,
+      "map": "https://www.google.com/maps?cid=1898065628002053801",
+      "address": "武雄温泉站楼内",
+      "source": "https://kairodo.com/",
+      "feature": "站内佐贺牛便当与轻餐，可在庭园日午间坐下用餐；堂食席位及菜单需再确认。",
+      "dishes": "佐賀牛すき焼き弁当（佐贺牛寿喜烧便当）、カルビ焼肉弁当（牛肋肉烤肉便当）",
+      "rules": "官网目前便当参考1890／2484日元；不是12月锁价。午餐堂食与预订便当时间请提前询店，不带食物进入未获准用餐的庭园。",
+      "suggestion": "12/06 午餐建议主选 12:15",
+      "googleRating": 4.2,
+      "googleReviews": 524,
+      "priceJPY": {
+        "low": 2000,
+        "high": 3000
+      },
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
+    },
+    {
+      "id": "anbai",
+      "listIndex": 48,
+      "city": "武雄市",
+      "name": "あん梅／武雄温泉割烹",
+      "en": "Anbai",
+      "category": "日本料理",
+      "icon": "utensils",
+      "lat": 33.1952456,
+      "lng": 130.0183909,
+      "map": "https://www.google.com/maps?cid=465917174018206201",
+      "address": "武雄町武雄7751-31",
+      "source": "https://takeo-anbai.jp/reservation/",
+      "feature": "按食材与客人需求安排的小料理，适合武雄第一晚；把第二晚留给御船山夜景。",
+      "dishes": "时令鱼料理与当日小料理，具体菜单预约时询店",
+      "rules": "官网要求电话咨询食材与预约，0954-23-5617；12/5拟18:00，实际席次与费用须获店方确认。若OND订单含晚餐，先协调择一，避免重复付费。",
+      "suggestion": "12/05 晚餐建议主选 18:00",
+      "googleRating": 4.6,
+      "googleReviews": 189,
+      "priceJPY": {
+        "low": 6000,
+        "high": 10000
+      },
+      "userPriority": "preferred",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
+    },
+    {
+      "id": "arata",
+      "listIndex": 49,
+      "city": "别府市",
+      "name": "焼肉アリラン 新／北浜烧肉",
+      "en": "Yakiniku Arata",
+      "category": "烧肉",
+      "icon": "beef",
+      "lat": 33.2794771,
+      "lng": 131.5038907,
+      "map": "https://www.google.com/maps?cid=4098731191825109938",
+      "address": "北浜2-1-23",
+      "source": "https://www.hotpepper.jp/strJ001178356/",
+      "feature": "界别府附近的北浜烧肉店，未标优先，仅作为酒店晚餐未含或需要改餐时的备选。",
+      "dishes": "烤肉，部位与套餐按店方菜单确认",
+      "rules": "Google门店页显示17:00起营业；目标日休息、菜单和预约规则询店。本版不替换ENOWA及界的夕食。",
+      "suggestion": "未标👍，保留备选，不自动填入空餐段",
+      "googleRating": 4.6,
+      "googleReviews": 246,
+      "priceJPY": {
+        "low": 5000,
+        "high": 6000
+      },
+      "userPriority": "backup",
+      "priorityVerified": "2026-11-10",
+      "ratingChecked": "2026-11-10"
     }
-  ]
+  ],
+  "priorityMark": "Google Maps收藏备注中的👍；逐项读取，非Google评分或商家评价点赞",
+  "priorityCount": 17,
+  "priorityChecked": "2026-11-10"
 }

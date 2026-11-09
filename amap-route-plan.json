@@ -70,6 +70,16 @@
         "from": "simose",
         "to": "hilton",
         "mode": "mixed"
+      },
+      {
+        "from": "hilton",
+        "to": "food-sottaku",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-sottaku",
+        "to": "hilton",
+        "mode": "mixed"
       }
     ],
     [
@@ -82,6 +92,16 @@
         "from": "moca",
         "to": "hilton",
         "mode": "driving"
+      },
+      {
+        "from": "hilton",
+        "to": "food-kiyotan",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-kiyotan",
+        "to": "hilton",
+        "mode": "mixed"
       }
     ],
     [
@@ -102,26 +122,41 @@
       },
       {
         "from": "takeo",
+        "to": "food-gyoza-kaikan",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-gyoza-kaikan",
         "to": "ond",
-        "mode": "driving"
+        "mode": "mixed"
       },
       {
         "from": "ond",
-        "to": "takeoshrine",
-        "mode": "driving"
+        "to": "food-anbai",
+        "mode": "mixed"
       },
       {
-        "from": "takeoshrine",
-        "to": "takeolibrary",
-        "mode": "walking"
-      },
-      {
-        "from": "takeolibrary",
+        "from": "food-anbai",
         "to": "ond",
-        "mode": "driving"
+        "mode": "mixed"
       }
     ],
     [
+      {
+        "from": "ond",
+        "to": "mifuneyama",
+        "mode": "driving"
+      },
+      {
+        "from": "mifuneyama",
+        "to": "food-kairodo",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-kairodo",
+        "to": "ond",
+        "mode": "mixed"
+      },
       {
         "from": "ond",
         "to": "mifuneyama",
@@ -145,9 +180,14 @@
         "from": "takeo"
       },
       {
+        "from": "nagasaki",
+        "to": "food-yossou",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-yossou",
         "to": "nagasakimemorial",
-        "mode": "driving",
-        "from": "nagasaki"
+        "mode": "mixed"
       },
       {
         "to": "hotelNagasaki",
@@ -165,6 +205,16 @@
         "to": "nagasakimuseum",
         "mode": "driving",
         "from": "indigo"
+      },
+      {
+        "from": "nagasakimuseum",
+        "to": "food-shianbashi",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-shianbashi",
+        "to": "nagasakimuseum",
+        "mode": "mixed"
       },
       {
         "to": "indigo",
@@ -220,24 +270,14 @@
         "from": "kaiBeppu"
       },
       {
-        "to": "selectbeppu",
-        "mode": "driving",
-        "from": "bamboo"
+        "from": "bamboo",
+        "to": "food-hirokado",
+        "mode": "mixed"
       },
       {
-        "to": "takegawara",
-        "mode": "walking",
-        "from": "selectbeppu"
-      },
-      {
-        "to": "watertower",
-        "mode": "walking",
-        "from": "takegawara"
-      },
-      {
+        "from": "food-hirokado",
         "to": "kaiBeppu",
-        "mode": "driving",
-        "from": "watertower"
+        "mode": "mixed"
       }
     ],
     [
@@ -250,6 +290,16 @@
         "to": "miyako",
         "mode": "driving",
         "from": "kitakyushumuseum"
+      },
+      {
+        "from": "miyako",
+        "to": "food-issou",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-issou",
+        "to": "miyako",
+        "mode": "mixed"
       }
     ],
     [
@@ -260,8 +310,13 @@
       },
       {
         "from": "acros",
+        "to": "food-genki",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-genki",
         "to": "miyako",
-        "mode": "walking"
+        "mode": "mixed"
       },
       {
         "from": "miyako",
@@ -277,6 +332,16 @@
         "from": "kushida",
         "to": "miyako",
         "mode": "driving"
+      },
+      {
+        "from": "miyako",
+        "to": "food-nagano",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-nagano",
+        "to": "miyako",
+        "mode": "mixed"
       }
     ],
     [
@@ -294,6 +359,16 @@
         "from": "kyuhaku",
         "to": "miyako",
         "mode": "driving"
+      },
+      {
+        "from": "miyako",
+        "to": "food-tsugumi",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-tsugumi",
+        "to": "miyako",
+        "mode": "mixed"
       }
     ],
     [
@@ -311,6 +386,16 @@
         "from": "palmbeach",
         "to": "miyako",
         "mode": "bus"
+      },
+      {
+        "from": "miyako",
+        "to": "food-koto",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-koto",
+        "to": "miyako",
+        "mode": "mixed"
       }
     ],
     [
@@ -330,9 +415,24 @@
         "from": "fukuokamuseum"
       },
       {
+        "from": "ohori",
+        "to": "food-hirao",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-hirao",
         "to": "one",
-        "mode": "driving",
-        "from": "ohori"
+        "mode": "mixed"
+      },
+      {
+        "from": "one",
+        "to": "food-choji",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-choji",
+        "to": "one",
+        "mode": "mixed"
       }
     ],
     [
@@ -365,6 +465,16 @@
         "from": "fukuoka",
         "to": "one",
         "mode": "driving"
+      },
+      {
+        "from": "one",
+        "to": "food-hyogodori-fukuoka",
+        "mode": "mixed"
+      },
+      {
+        "from": "food-hyogodori-fukuoka",
+        "to": "one",
+        "mode": "mixed"
       }
     ],
     [
@@ -378,29 +488,19 @@
   "alternatives": {
     "beppu": [
       {
-        "from": "kaiBeppu",
         "to": "bamboo",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "kaiBeppu"
       },
       {
         "from": "bamboo",
-        "to": "selectbeppu",
-        "mode": "driving"
+        "to": "food-hirokado",
+        "mode": "mixed"
       },
       {
-        "from": "selectbeppu",
-        "to": "takegawara",
-        "mode": "walking"
-      },
-      {
-        "from": "takegawara",
-        "to": "watertower",
-        "mode": "walking"
-      },
-      {
-        "from": "watertower",
+        "from": "food-hirokado",
         "to": "kaiBeppu",
-        "mode": "driving"
+        "mode": "mixed"
       }
     ],
     "kunisaki": [

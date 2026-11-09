@@ -6,7 +6,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const unique=a=>[...new Set(a)];
 const latitude=lat=>-Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))*180/Math.PI;
 const hotelIds=new Set(['kai','hilton','ond','gardenterrace','intercontinental','ritz','chikurintei','simosevilla','enowa','kaiBeppu','miyako','one','hotelNagasaki','indigo']);
-const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['kaiBeppu','bamboo','selectbeppu','takegawara','watertower','kaiBeppu']:i===window.JAPAN_TRIP.trip.keyDays.kunisaki?['kaiBeppu','fukiji','makiodo','kaiBeppu']:data.routes[i];
+const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['kaiBeppu','bamboo','food-hirokado','kaiBeppu']:i===window.JAPAN_TRIP.trip.keyDays.kunisaki?['kaiBeppu','fukiji','makiodo','kaiBeppu']:data.routes[i];
 const navigate=p=>p.map||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.query||p.name);
 const segmentKey=leg=>`${leg.mode}:${leg.from}:${leg.to}`;
 function plannedLegs(day,choice){

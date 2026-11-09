@@ -83,3 +83,5 @@ node scripts/check-dining.cjs
 ## 2026-11-10 酒店确定版
 
 [最新文字行程](itinerary.md) · [费用与购票](cost-estimate.md) · [人民币费用表](cost-estimate.csv) · [网页费用页](https://zxinrain.github.io/japan-autumn-2026/cost-estimate.html)。酒店与两段包车为已选方案；订单及付款状态未提供，预算与价格样本分开呈现。
+
+2026-11-10 餐饮更新：[👍餐厅及每日餐段](restaurants.md)。35家餐厅中17家用户优先，16家排入主选，六盛作廣門同餐替换；其余18家备选。空餐段保留，餐位均未预约。

@@ -669,5 +669,37 @@
       "source": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html",
       "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
     }
-  ]
+  ],
+  "diningPriorityUpdate": {
+    "verified": "2026-11-10",
+    "listItems": 82,
+    "preferredRestaurants": 17,
+    "method": "逐项读取用户提供收藏页的可见👍备注；未改动收藏。新增点位由具体门店Google详情取得WGS-84坐标，主选才进入当日地图。",
+    "newPoints": [
+      {
+        "id": "gyoza-kaikan",
+        "map": "https://www.google.com/maps?cid=14479798018477298872",
+        "lat": 33.1989562,
+        "lng": 130.0331927
+      },
+      {
+        "id": "kairodo",
+        "map": "https://www.google.com/maps?cid=1898065628002053801",
+        "lat": 33.1961883,
+        "lng": 130.022665
+      },
+      {
+        "id": "anbai",
+        "map": "https://www.google.com/maps?cid=465917174018206201",
+        "lat": 33.1952456,
+        "lng": 130.0183909
+      },
+      {
+        "id": "arata",
+        "map": "https://www.google.com/maps?cid=4098731191825109938",
+        "lat": 33.2794771,
+        "lng": 131.5038907
+      }
+    ]
+  }
 }

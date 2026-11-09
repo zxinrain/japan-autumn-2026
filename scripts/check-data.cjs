@@ -28,7 +28,7 @@ assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.l
 let cursor=trip.departure,index=0;
 for(const s of trip.stays){assert.equal(s.in,cursor);assert.equal((Date.parse(s.out)-Date.parse(s.in))/86400000,s.nights);for(let n=0;n<s.nights;n++)assert.equal(trip.days[index++].city,s.city);cursor=s.out;}
 assert.equal(cursor,trip.returnDate);
-for(const d of trip.days){for(const k of ['am','noon','pm','night','transport','breakfast','lunch','dinner','rest','cut','photo'])assert(d[k]);for(const s of d.sources)assert(trip.sources[s]);}
+for(const d of trip.days){for(const k of ['am','noon','pm','night','transport','rest','cut','photo'])assert(d[k]);for(const s of d.sources)assert(trip.sources[s]);}
 assert.match(trip.days[6].title,/御船山/);assert.match(trip.days[4].title,/MOCA/);assert.match(trip.days[3].title,/SIMOSE/);
 assert.match(trip.days[7].pm,/16:00/);assert.match(trip.days[10].title,/由布院/);
 assert(trip.days.slice(5,19).every(d=>!d.city.includes('广岛')),'Do not return to Hiroshima after leaving');
@@ -40,6 +40,6 @@ for(const m of hotelMeta)if(m.photo)assert(fs.existsSync(path.join(root,'assets'
 assert(!trip.days.some(d=>/鹿儿岛|雾岛|陶瓷镇|云仙|大船山/.test(d.title)));
 console.log('PASS: JS syntax; 20 continuous days / 19 nights; 17 destination themes (one links official imagery); ten hotel stays; required full days preserved.');
 
-assert.deepEqual(Array.from(map.routes[13]),['kaiBeppu','kitakyushumuseum','miyako']);assert.match(trip.days[13].transport,/包车/);assert.match(trip.days[16].title,/糸岛/);assert.match(trip.days[17].title,/福冈市美术馆/);assert.match(trip.days[18].title,/九州芸文馆/);
+assert.deepEqual(Array.from(map.routes[13].slice(0,3)),['kaiBeppu','kitakyushumuseum','miyako']);assert.match(trip.days[13].transport,/包车/);assert.match(trip.days[16].title,/糸岛/);assert.match(trip.days[17].title,/福冈市美术馆/);assert.match(trip.days[18].title,/九州芸文馆/);
 
-if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'template');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[10].includes('kinrin'));assert(map.routes[10].includes('enowa'));assert(map.routes[14].includes('tochoji'));assert(map.routes.every(r=>r.every(id=>!id.startsWith('food-'))));}
+if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'selected');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[10].includes('kinrin'));assert(map.routes[10].includes('enowa'));assert(map.routes[14].includes('tochoji'));assert(map.routes[12].includes('food-hirokado'));assert(map.routes[16].includes('food-koto'));}
