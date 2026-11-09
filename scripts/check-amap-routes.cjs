@@ -16,6 +16,6 @@ const item=parseResponse(body,leg,points);w.JAPAN_AMAP_ROUTES.segments['driving:
 assert.equal(w.JAPAN_ROUTE_MAP.verifiedLines(leg).length,1);
 item.origin[0]+=0.01;assert.equal(w.JAPAN_ROUTE_MAP.verifiedLines(leg),null,'stale coordinates must not be drawn');
 assert.equal(w.JAPAN_ROUTE_MAP.verifiedLines({...leg,mode:'rail'}),null);
-assert.equal(w.JAPAN_ROUTE_DATA.routes[13].filter(x=>x==='kokura').length,2,'luggage return must survive display deduplication');
+assert.deepEqual(Array.from(w.JAPAN_ROUTE_DATA.routes[13]),['kaiBeppu','kitakyushumuseum','miyako'],'Charter must link actual departure hotel, main museum and arrival hotel');
 assert.equal(points.fukuokaairport.lat,33.5848221);
 console.log('PASS: AMap response validation, mode isolation, stale geometry rejection, private request builder, terminal coordinate, internal return stops.');

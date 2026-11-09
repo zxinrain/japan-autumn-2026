@@ -61,7 +61,7 @@
       ]
     ],
     "feature": "山体成为庭园的背景，池岸、树木和倒影共同组织视线，白天与夜间有不同观看方式。",
-    "reason": "山体借景、池岸和温泉构成城市之间的停顿；武雄暂定OND HOTEL两晚，保留昼夜庭园。",
+    "reason": "山体借景、池岸和温泉构成城市之间的停顿；武雄OND HOTEL两晚，保留昼夜庭园。",
     "look": "在相近池岸比较昼夜倒影，不以把所有坡道走完为目标。",
     "effort": "上午约 2 小时分段慢游；午后私汤，晚间短段灯光。",
     "tradeoff": "12/6为红叶祭最后一天且是周日；叶况可能偏晚、人流增多。保留庭园与温泉，不承诺盛叶。",
@@ -190,11 +190,11 @@
     "region": "别府·大分",
     "name": "大分 OPAM 与 Art Plaza",
     "en": "Oita Prefectural Art Museum / Art Plaza",
-    "date": "12/10 · 建筑双馆日",
+    "date": "12/11 · ENOWA退房后顺路",
     "priority": "重点推荐",
     "featured": false,
     "days": [
-      10
+      11
     ],
     "images": [
       [
@@ -215,7 +215,7 @@
     "look": "木格如何调节街道视线；混凝土梁与突出体量如何组织空间。",
     "effort": "预约车直达；午餐就在 OPAM，同馆休息后再去第二站。",
     "tradeoff": "Art Plaza 三楼建筑展仍有暂停公告；不能保证看到模型或所有室内区域。",
-    "decision": "保留 OPAM；Art Plaza 以当天安全开放范围执行。",
+    "decision": "上午退房带行李去大分，出光美术馆名品展每人1500日元；Art Plaza后入住界别府。",
     "sources": [
       "opam",
       "artplaza",
@@ -227,11 +227,11 @@
     "region": "别府·大分",
     "name": "国东半岛：富贵寺与真木大堂",
     "en": "Kunisaki Peninsula / Fuki-ji & Maki Odo",
-    "date": "12/11 · 两寺包车日",
+    "date": "12/12 · 国东可选／别府休整",
     "priority": "条件推荐",
     "featured": false,
     "days": [
-      11
+      12
     ],
     "images": [],
     "gallery": "https://www.city.bungotakada.oita.jp/site/showanomachi/1251.html",
@@ -241,7 +241,7 @@
     "look": "富贵寺的屋顶与檐下光线、真木大堂的重要文化财造像。",
     "effort": "6–7 小时包车；富贵寺有石阶，不去深山寺院与磨崖佛长阶。",
     "tradeoff": "堂内开放资料表述不一致，须电话确认；若雨天只能看外部，价值会下降。",
-    "decision": "晴天、能确认开放时保留；否则整天换别府竹工艺与铁轮。",
+    "decision": "默认界别府与老城低强度；国东两寺需要6–7小时包车，整日替换。",
     "sources": [
       "fukiji",
       "fukijiPref",
@@ -253,11 +253,11 @@
     "region": "别府·大分",
     "name": "别府市内备选 · 竹艺与老城艺术",
     "en": "Beppu Bamboo Crafts / Kannawa Onsen",
-    "date": "12/11 · 替代国东，不另排重复参观",
+    "date": "12/12 · 国东可选／别府休整",
     "priority": "低强度替代",
     "featured": false,
     "days": [
-      11
+      12
     ],
     "images": [],
     "gallery": "https://beppu-tourism.com/spot/beppu-city-traditional-bamboo-crafts-center/",
@@ -266,8 +266,8 @@
     "reason": "不想国东包车或下雨时，这条线把手艺、老屋与温泉城市放在同一天；每段可打车，下午早回洲际。",
     "look": "竹编的收口与密度；SELECT二楼林明弘襖绘须当日开放；竹瓦温泉看外观；北浜水塔看回收材料与城市尺度。",
     "effort": "主要步行约0.8–1.2公里，SELECT上楼有台阶；13:00–14:00休息，15:30后回酒店。",
-    "tradeoff": "替换12/11国东两寺；铁轮可替换老城下午，不再把两区、餅ヶ浜与夜间艺术一口气塞满。",
-    "decision": "晴天且想看古建保留国东；想低强度观察城市生活选本线。",
+    "tradeoff": "替换12/12国东两寺；铁轮可替换老城下午，不再把两区、餅ヶ浜与夜间艺术一口气塞满。",
+    "decision": "默认界别府与老城低强度；国东两寺需要6–7小时包车，整日替换。",
     "sources": [
       "bamboo",
       "selectBeppu",
@@ -280,11 +280,11 @@
     "region": "别府·大分",
     "name": "由布院 COMICO",
     "en": "COMICO Art Museum Yufuin",
-    "date": "12/12 · 日归别府",
+    "date": "12/10 · 入住ENOWA当天",
     "priority": "重点推荐",
     "featured": true,
     "days": [
-      12
+      10
     ],
     "images": [
       [
@@ -299,7 +299,7 @@
     "look": "烧杉与由布岳之间的尺度、可拍摄作品与窗景；不承诺每件网络笔记中的藏品都在展，实际以馆方当日为准。",
     "effort": "专车单程约 50–70 分钟，馆后午餐、湖畔咖啡，17:00 前回酒店。",
     "tradeoff": "周六按实际预约时段安排；不沿用旧版周四咖啡／面包判断，营业和菜单另核。",
-    "decision": "12/12周六先锁10:45左右COMICO，约90分钟；午休后用车接宇奈岐日女神社与金鳞湖，15:30左右返别府。",
+    "decision": "先COMICO与金鳞湖，神社可删；15:00入住ENOWA，不返别府。",
     "sources": [
       "comico",
       "comicoArch",
@@ -347,7 +347,7 @@
     "region": "福冈",
     "name": "北九州市立美术馆本馆",
     "en": "Kitakyushu Municipal Museum of Art",
-    "date": "12/13 · Sonic顺路停留",
+    "date": "12/13 · 包车顺路停留",
     "priority": "重点推荐",
     "featured": false,
     "days": [
@@ -516,10 +516,10 @@
     "region": "别府·大分",
     "name": "宇奈岐日女神社",
     "en": "Unagihime Shrine",
-    "date": "12/12 · 由布院短停",
+    "date": "12/10 · 入住ENOWA当天",
     "priority": "低强度补充",
     "days": [
-      12
+      10
     ],
     "images": [],
     "gallery": "https://www.visit-oita.jp/spots/detail/4384",
@@ -528,7 +528,7 @@
     "look": "观察杉木、建筑与地面的关系；关于受灾树木断根数量、年代等网络细节尚未逐一获官方证实，不作为现场讲解定论。",
     "effort": "约20–30分钟，境内有小道与台阶；COMICO至神社、神社至湖各按车程5–10分钟安排。",
     "tradeoff": "没有可靠授权照片可放入本站，提供官方实景入口；不借用其他神社照片。雨大或疲劳时先删本点，COMICO仍保留90分钟。",
-    "decision": "14:10–14:40参拜，随后车接金鳞湖；不从商业街步行硬绕。",
+    "decision": "先COMICO与金鳞湖，神社可删；15:00入住ENOWA，不返别府。",
     "sources": [
       "unagihime"
     ]

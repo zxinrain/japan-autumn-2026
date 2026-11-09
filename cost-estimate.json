@@ -1,0 +1,430 @@
+{
+  "checked": "2026-11-10",
+  "currency": "CNY",
+  "adults": 2,
+  "rooms": 1,
+  "rate": 0.0423,
+  "rateNote": "规划汇率1日元=0.0423人民币，并非银行实时成交价；刷卡及入汤／住宿税按订单核算。",
+  "scope": "全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。",
+  "hotels": [
+    {
+      "name": "界宮島",
+      "en": "KAI Miyajima",
+      "checkin": "2026-11-30",
+      "checkout": "2026-12-01",
+      "nights": 1,
+      "low": 3500,
+      "high": 6000,
+      "quote": null,
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://hoshinoresorts.com/ja/hotels/kaimiyajima/"
+    },
+    {
+      "name": "希尔顿广岛",
+      "en": "Hilton Hiroshima",
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-05",
+      "nights": 4,
+      "low": 4800,
+      "high": 8000,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 4415.09,
+        "checkin": "2026-12-01",
+        "checkout": "2026-12-05",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+        "url": "https://www.booking.com/hotel/jp/hilton-hiroshima.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://hiroshima.hiltonjapan.co.jp/rooms/"
+    },
+    {
+      "name": "OND HOTEL",
+      "en": "OND HOTEL",
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "nights": 2,
+      "low": 4000,
+      "high": 7000,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 3262.51,
+        "checkin": "2026-12-05",
+        "checkout": "2026-12-07",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+        "url": "https://www.booking.com/hotel/jp/ond-ondohoteru.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://www.ondhotel.jp/stay/"
+    },
+    {
+      "name": "长崎酒店",
+      "en": "Hotel Nagasaki",
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-08",
+      "nights": 1,
+      "low": 2000,
+      "high": 3500,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 1896.81,
+        "checkin": "2026-12-07",
+        "checkout": "2026-12-08",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食与取消条件，额外地方税结账核对。",
+        "url": "https://www.booking.com/hotel/jp/nagasaki.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://hotel-nagasaki.jp/tw/"
+    },
+    {
+      "name": "长崎格拉巴街英迪格酒店",
+      "en": "Hotel Indigo Nagasaki Glover Street",
+      "checkin": "2026-12-08",
+      "checkout": "2026-12-09",
+      "nights": 1,
+      "low": 2200,
+      "high": 4000,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 1601.75,
+        "checkin": "2026-12-08",
+        "checkout": "2026-12-09",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食与取消条件，额外地方税结账核对。",
+        "url": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://nagasaki.hotelindigo.com/"
+    },
+    {
+      "name": "ANA 别府洲际度假酒店及水疗中心",
+      "en": "ANA InterContinental Beppu Resort & Spa",
+      "checkin": "2026-12-09",
+      "checkout": "2026-12-10",
+      "nights": 1,
+      "low": 4000,
+      "high": 6500,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 3445.87,
+        "checkin": "2026-12-09",
+        "checkout": "2026-12-10",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+        "url": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://anaicbeppu.com/faq/"
+    },
+    {
+      "name": "由布院 ENOWA",
+      "en": "ENOWA YUFUIN",
+      "checkin": "2026-12-10",
+      "checkout": "2026-12-11",
+      "nights": 1,
+      "low": 6500,
+      "high": 11000,
+      "quote": null,
+      "basis": "Booking未能匹配酒店；优先官网／一休。",
+      "official": "https://enowa-yufuin.jp/"
+    },
+    {
+      "name": "界 别府",
+      "en": "KAI Beppu",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-13",
+      "nights": 2,
+      "low": 6500,
+      "high": 10000,
+      "quote": null,
+      "basis": "Booking本次12/11–13未返回可售；需官网核查。",
+      "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
+    },
+    {
+      "name": "博多都酒店",
+      "en": "Miyako Hotel Hakata",
+      "checkin": "2026-12-13",
+      "checkout": "2026-12-17",
+      "nights": 4,
+      "low": 7000,
+      "high": 11000,
+      "quote": null,
+      "basis": "Booking本次12/13–17未返回可售；不代表官网及其他平台满房。",
+      "official": "https://www.miyakohotels.ne.jp/hakata/stay/"
+    },
+    {
+      "name": "福冈 ONE 酒店",
+      "en": "ONE FUKUOKA HOTEL",
+      "checkin": "2026-12-17",
+      "checkout": "2026-12-19",
+      "nights": 2,
+      "low": 11000,
+      "high": 16000,
+      "quote": {
+        "platform": "Booking",
+        "totalCNY": 11077.35,
+        "checkin": "2026-12-17",
+        "checkout": "2026-12-19",
+        "checked": "2026-11-10",
+        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+        "url": "https://www.booking.com/hotel/jp/one-fukuoka.html"
+      },
+      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
+      "official": "https://onefukuokahotel.jp/rooms/terrace-twin/"
+    }
+  ],
+  "transfers": [
+    {
+      "date": "12/9",
+      "name": "长崎英迪格→别府洲际",
+      "hours": "5–6小时门到门",
+      "lowJPY": 140000,
+      "highJPY": 200000,
+      "status": "用户已选包车，供应商成交价未提供",
+      "basis": "跨县单程须另报价；市内Alphard公开时租8680日元不能直接套用长途总价；此为规划预留。",
+      "source": "https://www.citycab.jp/taxi-introduction/"
+    },
+    {
+      "date": "12/13",
+      "name": "界别府→北九州美术馆→博多都",
+      "hours": "8–9小时含午餐与参观等候",
+      "lowJPY": 100000,
+      "highJPY": 150000,
+      "status": "用户已选包车，供应商成交价未提供",
+      "basis": "亀之井大型车公开8080日元/小时为本地参考；跨县空驶、高速、等待与延时需另核。",
+      "source": "https://kamenoi.co.jp/taxi/campaign/"
+    }
+  ],
+  "optional": [
+    {
+      "date": "12/11",
+      "name": "ENOWA→OPAM→Art Plaza→界别府，6–7小时",
+      "lowJPY": 60000,
+      "highJPY": 90000,
+      "reason": "最值得增加：带行李换酒店顺路看双馆，节省多次寄存换乘。",
+      "source": "https://kamenoi.co.jp/taxi/campaign/",
+      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
+    },
+    {
+      "date": "12/12",
+      "name": "国东富贵寺＋真木大堂，6–7小时",
+      "lowJPY": 50000,
+      "highJPY": 75000,
+      "reason": "仅决定去国东时启用；否则界别府休整与老城短途出租车。",
+      "source": "https://kamenoi.co.jp/taxi/campaign/",
+      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
+    },
+    {
+      "date": "12/15",
+      "name": "博多都↔太宰府，7–8小时",
+      "lowJPY": 60000,
+      "highJPY": 85000,
+      "reason": "按体力选择；西铁可替代，不属于必包。",
+      "source": "https://kamenoi.co.jp/taxi/campaign/",
+      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
+    },
+    {
+      "date": "12/16",
+      "name": "博多都↔糸岛，7–8小时",
+      "lowJPY": 60000,
+      "highJPY": 85000,
+      "reason": "维持公共交通主线；只有想增加多个海湾才值得升级。",
+      "source": "https://kamenoi.co.jp/taxi/campaign/",
+      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
+    }
+  ],
+  "tickets": [
+    {
+      "date": "12/1",
+      "name": "严岛神社＋千叠阁",
+      "perAdultJPY": 400,
+      "totalJPY": 800,
+      "url": "https://www.miyajima.or.jp/",
+      "method": "现场购票；宫岛访问税另计",
+      "note": "300＋100日元为基础预算，出行前再核。",
+      "status": "基础预算待复核"
+    },
+    {
+      "date": "12/2",
+      "name": "和平纪念资料馆",
+      "perAdultJPY": 200,
+      "totalJPY": 400,
+      "url": "https://hpmmuseum.jp/",
+      "method": "官网进入线上票务，选12/2日间",
+      "note": "早晚延长时段另有预约规则；日间不假定随意再入。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/3",
+      "name": "SIMOSE",
+      "perAdultJPY": 2000,
+      "totalJPY": 4000,
+      "url": "https://simose-museum.jp/tickets/",
+      "method": "官方线上购票入口",
+      "note": "官网写明Web有优惠，实际支付金额按12/3票种；预算按标准2000。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/4",
+      "name": "MOCA千崎千惠夫特展",
+      "perAdultJPY": 1100,
+      "totalJPY": 2200,
+      "url": "https://www.hiroshima-moca.jp/exhibition/senzakichieo",
+      "method": "展期已开始，现场当日票；官网339商店仅适用仍在销售的产品",
+      "note": "收藏展另350；是否通票先询馆方，不默认1100含收藏。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/6",
+      "name": "御船山昼夜共通票",
+      "perAdultJPY": 900,
+      "totalJPY": 1800,
+      "url": "https://www.mifuneyamarakuen.jp/autumn/",
+      "method": "现场购票；本轮未确认独立网上付款入口",
+      "note": "白天或夜间单段600；昼夜900；17:30夜间开始，12/6最后一天。OND非免费入园酒店。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/7",
+      "name": "栗生明祈念馆",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://www.peace-nagasaki.go.jp/guide",
+      "method": "免费入馆，无须购买线上票",
+      "note": "",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/8",
+      "name": "长崎县美术馆收藏",
+      "perAdultJPY": 420,
+      "totalJPY": 840,
+      "url": "https://www.nagasaki-museum.jp/english/visit/info",
+      "method": "现场基础票；特展按官网展览票务另购",
+      "note": "不把收藏票当作所有特展通票。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/10",
+      "name": "COMICO",
+      "perAdultJPY": 1700,
+      "totalJPY": 3400,
+      "url": "https://reserva.be/comicoartmuseumyufuin",
+      "method": "官方线上e-ticket，选12/10时段",
+      "note": "信用卡，持QR码；通常提前约一个月查看，具体库存以系统为准。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/11",
+      "name": "OPAM出光美术馆名品展",
+      "perAdultJPY": 1500,
+      "totalJPY": 3000,
+      "url": "https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de",
+      "method": "官方列出的销售点为OPAM，现场购买",
+      "note": "11/13–1/11在期，12/14休展；12/11可安排，不使用普通收藏票估价。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/11",
+      "name": "Art Plaza公共开放区域",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://www.art-plaza.jp/",
+      "method": "公共区域，无须预购；活动另收费",
+      "note": "三楼矶崎新展不保证开放。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/12可选",
+      "name": "富贵寺＋真木大堂",
+      "perAdultJPY": null,
+      "totalJPY": null,
+      "url": "https://www.makiodo.jp/access.html",
+      "method": "现场，金额待寺方确认",
+      "note": "预算另预留两人100元人民币，不混入已核实票款。",
+      "status": "待核实"
+    },
+    {
+      "date": "12/13",
+      "name": "北九州本馆摄影收藏",
+      "perAdultJPY": 300,
+      "totalJPY": 600,
+      "url": "https://kmma.jp/exhibition/collection2-photograph/",
+      "method": "现场；此轮官网访问超时，出发前复核",
+      "note": "2026/8/29–12/27在期；300日元为展览资料，未完成官网复核。",
+      "status": "展览资料参考，官网待复核"
+    },
+    {
+      "date": "12/15",
+      "name": "九州国立博物馆文化交流展",
+      "perAdultJPY": 700,
+      "totalJPY": 1400,
+      "url": "https://www.kyuhaku.jp/visit/visit_qanda.html",
+      "method": "官方参观页核对当天购票，基础票可现场买",
+      "note": "特展另计；神社公共参拜／星巴克建筑不收馆票。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/17",
+      "name": "福冈市美术馆收藏",
+      "perAdultJPY": 200,
+      "totalJPY": 400,
+      "url": "https://www.fukuoka-art-museum.jp/guide/",
+      "method": "官方指南内有线上票务入口，选收藏票",
+      "note": "特展另计。",
+      "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/18",
+      "name": "九州芸文馆建筑公共区域",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://www.kyushu-geibun.jp/",
+      "method": "建筑与公共区不预购；活动按具体展览",
+      "note": "出租房间和艺术墙不保证可进入；收费展览另计。",
+      "status": "公共区域预算，展览另核"
+    },
+    {
+      "date": "其他日",
+      "name": "金鳞湖／宇奈岐神社／ACROS公共层／大濠／糸岛海岸",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://yokanavi.com/",
+      "method": "公共区域无线上购票",
+      "note": "交通、停车、餐饮另计；私人场所按现场规则。",
+      "status": "公共区域预算"
+    }
+  ],
+  "other": [
+    {
+      "name": "其余铁路、机场接送、市内出租车、渡轮与巴士",
+      "low": 6500,
+      "high": 10000,
+      "note": "不含两段长途包车和可选单日包车；包含12/10跨山接送与12/11分段交通备选，选全日车时去掉对应1500元预留，防止重复。"
+    },
+    {
+      "name": "酒店方案以外餐饮",
+      "low": 12000,
+      "high": 22000,
+      "note": "两人20天；假设界宫岛、ENOWA、界别府含夕朝食，不再重复；OND及城市酒店按订单核餐食，高价寿司与酒水可超出。"
+    },
+    {
+      "name": "门票及未定特展预留",
+      "low": 1100,
+      "high": 1800,
+      "note": "含已列票款、MOCA收藏另票及少量未定特展；国东若去另核，不按全部免费估算。"
+    }
+  ],
+  "totals": {
+    "baseLow": 81252,
+    "baseHigh": 131605,
+    "withReserveLow": 89377,
+    "withReserveHigh": 144766,
+    "reservePercent": 10,
+    "hotelLow": 51500,
+    "hotelHigh": 83000
+  }
+}

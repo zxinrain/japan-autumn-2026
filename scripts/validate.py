@@ -23,12 +23,12 @@ for name in ['index.html','hotels.html']:
  if not p.h1:errors.append(f'{name}: missing fallback heading')
 trip=json.loads((R/'trip.json').read_text())
 rows=list(csv.DictReader((R/'hotel-comparison.csv').open(encoding='utf-8-sig')))
-assert len(rows)==6
+assert len(rows)==len(trip['stays'])
 for row,stay in zip(rows,trip['stays']):
  assert row['入住']==stay['in'] and row['退房']==stay['out']
  assert row['价格币种']=='CNY'
- assert all(row[k]=='待查询' for k in ['官网含税总价','携程含税总价','Agoda含税总价','Booking含税总价','一休含税总价'])
+ assert all(row[k]=='待查询' for k in ['官网含税总价','携程含税总价','Agoda含税总价','一休含税总价'])
 for f in ['travel-data.js','app.js','hotel-links.js','style.css','trip.json','destinations.json','hotel-platforms.json','image-provenance.json','itinerary.md','.nojekyll']:
  if not (R/f).is_file():errors.append(f'Missing {f}')
 if errors:raise SystemExit('\n'.join(errors))
-print('PASS: two public pages, local resources, six date-aligned CNY hotel rows.')
+print('PASS: two public pages, local resources, ten date-aligned CNY hotel rows.')

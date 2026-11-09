@@ -20,6 +20,15 @@
       "source": "https://www.ikyu.com/00002983/",
       "scope": "豪华／优选客房公开起价样本；行政层与高楼层双床另查。",
       "status": "非指定日期公开样本，不是本行程实时可售报价"
+    },
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 4415.09,
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-05",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+      "url": "https://www.booking.com/hotel/jp/hilton-hiroshima.html"
     }
   },
   "garden": {
@@ -66,6 +75,15 @@
       "source": "https://www.ikyu.com/00002626/",
       "scope": "基础客房公开起价样本；非本次优先Club双床报价，升级另查。",
       "status": "非指定日期公开样本，不是本行程实时可售报价"
+    },
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 3445.87,
+      "checkin": "2026-12-09",
+      "checkout": "2026-12-10",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+      "url": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html"
     }
   },
   "ritz": {
@@ -104,6 +122,106 @@
       "OND HOTEL 官网",
       "https://www.ondhotel.jp/stay/"
     ],
-    "priceReference": null
+    "priceReference": null,
+    "booking": "https://www.booking.com/hotel/jp/ond-ondohoteru.html",
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 3262.51,
+      "checkin": "2026-12-05",
+      "checkout": "2026-12-07",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+      "url": "https://www.booking.com/hotel/jp/ond-ondohoteru.html"
+    }
+  },
+  "enowa": {
+    "official": "https://enowa-yufuin.jp/",
+    "priceReference": null,
+    "ikyu": "https://www.ikyu.com/00002995/",
+    "searchStatus": "Booking未能匹配酒店；优先官网／一休。",
+    "photo": [
+      "enowa-official.jpg",
+      "酒店官网空间参考，非已订房型",
+      "酒店官网",
+      "https://enowa-yufuin.jp/"
+    ]
+  },
+  "kaiBeppu": {
+    "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
+    "priceReference": null,
+    "searchStatus": "Booking本次12/11–13未返回可售；需官网核查。",
+    "photo": [
+      "kaiBeppu-official.jpg",
+      "酒店官方空间参考，非已订房型",
+      "酒店官网",
+      "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
+    ]
+  },
+  "miyako": {
+    "official": "https://www.miyakohotels.ne.jp/hakata/stay/",
+    "priceReference": null,
+    "ikyu": "https://www.ikyu.com/00002619/",
+    "searchStatus": "Booking本次12/13–17未返回可售；不代表官网及其他平台满房。",
+    "photo": [
+      "miyako-official.jpg",
+      "酒店官网空间参考，非已订房型",
+      "酒店官网",
+      "https://www.miyakohotels.ne.jp/hakata/stay/"
+    ]
+  },
+  "one": {
+    "official": "https://onefukuokahotel.jp/rooms/terrace-twin/",
+    "priceReference": null,
+    "ikyu": "https://www.ikyu.com/00003268/",
+    "booking": "https://www.booking.com/hotel/jp/one-fukuoka.html",
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 11077.35,
+      "checkin": "2026-12-17",
+      "checkout": "2026-12-19",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
+      "url": "https://www.booking.com/hotel/jp/one-fukuoka.html"
+    },
+    "photo": [
+      "one-official.jpg",
+      "酒店官网空间参考，非已订房型",
+      "酒店官网",
+      "https://onefukuokahotel.jp/rooms/terrace-twin/"
+    ]
+  },
+  "hotelNagasaki": {
+    "official": "https://hotel-nagasaki.jp/tw/",
+    "priceReference": null,
+    "booking": "https://www.booking.com/hotel/jp/nagasaki.html",
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 1896.81,
+      "checkin": "2026-12-07",
+      "checkout": "2026-12-08",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食与取消条件，额外地方税结账核对。",
+      "url": "https://www.booking.com/hotel/jp/nagasaki.html"
+    },
+    "photo": [
+      "hotelNagasaki-official.jpg",
+      "酒店官方空间参考，非已订房型",
+      "酒店官网",
+      "https://hotel-nagasaki.jp/tw/"
+    ]
+  },
+  "indigo": {
+    "official": "https://nagasaki.hotelindigo.com/",
+    "priceReference": null,
+    "booking": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html",
+    "datedQuote": {
+      "platform": "Booking",
+      "totalCNY": 1601.75,
+      "checkin": "2026-12-08",
+      "checkout": "2026-12-09",
+      "checked": "2026-11-10",
+      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食与取消条件，额外地方税结账核对。",
+      "url": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html"
+    }
   }
 }

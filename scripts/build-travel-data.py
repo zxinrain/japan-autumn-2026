@@ -15,7 +15,7 @@ hotel_catalog=json.loads((R/'hotel-catalog.json').read_text())
 meta=[dict(hotel_catalog[s['source']]) for s in trip['stays']]
 for s,m in zip(trip['stays'],meta):m['official']=trip['sources'][s['source']][1]
 dining=json.loads((R/'restaurants.json').read_text())
-payload={'trip':trip,'catalog':catalog,'hotelMeta':meta,'dining':dining}
+payload={'trip':trip,'catalog':catalog,'hotelMeta':meta,'dining':dining,'budget':json.loads((R/'cost-estimate.json').read_text())}
 (R/'travel-data.js').write_text('window.JAPAN_TRIP = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n')
 (R/'hotel-platforms.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
 with (R/'hotel-comparison.csv').open('w',encoding='utf-8-sig',newline='') as f:
@@ -23,5 +23,5 @@ with (R/'hotel-comparison.csv').open('w',encoding='utf-8-sig',newline='') as f:
  for s,m in zip(trip['stays'],meta):
   p=m.get('priceReference');convert=lambda v:round(v*p['rateCNYPer100JPY']/100/10)*10
   ref=[f"约{convert(p['lowJPY'])}–{convert(p['highJPY'])}",f"{p['lowJPY']}–{p['highJPY']}",p['scope']+' 非指定日期样本，非本次可售。',p['source'],p['checked']] if p else ['待查询','待查询','未取得可靠公开价格，不引用其他酒店报价',m['official'],trip['verified']]
-  w.writerow([s['cn'],s['en'],s['in'],s['out'],s['nights'],2,1,'CNY',s['room'],*(['待查询']*5),'未取得本次同口径报价；目标页日期待复核',*ref])
-print(f"Built {len(trip['days'])} days / 19 nights, {len(catalog)} destination themes ({sum(bool(p['images']) for p in catalog)} with local photos), 6 hotel rows.")
+  w.writerow([s['cn'],s['en'],s['in'],s['out'],s['nights'],2,1,'CNY',s['room'],*(['待查询']*3+[str(m['datedQuote']['totalCNY'])+'（床型／餐食／取消待核）' if m.get('datedQuote') else '待查询']+['待查询']),'未取得本次同口径报价；目标页日期待复核',*ref])
+print(f"Built {len(trip['days'])} days / 19 nights, {len(catalog)} destination themes ({sum(bool(p['images']) for p in catalog)} with local photos), {len(trip['stays'])} hotel rows.")

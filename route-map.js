@@ -5,14 +5,14 @@ const data=window.JAPAN_ROUTE_DATA;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const unique=a=>[...new Set(a)];
 const latitude=lat=>-Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))*180/Math.PI;
-const hotelIds=new Set(['kai','hilton','ond','gardenterrace','intercontinental','ritz','chikurintei','simosevilla']);
-const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['intercontinental','bamboo','selectbeppu','takegawara','watertower','intercontinental']:data.routes[i];
+const hotelIds=new Set(['kai','hilton','ond','gardenterrace','intercontinental','ritz','chikurintei','simosevilla','enowa','kaiBeppu','miyako','one','hotelNagasaki','indigo']);
+const dayRoute=(i,choice)=>i===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?['kaiBeppu','bamboo','selectbeppu','takegawara','watertower','kaiBeppu']:i===window.JAPAN_TRIP.trip.keyDays.kunisaki?['kaiBeppu','fukiji','makiodo','kaiBeppu']:data.routes[i];
 const navigate=p=>p.map||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.query||p.name);
 const segmentKey=leg=>`${leg.mode}:${leg.from}:${leg.to}`;
 function plannedLegs(day,choice){
  if(day===null)return [];
  const ids=dayRoute(day,choice),plan=window.JAPAN_AMAP_PLAN;
- const legs=day===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?plan?.alternatives?.beppu:plan?.days?.[day];
+ const legs=day===window.JAPAN_TRIP.trip.keyDays.kunisaki&&choice==='beppu'?plan?.alternatives?.beppu:day===window.JAPAN_TRIP.trip.keyDays.kunisaki?plan?.alternatives?.kunisaki:plan?.days?.[day];
  return ids.slice(1).map((to,i)=>{const leg=legs?.[i];return leg?.from===ids[i]&&leg?.to===to?leg:{from:ids[i],to,mode:'mixed'};});
 }
 function verifiedLines(leg){

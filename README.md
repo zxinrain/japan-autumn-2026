@@ -79,3 +79,7 @@ node scripts/check-dining.cjs
 [高德海外路线接入说明](amap-integration.md)：代码与59段驾车／步行请求清单已准备，Key尚待本地配置。没有API数据的区间不显示轨迹，不声称已经生成真实高德路线。所有路径和点位统一蓝染蓝。
 
 在线地图采用本地 Leaflet 1.9.4 与按需加载的 OpenStreetMap 街道瓦片；离线时回退到带真实坐标的 Natural Earth 轮廓。点位采用统一蓝染蓝。坐标代表地点／建筑位置，不保证车辆上下客入口；临行须复核接车点。
+
+## 2026-11-10 酒店确定版
+
+[最新文字行程](itinerary.md) · [费用与购票](cost-estimate.md) · [人民币费用表](cost-estimate.csv) · [网页费用页](https://zxinrain.github.io/japan-autumn-2026/cost-estimate.html)。酒店与两段包车为已选方案；订单及付款状态未提供，预算与价格样本分开呈现。

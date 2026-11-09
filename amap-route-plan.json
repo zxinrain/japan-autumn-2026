@@ -135,171 +135,136 @@
     ],
     [
       {
-        "from": "ond",
         "to": "takeo",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "ond"
       },
       {
-        "from": "takeo",
         "to": "nagasaki",
-        "mode": "rail"
+        "mode": "driving",
+        "from": "takeo"
       },
       {
-        "from": "nagasaki",
         "to": "nagasakimemorial",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "nagasaki"
       },
       {
-        "from": "nagasakimemorial",
-        "to": "gardenterrace",
-        "mode": "driving"
+        "to": "hotelNagasaki",
+        "mode": "driving",
+        "from": "nagasakimemorial"
       }
     ],
     [
       {
-        "from": "gardenterrace",
+        "to": "indigo",
+        "mode": "driving",
+        "from": "hotelNagasaki"
+      },
+      {
         "to": "nagasakimuseum",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "indigo"
       },
       {
-        "from": "nagasakimuseum",
-        "to": "seaside",
-        "mode": "walking"
-      },
-      {
-        "from": "seaside",
-        "to": "gardenterrace",
-        "mode": "driving"
+        "to": "indigo",
+        "mode": "driving",
+        "from": "nagasakimuseum"
       }
     ],
     [
       {
-        "from": "gardenterrace",
-        "to": "nagasaki",
-        "mode": "driving"
-      },
-      {
-        "from": "nagasaki",
-        "to": "takeo",
-        "mode": "rail"
-      },
-      {
-        "from": "takeo",
-        "to": "fukuoka",
-        "mode": "rail"
-      },
-      {
-        "from": "fukuoka",
-        "to": "beppu",
-        "mode": "rail"
-      },
-      {
-        "from": "beppu",
         "to": "intercontinental",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "indigo"
       }
     ],
     [
       {
-        "from": "intercontinental",
-        "to": "opam",
-        "mode": "driving"
-      },
-      {
-        "from": "opam",
-        "to": "artplaza",
-        "mode": "driving"
-      },
-      {
-        "from": "artplaza",
-        "to": "intercontinental",
-        "mode": "driving"
-      }
-    ],
-    [
-      {
-        "from": "intercontinental",
-        "to": "fukiji",
-        "mode": "driving"
-      },
-      {
-        "from": "fukiji",
-        "to": "makiodo",
-        "mode": "driving"
-      },
-      {
-        "from": "makiodo",
-        "to": "intercontinental",
-        "mode": "driving"
-      }
-    ],
-    [
-      {
-        "from": "intercontinental",
         "to": "comico",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "intercontinental"
       },
       {
-        "from": "comico",
-        "to": "unagihime",
-        "mode": "driving"
-      },
-      {
-        "from": "unagihime",
         "to": "kinrin",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "comico"
       },
       {
-        "from": "kinrin",
-        "to": "intercontinental",
-        "mode": "driving"
+        "to": "enowa",
+        "mode": "driving",
+        "from": "kinrin"
       }
     ],
     [
       {
-        "from": "intercontinental",
-        "to": "beppu",
-        "mode": "driving"
+        "to": "opam",
+        "mode": "driving",
+        "from": "enowa"
       },
       {
-        "from": "beppu",
-        "to": "kokura",
-        "mode": "rail"
+        "to": "artplaza",
+        "mode": "driving",
+        "from": "opam"
       },
       {
-        "from": "kokura",
+        "to": "kaiBeppu",
+        "mode": "driving",
+        "from": "artplaza"
+      }
+    ],
+    [
+      {
+        "to": "bamboo",
+        "mode": "driving",
+        "from": "kaiBeppu"
+      },
+      {
+        "to": "selectbeppu",
+        "mode": "driving",
+        "from": "bamboo"
+      },
+      {
+        "to": "takegawara",
+        "mode": "walking",
+        "from": "selectbeppu"
+      },
+      {
+        "to": "watertower",
+        "mode": "walking",
+        "from": "takegawara"
+      },
+      {
+        "to": "kaiBeppu",
+        "mode": "driving",
+        "from": "watertower"
+      }
+    ],
+    [
+      {
         "to": "kitakyushumuseum",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "kaiBeppu"
       },
       {
-        "from": "kitakyushumuseum",
-        "to": "kokura",
-        "mode": "driving"
-      },
-      {
-        "from": "kokura",
-        "to": "fukuoka",
-        "mode": "rail"
-      },
-      {
-        "from": "fukuoka",
-        "to": "ritz",
-        "mode": "driving"
+        "to": "miyako",
+        "mode": "driving",
+        "from": "kitakyushumuseum"
       }
     ],
     [
       {
-        "from": "ritz",
+        "from": "miyako",
         "to": "acros",
         "mode": "walking"
       },
       {
         "from": "acros",
-        "to": "ritz",
+        "to": "miyako",
         "mode": "walking"
       },
       {
-        "from": "ritz",
+        "from": "miyako",
         "to": "tochoji",
         "mode": "driving"
       },
@@ -310,13 +275,13 @@
       },
       {
         "from": "kushida",
-        "to": "ritz",
+        "to": "miyako",
         "mode": "driving"
       }
     ],
     [
       {
-        "from": "ritz",
+        "from": "miyako",
         "to": "starbucks",
         "mode": "driving"
       },
@@ -327,13 +292,13 @@
       },
       {
         "from": "kyuhaku",
-        "to": "ritz",
+        "to": "miyako",
         "mode": "driving"
       }
     ],
     [
       {
-        "from": "ritz",
+        "from": "miyako",
         "to": "futamigaura",
         "mode": "bus"
       },
@@ -344,30 +309,35 @@
       },
       {
         "from": "palmbeach",
-        "to": "ritz",
+        "to": "miyako",
         "mode": "bus"
       }
     ],
     [
       {
-        "from": "ritz",
+        "to": "one",
+        "mode": "driving",
+        "from": "miyako"
+      },
+      {
         "to": "fukuokamuseum",
-        "mode": "driving"
+        "mode": "driving",
+        "from": "one"
       },
       {
-        "from": "fukuokamuseum",
         "to": "ohori",
-        "mode": "walking"
+        "mode": "driving",
+        "from": "fukuokamuseum"
       },
       {
-        "from": "ohori",
-        "to": "ritz",
-        "mode": "driving"
+        "to": "one",
+        "mode": "driving",
+        "from": "ohori"
       }
     ],
     [
       {
-        "from": "ritz",
+        "from": "one",
         "to": "fukuoka",
         "mode": "driving"
       },
@@ -393,13 +363,13 @@
       },
       {
         "from": "fukuoka",
-        "to": "ritz",
+        "to": "one",
         "mode": "driving"
       }
     ],
     [
       {
-        "from": "ritz",
+        "from": "one",
         "to": "fukuokaairport",
         "mode": "driving"
       }
@@ -408,7 +378,7 @@
   "alternatives": {
     "beppu": [
       {
-        "from": "intercontinental",
+        "from": "kaiBeppu",
         "to": "bamboo",
         "mode": "driving"
       },
@@ -429,7 +399,24 @@
       },
       {
         "from": "watertower",
-        "to": "intercontinental",
+        "to": "kaiBeppu",
+        "mode": "driving"
+      }
+    ],
+    "kunisaki": [
+      {
+        "from": "kaiBeppu",
+        "to": "fukiji",
+        "mode": "driving"
+      },
+      {
+        "from": "fukiji",
+        "to": "makiodo",
+        "mode": "driving"
+      },
+      {
+        "from": "makiodo",
+        "to": "kaiBeppu",
         "mode": "driving"
       }
     ]

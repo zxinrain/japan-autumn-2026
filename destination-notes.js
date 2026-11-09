@@ -163,12 +163,12 @@ window.JAPAN_DESTINATION_NOTES = [
     "type": "architecture",
     "title": "坂茂：面向街道的一道“缘侧”",
     "subtitle": "OPAM · Shigeru Ban",
-    "day": 10,
+    "day": 11,
     "person": "坂茂 / Shigeru Ban",
     "summary": "透光木格与玻璃大厅让路过的人看见馆内日常，美术馆也可以是喝咖啡、停留和相遇的地方。",
     "concept": "首层通透、双层高公共中庭免费使用；可移动的展示墙让大厅与展览空间重新组合。",
     "look": "从街边看入室内，再回头看行人与大厅的关系；观察木格、玻璃和门扇如何控制开放程度。",
-    "practical": "当期展览另查。Art Plaza 仍以安全开放范围为准，不承诺三楼建筑展可看。",
+    "practical": "12/11参观出光美术馆名品展，成人1500日元；Art Plaza安全开放区域另核。",
     "source": [
       "OPAM 建筑设计说明",
       "https://www.opam.jp/about/construction.html"
@@ -180,12 +180,12 @@ window.JAPAN_DESTINATION_NOTES = [
     "type": "architecture",
     "title": "隈研吾：烧杉如何退到山景之后",
     "subtitle": "COMICO Art Museum Yufuin",
-    "day": 12,
+    "day": 10,
     "person": "隈研吾 / Kengo Kuma",
     "summary": "远看是深色低矮体量，近看是有纹理的木材；把注意力慢慢交给由布院的山与作品。",
     "concept": "烧杉外墙以深色呼应山林，浅水池连接相向的展厅，让建筑保持小尺度与内外联系。",
     "look": "先远看屋顶与山的比例，再近看烧杉表面的鳞状肌理和拼接节奏。",
-    "practical": "12/12 日归别府。先落实参观时段；拍摄区域依馆方规定，勿默认所有展厅可拍。",
+    "practical": "12/10先COMICO与金鳞湖，15:00入住ENOWA；线上预购时段，摄影遵守馆规。",
     "source": [
       "隈研吾事务所项目说明",
       "https://kkaa.co.jp/en/project/comico-art-museum-yufuin/"

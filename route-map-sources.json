@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-09",
+  "verified": "2026-11-10",
   "coastline": {
     "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_admin_0_countries.geojson",
     "license": "Public domain; https://www.naturalearthdata.com/about/terms-of-use/",
@@ -637,5 +637,37 @@
       "https://anaicbeppu.com/access/",
       "https://www.ondhotel.jp/access/"
     ]
-  }
+  },
+  "hotelUpdate": [
+    {
+      "point": "enowa",
+      "source": "https://enowa-yufuin.jp/access/",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    },
+    {
+      "point": "kaiBeppu",
+      "source": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    },
+    {
+      "point": "miyako",
+      "source": "https://www.miyakohotels.ne.jp/hakata/access/",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    },
+    {
+      "point": "one",
+      "source": "https://www.booking.com/hotel/jp/one-fukuoka.html",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    },
+    {
+      "point": "hotelNagasaki",
+      "source": "https://www.booking.com/hotel/jp/nagasaki.html",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    },
+    {
+      "point": "indigo",
+      "source": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html",
+      "note": "酒店公开坐标；上下客点需酒店确认，未获取实际路线不画连线"
+    }
+  ]
 }
