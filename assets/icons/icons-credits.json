@@ -64,5 +64,69 @@
     "licence": "ISC",
     "url": "https://github.com/lucide-icons/lucide",
     "trademark": false
+  },
+  {
+    "file": "food-beef.svg",
+    "icon": "lucide:beef",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/beef.svg"
+  },
+  {
+    "file": "food-beer.svg",
+    "icon": "lucide:beer",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/beer.svg"
+  },
+  {
+    "file": "food-cooking-pot.svg",
+    "icon": "lucide:cooking-pot",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/cooking-pot.svg"
+  },
+  {
+    "file": "food-drumstick.svg",
+    "icon": "lucide:drumstick",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/drumstick.svg"
+  },
+  {
+    "file": "food-fish.svg",
+    "icon": "lucide:fish",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/fish.svg"
+  },
+  {
+    "file": "food-shrimp.svg",
+    "icon": "lucide:shrimp",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/shrimp.svg"
+  },
+  {
+    "file": "food-soup.svg",
+    "icon": "lucide:soup",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/soup.svg"
+  },
+  {
+    "file": "food-utensils.svg",
+    "icon": "lucide:utensils",
+    "kind": "line",
+    "author": "Lucide Contributors",
+    "licence": "ISC",
+    "url": "https://github.com/lucide-icons/lucide/blob/main/icons/utensils.svg"
   }
 ]

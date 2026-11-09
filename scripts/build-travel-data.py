@@ -14,7 +14,8 @@ for d in catalog:
 hotel_catalog=json.loads((R/'hotel-catalog.json').read_text())
 meta=[dict(hotel_catalog[s['source']]) for s in trip['stays']]
 for s,m in zip(trip['stays'],meta):m['official']=trip['sources'][s['source']][1]
-payload={'trip':trip,'catalog':catalog,'hotelMeta':meta}
+dining=json.loads((R/'restaurants.json').read_text())
+payload={'trip':trip,'catalog':catalog,'hotelMeta':meta,'dining':dining}
 (R/'travel-data.js').write_text('window.JAPAN_TRIP = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n')
 (R/'hotel-platforms.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
 with (R/'hotel-comparison.csv').open('w',encoding='utf-8-sig',newline='') as f:

@@ -28,6 +28,19 @@
 
 ## 每日行程
 
+## 收藏餐厅与晚餐安排
+
+31家餐厅按10个城市分类，详见[餐厅收藏索引](restaurants.md)；网页在「每日行程→按城市查看31家收藏餐厅」，各日「餐食推荐」卡片内有主选与备选。每个餐段只设一个主选，所有餐位均未预约。
+
+| 日期 | 晚餐主选建议 | 衔接要点 |
+|---|---|---|
+| 12/14 周一 | 水たき長野 18:00 | 市内休整，下午先回酒店 |
+| 12/16 周三 | 鮨さかい本店 18:00 | 糸岛16:00–16:30返店，留休息与去西中洲时间 |
+| 12/17 周四 | 嗣味 18:00 | 美术馆后下午留市内休息 |
+| 12/18 周五 | 焼き鳥こと 18:00 | 芸文馆14:30前后离馆、16:30前返店才执行，否则预约前改晚席备选 |
+
+吉宗通常周二休，已移到12/7周一；12/8改四海楼午餐。12/9铁路转移在博多站内用餐，不排站外拉面店。
+
 ### Day 1｜11/30 周一｜香港直飞广岛 · 界宮島海上第一晚
 
 住宿：宫岛口。首晚海景 · 早航班待确认
@@ -64,7 +77,7 @@
 
 **上午**：08:00左右早餐，09:00退房，大件行李经酒店确认后寄存至傍晚。按实际可售船班约09:30出发，10:00前后到宫岛；严岛神社、千叠阁与参道，不上弥山。
 
-**中午**：12:00 岛上午餐；人多时先登记候位，再在附近短程散步。13:00–14:00 咖啡或坐下休息。
+**中午**：12:00 牡蠣屋午餐建议；严岛神社后沿表参道步行约5–10分钟。候位超过20分钟改附近穴子饭；13:00–14:00咖啡与坐下休息。
 
 **下午**：14:00–16:00 红叶谷低处、五重塔及海边短走。返航按实际船班，目标17:00–17:30回界宮島取行李；不为拍照错过末班。
 
@@ -74,7 +87,7 @@
 
 **早餐推荐**：界宮島早餐，按订房套餐确认。
 
-**午餐推荐**：宫岛「穴子与牡蛎 まめたぬき／Mametanuki」：表参道商店街一带，蒸烤星鳗饭、炸牡蛎；不接受普通订位，按店方候位系统安排。
+**午餐推荐**：建议12:00 牡蠣屋／Kakiya Miyajima：烤牡蛎、炸牡蛎、牡蛎饭。严岛神社后沿表参道步行约5–10分钟，候位后保留咖啡休息。 未预约；官网套餐2,900日元含税仅作当前菜单参考；生蚝依当日供应，营业与普通订位规则再核。候位超过20分钟改表参道穴子饭。
 
 **晚餐推荐**：希尔顿泉水或酒店附近经礼宾确认的餐厅，19:30候选。
 
@@ -83,6 +96,10 @@
 **天气与体力删减**：先删红叶谷，保留午休与返航取件余量；退房后寄存不获同意时需先另定行李方案。
 
 **摄影观察**：看回廊柱列如何框住水面，留意渡轮旅客、商店补货和游客离开主街后的生活尺度。12 月叶色只作偶遇。
+
+**收藏餐厅 · 午餐 · 建议主选**：[ 牡蠣屋 / Kakiya Miyajima](https://www.google.com/maps?cid=14654651940468593869) · 12:00。严岛神社后沿表参道步行约5–10分钟，候位后保留咖啡休息。 官网套餐2,900日元含税仅作当前菜单参考；生蚝依当日供应，营业与普通订位规则再核。候位超过20分钟改表参道穴子饭。 [营业与订位资料](https://www.kaki-ya.jp/)。未预约。
+
+**收藏餐厅 · 晚餐 · 替换备选**：[ おでん権兵衛 / Oden Gonbei](https://www.google.com/maps?cid=15004759426328287620) · 19:30。希尔顿出发车约5–10分钟；若回城晚或累，直接酒店吃。 营业与空位提前核实；回城延误就留在酒店吃，不追赶。 [营业与订位资料](https://tabelog.com/hiroshima/A3401/A340110/34002111/)。未预约。
 
 导航顺序：[KAI Miyajima](https://www.google.com/maps/search/?api=1&query=KAI%20Miyajima) → [Itsukushima Shrine](https://www.google.com/maps/search/?api=1&query=Itsukushima%20Shrine) → [KAI Miyajima](https://www.google.com/maps/search/?api=1&query=KAI%20Miyajima) → [Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima)
 
@@ -98,7 +115,7 @@
 
 **下午**：14:00–16:00 继续资料馆或和平公园，以丹下健三本馆、慰灵碑和原爆圆顶的轴线为主。若离馆后再入内，先向馆方确认票券再入场规则，不假定一张票可自由重入。
 
-**夜晚**：17:00前回酒店；18:30晚餐，20:30前休息。
+**夜晚**：17:00前回酒店休息；18:30清耽日本料理为预约候选，距希尔顿车约5–10分钟。情绪或体力不佳直接改酒店晚餐，20:30前休息。
 
 **交通**：出租车到馆门附近；公园内分段步行 5–15 分钟。需要再次入馆时，宁可另购合适票券，也不压缩完整参观日。
 
@@ -106,13 +123,15 @@
 
 **午餐推荐**：长田屋／Nagataya：和平公园东侧桥头，广岛烧；12/2 是第一周周三，避开其通常周二及第四周周三休息。仍需复核临休。
 
-**晚餐推荐**：酒店泉水：季节会席或寿司；由礼宾部协助确认座位。
+**晚餐推荐**：建议18:30 鷹ノ橋 清耽／Kiyotan：季节料理、日本酒按喜好。希尔顿至鹰野桥车约5–10分钟；纪念馆后17:00前回店休息，情绪或体力不佳改酒店。 未预约；通常周日休，18:00起；需预约。若纪念馆后只想安静休息，直接改酒店。
 
 **休息**：午餐后至少 45 分钟，疲劳时公园段可缩短。
 
 **天气与体力删减**：先删额外市区购物，再缩短公园绕行；馆内重点展陈与纪念轴线保留。
 
 **摄影观察**：以架空层、树木与人的比例观察公共空间；展陈区遵守摄影标识，纪念仪式和个人哀悼避免近距离拍摄。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 鷹ノ橋 清耽 / Kiyotan](https://www.google.com/maps?cid=10823779765975201529) · 18:30。希尔顿至鹰野桥车约5–10分钟；纪念馆后17:00前回店休息，情绪或体力不佳改酒店。 通常周日休，18:00起；需预约。若纪念馆后只想安静休息，直接改酒店。 [营业与订位资料](https://tabelog.com/hiroshima/A3401/A340116/34004110/)。未预约。
 
 导航顺序：[Hiroshima Peace Memorial Museum](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Museum) → [Nagataya Hiroshima](https://www.google.com/maps/search/?api=1&query=Nagataya%20Hiroshima) → [Hiroshima Peace Memorial Park](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Park) → [Atomic Bomb Dome](https://www.google.com/maps/search/?api=1&query=Atomic%20Bomb%20Dome)
 
@@ -128,7 +147,7 @@
 
 **下午**：14:00–15:45 继续展览、木构大厅、彩色展厅、庭园与露台；15:45–16:00预约车回大竹，约17:00–17:30回酒店。
 
-**夜晚**：18:30 希尔顿附近或站区晚餐，20:30前休息。
+**夜晚**：18:30酒店附近晚餐；若已预约なかしま，车约15–25分钟前往白岛。保留为12/4正式晚餐的替代，不要求连续吃套餐。
 
 **交通**：酒店→广岛站→JR大竹站→预约出租车到馆，门到门75–100分钟；周四不依赖土日祝接驳，往返出租车都预先约。
 
@@ -144,6 +163,8 @@
 
 **摄影观察**：彩色展厅倒影与远处岛屿的对应，玻璃反射中的身体和海景；加莱作品留意植物母题如何进入器物，拍摄须遵守现场标识。
 
+**收藏餐厅 · 晚餐 · 替换备选**：[ 季節料理 なかしま / Nakashima Ryori](https://www.google.com/maps?cid=11139915483240459006) · 18:30。希尔顿至白岛车约15–25分钟，须已回酒店休息；只想安排一顿正式广岛晚餐可留给12/4。 通常周日及节假日休；需预约，目标日套餐与价格询店。 [营业与订位资料](https://tabelog.com/hiroshima/A3401/A340118/34016189/)。未预约。
+
 导航顺序：[Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima) → [Hiroshima Station](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Station) → [Otake Station](https://www.google.com/maps/search/?api=1&query=Otake%20Station) → [Simose Art Museum](https://www.google.com/maps/search/?api=1&query=Simose%20Art%20Museum) → [Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima)
 
 资料来源（核对2026-11-09）：[SIMOSE 参观与票价](https://simose-museum.jp/en/info/) · [SIMOSE 2026 年度展期](https://simose-museum.jp/en/schedule/) · [SIMOSE 建筑说明](https://artsimose.jp/en/architecture/) · [SIMOSE平日接驳](https://simose-museum.jp/access/)
@@ -158,7 +179,7 @@
 
 **下午**：14:00–16:00 继续收藏和特展，公园只作短段补充；约车下山回希尔顿。
 
-**夜晚**：18:30 酒店或市区晚餐；20:30前收拾次日换住宿行李。
+**夜晚**：18:00啐啄一十预约候选，距希尔顿步行约5–10分钟；馆后先回酒店休息，20:30前回店收拾行李。
 
 **交通**：希尔顿↔MOCA出租车约15–25分钟；不带大件行李参观，不转往SIMOSE住宿。
 
@@ -166,13 +187,15 @@
 
 **午餐推荐**：MOCA Café KAZE：在馆内，作为休息首选；正餐菜单、营业及再次入展厅规则须核实，不能默认都有。
 
-**晚餐推荐**：希尔顿泉水或市内已确认餐厅候选。
+**晚餐推荐**：建议18:00 馳走 啐啄一十／Chisou Sottakuito：季节主厨料理套餐。MOCA后回酒店休息；希尔顿至富士见町步行约5–10分钟或短程车。 未预约；完全预约，现金为主；目标日套餐、席次与取消条款询店，不将奖项视为有余位。
 
 **休息**：13:00–14:00馆内休息，傍晚回酒店。
 
 **天气与体力删减**：先删比治山公园绕行，保留MOCA完整参观日。
 
 **摄影观察**：入口材料由石向金属的变化、圆形公共空间和山丘地形；作品拍摄以展厅标识为准。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 馳走 啐啄一十 / Chisou Sottakuito](https://www.google.com/maps?cid=15773188486559828448) · 18:00。MOCA后回酒店休息；希尔顿至富士见町步行约5–10分钟或短程车。 完全预约，现金为主；目标日套餐、席次与取消条款询店，不将奖项视为有余位。 [营业与订位资料](https://tabelog.com/hiroshima/A3401/A340117/34023887/)。未预约。
 
 导航顺序：[Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima) → [Hiroshima City Museum of Contemporary Art](https://www.google.com/maps/search/?api=1&query=Hiroshima%20City%20Museum%20of%20Contemporary%20Art) → [Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima)
 
@@ -244,9 +267,9 @@
 
 **上午**：09:00早餐，09:30–10:00退房；OND通常10:00退房，11:00只适用已确认方案。预约送站后搭かもめ至长崎约30–35分钟。
 
-**中午**：11:30–12:30 长崎站周边简餐，行李交预约车；不拉行李逛坡道。
+**中午**：11:30前后抵长崎站，预约车到滨町约10–15分钟；12:00–13:00吉宗午餐建议（周一，避开周二例休）。大行李留车需事先获司机同意，13:00–14:00咖啡休息与平地短走二选一。
 
-**下午**：13:00–14:00 出岛周边平地散步或港边咖啡；约 15:00 到长崎花园露台酒店寄存行李、在公共空间休息，16:00 按通常时间办理入住。
+**下午**：午餐后仅短程看出岛港边或就近咖啡，不走坡道长线；约15:00到长崎花园露台酒店寄存、公共空间休息，16:00按通常时间入房。
 
 **夜晚**：18:00 酒店秋月或竹彩晚餐，餐后从酒店观夜景，不再另赶稻佐山。
 
@@ -254,7 +277,7 @@
 
 **早餐推荐**：OND早餐。
 
-**午餐推荐**：长崎万豪 HARBELLA：长崎站旁，使用当地食材的西式午餐；预约 11:30，餐后由司机接行李，避免在坡道拖行李。具体菜品待当季菜单。
+**午餐推荐**：建议12:00 吉宗 浜町本店／Yossou Hamamachi Main：茶碗蒸蒸蛋、蒸寿司。长崎站至滨町车约10–15分钟；大行李留预约车须事先确认，餐后咖啡与平地短走。 未预约；通常周二休，移至12/7周一；电话预约，临休再核。长崎站至滨町车约10–15分钟，行李留车须先获司机同意。
 
 **晚餐推荐**：Garden Terrace「秋月」会席与天妇罗，或「竹彩」铁板烧：酒店内，边用餐边看港湾，具体菜单和可售时段待订。
 
@@ -264,7 +287,11 @@
 
 **摄影观察**：从山坡看港口与两岸城区的关系；杉木表皮、露台边界和港湾远景一起观察。
 
-导航顺序：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [Nagasaki Station](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station) → [Garden Terrace Nagasaki Hotel Resort](https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort)
+**收藏餐厅 · 午餐 · 建议主选**：[ 吉宗 浜町本店 / Yossou Hamamachi Main](https://www.google.com/maps?cid=10315780853087379114) · 12:00。长崎站至滨町车约10–15分钟；大行李留预约车须事先确认，餐后咖啡与平地短走。 通常周二休，移至12/7周一；电话预约，临休再核。长崎站至滨町车约10–15分钟，行李留车须先获司机同意。 [营业与订位资料](https://yossou.co.jp/inquiry/)。未预约。
+
+**收藏餐厅 · 午餐 · 替换备选**：[ 思案橋ラーメン / Shianbashi Ramen](https://www.google.com/maps?cid=17207842959802552025) · 12:00。仅确认午间营业后替换吉宗；不另加第二顿面。 午间营业与临休未可靠核实；只有确认当天开门才作为吉宗或四海楼备选。 [营业与订位资料](https://www.google.com/maps?cid=17207842959802552025)。未预约。
+
+导航顺序：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [Nagasaki Station](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station) → [吉宗 浜町本店 長崎](https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%AE%97%20%E6%B5%9C%E7%94%BA%E6%9C%AC%E5%BA%97%20%E9%95%B7%E5%B4%8E) → [Garden Terrace Nagasaki Hotel Resort](https://www.google.com/maps/search/?api=1&query=Garden%20Terrace%20Nagasaki%20Hotel%20Resort)
 
 资料来源（核对2026-11-09）：[OND入住与退房规则](https://www.ondhotel.jp/faq/faq-reservation/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [长崎 Garden Terrace 客房](https://www.gt-nagasaki.jp/stay/) · [Garden Terrace 餐厅](https://www.gt-nagasaki.jp/restaurant/)
 
@@ -274,17 +301,17 @@
 
 **上午**：09:30 酒店出发，车约 15–25 分钟；10:00–12:00 美术馆建筑与收藏展示，关注运河两岸馆舍及连接桥。
 
-**中午**：12:00–13:00 预约车到滨町吉宗午餐，车约 5–10 分钟；13:00–13:45 在附近坐下休息，再车回馆。离馆重入展厅的条件先询问。
+**中午**：12:00看展后车约5–10分钟到四海楼，12:15午餐候选；普通两人用餐不预约，排队超过20分钟改馆内咖啡。餐后坐下休息至13:30–14:00，再继续美术馆；重入条件先询问。
 
 **下午**：14:00–15:30 看杂贺雄二与军舰岛的摄影小企划，15:30–16:15 咖啡、运河及水边之森。当天是周二，特展仍可能带来额外人流，按兴趣决定是否购买。
 
 **夜晚**：17:00 左右回酒店，18:30 酒店另一间餐厅晚餐。
 
-**交通**：酒店 ↔ 美术馆预约车；馆到滨町短途出租车；港边平地步行分段控制在 10–15 分钟。屋顶开放按天气与馆方通知。
+**交通**：酒店↔美术馆预约车；美术馆↔四海楼车约5–10分钟一段，午餐额外留候位缓冲。港边分段步行10–15分钟；屋顶依天气开放。
 
 **早餐推荐**：Garden Terrace 酒店早餐。
 
-**午餐推荐**：吉宗／Yossou 滨町本店：茶碗蒸（蒸蛋）与蒸寿司；传统木建筑和长崎港口饮食史相呼应。
+**午餐推荐**：建议12:15 四海楼／Shikairou：ちゃんぽん什锦汤面、皿うどん炸细面。美术馆至松枝町车约5–10分钟；候位超过20分钟改馆内咖啡，14:00前后继续看展。 未预约；官方2026年12月公告休2/16/30/31，12/8不在其中；午餐11:30起，普通两人餐不接受预约，排队超过20分钟回馆内咖啡。
 
 **晚餐推荐**：酒店秋月或竹彩，选择与前夜不同类型；预约季节菜单。
 
@@ -294,9 +321,11 @@
 
 **摄影观察**：沿运河观察玻璃、石材与水面反光；摄影展把城市旅行与产业遗迹的观看方式联系起来，不需要为此再安排军舰岛登岛。
 
-导航顺序：[Nagasaki Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Prefectural%20Art%20Museum) → [Yossou Nagasaki](https://www.google.com/maps/search/?api=1&query=Yossou%20Nagasaki) → [Nagasaki Seaside Park](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Seaside%20Park)
+**收藏餐厅 · 午餐 · 建议主选**：[ 四海楼 / Shikairou](https://www.google.com/maps?cid=18023534600448739160) · 12:15。美术馆至松枝町车约5–10分钟；候位超过20分钟改馆内咖啡，14:00前后继续看展。 官方2026年12月公告12/2、12/16、12/30、12/31休业，12/8不在其中；午餐11:30起，普通两人餐不接受预约，排队超过20分钟回馆内咖啡。 [营业与订位资料](https://shikairou.com/information/info/)。未预约。
 
-资料来源（核对2026-11-09）：[长崎县美术馆来馆指南](https://www.nagasaki-museum.jp/visitor) · [长崎县美术馆展览](https://www.nagasaki-museum.jp/exhibition) · [吉宗官方菜单](https://yossou.co.jp/store/restaurant/menu/)
+导航顺序：[Nagasaki Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Prefectural%20Art%20Museum) → [四海楼 長崎](https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E6%B5%B7%E6%A5%BC%20%E9%95%B7%E5%B4%8E) → [Nagasaki Seaside Park](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Seaside%20Park)
+
+资料来源（核对2026-11-09）：[长崎县美术馆来馆指南](https://www.nagasaki-museum.jp/visitor) · [长崎县美术馆展览](https://www.nagasaki-museum.jp/exhibition) · [吉宗营业与预约](https://yossou.co.jp/inquiry/) · [四海楼营业与12月店休](https://shikairou.com/information/info/)
 
 ### Day 10｜12/09 周三｜长崎 → 别府 · 铁路纯转移
 
@@ -314,11 +343,11 @@
 
 **早餐推荐**：长崎酒店早餐。
 
-**午餐推荐**：途中服务区简餐，具体停靠点由司机确认。
+**午餐推荐**：博多站内博多魚がし候选；换乘留60–75分钟用餐与休息，排队超过20分钟改便当。不绕去博多一双站东本店。
 
 **晚餐推荐**：别府洲际Elements候选。
 
-**休息**：午餐后服务区休息；入住后至少90分钟空白时段。
+**休息**：博多站午餐后坐下休息；到洲际后先休息再用晚餐，不再下山赶餐厅。
 
 **天气与体力删减**：当天无景点；删除原长崎第三日军舰岛主线，不压缩前日县美术馆。包车仅作需另询价的替代。
 
@@ -338,7 +367,7 @@
 
 **下午**：14:00 车约 5–10 分钟到 Art Plaza，14:15–15:15 看可开放区域与外部。三楼矶崎新建筑展仍有暂停公告，不把看模型列为保证项目。15:30 返别府，约 16:30 回酒店。
 
-**夜晚**：18:00 可预约车去东洋轩晚餐，回程约 20:00；若想完全休整，改酒店 Elements。
+**夜晚**：16:30前后回洲际休息；若订到別府廣門18:00席，17:15左右预约车出发，车程20–30分钟并提前10分钟到；未订到改酒店Elements，20:30前休息。
 
 **交通**：为减轻山坡酒店到车站再换乘的负担，推荐预约往返车；如用 JR，需加酒店 ↔ 别府站及大分站 ↔ OPAM 两段接驳，门到门未必更短。
 
@@ -346,13 +375,15 @@
 
 **午餐推荐**：OPAM 二楼 Café Charité：丰后牛汉堡肉排等当地食材料理，菜单按店方当日供应；同馆用餐避免折返。
 
-**晚餐推荐**：东洋轩／Toyoken：别府石垣东，鸡肉天妇罗（とり天）；或酒店 Elements，按排队与体力选择。
+**晚餐推荐**：建议18:00 日本料理 別府廣門／Beppu Hirokado：时令日本料理套餐。16:30前后回洲际休息；17:15左右预约车，洲际至堀田按20–30分钟，提前10分钟到，不赶同时开席。 未预约；午餐12:00、晚餐18:00同时开席，不定休；TableCheck通常前3个月、食べログ前2个月，具体开放以目标日为准。
 
 **休息**：午后 45 分钟，馆内步行每一小时停坐。
 
 **天气与体力删减**：Art Plaza 受施工限制时只看安全开放的外部，并提前回酒店；不临时硬塞第三座美术馆。
 
 **摄影观察**：比较 OPAM 透光木格与 Art Plaza 粗粝混凝土的尺度，观察街道行人如何进入建筑公共层。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 日本料理 別府廣門 / Beppu Hirokado](https://www.google.com/maps?cid=12842902959093357174) · 18:00。16:30前后回洲际休息；17:15左右预约车，洲际至堀田按20–30分钟，提前10分钟到，不赶同时开席。 午餐12:00、晚餐18:00同时开席，不定休；TableCheck通常前3个月、食べログ前2个月，具体开放以目标日为准。 [营业与订位资料](https://beppu-hirokado.jp/)。未预约。
 
 导航顺序：[Oita Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Oita%20Prefectural%20Art%20Museum) → [Art Plaza Oita](https://www.google.com/maps/search/?api=1&query=Art%20Plaza%20Oita) → [Toyoken Beppu](https://www.google.com/maps/search/?api=1&query=Toyoken%20Beppu)
 
@@ -383,6 +414,8 @@
 **天气与体力删减**：雨天改别府竹工艺＋铁轮整日；正常主线延误先删末段竹馆，不压缩两寺和午餐休息。
 
 **摄影观察**：古寺檐下的木构阴影、石阶与乡村民居的关系；佛像及堂内拍摄服从现场规定，不承诺可拍。
+
+**收藏餐厅 · 午餐 · 替换备选**：[ 六盛 松原本店 / Rokusei Matsubara Main](https://www.google.com/maps?cid=2172949632328561682) · 12:00。只适用改为别府市内日；老城南部距铁轮车约20–30分钟一段，不视作顺路，不走国东时再考虑。 营业需核；在老城南部，距铁轮有车程，不是步行顺路。仅选择别府替代日时考虑，铁轮往返额外车程约20–30分钟一段。 [营业与订位资料](https://www.6-sei.com/)。未预约。
 
 导航顺序：[ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu) → [Fukiji Temple](https://www.google.com/maps/search/?api=1&query=Fukiji%20Temple) → [Maki Odo](https://www.google.com/maps/search/?api=1&query=Maki%20Odo) → [Beppu City Traditional Bamboo Crafts Center](https://www.google.com/maps/search/?api=1&query=Beppu%20City%20Traditional%20Bamboo%20Crafts%20Center) → [ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu)
 
@@ -456,25 +489,35 @@
 
 **上午**：10:00 酒店出发，步行或短途车到 ACROS 与天神中央公园；10:30–11:45 看阶梯绿化立面、北侧城市界面与公共层。不以登顶为目标。
 
-**中午**：12:00–13:00 回丽思卡尔顿 Viridis 午餐，13:00–15:00 房间休息或水疗，水疗另需预约。
+**中午**：12:00ひらお大名店天妇罗建议，ACROS至店短程车约5–10分钟；候位超过20分钟改酒店。餐后步行约5分钟回丽思，13:00–15:00房间休息或已预约的水疗。
 
 **下午**：15:00–16:00 大濠公园平地短走或大名街区咖啡，二选一。福冈市美术馆周一通常闭馆，安排在12/17。
 
-**夜晚**：18:30 市内晚餐或酒店，20:00–21:00 返回。
+**夜晚**：18:00水たき長野预约候选；17:20–17:30从酒店预约车出发，车约15–25分钟，吃水炊鸡锅后20:30前后返店。
 
 **交通**：市内出租车通常约 10–20 分钟一段；步行分段 10–15 分钟，不必绕大濠公园一整圈。
 
 **早餐推荐**：酒店 Viridis，今天可稍晚。
 
-**午餐推荐**：酒店 Viridis：九州当地食材西式午餐；餐后直接回房符合休整日节奏。
+**午餐推荐**：建议12:00 天麩羅処ひらお 大名店／Tempura Hirao Daimyo：天妇罗定食。ACROS后短途车约5–10分钟，吃完步行约5分钟回丽思，13:00–15:00午休。 未预约；通常周二休；不接受普通订位，准备现金。候位超过20分钟改酒店午餐。
 
-**晚餐推荐**：Genjyu 会席或酒店礼宾推荐并确认营业的福冈料理餐厅，具体店铺留待食材喜好及席位确认。
+**晚餐推荐**：建议18:00 水たき 長野／Mizutaki Nagano：水炊鸡锅、收尾杂炊。午后留酒店；17:20–17:30预约车出发，至对马小路约15–25分钟，餐后返店。 未预约；通常周日休；电话092-281-2200预约，12/14周一18:00仅为建议，未取得座位。
 
 **休息**：午后完整 2 小时，作为天气和疲劳缓冲日。
 
 **天气与体力删减**：可删全部外出，仅保留已预约的用餐；如用于补漏也只补一处。
 
 **摄影观察**：公园中通勤、午休和慢跑的人群，观察阶梯绿化如何与地面公共生活衔接。
+
+**收藏餐厅 · 午餐 · 建议主选**：[ 天麩羅処ひらお 大名店 / Tempura Hirao Daimyo](https://www.google.com/maps?cid=18392552247942850334) · 12:00。ACROS后短途车约5–10分钟，吃完步行约5分钟回丽思，13:00–15:00午休。 通常周二休；不接受普通订位，准备现金。候位超过20分钟改酒店午餐。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400104/40046106/)。未预约。
+
+**收藏餐厅 · 午餐 · 替换备选**：[ 博多元気一杯!! / Hakata Genki Ippai](https://www.google.com/maps?cid=4563141796542890085) · 12:00。替换ひらお；由天神车约10–20分钟，候位不超过20分钟，不与一双都吃。 资料列11:00–20:00、19:30末单，不定休；不预约，候位过长放弃。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400106/40000488/)。未预约。
+
+**收藏餐厅 · 午餐 · 替换备选**：[ 博多一双 博多駅東本店 / Hakata Issou Hakata East Main](https://www.google.com/maps?cid=14997510692567609889) · 12:00。替换ひらお并先专车到站东，约15–25分钟；不占用12/9换乘休息。 不在12/9紧凑换乘时硬排；12/14午餐如专程前往，队列超过20分钟改备选。 [营业与订位资料](https://www.hakata-issou.com/)。未预约。
+
+**收藏餐厅 · 午餐 · 条件备选**：[ ふくちゃんラーメン 田隈本店 / Fukuchan Ramen Taguma Main](https://www.google.com/maps?cid=1299239818781180257) · 12:00。若特别想去，需替换当天半天外出；单程公共交通加步行约35–60分钟，回酒店午休顺延。 周二休息资料需出行前再核；不排12/15。由丽思单程按35–60分钟公共交通加步行，不为一碗面压缩美术馆。 [营业与订位资料](https://www.google.com/maps?cid=1299239818781180257)。未预约。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 水たき 長野 / Mizutaki Nagano](https://www.google.com/maps?cid=15175599952932772184) · 18:00。午后留酒店；17:20–17:30预约车出发，至对马小路约15–25分钟，餐后返店。 通常周日休；电话092-281-2200预约，12/14周一18:00仅为建议，未取得座位。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400102/40000010/)。未预约。
 
 导航顺序：[ACROS Fukuoka](https://www.google.com/maps/search/?api=1&query=ACROS%20Fukuoka) → [Tenjin Central Park](https://www.google.com/maps/search/?api=1&query=Tenjin%20Central%20Park) → [Ohori Park](https://www.google.com/maps/search/?api=1&query=Ohori%20Park)
 
@@ -490,7 +533,7 @@
 
 **下午**：13:45–16:15 九州国立博物馆，以文化交流展示及菊竹清训／久米设计建筑为主；通道、电梯与末端步行由司机和馆方确认。
 
-**夜晚**：16:30 回程，约 18:00 回酒店；18:30–20:00 酒店或市内晚餐。
+**夜晚**：16:30太宰府回程，约18:00回丽思休息；19:00赤坂こみかん预约候选，18:40左右出门，步行约10–15分钟或短程车。21:00前回店；疲劳则直接酒店吃。
 
 **交通**：专车往返减少换乘；参道与馆区仍需步行。若乘西铁，从天神经二日市换乘太宰府线，单程按 60–90 分钟门到门安排，不把铁路运行时间当全程。
 
@@ -498,13 +541,23 @@
 
 **午餐推荐**：梅之花 太宰府别庄 自然庵：参道周边，豆腐、汤叶与季节会席，建议预约 11:30；具体套餐以当日菜单为准。
 
-**晚餐推荐**：酒店 Viridis：九州食材西式料理；或とり田／Toriden 博多本店鸡肉水炊锅，提前订位后再安排车辆。
+**晚餐推荐**：建议19:00 赤坂こみかん／Akasaka Komikan：海鲜、天妇罗、当季小菜。太宰府返程约18:00回丽思休息；18:40左右出门，步行约10–15分钟或短程车，争取21:00前返店。 未预约；需预约，不定休；19:00席若有供应再安排，21:00前回酒店。
 
 **休息**：午饭后 30–45 分钟，馆内设置中途坐下时段。
 
 **天气与体力删减**：先删商业街购物和神社外围绕行；博物馆与星巴克建筑保留。
 
 **摄影观察**：星巴克斜交木构与旧参道店铺的尺度对照；九博起伏屋顶与山林的联系，避免以无人空场为唯一目标。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 赤坂こみかん / Akasaka Komikan](https://www.google.com/maps?cid=7901958240902963816) · 19:00。太宰府返程约18:00回丽思休息；18:40左右出门，步行约10–15分钟或短程车，争取21:00前返店。 需预约，不定休；19:00席若有供应再安排，21:00前回酒店。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400104/40048747/)。未预约。
+
+**收藏餐厅 · 晚餐 · 替换备选**：[ 安兵衛 / Oden Yasube](https://www.google.com/maps?cid=18217932808128804151) · 18:30。替换こみかん，丽思至西中洲车约10–20分钟；现金与席位先确认。 通常周日休；现金为主，营业与座位需确认。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400103/40000780/)。未预约。
+
+**收藏餐厅 · 晚餐 · 条件备选**：[ 菊鮨 / Kikuzushi](https://www.google.com/maps?cid=6445974130244971466) · 18:00。替换こみかん；需太宰府直接专车至春日，车约30–50分钟，预约前倒排下午离馆与休息，不折返酒店。 通常周日休；礼宾确认席次与可订渠道。太宰府返程需预约车绕行，约30–50分钟到店，返丽思约30–50分钟。 [营业与订位资料](https://tabelog.com/fukuoka/A4003/A400301/40010675/)。未预约。
+
+**收藏餐厅 · 晚餐 · 条件备选**：[ 天ぷら たけうち / Tempura Takeuchi](https://www.google.com/maps?cid=10164183710347141679) · 待确认。替换こみかん；太宰府专车至那珂川约35–60分钟，目标开席需先确认，回丽思再35–60分钟。 通常周一休，预约与开席须核；太宰府至店约35–60分钟，回丽思约35–60分钟，建议预约车。 [营业与订位资料](https://tabelog.com/fukuoka/A4003/A400301/40013636/)。未预约。
+
+**收藏餐厅 · 晚餐 · 条件备选**：[ 八ちゃんラーメン 薬院本店 / Hacchan Ramen Yakuin](https://www.google.com/maps?cid=16264884938268282037) · 18:30待核。仅本店确认18:00已营业才作早晚餐替代；如21:00才开不去，不安排宵夜。 开门资料冲突：食べログ列18:00，拉面博物馆关联资料曾列21:00。需向本店确认；如仅21:00开门则不纳入主线，不安排深夜赶场。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400104/40000195/)。未预约。
 
 导航顺序：[Starbucks Dazaifu Tenmangu Omotesando](https://www.google.com/maps/search/?api=1&query=Starbucks%20Dazaifu%20Tenmangu%20Omotesando) → [Umenohana Dazaifu Shizenan](https://www.google.com/maps/search/?api=1&query=Umenohana%20Dazaifu%20Shizenan) → [Kyushu National Museum](https://www.google.com/maps/search/?api=1&query=Kyushu%20National%20Museum)
 
@@ -520,7 +573,7 @@
 
 **下午**：14:00–14:40 沿可通行道路慢走到PALM BEACH一带看小店；不必走沙滩。14:50前候车，参考15:02 PALMBEACH前→15:54天神四丁目／16:05博多，约16:00–16:30回酒店。
 
-**夜晚**：18:30福冈酒店或市内晚餐，保留晚间休息，不守海边末班车。
+**夜晚**：18:00鮨さかい本店预约候选；糸岛16:00–16:30回酒店后先休息，17:20–17:30预约车至西中洲约10–20分钟，提前到店。未订到不影响糸岛原安排。
 
 **交通**：不包车：昭和巴士West Coast Liner从天神／博多直达二见浦。时刻为2026/4/4现行平日表参考，不保证12月不调整；出发前复核。夫妇岩前旧站已撤销，使用茶房前／PALMBEACH前。该高速线有区内乘降限制，不作沿线随上随下接驳。
 
@@ -528,13 +581,15 @@
 
 **午餐推荐**：糸岛茶房／Itoshima Sabo：海景室内意面等候选，冬季菜单与当日营业另核。
 
-**晚餐推荐**：福冈丽思或天神餐厅候选，菜单后续确认。
+**晚餐推荐**：建议18:00 鮨さかい 本店／Sushi Sakai Main：主厨寿司套餐。糸岛按原计划16:00–16:30回酒店，至少休息45分钟；17:20–17:30出发，车约10–20分钟到西中洲，提前到店。 未预约；本店套餐44,000日元含税起，饮品另计；周三18:00/20:30，周四仅午餐，通常周日及周一休。选12/16 18:00，先核座位。
 
 **休息**：午餐后坐下30分钟；返酒店后休息至晚餐。
 
 **天气与体力删减**：风雨明显整日改福冈室内活动；不加芥屋、内陆工房和登山，不把樱井神社硬塞主线。
 
 **摄影观察**：冬季海面、白色鸟居与人物尺度，窗框中的海景与海岸日常；图片是历史参考，不承诺冬季海色或落日位置。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 鮨さかい 本店 / Sushi Sakai Main](https://www.google.com/maps?cid=11638968252987502177) · 18:00。糸岛按原计划16:00–16:30回酒店，至少休息45分钟；17:20–17:30出发，车约10–20分钟到西中洲，提前到店。 本店套餐44,000日元含税起，饮品另计；周三18:00/20:30，周四仅午餐，通常周日及周一休。选12/16 18:00，先核座位。 [营业与订位资料](https://sakai-sushi.jp/reservations.php)。未预约。
 
 导航顺序：[天神三丁目 昭和バス](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E4%B8%89%E4%B8%81%E7%9B%AE%20%E6%98%AD%E5%92%8C%E3%83%90%E3%82%B9) → [桜井二見ヶ浦](https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6) → [糸島茶房](https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%B3%B6%E8%8C%B6%E6%88%BF) → [PALM BEACH THE GARDENS 福岡](https://www.google.com/maps/search/?api=1&query=PALM%20BEACH%20THE%20GARDENS%20%E7%A6%8F%E5%B2%A1) → [The Ritz Carlton Fukuoka](https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka)
 
@@ -546,25 +601,29 @@
 
 **上午**：09:30酒店出发，车约10–20分钟；10:00–12:00前川国男建筑、庭院和精选收藏，按当日开放展厅安排。
 
-**中午**：12:00–13:00馆内餐厅午餐，咖啡休息至14:00。
+**中午**：12:30わか葉天神本店猪排午餐建议，馆至天神车约15–25分钟；候位超过20分钟改馆内或酒店午餐。13:30–15:00回酒店休息。
 
 **下午**：14:00–14:45大濠公园平地短走，或直接回酒店；15:00之后房间休息。若日后确认福冈换酒店，本日可承接换住，当前仍丽思连住。
 
-**夜晚**：18:30酒店或市内晚餐，20:30前回房。
+**夜晚**：18:00嗣味预约候选，丽思至高砂车约15–25分钟，17:20–17:30出发。下午留市内休息，不叠加跨城；餐后20:30–21:00回店。
 
 **交通**：市内预约车为主，不绕大濠一整圈；本日不去筑后。
 
 **早餐推荐**：丽思早餐。
 
-**午餐推荐**：福冈市美术馆馆内餐厅，正式菜单待核。
+**午餐推荐**：建议12:30 とんかつ わか葉 天神本店／Tonkatsu Wakaba Tenjin：猪里脊或猪腰肉炸排定食。美术馆11:30–12:00结束后车约15–25分钟至天神；候位超过20分钟改馆内或酒店午餐，13:30–15:00午休。 未预约；炸制及候位可能较久；营业、当前排队规则出行前核实。
 
-**晚餐推荐**：Genjyu或Viridis候选，与前晚错开。
+**晚餐推荐**：建议18:00 郷土料理 嗣味／Tsugumi：时令海鲜、乡土料理套餐。下午不跨城；丽思至高砂车约15–25分钟，17:20–17:30出发，过敏先确认。 未预约；需预约，不定休；先确认海鲜忌口与过敏能否对应。
 
 **休息**：13:00–14:00咖啡休息，15:00后酒店留白。
 
 **天气与体力删减**：先删公园绕行和购物，保留市美术馆。
 
 **摄影观察**：前川国男的墙体、庭院与大濠公园关系，观察公共空间中的日常停留。
+
+**收藏餐厅 · 午餐 · 建议主选**：[ とんかつ わか葉 天神本店 / Tonkatsu Wakaba Tenjin](https://www.google.com/maps?cid=14658244469363238389) · 12:30。美术馆11:30–12:00结束后车约15–25分钟至天神；候位超过20分钟改馆内或酒店午餐，13:30–15:00午休。 炸制及候位可能较久；营业、当前排队规则出行前核实。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400103/40050758/)。未预约。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 郷土料理 嗣味 / Tsugumi](https://www.google.com/maps?cid=8214511838218247218) · 18:00。下午不跨城；丽思至高砂车约15–25分钟，17:20–17:30出发，过敏先确认。 需预约，不定休；先确认海鲜忌口与过敏能否对应。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400103/40054472/)。未预约。
 
 导航顺序：[The Ritz Carlton Fukuoka](https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka) → [Fukuoka Art Museum](https://www.google.com/maps/search/?api=1&query=Fukuoka%20Art%20Museum) → [Ohori Park](https://www.google.com/maps/search/?api=1&query=Ohori%20Park) → [The Ritz Carlton Fukuoka](https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka)
 
@@ -578,9 +637,9 @@
 
 **中午**：12:00–13:00馆区或车站附近经确认营业的午餐；餐食选择少，提前核好，备用便当在允许用餐区域使用；13:00–14:00坐下休息。
 
-**下午**：14:00–15:00中庭、屋檐和近处公园，不绕远。乘实际停站班次返博多，约16:30–17:30回酒店，整理返港行李。
+**下午**：14:00后只看近处公园；如订到18:00焼き鳥こと，14:30前后离馆，配合已核定列车回博多，目标16:30前回酒店休息。若时刻无法满足，删除公园绕行并改晚餐备选，绝不极限接续。未订餐可按原计划16:30–17:30返店。
 
-**夜晚**：18:30告别晚餐，20:30前回房整理，不安排购物赶场。
+**夜晚**：18:00焼き鳥こと预约候选，约2.5小时，20:30结束后短程车回酒店。仅在能16:30前返店时执行；若列车或参观延误，预约前改19:00ひょご鳥福冈赤坂店等备选，不临时爽约。
 
 **交通**：丽思→博多预约车→九州新干线筑后船小屋→步行约5分钟。往返车次需核停站与间隔，并非所有列车都停；本馆房间不保证开放。
 
@@ -588,13 +647,21 @@
 
 **午餐推荐**：馆区／站区已确认餐厅或备用便当，不编造店名与菜单，出行前由礼宾确认。
 
-**晚餐推荐**：Genjyu或Viridis告别晚餐候选。
+**晚餐推荐**：建议18:00 焼き鳥こと／Yakitori Koto：鸡肉各部位串烧、时令小菜。仅确认18:00席后，芸文馆14:30前后离馆，目标16:30前回丽思休息；17:15–17:25出发，至渡边通车约10–20分钟。套餐约2.5小时，20:30后返店。 未预约；套餐13,000日元含税，另10%服务费，基础14,300日元，不含饮品及可选包间；约2.5小时。需预约。
 
 **休息**：13:00–14:00室内休息，下午提前回酒店。
 
 **天气与体力删减**：删公园长走和购物，保留芸文馆建筑；恶劣天气先看室内开放区。
 
 **摄影观察**：屋顶群与平原、车站的尺度关系，中庭和屋檐下的人如何停留。
+
+**收藏餐厅 · 晚餐 · 建议主选**：[ 焼き鳥こと / Yakitori Koto](https://www.google.com/maps?cid=945335606223743466) · 18:00。仅确认18:00席后，芸文馆14:30前后离馆，目标16:30前回丽思休息；17:15–17:25出发，至渡边通车约10–20分钟。套餐约2.5小时，20:30后返店。 套餐13,000日元含税，另10%服务费，基础14,300日元，不含饮品及可选包间；约2.5小时。需预约。 [营业与订位资料](https://www.tablecheck.com/ja/shops/yakitori-koto/reserve)。未预约。
+
+**收藏餐厅 · 晚餐 · 替换备选**：[ ひょご鳥 福冈赤坂店 / Hyogodori Fukuoka Akasaka](https://www.google.com/maps?cid=193274711000022323) · 19:00。若返城较晚或こと无席，改赤坂门店；丽思步行约10–15分钟，仍需预约，不去熊本同名店。 预约；与熊本本店是不同门店，勿串店。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400104/40045539/)。未预约。
+
+**收藏餐厅 · 晚餐 · 替换备选**：[ 焼とり鳥次 / Yakitori Choji](https://www.google.com/maps?cid=5615244489185309654) · 18:30。替换こと；丽思至大手门车约10–15分钟，先选烧鸟单独套餐，避免与长野重复水炊锅。 通常周日及节假日休；先预约，不与长野叠加水炊锅。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400105/40004687/)。未预约。
+
+**收藏餐厅 · 晚餐 · 替换备选**：[ 焼き鳥 貴 / Yakitori Taka](https://www.google.com/maps?cid=5374121725550705232) · 18:30。替换こと；丽思至高砂车约15–25分钟，小吧台先约。 套餐资料8,800日元含税，另5%服务费；不定休、需预约，价格出行前再核。 [营业与订位资料](https://tabelog.com/fukuoka/A4001/A400104/40033935/)。未预约。
 
 导航顺序：[The Ritz Carlton Fukuoka](https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka) → [Hakata Station](https://www.google.com/maps/search/?api=1&query=Hakata%20Station) → [Chikugo Funagoya Station](https://www.google.com/maps/search/?api=1&query=Chikugo%20Funagoya%20Station) → [Kyushu Geibunkan](https://www.google.com/maps/search/?api=1&query=Kyushu%20Geibunkan) → [Hakata Station](https://www.google.com/maps/search/?api=1&query=Hakata%20Station) → [The Ritz Carlton Fukuoka](https://www.google.com/maps/search/?api=1&query=The%20Ritz%20Carlton%20Fukuoka)
 

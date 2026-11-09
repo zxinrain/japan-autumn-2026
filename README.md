@@ -47,3 +47,19 @@ GitHub Actions 在推送 `main` 后运行检查并部署 Pages。平台入口编
 图文版权归原权利方。页面逐图列出来源，新增实景来源另见 `image-provenance.json`。历史照片不代表本次叶况、房型或开放状态。事实核验主要为 2026-11-08，长崎酒店 16:00 入住规则在 11/09 再核；具体临休、可售与时刻出行前复核。
 
 新增糸岛12/16公共交通日归；12/17福冈市美术馆、12/18九州芸文馆分开。长崎两晚取消独立军舰岛日；福冈第二家酒店尚未选定，保持丽思六晚。旧文字版本见`archive/itinerary-text-before-sonic-itoshima.md`。
+
+## 收藏餐厅同步（2026-11-09）
+
+[餐厅分类与逐日安排](restaurants.md)：用户Google Maps收藏53处中提取31家餐厅，按10个城市分类。网页「每日行程」内进入餐厅索引，支持城市／类型筛选、Lucide分类图标、预约与导航；每日餐食卡区分主选和替换项，地图仅串联主选建议。餐位均未预订。吉宗移至12/7避开周二例休，12/8四海楼午餐，12/9保留博多站内换乘用餐。
+
+餐厅唯一数据源`restaurants.json`；逐日关联在`trip.json`的`days[].dining`，构建执行：
+
+```sh
+python3 scripts/build-travel-data.py
+python3 scripts/build-itinerary.py
+python3 scripts/build-dining-index.py
+node scripts/check-data.cjs
+node scripts/check-dining.cjs
+```
+
+保持V1.1设计、五个底栏入口与六段酒店日期，不公开原收藏夹分享标识及账户资料。

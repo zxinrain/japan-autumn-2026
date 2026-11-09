@@ -384,6 +384,149 @@
       "source": "https://www.openstreetmap.org/node/12000142989",
       "verified": "2026-11-09",
       "accuracy": "reference point; OND is official map embed center, not surveyed entrance"
+    },
+    "food-hirokado": {
+      "name": "日本料理 別府廣門（餐食建议）",
+      "lat": 33.291929,
+      "lng": 131.4578174,
+      "place": null,
+      "restaurant": "hirokado",
+      "query": "日本料理 別府廣門 别府市",
+      "map": "https://www.google.com/maps?cid=12842902959093357174",
+      "source": "https://www.google.com/maps?cid=12842902959093357174",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-komikan": {
+      "name": "赤坂こみかん（餐食建议）",
+      "lat": 33.5860926,
+      "lng": 130.3914958,
+      "place": null,
+      "restaurant": "komikan",
+      "query": "赤坂こみかん 福冈市",
+      "map": "https://www.google.com/maps?cid=7901958240902963816",
+      "source": "https://www.google.com/maps?cid=7901958240902963816",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-wakaba": {
+      "name": "とんかつ わか葉 天神本店（餐食建议）",
+      "lat": 33.5925574,
+      "lng": 130.4021945,
+      "place": null,
+      "restaurant": "wakaba",
+      "query": "とんかつ わか葉 天神本店 福冈市",
+      "map": "https://www.google.com/maps?cid=14658244469363238389",
+      "source": "https://www.google.com/maps?cid=14658244469363238389",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-sottaku": {
+      "name": "馳走 啐啄一十（餐食建议）",
+      "lat": 34.3874704,
+      "lng": 132.4608108,
+      "place": null,
+      "restaurant": "sottaku",
+      "query": "馳走 啐啄一十 广岛市",
+      "map": "https://www.google.com/maps?cid=15773188486559828448",
+      "source": "https://www.google.com/maps?cid=15773188486559828448",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-nagano": {
+      "name": "水たき 長野（餐食建议）",
+      "lat": 33.5991027,
+      "lng": 130.4029331,
+      "place": null,
+      "restaurant": "nagano",
+      "query": "水たき 長野 福冈市",
+      "map": "https://www.google.com/maps?cid=15175599952932772184",
+      "source": "https://www.google.com/maps?cid=15175599952932772184",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-koto": {
+      "name": "焼き鳥こと（餐食建议）",
+      "lat": 33.588369,
+      "lng": 130.4034332,
+      "place": null,
+      "restaurant": "koto",
+      "query": "焼き鳥こと 福冈市",
+      "map": "https://www.google.com/maps?cid=945335606223743466",
+      "source": "https://www.google.com/maps?cid=945335606223743466",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-yossou": {
+      "name": "吉宗 浜町本店（餐食建议）",
+      "lat": 32.7445064,
+      "lng": 129.8787748,
+      "place": null,
+      "restaurant": "yossou",
+      "query": "吉宗 浜町本店 长崎市",
+      "map": "https://www.google.com/maps?cid=10315780853087379114",
+      "source": "https://www.google.com/maps?cid=10315780853087379114",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-hirao": {
+      "name": "天麩羅処ひらお 大名店（餐食建议）",
+      "lat": 33.5888387,
+      "lng": 130.3942887,
+      "place": null,
+      "restaurant": "hirao",
+      "query": "天麩羅処ひらお 大名店 福冈市",
+      "map": "https://www.google.com/maps?cid=18392552247942850334",
+      "source": "https://www.google.com/maps?cid=18392552247942850334",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-tsugumi": {
+      "name": "郷土料理 嗣味（餐食建议）",
+      "lat": 33.5806069,
+      "lng": 130.4065534,
+      "place": null,
+      "restaurant": "tsugumi",
+      "query": "郷土料理 嗣味 福冈市",
+      "map": "https://www.google.com/maps?cid=8214511838218247218",
+      "source": "https://www.google.com/maps?cid=8214511838218247218",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-kiyotan": {
+      "name": "鷹ノ橋 清耽（餐食建议）",
+      "lat": 34.3813352,
+      "lng": 132.4527752,
+      "place": null,
+      "restaurant": "kiyotan",
+      "query": "鷹ノ橋 清耽 广岛市",
+      "map": "https://www.google.com/maps?cid=10823779765975201529",
+      "source": "https://www.google.com/maps?cid=10823779765975201529",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-sakai": {
+      "name": "鮨さかい 本店（餐食建议）",
+      "lat": 33.5910589,
+      "lng": 130.405508,
+      "place": null,
+      "restaurant": "sakai",
+      "query": "鮨さかい 本店 福冈市",
+      "map": "https://www.google.com/maps?cid=11638968252987502177",
+      "source": "https://www.google.com/maps?cid=11638968252987502177",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-shikairou": {
+      "name": "四海楼（餐食建议）",
+      "lat": 32.7364695,
+      "lng": 129.8698217,
+      "place": null,
+      "restaurant": "shikairou",
+      "query": "四海楼 长崎市",
+      "map": "https://www.google.com/maps?cid=18023534600448739160",
+      "source": "https://www.google.com/maps?cid=18023534600448739160",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
+    },
+    "food-kakiya": {
+      "name": "牡蠣屋（餐食建议）",
+      "lat": 34.2985395,
+      "lng": 132.3217038,
+      "place": null,
+      "restaurant": "kakiya",
+      "query": "牡蠣屋 廿日市·宫岛",
+      "map": "https://www.google.com/maps?cid=14654651940468593869",
+      "source": "https://www.google.com/maps?cid=14654651940468593869",
+      "provenance": "用户提供Google Maps收藏中的公开餐厅位置；仅作位置参考，非已预约"
     }
   }
 }
