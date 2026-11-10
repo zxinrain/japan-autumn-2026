@@ -1,6 +1,6 @@
 /* Canonical design system V2. All public surfaces load this last. */
 :root{
- --paper:#f1f4f7;--surface:#fff;--ink:#40596b;--muted:#617889;--heading:#294d67;--subtitle:#506f86;--quote:#567a8e;--annotation:#536f82;--line:#dfe5ec;--green:#3c5b76;--soft:#e7ecf2;
+ --paper:#f1f4f7;--surface:#fff;--ink:#40596b;--muted:#617889;--heading:#294d67;--subtitle:#506f86;--quote:#4f7085;--annotation:#536f82;--line:#dfe5ec;--green:#3c5b76;--soft:#e7ecf2;
  --font:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;--serif:"Songti SC","Noto Serif CJK SC","SimSun",serif;
  --radius:12px;--radius-control:12px;--gutter:40px;--content-width:1120px;--content-measure:60ch;
  --pad-card:28px;--pad-aside:24px;--gap-grid:28px;--gap-section:48px;
