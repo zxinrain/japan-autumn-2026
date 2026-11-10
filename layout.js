@@ -14,7 +14,7 @@ function foldSummary(title,description=''){
 function gallery(destination,sources){
  const images=destination.images;
  if(!images.length)return '';
- return `<div class="place-gallery detail-photo" data-gallery role="region" aria-roledescription="图片轮播" aria-label="${esc(destination.name)}实景图片"><div class="gallery-track" tabindex="${images.length>1?'0':'-1'}" aria-label="${images.length>1?'左右滑动浏览目的地图片':'目的地实景'}">${images.map((p,i)=>`<figure class="gallery-slide" role="group" aria-label="第 ${i+1} 张，共 ${images.length} 张"><img src="assets/${esc(p[0])}" alt="${esc(p[1])}" width="1200" height="800" loading="${i?'lazy':'eager'}"${i?'':' fetchpriority="high"'}><figcaption class="sr-only">${esc(p[1])} · ${esc(p[2])}</figcaption></figure>`).join('')}</div>${images.length>1?`<div class="gallery-tools"><input class="gallery-position" type="range" min="1" max="${images.length}" value="1" step="1" aria-label="选择目的地照片" aria-valuetext="第1张，共${images.length}张"><button type="button" class="gallery-autoplay utility-icon" aria-label="暂停自动切换" aria-pressed="false">${icon('pause')}</button></div>`:''}</div>`;
+ return `<div class="place-gallery detail-photo" data-gallery role="region" aria-roledescription="图片轮播" aria-label="${esc(destination.name)}实景图片"><div class="gallery-track" tabindex="${images.length>1?'0':'-1'}" aria-label="${images.length>1?'左右滑动浏览目的地图片':'目的地实景'}">${images.map((p,i)=>`<figure class="gallery-slide" role="group" aria-label="第 ${i+1} 张，共 ${images.length} 张"><img src="assets/${esc(p[0])}" alt="${esc(p[1])}" width="1200" height="800" loading="${i?'lazy':'eager'}"${i?'':' fetchpriority="high"'}><figcaption class="sr-only">${esc(p[1])} · ${esc(p[2])}</figcaption></figure>`).join('')}</div></div>`;
 }
 function dayNotes(day){return `<section class="field-notes detail-block"><h2>现场提示</h2><div class="field-notes-grid"><section><h3>${icon('adjust')}行程调整</h3><p>${esc(day.cut)}</p></section><section><h3>${icon('camera')}摄影观察</h3><p>${esc(day.photo)}</p></section></div></section>`;}
 function timeline(day,index){
@@ -33,20 +33,17 @@ function bind(root){
  });
  root.querySelectorAll('[data-gallery]').forEach(gallery=>{
   if(gallery.dataset.bound)return;gallery.dataset.bound='true';const track=gallery.querySelector('.gallery-track'),slides=[...track.children];if(slides.length<2)return;
-  const slider=gallery.querySelector('.gallery-position'),toggle=gallery.querySelector('.gallery-autoplay');
-  let current=0,target=null,frame=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches,hover=false,interacting=false;
-  const updateToggle=()=>{toggle.setAttribute('aria-label',paused?'开始自动切换':'暂停自动切换');toggle.setAttribute('aria-pressed',String(paused));toggle.innerHTML=icon(paused?'play':'pause');};
-  const sync=()=>{const left=track.getBoundingClientRect().left;current=slides.reduce((best,slide,i)=>Math.abs(slide.getBoundingClientRect().left-left)<Math.abs(slides[best].getBoundingClientRect().left-left)?i:best,0);if(target!==null&&Math.abs(slides[target].getBoundingClientRect().left-left)<2)target=null;slider.value=String(current+1);slider.setAttribute('aria-valuetext',`第${current+1}张，共${slides.length}张`);};
+
+  let current=0,target=null,frame=0,hover=false,interacting=false;
+  const sync=()=>{const left=track.getBoundingClientRect().left;current=slides.reduce((best,slide,i)=>Math.abs(slide.getBoundingClientRect().left-left)<Math.abs(slides[best].getBoundingClientRect().left-left)?i:best,0);if(target!==null&&Math.abs(slides[target].getBoundingClientRect().left-left)<2)target=null;};
   const go=(i,animate=true)=>{target=Math.max(0,Math.min(slides.length-1,i));const left=track.scrollLeft+slides[target].getBoundingClientRect().left-track.getBoundingClientRect().left;track.scrollTo({left,behavior:animate?behavior():'instant'});};
-  const selectPhoto=()=>{paused=true;updateToggle();go(Number(slider.value)-1,false);};slider.addEventListener('input',selectPhoto);slider.addEventListener('change',selectPhoto);
-  toggle.addEventListener('click',()=>{paused=!paused;updateToggle();});
-  for(const type of ['pointerdown','wheel'])track.addEventListener(type,()=>{target=null;paused=true;updateToggle();},{passive:true});
+  for(const type of ['pointerdown','wheel'])track.addEventListener(type,()=>{target=null;},{passive:true});
   gallery.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')hover=true;});gallery.addEventListener('pointerleave',()=>{hover=false;});
-  track.addEventListener('touchstart',()=>{interacting=true;paused=true;updateToggle();},{passive:true});track.addEventListener('touchend',()=>{interacting=false;},{passive:true});
+  track.addEventListener('touchstart',()=>{interacting=true;},{passive:true});track.addEventListener('touchend',()=>{interacting=false;},{passive:true});
   track.addEventListener('scroll',()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(sync)},{passive:true});
-  track.addEventListener('keydown',e=>{if(e.target!==track||!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();paused=true;updateToggle();go(e.key==='Home'?0:e.key==='End'?slides.length-1:(target??current)+(e.key==='ArrowRight'?1:-1),false);});
-  const timer=setInterval(()=>{if(!gallery.isConnected){clearInterval(timer);return}const rect=gallery.getBoundingClientRect();if(paused||hover||interacting||document.hidden||(gallery.contains(document.activeElement)&&document.activeElement!==toggle)||rect.bottom<=0||rect.top>=innerHeight||matchMedia('(prefers-reduced-motion: reduce)').matches)return;go((current+1)%slides.length);},5000);
-  updateToggle();sync();
+  track.addEventListener('keydown',e=>{if(e.target!==track||!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();go(e.key==='Home'?0:e.key==='End'?slides.length-1:(target??current)+(e.key==='ArrowRight'?1:-1),false);});
+  const timer=setInterval(()=>{if(!gallery.isConnected){clearInterval(timer);return}const rect=gallery.getBoundingClientRect();if(hover||interacting||document.hidden||gallery.contains(document.activeElement)||rect.bottom<=0||rect.top>=innerHeight||matchMedia('(prefers-reduced-motion: reduce)').matches)return;go((current+1)%slides.length);},5000);
+  sync();
  });
 }
 window.TRAVEL_LAYOUT={foldSummary,gallery,timeline,bind,icon,actionLink,dayNotes};
