@@ -1,4 +1,4 @@
-# 固定版式 V1.6 · 2026-11-10
+# 固定版式 V1.7 · 2026-11-10
 
 完整且优先适用的规则见 [LAYOUT-RULES.md](LAYOUT-RULES.md)。本轮按用户明确要求微调既有版式并重排单向路线；班次、餐食、房型与库存保持待核实。后续内容更新沿用本版本。
 
@@ -65,3 +65,17 @@ Impeccable：验收10段×5平台渲染、入口降级、收藏切换与刷新�
 ## V1.6 · 全站排印与安静的操作入口
 
 以`typography.css`统一12／14／16／18／24／28–32／34–48px阶梯；正文1.75，深读1.8，副标题1.3–1.35。预约与住宿使用18px Lucide线性图标＋文字链接；酒店总费用为独立图标。比价完整说明沉至页脚；预约表格以数据为主、长票务说明折叠，手机按行显示。顺序和完整规范见LAYOUT-RULES.md V1.6。精修参考unslop by Damir Sokolovsky（https://github.com/heydamir/unslop，CC BY 4.0），遵守既有Taste → UI UX Pro Max → Impeccable流程。
+
+
+## V1.7 · 交互细节与平板日期栏（2026-11-10）
+
+保留V1.6颜色、字号、行距、12px圆角、图片比例、留白、五个导航入口与行程内容。新增Skill作为既有流程内的审查依据：Taste沿用视觉方向；UI UX Pro Max结合emil-design-eng落实细节；design-review记录实际缺陷并逐项修复；Impeccable完成最后验收，不引入另一套风格。
+
+- 日历：跨月后始终有一个可用日期进入Tab顺序，焦点落在当前日或该月首个可选日；方向键可跨月。点外部、Tab离开、Escape和选日均收起，Escape返回触发器。触发器文字同步“打开／收起日历”。全局关闭监听随弹层关闭或页面离开释放。
+- 日期和景点／美食栏目切换：先更新状态，指针操作采用180ms、24px的单段ease-out入场；连续操作以最新输入为准。离开页面中断动效，不产生未处理的取消错误。键盘和减少动态偏好直接更新，不播放位移动效。
+- 轮播与横向时间轴：键盘方向键／Home／End立即定位；触控和鼠标保留原生滚动。图片位移以轮播视口为基准，连续点击按最新目标响应。链接、可编辑区、地图、轮播、时间轴和原生控件不会触发行程页横滑。
+- hover效果只在`(hover:hover) and (pointer:fine)`启用；触屏没有黏住的卡片上浮与图片放大。按钮按压140ms轻缩至0.97，可见键盘焦点及减少动态时不缩放。
+- 768–959px：地图标题与日期控件分行，前后日期为44px图标按钮，当前日期使用剩余宽度；不省略、截断日期。其他断点保留原版式。
+- 验收覆盖320／390／768／1024／1440px主要页面、原生折叠、轮播、日历、地图、50个平台入口和费用页；交互回归命令`node scripts/check-interactions.cjs`进入GitHub Actions。桌面浏览器响应式检查不等于Android真机滑动物理和酒店App接收日期验证。
+
+Skill来源：[Emil Kowalski](https://github.com/emilkowalski/skills/tree/715c1807e08c497cfd1dc4feb450a2a3300ef2a9/skills/emil-design-eng)、[gstack design-review](https://github.com/garrytan/gstack/tree/56c4e873b2a83074ff8c832a178f3f90f7f86bc4/design-review)，Impeccable使用本机4.8.0。gstack可选全局运行器与遥测未启用；浏览器验收使用现有CUA。

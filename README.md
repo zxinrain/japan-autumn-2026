@@ -101,3 +101,8 @@ node scripts/check-dining.cjs
 ## V1.6 · 排印与资料操作
 
 预约与住宿使用同一套图标文字链接，总费用在住宿资料栏使用独立图标；比价说明移至底部。预约表格在手机按行呈现，长票务说明可展开。`typography.css`统一全站字号与行距，后续维护遵守`LAYOUT-RULES.md` V1.6。设计精修参考 [unslop by Damir Sokolovsky / @heydamir](https://github.com/heydamir/unslop)，CC BY 4.0；未运行其可选视频／快照工具。
+
+
+### V1.7 · 2026-11-10
+
+按emil-design-eng、design-review和Impeccable精修日历、连续切换、键盘、指针反馈与平板日期栏。视觉、日期、住宿和价格内容沿用V1.6。规范见`LAYOUT-RULES.md`；新增交互回归：`node scripts/check-interactions.cjs`（无额外依赖，已加入Pages发布检查）。

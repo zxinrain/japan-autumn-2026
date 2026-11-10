@@ -90,15 +90,15 @@ function bindJourneyNavigation(view,arg,params){
  const j=window.JAPAN_JOURNEY_UI,detail=view==='day';
  if(view==='itinerary'||detail){const index=()=>detail?Math.round((Date.parse(arg+'T00:00:00Z')-start)/86400000):selectedTripDay;
   const getSurface=()=>detail?root:root.querySelector('#daily-swipe-region');
-  const move=(i,dir)=>{if(i<0||i>=20)return;j.change(getSurface,dir||Math.sign(i-index()),()=>{if(detail){history.pushState(null,'',dayLink(i));render();window.scrollTo({top:0,behavior:'instant'});}else updateDayReader(i);root.querySelector('.calendar-trigger')?.focus({preventScroll:true});});};
+  const move=(i,dir,motion)=>{if(i<0||i>=20)return;j.change(getSurface,dir||Math.sign(i-index()),()=>{if(detail){history.pushState(null,'',dayLink(i));render();window.scrollTo({top:0,behavior:'instant'});}else updateDayReader(i);root.querySelector('.calendar-trigger')?.focus({preventScroll:true});},motion);};
   j.bindCalendar(root,{onDay:move,onOverview:()=>{if(detail){selectedTripDay=index();mapScope=null;history.pushState(null,'','#itinerary');render();}else{window.JAPAN_ROUTE_MAP?.release();mapScope=mapScope===null?selectedTripDay:null;root.querySelector('#journey-map-slot').innerHTML=routeMap(mapScope);window.JAPAN_ROUTE_MAP?.bind(root);bindJourneyNavigation(view,arg,params);ui.bind(root);}}});
-  j.swipe(getSurface(),{canMove:dir=>index()+dir>=0&&index()+dir<20,onMove:dir=>move(index()+dir,dir)});
+  j.swipe(getSurface(),{canMove:dir=>index()+dir>=0&&index()+dir<20,onMove:(dir,motion)=>move(index()+dir,dir,motion)});
  }
  if(view==='destinations'||(view==='food'&&!arg)){
   const mode=view==='food'||params.get('tab')==='food'?'food':'places';
-  const change=next=>{if(next===mode)return;j.change(()=>root.querySelector('#atlas-panel'),next==='food'?1:-1,()=>{history.pushState(null,'','#destinations'+(next==='food'?'?tab=food':''));render();root.querySelector('[aria-selected="true"]')?.focus({preventScroll:true});});};
-  root.querySelectorAll('[data-atlas-tab]').forEach(b=>{b.addEventListener('click',()=>change(b.dataset.atlasTab));b.addEventListener('keydown',ev=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(ev.key)){ev.preventDefault();change(ev.key==='ArrowRight'||ev.key==='End'?'food':'places');}});});
-  j.swipe(root.querySelector('#atlas-panel'),{canMove:dir=>mode==='places'?dir===1:dir===-1,onMove:dir=>change(dir===1?'food':'places')});
+  const change=(next,motion)=>{if(next===mode)return;j.change(()=>root.querySelector('#atlas-panel'),next==='food'?1:-1,()=>{history.pushState(null,'','#destinations'+(next==='food'?'?tab=food':''));render();root.querySelector('[aria-selected="true"]')?.focus({preventScroll:true});},motion);};
+  root.querySelectorAll('[data-atlas-tab]').forEach(b=>{b.addEventListener('click',ev=>change(b.dataset.atlasTab,{animate:ev.detail!==0}));b.addEventListener('keydown',ev=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(ev.key)){ev.preventDefault();change(ev.key==='ArrowRight'||ev.key==='End'?'food':'places',{animate:false});}});});
+  j.swipe(root.querySelector('#atlas-panel'),{canMove:dir=>mode==='places'?dir===1:dir===-1,onMove:(dir,motion)=>change(dir===1?'food':'places',motion)});
  }
 }
 function updateDayReader(i){window.JAPAN_ROUTE_MAP?.release();selectedTripDay=i;mapScope=i;window.JAPAN_JOURNEY_UI.setCurrent(i);history.replaceState(null,'','#itinerary?date='+iso(i));root.querySelector('#day-reader-content').innerHTML=readerDay(i);root.querySelector('#journey-map-slot').innerHTML=routeMap(i);window.JAPAN_ROUTE_MAP?.bind(root);bindTimelines();bindJourneyNavigation('itinerary',null,new URLSearchParams());}

@@ -20,6 +20,7 @@ jobs:
         run: |
           python3 scripts/validate.py
           node scripts/check-data.cjs
+          node scripts/check-interactions.cjs
           node scripts/check-dining.cjs
           node scripts/check-hotel-links.cjs
           node scripts/check-amap-routes.cjs
