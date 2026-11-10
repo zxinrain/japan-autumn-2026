@@ -7,7 +7,13 @@
       "星野集团官网",
       "https://hoshinoresorts.com/ja/hotels/kaimiyajima/"
     ],
-    "priceReference": null
+    "priceReference": null,
+    "ctripId": "134643567",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/134643567.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   },
   {
     "ctripId": "97964943",
@@ -39,6 +45,11 @@
       "checked": "2026-11-10",
       "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
       "url": "https://www.booking.com/hotel/jp/hilton-hiroshima.html"
+    },
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/97964943.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
     }
   },
   {
@@ -60,6 +71,12 @@
       "checked": "2026-11-10",
       "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
       "url": "https://www.booking.com/hotel/jp/ond-ondohoteru.html"
+    },
+    "ctripId": "7149833",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/7149833.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
     }
   },
   {
@@ -80,7 +97,13 @@
       "酒店官方空间参考，非已订房型",
       "酒店官网",
       "https://hotel-nagasaki.jp/tw/"
-    ]
+    ],
+    "ctripId": "704195",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/704195.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   },
   {
     "official": "https://nagasaki.hotelindigo.com/",
@@ -94,6 +117,12 @@
       "checked": "2026-11-10",
       "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食与取消条件，额外地方税结账核对。",
       "url": "https://www.booking.com/hotel/jp/indigo-nagasaki-glover-street-an-ihg.html"
+    },
+    "ctripId": "120039678",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/120039678.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
     }
   },
   {
@@ -126,6 +155,11 @@
       "checked": "2026-11-10",
       "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
       "url": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html"
+    },
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/27391867.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
     }
   },
   {
@@ -138,7 +172,13 @@
       "酒店官网空间参考，非已订房型",
       "酒店官网",
       "https://enowa-yufuin.jp/"
-    ]
+    ],
+    "ctripId": "112316228",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/112316228.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   },
   {
     "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
@@ -149,7 +189,13 @@
       "酒店官方空间参考，非已订房型",
       "酒店官网",
       "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
-    ]
+    ],
+    "ctripId": "72321998",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/72321998.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   },
   {
     "official": "https://www.miyakohotels.ne.jp/hakata/stay/",
@@ -161,7 +207,13 @@
       "酒店官网空间参考，非已订房型",
       "酒店官网",
       "https://www.miyakohotels.ne.jp/hakata/stay/"
-    ]
+    ],
+    "ctripId": "705197",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/705197.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   },
   {
     "official": "https://onefukuokahotel.jp/rooms/terrace-twin/",
@@ -182,6 +234,12 @@
       "酒店官网空间参考，非已订房型",
       "酒店官网",
       "https://onefukuokahotel.jp/rooms/terrace-twin/"
-    ]
+    ],
+    "ctripId": "123465122",
+    "ctripMatch": {
+      "checked": "2026-11-10",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/123465122.html",
+      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
+    }
   }
 ]
