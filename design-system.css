@@ -147,3 +147,19 @@ blockquote,.journal-note{color:var(--quote)}
 @media(max-width:767px){.field-notes-grid{grid-template-columns:1fr}.session-stops{gap:16px}}
 
 .transfer-session .session-facts{gap:12px}.transfer-session .session-facts>div{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:start}.transfer-session .session-facts dt{margin:0}.transfer-session .session-facts dd{font-size:14px;line-height:1.55}.transfer-session .session-route{margin:0}.horizontal-timeline .session{padding:20px}.horizontal-timeline .session h3{font-size:24px}
+
+/* Quiet controls share a blue tint with the paper surfaces. */
+.button,.button.primary,.button[aria-pressed=true],.hero-grid .button,.hero-grid .button:not(.primary),.calendar-month{background:var(--soft);color:var(--green);border-color:transparent;box-shadow:none}
+.button:hover,.button.primary:hover,.hero-grid .button:hover{background:#dce6ef;color:var(--green);border-color:transparent;box-shadow:none}
+.action-icon,.fold-icon,.utility-icon,.favorite-control,.transport-mode svg{color:var(--green)}
+img[src*="assets/icons/"]{filter:brightness(0) saturate(100%) invert(32%) sepia(18%) saturate(1013%) hue-rotate(165deg) brightness(95%) contrast(88%)}
+.map-route-list .map-stop-number{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--green);color:#fff;font-size:12px;font-weight:500;line-height:1;flex:none}
+.gallery-tools{display:flex;align-items:center;gap:16px;padding:8px 0;margin:0}
+.gallery-position{flex:1;min-width:0;height:44px;margin:0;accent-color:var(--green);cursor:pointer}
+.gallery-autoplay{flex:none;border:0;background:transparent;color:var(--green);cursor:pointer}
+.gallery-position:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:var(--radius)}
+
+.gallery-track{overflow-y:hidden;scrollbar-width:none}.gallery-track::-webkit-scrollbar{display:none}.gallery-slide figcaption.sr-only{padding:0;margin:0;border:0}
+.gallery-position{appearance:none;-webkit-appearance:none;background:transparent;border:0;padding:0}.gallery-position::-webkit-slider-runnable-track{height:3px;background:var(--line);border-radius:3px}.gallery-position::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:var(--green);margin-top:-4.5px}.gallery-position::-moz-range-track{height:3px;background:var(--line)}.gallery-position::-moz-range-thumb{width:12px;height:12px;border:0;border-radius:50%;background:var(--green)}
+
+.leaflet-control-zoom a{color:var(--green)}

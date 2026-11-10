@@ -21,6 +21,7 @@ jobs:
           python3 scripts/validate.py
           node scripts/check-data.cjs
           node scripts/check-interactions.cjs
+          node scripts/check-gallery.cjs
           node scripts/check-design-system.cjs
           node scripts/check-dining.cjs
           node scripts/check-hotel-links.cjs
