@@ -441,10 +441,17 @@
     [
       {
         "from": "miyako",
-        "to": "acros",
+        "to": "meiji",
         "mode": "walking",
-        "label": "步行",
-        "duration": "用时待核"
+        "label": "穿站步行",
+        "duration": "12–18分钟"
+      },
+      {
+        "from": "meiji",
+        "to": "acros",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–25分钟"
       },
       {
         "from": "acros",

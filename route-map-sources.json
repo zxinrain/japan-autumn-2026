@@ -639,6 +639,15 @@
       "verified": "2026-11-10",
       "coordinateSystem": "WGS-84",
       "sourceMap": "https://maps.google.co.jp/maps?iwloc=A&ll=33.196238%2C130.014662&output=embed&q=33.196238%2C130.014662&t=m&z=17"
+    },
+    "meiji": {
+      "name": "博多明治公园",
+      "lat": 33.588472,
+      "lng": 130.417505,
+      "place": "meiji",
+      "query": "明治公園 博多 福岡",
+      "source": "https://yokanavi.com/spots/268035",
+      "coordinateNote": "福冈市官方旅游页Google地图嵌入q坐标，WGS-84；公园定位，非保证接车点"
     }
   },
   "coordinateAudit": {

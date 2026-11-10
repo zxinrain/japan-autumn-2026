@@ -24,7 +24,7 @@ for(const n of context.window.JAPAN_DESTINATION_NOTES){
   if(n.period){const date=new Date(Date.parse(trip.departure+'T00:00:00Z')+n.day*86400000).toISOString().slice(0,10);assert(date>=n.period[0]&&date<=n.period[1],'Exhibition does not cover the visit: '+n.id);}
 }
 assert.equal(trip.days.length,20);assert.equal(trip.departure,'2026-11-30');assert.equal(trip.returnDate,'2026-12-19');
-assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.length,trip.stays.length);assert.equal(catalog.length,17);
+assert.equal(trip.stays.reduce((n,s)=>n+s.nights,0),19);assert.equal(hotelMeta.length,trip.stays.length);assert.equal(catalog.length,18);
 let cursor=trip.departure,index=0;
 for(const s of trip.stays){assert.equal(s.in,cursor);assert.equal((Date.parse(s.out)-Date.parse(s.in))/86400000,s.nights);for(let n=0;n<s.nights;n++)assert.equal(trip.days[index++].city,s.city);cursor=s.out;}
 assert.equal(cursor,trip.returnDate);
@@ -38,7 +38,7 @@ for(let i=0;i<trip.stays.length;i++){assert.equal(hotelMeta[i].official,trip.sou
 for(const p of catalog){assert(p.reason&&p.tradeoff&&p.look&&p.effort);for(const image of p.images){assert(fs.existsSync(path.join(root,'assets',image[0])),image[0]);assert(trip.sources[image[3]]);}for(const day of p.days)assert(day>=0&&day<20);}
 for(const m of hotelMeta)if(m.photo)assert(fs.existsSync(path.join(root,'assets',m.photo[0])),m.photo[0]);
 assert(!trip.days.some(d=>/鹿儿岛|雾岛|陶瓷镇|云仙|大船山/.test(d.title)));
-console.log('PASS: JS syntax; 20 continuous days / 19 nights; 17 destination themes (one links official imagery); ten hotel stays; required full days preserved.');
+console.log('PASS: JS syntax; 20 continuous days / 19 nights; 18 destination themes (one links official imagery); ten hotel stays; required full days preserved.');
 
 assert.deepEqual(Array.from(map.routes[13].slice(0,3)),['kaiBeppu','kitakyushumuseum','miyako']);assert.match(trip.days[13].transport,/包车/);assert.match(trip.days[16].title,/糸岛/);assert.match(trip.days[17].title,/福冈市美术馆/);assert.match(trip.days[18].title,/九州芸文馆/);
 

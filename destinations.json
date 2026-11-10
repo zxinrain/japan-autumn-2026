@@ -544,5 +544,35 @@
     "sources": [
       "unagihime"
     ]
+  },
+  {
+    "id": "meiji",
+    "region": "福冈",
+    "name": "博多明治公园",
+    "en": "The Gateway MEIJI PARK",
+    "date": "12/14 · 上午短停",
+    "priority": "建筑与公共空间",
+    "days": [
+      14
+    ],
+    "images": [
+      [
+        "meiji-park.webp",
+        "白色立体园路与地面庭园；官方历史实景，非12月叶况",
+        "福冈市官方旅游网 よかなび",
+        "meijiTourism"
+      ]
+    ],
+    "gallery": "https://yokanavi.com/spots/268035",
+    "feature": "藤本壮介设计监修的立体公园，将回廊、五处庭园与博多站前街区连接。",
+    "reason": "与ACROS对照两种城市绿化方式：在博多看轻盈抬升的公共回廊，再到天神看阶梯状绿化建筑。",
+    "look": "地面仰看白色回廊与树冠的交错，观察通勤人流与休憩空间；KYNE《UNTITLED》是顺路公共艺术。",
+    "effort": "09:45–10:15，约30分钟；从博多都经车站步行12–18分钟。选择地面与低层，不需登顶。",
+    "tradeoff": "ACROS停留由60缩为45分钟；下午休息、旧城及晚餐保持。雨天公园缩为地面15分钟。",
+    "decision": "12/14先明治公园，再出租车至ACROS；不安排在12/13长途抵达夜或12/16巴士赶车前。",
+    "sources": [
+      "meiji",
+      "meijiTourism"
+    ]
   }
 ]

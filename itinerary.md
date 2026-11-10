@@ -27,6 +27,8 @@
 
 - 武雄12/5抵达后看御船山夜枫；12/6先楼门与御船山日景，午后回OND休息后参观神社、图书馆，あん梅移至第二晚。
 
+- 12/14上午新增博多明治公园，09:30从博多都出发，09:45–10:15参观后乘车去ACROS；其停留缩为45分钟，午休、旧城与晚餐保留。
+
 ## 每日安排
 
 ### Day 1｜11/30 周一｜香港直飞广岛 · 界宮島海上第一晚
@@ -491,11 +493,11 @@
 
 来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [JR九州网络票价](https://www.jrkyushu-kippu.jp/fare/ticket/123) · [JR九州优惠票中途下车规则](https://helpfeel.com/jrkyushu-faq/割引きっぷは途中下車や途中乗車が可能ですか？-65e584dced91020025528d6b) · [小仓站行李储物柜](https://www.jrkyushu.co.jp/railway/station/1191572_1601.html) · [小仓站可询行李寄存](https://discoverycoworking.com/news/tenimotsu/) · [北九州美术馆本馆交通](https://kmma.jp/visitor/honkan/access/) · [北九州市立美术馆本馆展期](https://kmma.jp/) · [本馆 Café Musée](https://www.cafemusee.net/) · [博多都官网](https://www.miyakohotels.ne.jp/hakata/stay/) · [博多一双 博多駅東本店营业与订位](https://www.hakata-issou.com/)
 
-### Day 15｜12/14 周一｜福冈周一休整 · ACROS 与博多旧城短线
+### Day 15｜12/14 周一｜福冈城市空间 · 明治公园、ACROS与博多旧城
 
 住宿：博多都酒店 / Miyako Hotel Hakata。
 
-**上午**：10:00博多都出发，步行或短程车到ACROS；10:15–11:15看阶梯绿化立面与公共层，11:15–11:45天神中央公园短走，不登屋顶。
+**上午**：09:30博多都出发，经博多站到西侧明治公园，步行约12–18分钟含穿站与过街。09:45–10:15参观藤本壮介监修的立体园路、地面庭园与KYNE公共艺术；以地面及低层回廊为主，不要求走到约10米高处。10:15左右公园附近约车，至ACROS预留15–25分钟，10:45–11:30看阶梯绿化立面和公共层，11:30–11:45天神中央公园短走，不登屋顶。
 
 **中午**：12:00博多元气一杯作为收藏午餐主选，用餐后回博多都，13:30–15:00房间休息；队长则本餐留空。
 
@@ -503,13 +505,13 @@
 
 **夜晚**：18:00水たき長野作为收藏晚餐主选，电话预约后安排车；晚餐结束20:30前回酒店。
 
-**交通**：博多都↔ACROS步行约10–20分钟或短程车；酒店→东长寺车15–25分钟，东长寺→栉田约10–15分钟步行，可短程车替代；返博多都车15–25分钟。新增步行约1–1.5公里，分成短段。
+**交通**：博多都→明治公园经博多站步行约12–18分钟；公园→ACROS出租车约15–25分钟。午餐后回酒店，15:00后预约车至东长寺约15–25分钟；东长寺→栉田步行10–15分钟，体力不足改车；返博多都车15–25分钟。明治公园不走完整高处回廊，新增短停约30分钟。
 
 **休息**：13:00–15:00房间休息为固定段；下午只走两处，17:30前后返店。
 
-**取舍**：下雨或体力不足，先删川端街、再把东长寺和栉田缩为一处；也可全部改为天神地下街30–60分钟。不把3–4公里博多全线与美术馆日拼在一起。
+**取舍**：明治公园只用30分钟，ACROS建筑停留由60缩为45分钟；午后休息、东长寺、栉田与晚餐保留。下雨或体力不足先删天神中央公园绕行和川端附加散步，再将明治公园缩为地面15分钟；不为上高处延误午餐。
 
-**摄影**：ACROS观察绿化如何落到街道与公园；博多旧城看寺墙、通勤人流和巷口尺度。大佛是释迦如来，不是千手观音；殿内拍摄按寺方规则。
+**摄影**：明治公园观察白色回廊、树冠与办公街区之间的层次，地面看通勤与停留的人流，不把官方夏季照片当作12月植被状态；拍KYNE作品与公共空间时避开路人正面近拍。ACROS关注绿化立面与街道界面；旧城观察寺院门口、参道和商店街的生活尺度。
 
 **早餐推荐**：　
 
@@ -519,9 +521,9 @@
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata) → [ACROS Fukuoka](https://www.google.com/maps/search/?api=1&query=ACROS%20Fukuoka) → [Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata) → [東長寺 福岡](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%95%B7%E5%AF%BA%20%E7%A6%8F%E5%B2%A1) → [櫛田神社 福岡](https://www.google.com/maps/search/?api=1&query=%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1) → [Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata)
+导航：[Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata) → [Meiji Park Hakata Fukuoka](https://www.google.com/maps/search/?api=1&query=Meiji%20Park%20Hakata%20Fukuoka) → [ACROS Fukuoka](https://www.google.com/maps/search/?api=1&query=ACROS%20Fukuoka) → [Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata) → [東長寺 福岡](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%95%B7%E5%AF%BA%20%E7%A6%8F%E5%B2%A1) → [櫛田神社 福岡](https://www.google.com/maps/search/?api=1&query=%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1) → [Miyako Hotel Hakata](https://www.google.com/maps/search/?api=1&query=Miyako%20Hotel%20Hakata)
 
-来源：[日本设计：ACROS](https://www.nihonsekkei.co.jp/projects/2060/) · [福冈丽思卡尔顿餐饮](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/dining/) · [福冈县官方：东长寺开放与台阶](https://www.crossroadfukuoka.jp/spot/12556) · [福冈市官方：栉田神社](https://yokanavi.com/spots/26906) · [博多都官网](https://www.miyakohotels.ne.jp/hakata/stay/) · [博多元気一杯!!营业与订位](https://tabelog.com/fukuoka/A4001/A400106/40000488/) · [水たき 長野营业与订位](https://tabelog.com/fukuoka/A4001/A400102/40000010/)
+来源：[日本设计：ACROS](https://www.nihonsekkei.co.jp/projects/2060/) · [福冈丽思卡尔顿餐饮](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/dining/) · [福冈县官方：东长寺开放与台阶](https://www.crossroadfukuoka.jp/spot/12556) · [福冈市官方：栉田神社](https://yokanavi.com/spots/26906) · [博多都官网](https://www.miyakohotels.ne.jp/hakata/stay/) · [博多元気一杯!!营业与订位](https://tabelog.com/fukuoka/A4001/A400106/40000488/) · [水たき 長野营业与订位](https://tabelog.com/fukuoka/A4001/A400102/40000010/) · [明治公园官网｜建筑、园路与交通](https://meiji-park.jp/) · [福冈市官方旅游网｜明治公园实景与介绍](https://yokanavi.com/spots/268035)
 
 ### Day 16｜12/15 周二｜太宰府与九州国立博物馆
 
