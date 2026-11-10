@@ -172,7 +172,9 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/112316228.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/enowa-yufuin/hotel/yufu-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/enowa-da-fen-xian-you-bu-shi-tang-bu-yuan-ting.html"
   },
   "kaiBeppu": {
     "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
@@ -189,7 +191,8 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/72321998.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/hoshino-resorts-kai-beppu/hotel/beppu-jp.html"
   },
   "miyako": {
     "official": "https://www.miyakohotels.ne.jp/hakata/stay/",
@@ -207,7 +210,9 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/705197.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/en-us/miyako-hotel-hakata/hotel/fukuoka-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/hakata-miyako.html"
   },
   "one": {
     "official": "https://onefukuokahotel.jp/rooms/terrace-twin/",
@@ -234,7 +239,8 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/123465122.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/one-fukuoka-hotel/hotel/fukuoka-jp.html"
   },
   "hotelNagasaki": {
     "official": "https://hotel-nagasaki.jp/tw/",
@@ -260,7 +266,8 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/704195.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/hotel-nagasaki/hotel/nagasaki-jp.html"
   },
   "indigo": {
     "official": "https://nagasaki.hotelindigo.com/",
@@ -280,6 +287,7 @@
       "checked": "2026-11-10",
       "source": "https://m.ctrip.com/html5/hotel/hoteldetail/120039678.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "ikyu": "https://www.ikyu.com/00003252/"
   }
 }
