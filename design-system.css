@@ -1,6 +1,6 @@
 /* Canonical design system V2. All public surfaces load this last. */
 :root{
- --paper:#f1f4f7;--surface:#fff;--ink:#1f2933;--muted:#64707d;--line:#dfe5ec;--green:#3c5b76;--soft:#e7ecf2;
+ --paper:#f1f4f7;--surface:#fff;--ink:#40596b;--muted:#617889;--heading:#294d67;--subtitle:#506f86;--quote:#567a8e;--annotation:#536f82;--line:#dfe5ec;--green:#3c5b76;--soft:#e7ecf2;
  --font:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;--serif:"Songti SC","Noto Serif CJK SC","SimSun",serif;
  --radius:12px;--radius-control:12px;--gutter:40px;--content-width:1120px;--content-measure:60ch;
  --pad-card:28px;--pad-aside:24px;--gap-grid:28px;--gap-section:48px;
@@ -123,3 +123,27 @@ p+p{margin-top:var(--space-paragraph)}
  .data-table th,.data-table td,.cost-table th,.cost-table td{padding-block:18px}
  .booking-table td{padding:0}.booking-table tbody tr{padding-block:20px}
 }
+
+/* Coordinated blue tones follow content roles, not a single flat ink. */
+h1,h2,h3,h4,.wordmark{color:var(--heading)}
+body,.story-body p,.info-list dd,.session-stops{color:var(--ink)}
+.page-intro>p:last-child,.detail-title>p:last-child,.detail-english,.hotel-card .english,.cost-intro>p{color:var(--subtitle)}
+blockquote,.journal-note{color:var(--quote)}
+.meta,.small,.photo-credit,.page-footnote,.cost-note,figcaption,.session-note,.timeline-hint{color:var(--annotation)}
+.hero-grid .cover-copy h1,.hero-grid .cover-copy p{color:#f4f8fc}
+.horizontal-timeline .session{min-height:0;gap:16px}
+.horizontal-timeline .session h3,.field-notes h3{display:flex;align-items:center;gap:10px}
+.session-stops{list-style:none;padding:0;margin:0;display:grid;gap:18px;font-size:16px;line-height:1.65;width:100%}
+.session-stops li{display:grid;gap:4px}
+.session-stops time{font-size:14px;font-weight:500;color:var(--green);font-variant-numeric:tabular-nums}
+.session-facts dt{display:flex;gap:6px;align-items:center}.session-facts dt .action-icon{width:14px;height:14px}
+.compact-source{font-size:12px;line-height:1.55;color:var(--annotation)}.compact-source summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--green)}
+.itinerary-source{margin-top:24px}.itinerary-source .dossier-content h3{font-size:18px;margin-top:24px}
+.field-notes{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow-paper);padding:var(--pad-card)}
+.field-notes>h2{font-size:var(--text-card);margin-bottom:24px}
+.field-notes-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-grid)}
+.field-notes h3{font:500 16px/1.45 var(--font);margin-bottom:12px;color:var(--subtitle)}
+.field-notes p{font-size:14px;line-height:1.8;max-width:60ch;color:var(--ink)}
+@media(max-width:767px){.field-notes-grid{grid-template-columns:1fr}.session-stops{gap:16px}}
+
+.transfer-session .session-facts{gap:12px}.transfer-session .session-facts>div{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:start}.transfer-session .session-facts dt{margin:0}.transfer-session .session-facts dd{font-size:14px;line-height:1.55}.transfer-session .session-route{margin:0}.horizontal-timeline .session{padding:20px}.horizontal-timeline .session h3{font-size:24px}
