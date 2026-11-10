@@ -1,0 +1,83 @@
+/* V1.6 — shared reading scale. Values apply to content, never map geometry. */
+:root{
+ --text-caption:12px;--text-small:14px;--text-body:16px;--text-lead:18px;
+ --text-card:24px;--text-section:32px;--text-page:clamp(34px,4vw,48px);
+ --leading-display:1.12;--leading-heading:1.2;--leading-subtitle:1.35;
+ --leading-label:1.45;--leading-body:1.75;--leading-reading:1.8;--leading-caption:1.55;
+ --space-inline:8px;--space-paragraph:12px;--space-group:24px;--space-section:48px;
+}
+body{font-size:var(--text-body);line-height:var(--leading-body);font-weight:400;font-synthesis:none}
+h1,h2,h3,h4{font-weight:400;letter-spacing:0}
+h1{font-size:var(--text-page);line-height:var(--leading-display);letter-spacing:-.02em}
+h2{font-size:var(--text-section);line-height:var(--leading-heading)}
+h3{font-size:var(--text-card);line-height:var(--leading-heading)}
+p+p{margin-top:var(--space-paragraph)}
+.page-intro{gap:8px;margin-bottom:40px}.page-intro>p:last-child{font-size:var(--text-body);line-height:1.5;max-width:60ch}
+.detail-title{gap:8px}.detail-title h1{line-height:var(--leading-display)}.detail-title>p:last-child{font-size:var(--text-body);line-height:1.5}
+.section-title{margin-top:48px;margin-bottom:24px}.section-title p{font-size:var(--text-small);line-height:1.5}
+.overlabel,.section-title .overlabel,.tags .meta,.pill{font-size:var(--text-caption);line-height:var(--leading-label);font-weight:500}
+.meta,.small,.fold-description,.food-english,.detail-english,.hotel-card .english,.note-subtitle{font-size:var(--text-small);font-weight:400;letter-spacing:0}
+.meta{line-height:var(--leading-caption)}
+.page-intro .overlabel,.detail-title .overlabel{font-size:var(--text-caption)}
+.detail-title .detail-english,.hotel-card .english,.food-english,.note-subtitle{line-height:1.3}
+.story-body{gap:16px}.story-body>p,.hotel-card .story-body>p,.reading-card p,.day-card .summary{font-size:var(--text-body);line-height:var(--leading-body)}
+.story-body h3,.hotel-card .story-body h3,.restaurant-card h3,.note-card .story-body h3,.masonry-grid .story-body h3{font-size:var(--text-card);line-height:var(--leading-heading);font-weight:400}
+.masonry-grid>.featured .story-body h3{font-size:32px;line-height:var(--leading-heading)}
+.story-body h3+p{margin-top:0}.story-body h3+.english{margin-top:-8px}
+.story-body>p+p{margin-top:0}
+.reading-card h2,.day-sidebar h2{font-size:var(--text-card);line-height:var(--leading-heading);margin-bottom:12px}
+.info-list dt{font-size:var(--text-small);line-height:var(--leading-label);margin-bottom:8px;font-weight:500}
+.info-list dd{font-size:var(--text-body);line-height:var(--leading-body)}
+.dossier-content p,.dossier-content dd{font-size:var(--text-body);line-height:var(--leading-reading)}
+.dossier-content h2,.dossier-content h3{font-size:var(--text-card);line-height:var(--leading-heading);margin-bottom:12px}
+.fold-title{font-size:var(--text-card);line-height:var(--leading-heading)}.fold-heading{gap:8px}
+.fold-description{line-height:var(--leading-caption)}
+.horizontal-timeline .session{gap:16px}.horizontal-timeline .session h3{font-size:var(--text-card);line-height:var(--leading-heading)}
+.horizontal-timeline .session p{font-size:var(--text-body);line-height:var(--leading-reading)}
+.horizontal-timeline .transfer-session .session-route{font-size:var(--text-small);line-height:1.5;margin:0 0 8px}
+.horizontal-timeline .transfer-session .session-note{font-size:var(--text-caption);line-height:var(--leading-caption);margin-top:8px}
+.session-facts{gap:16px}.session-facts dt{font-size:var(--text-caption);line-height:var(--leading-caption);margin-bottom:4px}.session-facts dd{font-size:var(--text-small);line-height:1.65}
+.reader-heading h2{font-size:var(--text-card);line-height:var(--leading-heading);margin-top:8px}
+.day-plan-title h2,.map-heading h2{font-size:var(--text-section);line-height:var(--leading-heading)}
+.route-copy h3,.meal-section>h3,.meal-template-grid h3{font-size:var(--text-card);line-height:var(--leading-heading)}
+.hotel-price .price-range{font-size:32px;line-height:1.2;letter-spacing:-.02em}
+.hotel-card .hotel-price .meta,.hotel-card .story-body .photo-credit,.hotel-card .story-body .price-basis{font-size:var(--text-caption);line-height:var(--leading-caption)}
+.photo-credit,.dossier-credit,.map-credit,.price-basis,.source-links a,.gallery-slide figcaption,.food-source,.timeline-hint,.city-credit,figcaption{font-size:var(--text-caption);line-height:var(--leading-caption);font-weight:400;letter-spacing:0}
+.cost-intro h1{font-size:var(--text-page);line-height:var(--leading-display)}.cost-section h2{font-size:var(--text-section);line-height:var(--leading-heading)}
+.cost-intro>p{font-size:var(--text-body);line-height:1.5}.cost-intro>.cost-note{font-size:var(--text-caption)}
+.cost-table{font-size:var(--text-small);line-height:1.65}.cost-table th,.cost-table small,.cost-note{font-size:var(--text-caption);line-height:var(--leading-caption)}
+.cost-assumptions{font-size:var(--text-small);line-height:var(--leading-body);gap:20px}
+@media(max-width:767px){
+ :root{--text-section:28px;--text-page:34px;--space-section:40px}
+ .page-intro{margin-bottom:32px}.section-title{margin-top:40px}
+ .masonry-grid>.featured .story-body h3{font-size:28px}
+ .reading-card h2,.day-sidebar h2,.dossier-content h2,.dossier-content h3{font-size:var(--text-card)}
+ .story-body h3,.hotel-card .story-body h3,.restaurant-card h3{font-size:var(--text-card)}
+ .hotel-price .price-range{font-size:28px}
+ .horizontal-timeline .session h3,.fold-title{font-size:var(--text-card);line-height:var(--leading-heading)}
+ .horizontal-timeline .session p{line-height:var(--leading-reading)}
+ .cost-table.summary{font-size:var(--text-small)}
+}
+/* Compact interface roles use the same 12 / 14 / 16 / 18 ladder. */
+:root{--text-cover:clamp(36px,5.5vw,64px)}
+.hero-grid .cover-copy h1{font-size:var(--text-cover);line-height:var(--leading-display);letter-spacing:-.02em}
+.app-nav a,.button,.gallery-buttons .button,.fold-control,.date-controls .calendar-trigger{font-size:14px;line-height:var(--leading-label)}
+.wordmark{font-size:24px;line-height:var(--leading-heading)}.wordmark span{font-size:12px;line-height:1.5}
+.gallery-progress,.food-category,.food-day-links,.food-suggestion,.food-index-note{font-size:14px}
+.gallery-hint,.food-status,.food-source,.atlas-swipe-hint,.hotel-night small{font-size:12px;line-height:var(--leading-caption)}
+.meal-restaurant>p{font-size:16px;line-height:var(--leading-body)}.meal-restaurant h4{font-size:18px;line-height:var(--leading-subtitle);font-weight:500}
+.meal-restaurant .food-condition{font-size:14px;line-height:1.65}
+.restaurant-fold .fold-title,.meal-alternatives .fold-title{font-size:16px;line-height:var(--leading-label)}
+.restaurant-fold .fold-description,.meal-alternatives .fold-description{font-size:12px;line-height:var(--leading-caption)}
+.calendar-heading h3{font-size:24px;line-height:var(--leading-heading)}
+.map-route-list li,.transport-stops,.transport-mode{font-size:14px;line-height:1.5}.map-route-list span,.transport-mode small{font-size:12px;line-height:var(--leading-caption)}
+.data-table th,.data-table td{font-size:14px;line-height:1.65}.data-table th{font-size:12px}
+@media(max-width:767px){
+ .cost-table.summary th:first-child,.cost-table.summary td:first-child{width:50%;padding-right:8px}
+ .cost-table.summary th:last-child,.cost-table.summary td:last-child{width:50%;padding-left:0}
+}
+@media(max-width:359px){.date-controls .calendar-trigger{font-size:12px;gap:6px}}
+/* Monetary figures sit one step above their labels. */
+.cost-totals dd{font-size:32px;line-height:1.2}.hotel-night{font-size:18px;line-height:1.35}
+.booking-budget .budget-label{font-size:14px;line-height:1.45;color:var(--muted)}
+@media(max-width:767px){.cost-totals dd{font-size:28px;line-height:1.2}.booking-budget{font-size:24px}}

@@ -97,3 +97,7 @@ node scripts/check-dining.cjs
 默认底图为随站提供的22张国土地理院白地図＋矢量实验道路／水系WebP；元数据、边界与来源见`local-maps.json`。不依赖匿名CARTO或用户端第三方瓦片请求。`?map=online`才启用GSI在线淡色瓦片。Leaflet不可用时，SVG仍展示本地底图和同一坐标点。没有已验证路线数据时不画导航轨迹。上文V1.3／V1.4地图实现记录作为历史记录，由本节覆盖。
 
 重建底图使用隔离环境安装`scripts/map-build-requirements.txt`后运行`scripts/build-local-maps.py`，缓存位于系统临时目录；浏览网页不需要这些构建依赖。执行`node scripts/check-local-maps.cjs`核对来源、图片摘要、覆盖范围和交通首栏。
+
+## V1.6 · 排印与资料操作
+
+预约与住宿使用同一套图标文字链接，总费用在住宿资料栏使用独立图标；比价说明移至底部。预约表格在手机按行呈现，长票务说明可展开。`typography.css`统一全站字号与行距，后续维护遵守`LAYOUT-RULES.md` V1.6。设计精修参考 [unslop by Damir Sokolovsky / @heydamir](https://github.com/heydamir/unslop)，CC BY 4.0；未运行其可选视频／快照工具。

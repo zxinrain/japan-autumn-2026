@@ -2,6 +2,10 @@
 (()=>{
 'use strict';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// Lucide line icons, same family as the existing navigation (ISC).
+const actionPaths={external:'<path d="M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>',ticket:'<path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2ZM13 5v2m0 10v2m0-8v2"/>',download:'<path d="M12 3v12m-4-4 4 4 4-4M4 17v4h16v-4"/>',copy:'<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',comparison:'<path d="M8 3H4v18h4M16 3h4v18h-4M9 7h6M9 12h6M9 17h6"/>',budget:'<path d="M20 8V5a2 2 0 0 0-2-2H5a3 3 0 0 0 0 6h15v12H5a3 3 0 0 1-3-3V6m18 7h-5v4h5m-3-2h.01"/>',back:'<path d="m12 5-7 7 7 7M5 12h15"/>'};
+function icon(name){return `<svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${actionPaths[name]||actionPaths.external}</svg>`;}
+function actionLink(text,url,type='external',{external=false,download=false}={}){return `<a class="action-link" href="${esc(url)}"${external?' target="_blank" rel="noopener noreferrer"':''}${download?' download':''}>${icon(type)}<span>${esc(text)}</span></a>`;}
 // Lucide chevron-down, @iconify-json/lucide 1.2.100, ISC.
 const chevron='<svg class="fold-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9l6 6l6-6"/></svg>';
 function foldSummary(title,description=''){
@@ -34,5 +38,5 @@ function bind(root){
   track.addEventListener('keydown',e=>{if(e.target!==track||!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();go(e.key==='Home'?0:e.key==='End'?slides.length-1:current+(e.key==='ArrowRight'?1:-1));});sync();
  });
 }
-window.TRAVEL_LAYOUT={foldSummary,gallery,timeline,bind};
+window.TRAVEL_LAYOUT={foldSummary,gallery,timeline,bind,icon,actionLink};
 })();

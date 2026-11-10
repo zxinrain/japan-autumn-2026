@@ -306,3 +306,50 @@ body {overflow-x:clip}
 .session-facts{display:grid;gap:18px}.session-facts dt{font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:5px}.session-facts dd{font:400 14px/1.75 var(--font);font-variant-numeric:tabular-nums}.transfer-session .session-note{font-size:12px;line-height:1.65;color:var(--muted);margin-top:20px}
 .utility-bar{display:flex;justify-content:flex-end;align-items:center;gap:12px;padding-block:12px;margin:8px 0 28px;border-bottom:1px solid var(--line)}
 .utility-icon{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border-radius:8px;color:var(--green);flex:none}.utility-icon svg{width:23px;height:23px}.utility-icon:hover{background:var(--soft)}.utility-icon:focus-visible{outline:2px solid var(--green);outline-offset:3px}.utility-cost-link{margin-left:12px}
+
+/* V1.6 — quiet actions, booking ledger and footnotes. */
+.action-icon{width:18px;height:18px;flex:none;stroke-width:1.5}
+.action-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;max-width:100%;padding:8px 0;border:0;border-radius:0;background:transparent;color:var(--green);font:500 14px/1.45 var(--font);text-decoration:none;text-align:left;cursor:pointer;transition:color .16s ease}
+.action-link>span{min-width:0;overflow-wrap:anywhere}.action-link:hover{color:var(--ink)}.action-link:hover>span{text-decoration:underline;text-underline-offset:5px}.action-link:focus-visible{outline:2px solid var(--green);outline-offset:4px;border-radius:4px}
+.actions:has(>.action-link){column-gap:24px;row-gap:8px}
+.utility-icon .action-icon{width:20px;height:20px}
+.page-footnote{margin:48px 0 8px;padding-top:24px;border-top:1px solid var(--line)}.page-footnote p{font-size:12px;line-height:1.65;color:var(--muted);max-width:88ch}
+.hotel-card .story-body>.actions{margin-top:8px}.platform .action-link{margin-top:auto}.platform h3{font:500 18px/1.35 var(--font)}.platform .meta{font-size:12px;line-height:1.55}.platform .platform-dates{font-size:14px;line-height:1.45}
+.booking-content{width:min(100%,1120px);margin-inline:auto}.booking-content .booking-list{max-width:100%;margin:0;padding:0;list-style:none;counter-reset:booking}
+.booking-content .booking-list>li{counter-increment:booking;position:relative;padding:32px 0 32px 80px;border-top:1px solid var(--line);min-height:0}
+.booking-content .booking-list>li::before{content:counter(booking,decimal-leading-zero);position:absolute;top:32px;left:0;font:400 32px/1.2 var(--serif);color:var(--muted)}
+.booking-content .booking-list h3{font:400 24px/1.2 var(--serif);margin:0 0 16px}
+.booking-content .booking-list p{max-width:64ch;font-size:16px;line-height:1.75}.booking-content .booking-list p+p{margin-top:12px}.booking-list .action-link{margin-top:8px}
+.booking-section{margin-top:56px}.booking-section>h2{margin-bottom:12px}.booking-section>.actions{margin-top:16px}.booking-section>.meta{max-width:76ch;margin-top:12px}.booking-section>.action-link{margin-top:16px}
+.booking-section .section-title{margin:0 0 16px}.booking-subsection{margin-top:48px}.booking-subsection>h3{font:400 24px/1.2 var(--serif);margin:0 0 16px}
+.section-description{max-width:68ch;font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:24px}.booking-budget{font-size:24px;line-height:1.45;font-variant-numeric:tabular-nums}.booking-budget>span{font-size:16px;color:var(--muted)}
+.booking-table-wrap{max-width:100%;overflow:visible;border:0;border-radius:0;background:transparent;box-shadow:none}
+.booking-table{width:100%;table-layout:fixed;border-collapse:collapse;background:transparent;font-size:14px;line-height:1.65}
+.booking-table th,.booking-table td{vertical-align:top;text-align:left;padding:24px 20px;border:0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.booking-table th{font-size:12px;font-weight:500;line-height:1.45;color:var(--muted);padding-block:12px 16px;background:transparent}
+.booking-table th:first-child,.booking-table td:first-child{padding-left:0;width:40%}.booking-table th:nth-child(2),.booking-table td:nth-child(2){width:24%}.booking-table th:last-child,.booking-table td:last-child{padding-right:0;width:36%}
+.booking-table .table-date{display:block;font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.booking-table td:first-child{font-size:16px;line-height:1.5}.booking-table .table-number{font-size:16px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.booking-table td>p+p{margin-top:8px}.booking-table .meta{font-size:12px;line-height:1.6}
+.booking-table.rail-table th:first-child,.booking-table.rail-table td:first-child{width:64%}.booking-table.rail-table th:last-child,.booking-table.rail-table td:last-child{width:36%;font-variant-numeric:tabular-nums}
+.booking-table.rail-table td:last-child>.table-date{margin:4px 0 0}
+.ticket-purchase>.action-link{padding-top:0;min-height:32px}
+.booking-table .ticket-notes.card-fold{margin-top:8px;padding:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
+.booking-table .ticket-notes.card-fold>summary.fold-summary{min-height:44px;padding:0;gap:8px;align-items:start}
+.ticket-notes .fold-title{font:400 12px/44px var(--font);letter-spacing:0;color:var(--muted)}.ticket-notes .fold-control{font-size:12px;min-width:64px;gap:4px}.ticket-notes .fold-icon{width:16px;height:16px}
+.ticket-note-copy{padding:12px 0 0}.ticket-note-copy p{font-size:13px;line-height:1.65;color:var(--muted)}.ticket-note-copy p+p{margin-top:12px}
+@media(max-width:767px){
+ .actions:has(>.action-link){column-gap:20px}
+ .booking-content .booking-list>li{padding:28px 0 28px 48px}.booking-content .booking-list>li::before{top:28px;font-size:28px}.booking-content .booking-list h3{font-size:24px;line-height:1.2;margin-bottom:12px}
+ .booking-section{margin-top:40px}.booking-subsection{margin-top:40px}.section-description{margin-bottom:20px}.booking-budget{font-size:22px}
+ .booking-table thead{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .booking-table,.booking-table tbody{display:block;width:100%}.booking-table tr{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;padding:24px 0;border-bottom:1px solid var(--line)}
+ .booking-table td,.booking-table td:first-child,.booking-table td:nth-child(2),.booking-table td:last-child,.booking-table.rail-table td:first-child,.booking-table.rail-table td:last-child{display:block;width:auto;max-width:100%;padding:0;border:0}
+ .booking-table td:first-child{font-size:16px;line-height:1.5}.booking-table td[data-label]::before{content:attr(data-label);display:block;font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:4px;white-space:normal}
+ .booking-table .table-date{margin-bottom:4px}.booking-table .table-number{white-space:normal}.ticket-purchase>.action-link{min-height:44px;padding:8px 0}.booking-table .ticket-notes.card-fold{margin-top:0}
+ .booking-table .ticket-notes.card-fold>summary.fold-summary{max-width:100%;gap:8px}.ticket-note-copy{padding-top:8px}
+ .page-footnote{margin-top:40px;padding-top:20px}
+}
+.booking-content .booking-list{gap:0}.booking-content .booking-list>li{border-bottom:0}
+.ticket-note-copy p{font-size:14px}
+.hotel-card .platform>.meta:first-of-type{font-size:12px;font-weight:400;color:var(--muted)}
