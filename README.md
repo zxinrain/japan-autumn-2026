@@ -1,108 +1,16 @@
-# 广岛与北九州｜旅行项目
-
-> **最新同步（2026-11-10）**：[文字行程](itinerary.md)、`trip.json`、网页与10段19晚住宿一致。界宮島1晚、希尔顿4晚、OND2晚、长崎酒店1晚、英迪格1晚、别府洲际1晚、ENOWA1晚、界别府2晚、博多都4晚、ONE2晚。
-
-## 当前交互网页
-
-2026 年 11 月 30 日至 12 月 19 日，20 天 19 晚，香港飞广岛、福冈回香港。广岛段前置，最终福冈连住六晚；具体航班、房型与库存待核实。蓝灰卡片杂志界面，手机底部五入口、目的地图鉴、独立目的地与单日详情、10段住宿及独立人民币比价页。
-
-- 17 个目的地主题，真实照片、特色、推荐理由、体力和取舍。
-- 宫岛、和平资料馆、MOCA、SIMOSE保留整日；御船山12/5夜游＋12/6两小时日景，武雄第二日兼顾楼门、神社与图书馆。
-- SIMOSE 12/3日归、MOCA 12/4；12/5经广岛站西行，离开后不从九州返回广岛。
-- 12/12默认别府休整，国东两寺为整日替换；12/9长崎→别府、12/13别府→北九州美术馆→福冈为已选包车。
-- 12/10参观COMICO与金鳞湖，入住ENOWA；12/11经大分双馆到界别府。不安排无量塔、鹿儿岛、陶瓷镇、云仙或大船山。
-- 酒店名称中英文、独立双床优先，按景观与设计、地理位置、交通便利排序。
-- 官网／携程／Agoda／Booking／一休每个平台只留一个网页入口，无App按钮。卡片首列人民币公开样本参考，本次同口径报价仍待查询；日期接收状态按实际核验区分。
-
-## 页面
+# 广岛与北九州旅行杂志
 
 线上：https://zxinrain.github.io/japan-autumn-2026/
 
-`index.html` 主应用；`hotels.html` 独立比价核对；`hotel-comparison.csv` 人民币比价表；`itinerary.md` 完整文字。
+## 维护入口
 
-`trip.json` 是当前行程，`destinations.json` 是图鉴原文；`scripts/build-travel-data.py` 合并图片与酒店入口，生成离线可读的 `travel-data.js`。网页无需第三方字体、CDN 或运行时 API。
+- 唯一现行设计规范：[DESIGN.md](DESIGN.md) V2。公共实现：design-system.css，所有页面最后加载。
+- LAYOUT-RULES.md只提供规范入口；旧规范已归档docs/design-history/pre-v2，不参与现行规则合并。
+- trip.json／destinations.json／restaurants.json／hotel-catalog.json维护事实内容；衍生文件沿用scripts内生成器。
+- style.css、layout.css和cost-layout.css负责结构与必要的页面布局，禁止新增全局视觉变量；typography.css仅作兼容入口。
 
-## 归档
+## 本地验收
 
-旧 25 天网站完整保存在 [archive/pre-20-day-trip-2026-11-08](https://github.com/zxinrain/japan-autumn-2026/tree/archive/pre-20-day-trip-2026-11-08)，对应提交 `420c924794aa3e16fe135c1b5141295a81168526`。新网站不再发布旧日期的行程与酒店数据。
+python3 scripts/validate.py，以及node scripts/check-data.cjs、check-interactions.cjs、check-design-system.cjs、check-dining.cjs、check-hotel-links.cjs、check-amap-routes.cjs。Pages工作流包含以上检查。浏览器再检查五档屏宽、地图、日历、折叠与轮播。
 
-## 固定版式与内容维护
-
-V1.5规则见 [LAYOUT-RULES.md](LAYOUT-RULES.md)；仅改内容时保留已确认的版式、组件和交互。
-
-酒店元数据源为`hotel-catalog.json`，按稳定酒店标识生成`hotel-platforms.json`；重排住宿不会串用图片或平台ID。公开价格样本列明原币、人数、餐食、出处和汇率，非指定日期库存报价。`hotel-link-audit.json`与`hotel-audit.js`记录50个入口的访问／日期核验状态；官网需手选，部分平台有验证限制，不能把参数编码当作日期已接收。
-
-## 维护和检查
-
-```sh
-python3 scripts/build-travel-data.py
-python3 scripts/validate.py
-node scripts/check-data.cjs
-node scripts/check-hotel-links.cjs
-python3 -m http.server 4173 --bind 127.0.0.1
-```
-
-GitHub Actions 在推送 `main` 后运行检查并部署 Pages。平台入口编码检查不等于目标页面已接收日期；未取得本次日期同口径报价、未锁房、未实际预订门票、餐厅或交通。首日早航班尚待确认。
-
-图文版权归原权利方。页面逐图列出来源，新增实景来源另见 `image-provenance.json`。历史照片不代表本次叶况、房型或开放状态。事实核验主要为 2026-11-08，长崎酒店 16:00 入住规则在 11/09 再核；具体临休、可售与时刻出行前复核。
-
-新增糸岛12/16公共交通日归；12/17福冈市美术馆、12/18九州芸文馆分开。长崎两晚取消独立军舰岛日；福冈第二家酒店尚未选定，保持丽思六晚。旧文字版本见`archive/itinerary-text-before-sonic-itoshima.md`。
-
-## 收藏餐厅同步（2026-11-09）
-
-[餐厅分类与逐日安排](restaurants.md)：用户Google Maps收藏53处中提取31家餐厅，按10个城市分类。网页「每日行程」内进入餐厅索引，支持城市／类型筛选、Lucide分类图标、预约与导航；每日餐食卡区分主选和替换项，地图仅串联主选建议。餐位均未预订。吉宗移至12/7避开周二例休，12/8四海楼午餐，12/9保留博多站内换乘用餐。
-
-餐厅唯一数据源`restaurants.json`；逐日关联在`trip.json`的`days[].dining`，构建执行：
-
-```sh
-python3 scripts/build-travel-data.py
-python3 scripts/build-itinerary.py
-python3 scripts/build-dining-index.py
-node scripts/check-data.cjs
-node scripts/check-dining.cjs
-```
-
-保持V1.1设计、五个底栏入口与六段酒店日期，不公开原收藏夹分享标识及账户资料。
-
-## V1.2交互更新（2026-11-09）
-
-每日行程采用日历选日、前后日期与左右滑动，地图／日程同步；支持跨月、键盘及减少动态。目的地图鉴增加景点／美食双栏目，可点击或左右切换，旧`#food`链接继续可用。每日餐食卡仅显示三餐空模板与美食图鉴入口，原有31家收藏及参考文档保留，待后续确认。既有五个底栏、酒店及V1.1视觉保持。`journey-ui.js`集中管理日历、横滑与动效，操作图片、时间轴、地图或表单不会切换日期。
-
-## 城市点位细化（2026-11-09）
-
-[筛选依据、纠错与20天细化](city-refinement.md)：六段住宿与核心完整日不变；新增12/7栗生明祈念馆、12/12宇奈岐日女神社短停，12/14以博多旧城替代重复大濠。12/11国东主线保留，别府市内作为竹艺与老城艺术替代；17个目的地主题，餐食继续空模板。新祈念馆照片为Ian David Winter的CC BY-SA4.0历史参考；神社暂缺可靠授权本地照片，使用官方实景入口。
-
-## V1.3 地图与导航精简
-
-每日首栏地图下方的地点名称直接导航；酒店往返合并显示，小仓保留寄存／取件语义。删除重复导航按钮和「按游览顺序打开地图」，将休息／调整／摄影改为轻量文字栏。日历、横滑、图鉴、餐食空模板和酒店功能保持。
-
-[高德海外路线接入说明](amap-integration.md)：代码与59段驾车／步行请求清单已准备，Key尚待本地配置。没有API数据的区间不显示轨迹，不声称已经生成真实高德路线。所有路径和点位统一蓝染蓝。
-
-在线地图采用本地 Leaflet 1.9.4 与按需加载的 OpenStreetMap 街道瓦片；离线时回退到带真实坐标的 Natural Earth 轮廓。点位采用统一蓝染蓝。坐标代表地点／建筑位置，不保证车辆上下客入口；临行须复核接车点。
-
-## 2026-11-10 酒店确定版
-
-[最新文字行程](itinerary.md) · [费用与购票](cost-estimate.md) · [人民币费用表](cost-estimate.csv) · [网页费用页](https://zxinrain.github.io/japan-autumn-2026/cost-estimate.html)。酒店与两段包车为已选方案；订单及付款状态未提供，预算与价格样本分开呈现。
-
-2026-11-10 餐饮更新：[👍餐厅及每日餐段](restaurants.md)。35家餐厅中17家用户优先，16家排入主选，六盛作廣門同餐替换；其余18家备选。空餐段保留，餐位均未预约。
-
-## 2026-11-10 网页阅读与收藏更新
-
-住宿与独立比价渲染已修复，显示10段住宿、每段5个平台；比价和CSV入口为文字引用，顶部重复入口移除。首页六个旅行区域采用真实地标风景，长崎两日合并，祈念馆资料保留在长崎详情。CARTO Positron底图与逐段交通图标保留真实点位及离线降级。餐厅18家默认收藏（含なかしま），右上角星标在当前浏览器保存，未收藏为备选，未自动改动16家已排主选。跨城日列全程预留、最迟出发及15:00目标；途经双馆或北九州的冲突明示，早出发未获授权时不擅改。
-
-## V1.5 · 地图与版面（2026-11-10）
-
-跨城交通位于横向长条时间轴第一栏；酒店比价与CSV下载使用独立图标入口。总费用页使用统一宽度的纸片分区与可横滑表格，保持原预算、口径与待核实状态。长崎城市首图改为官方港湾山城实景。
-
-默认底图为随站提供的22张国土地理院白地図＋矢量实验道路／水系WebP；元数据、边界与来源见`local-maps.json`。不依赖匿名CARTO或用户端第三方瓦片请求。`?map=online`才启用GSI在线淡色瓦片。Leaflet不可用时，SVG仍展示本地底图和同一坐标点。没有已验证路线数据时不画导航轨迹。上文V1.3／V1.4地图实现记录作为历史记录，由本节覆盖。
-
-重建底图使用隔离环境安装`scripts/map-build-requirements.txt`后运行`scripts/build-local-maps.py`，缓存位于系统临时目录；浏览网页不需要这些构建依赖。执行`node scripts/check-local-maps.cjs`核对来源、图片摘要、覆盖范围和交通首栏。
-
-## V1.6 · 排印与资料操作
-
-预约与住宿使用同一套图标文字链接，总费用在住宿资料栏使用独立图标；比价说明移至底部。预约表格在手机按行呈现，长票务说明可展开。`typography.css`统一全站字号与行距，后续维护遵守`LAYOUT-RULES.md` V1.6。设计精修参考 [unslop by Damir Sokolovsky / @heydamir](https://github.com/heydamir/unslop)，CC BY 4.0；未运行其可选视频／快照工具。
-
-
-### V1.7 · 2026-11-10
-
-按emil-design-eng、design-review和Impeccable精修日历、连续切换、键盘、指针反馈与平板日期栏。视觉、日期、住宿和价格内容沿用V1.6。规范见`LAYOUT-RULES.md`；新增交互回归：`node scripts/check-interactions.cjs`（无额外依赖，已加入Pages发布检查）。
+awesome-design-md参考库已在本地安装，Codex入口为本地适配，并非上游官方Skill。公开项目沿用已确认的旅行杂志风格。

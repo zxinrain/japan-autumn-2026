@@ -1,12 +1,5 @@
 /* Frozen layout v1 — 2026-11-09. LAYOUT-RULES.md is the maintenance contract. */
-:root {
-  --type-body: 16px;
-  --leading-body: 1.75;
-  --leading-reading: 1.85;
-  --leading-title: 1.25;
-  --weight-body: 400;
-  --weight-label: 500;
-}
+
 body {font-size:var(--type-body);font-weight:var(--weight-body);line-height:var(--leading-body);letter-spacing:0;font-synthesis:none}
 h1,h2,h3 {font-weight:400;line-height:var(--leading-title);letter-spacing:-.015em;text-wrap:balance}
 h1 {line-height:1.18} h2 {line-height:1.28} h3 {line-height:1.38}
@@ -99,7 +92,7 @@ details.map-destinations.card-fold>summary.fold-summary {padding:18px 20px;min-h
 @media(prefers-reduced-motion:reduce) {.fold-icon {transition:none}}
 
 /* V1.1: one action colour, one paper surface and tighter title groups. */
-:root {--radius:12px;--radius-control:12px;--content-measure:60ch}
+
 .button,.button.primary,.button[aria-pressed="true"],.hero-grid .button,.hero-grid .button.primary,.hero-grid .button:not(.primary) {
   color:#fff;background:var(--green);border:1px solid var(--green);border-radius:var(--radius-control);
 }
@@ -234,7 +227,7 @@ h1 {line-height:1.12} h2 {line-height:1.18} h3 {line-height:1.25}
 body {overflow-x:clip}
 
 /* V1.3: navigation is a text list, and supporting notes sit directly on the page. */
-:root {--route-ink:var(--green);--route-land:#fafbfd;--route-water:#e7edf2;--route-coast:#b9c8d5}
+
 .route-map-canvas {background:var(--route-water)}
 .map-land {fill:var(--route-land);stroke:var(--route-coast)}
 .map-link {stroke:var(--route-ink);stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
