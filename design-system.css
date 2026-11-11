@@ -158,3 +158,34 @@ img[src*="assets/icons/"]{filter:brightness(0) saturate(100%) invert(32%) sepia(
 .gallery-track{overflow-y:hidden;scrollbar-width:none}.gallery-track::-webkit-scrollbar{display:none}.gallery-slide figcaption.sr-only{padding:0;margin:0;border:0}
 
 .leaflet-control-zoom a{color:var(--green)}
+
+/* Restaurant review shortcuts share the card's existing action row. */
+.restaurant-tools {
+ display:flex;
+ justify-content:flex-end;
+ align-items:center;
+ gap:4px;
+ margin-bottom:8px;
+}
+.restaurant-tools .favorite-control {position:static}
+.restaurant-card > .tags {padding-right:0;min-height:0}
+.review-icon {
+ display:grid;
+ place-items:center;
+ min-width:44px;
+ min-height:44px;
+ border-radius:var(--radius-control);
+ color:var(--green);
+ text-decoration:none;
+}
+.review-icon span {
+ display:grid;
+ place-items:center;
+ width:24px;
+ height:24px;
+ border:1px solid currentColor;
+ border-radius:6px;
+ font:600 13px/1 var(--font);
+}
+.review-icon:hover {background:var(--paper)}
+.review-icon:focus-visible {outline:2px solid var(--green);outline-offset:2px}
