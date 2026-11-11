@@ -5,7 +5,7 @@
   "rooms": 1,
   "rate": 0.0423,
   "rateNote": "规划汇率1日元=0.0423人民币，并非银行实时成交价；刷卡及入汤／住宿税按订单核算。",
-  "scope": "全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。",
+  "scope": "当前合计不含福冈六晚住宿；NID、CANVAS、丽思的实际住宿价格待补。全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。",
   "hotels": [
     {
       "name": "界宮島",
@@ -144,36 +144,40 @@
       "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
     },
     {
-      "name": "博多都酒店",
-      "en": "Miyako Hotel Hakata",
+      "name": "福冈 HOTEL NID",
+      "en": "HOTEL NID",
       "checkin": "2026-12-13",
-      "checkout": "2026-12-17",
-      "nights": 4,
-      "low": 7000,
-      "high": 11000,
+      "checkout": "2026-12-15",
+      "nights": 2,
+      "low": null,
+      "high": null,
       "quote": null,
-      "basis": "Booking本次12/13–17未返回可售；不代表官网及其他平台满房。",
-      "official": "https://www.miyakohotels.ne.jp/hakata/stay/"
+      "basis": "实际订单或同条件报价待填",
+      "official": "https://nid.seven-garden.com/en/"
     },
     {
-      "name": "福冈 ONE 酒店",
-      "en": "ONE FUKUOKA HOTEL",
+      "name": "福冈中洲皇家花园 CANVAS",
+      "en": "The Royal Park Canvas Fukuoka Nakasu",
+      "checkin": "2026-12-15",
+      "checkout": "2026-12-17",
+      "nights": 2,
+      "low": null,
+      "high": null,
+      "quote": null,
+      "basis": "实际订单或同条件报价待填",
+      "official": "https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/"
+    },
+    {
+      "name": "福冈丽思卡尔顿酒店",
+      "en": "The Ritz-Carlton, Fukuoka",
       "checkin": "2026-12-17",
       "checkout": "2026-12-19",
       "nights": 2,
-      "low": 11000,
-      "high": 16000,
-      "quote": {
-        "platform": "Booking",
-        "totalCNY": 11077.35,
-        "checkin": "2026-12-17",
-        "checkout": "2026-12-19",
-        "checked": "2026-11-10",
-        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
-        "url": "https://www.booking.com/hotel/jp/one-fukuoka.html"
-      },
-      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
-      "official": "https://onefukuokahotel.jp/rooms/terrace-twin/"
+      "low": null,
+      "high": null,
+      "quote": null,
+      "basis": "实际订单或同条件报价待填",
+      "official": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/"
     }
   ],
   "transfers": [
@@ -189,7 +193,7 @@
     },
     {
       "date": "12/13",
-      "name": "界别府→北九州美术馆→博多都",
+      "name": "界别府→北九州美术馆→HOTEL NID",
       "hours": "8–9小时含午餐与参观等候",
       "lowJPY": 100000,
       "highJPY": 150000,
@@ -214,24 +218,6 @@
       "lowJPY": 50000,
       "highJPY": 75000,
       "reason": "仅决定去国东时启用；否则界别府休整与老城短途出租车。",
-      "source": "https://kamenoi.co.jp/taxi/campaign/",
-      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
-    },
-    {
-      "date": "12/15",
-      "name": "博多都↔太宰府，7–8小时",
-      "lowJPY": 60000,
-      "highJPY": 85000,
-      "reason": "按体力选择；西铁可替代，不属于必包。",
-      "source": "https://kamenoi.co.jp/taxi/campaign/",
-      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
-    },
-    {
-      "date": "12/16",
-      "name": "博多都↔糸岛，7–8小时",
-      "lowJPY": 60000,
-      "highJPY": 85000,
-      "reason": "维持公共交通主线；只有想增加多个海湾才值得升级。",
       "source": "https://kamenoi.co.jp/taxi/campaign/",
       "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
     }
@@ -439,12 +425,12 @@
     }
   ],
   "totals": {
-    "baseLow": 81252,
-    "baseHigh": 131605,
-    "withReserveLow": 89377,
-    "withReserveHigh": 144766,
+    "baseLow": 63252,
+    "baseHigh": 104605,
+    "withReserveLow": 69577,
+    "withReserveHigh": 115066,
     "reservePercent": 10,
-    "hotelLow": 51500,
-    "hotelHigh": 83000
+    "hotelLow": 33500,
+    "hotelHigh": 56000
   }
 }

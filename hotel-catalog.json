@@ -289,5 +289,12 @@
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
     },
     "ikyu": "https://www.ikyu.com/00003252/"
+  },
+  "nid": {
+    "official": "https://nid.seven-garden.com/en/",
+    "rakuten": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/202640"
+  },
+  "canvas": {
+    "official": "https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/"
   }
 }

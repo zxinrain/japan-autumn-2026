@@ -415,227 +415,27 @@
         "from": "kaiBeppu",
         "label": "跨城包车",
         "duration": "1小时45分–2小时15分"
-      },
-      {
-        "to": "miyako",
-        "mode": "driving",
-        "from": "kitakyushumuseum",
-        "label": "跨城包车",
-        "duration": "1小时15分–1小时45分"
-      },
-      {
-        "from": "miyako",
-        "to": "food-issou",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-issou",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
       }
     ],
     [
-      {
-        "from": "miyako",
-        "to": "meiji",
-        "mode": "walking",
-        "label": "穿站步行",
-        "duration": "12–18分钟"
-      },
-      {
-        "from": "meiji",
-        "to": "acros",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "15–25分钟"
-      },
-      {
-        "from": "acros",
-        "to": "food-genki",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-genki",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "miyako",
-        "to": "tochoji",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "tochoji",
-        "to": "kushida",
-        "mode": "walking",
-        "label": "步行",
-        "duration": "用时待核"
-      },
-      {
-        "from": "kushida",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "miyako",
-        "to": "food-nagano",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-nagano",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      }
-    ],
-    [
-      {
-        "from": "miyako",
-        "to": "starbucks",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "starbucks",
-        "to": "kyuhaku",
-        "mode": "walking",
-        "label": "步行",
-        "duration": "用时待核"
-      },
-      {
-        "from": "kyuhaku",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "miyako",
-        "to": "food-tsugumi",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-tsugumi",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      }
-    ],
-    [
-      {
-        "from": "miyako",
-        "to": "futamigaura",
-        "mode": "bus",
-        "label": "West Coast Liner",
-        "duration": "约70分钟＋候车"
-      },
       {
         "from": "futamigaura",
         "to": "palmbeach",
         "mode": "walking",
         "label": "步行",
         "duration": "用时待核"
-      },
-      {
-        "from": "palmbeach",
-        "to": "miyako",
-        "mode": "bus",
-        "label": "West Coast Liner",
-        "duration": "约60–70分钟"
-      },
-      {
-        "from": "miyako",
-        "to": "food-koto",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-koto",
-        "to": "miyako",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
       }
     ],
     [
       {
-        "to": "one",
-        "mode": "driving",
-        "from": "miyako",
-        "label": "出租车",
-        "duration": "20–35分钟"
-      },
-      {
-        "to": "fukuokamuseum",
-        "mode": "driving",
-        "from": "one",
-        "label": "出租车",
-        "duration": "10–20分钟"
-      },
-      {
-        "to": "ohori",
+        "from": "starbucks",
+        "to": "kyuhaku",
         "mode": "walking",
-        "from": "fukuokamuseum",
         "label": "步行",
-        "duration": "5–10分钟"
-      },
-      {
-        "from": "ohori",
-        "to": "food-hirao",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-hirao",
-        "to": "one",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "one",
-        "to": "food-choji",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-choji",
-        "to": "one",
-        "mode": "driving",
-        "label": "预约车／出租车",
         "duration": "用时待核"
       }
     ],
     [
-      {
-        "from": "one",
-        "to": "fukuoka",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
       {
         "from": "fukuoka",
         "to": "chikugo",
@@ -663,38 +463,48 @@
         "mode": "rail",
         "label": "新干线",
         "duration": "25–40分钟"
+      }
+    ],
+    [
+      {
+        "from": "meiji",
+        "to": "acros",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–25分钟"
       },
       {
-        "from": "fukuoka",
-        "to": "one",
+        "from": "acros",
+        "to": "food-genki",
         "mode": "driving",
         "label": "预约车／出租车",
         "duration": "用时待核"
       },
       {
-        "from": "one",
-        "to": "food-hyogodori-fukuoka",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-hyogodori-fukuoka",
-        "to": "one",
-        "mode": "driving",
-        "label": "预约车／出租车",
+        "from": "tochoji",
+        "to": "kushida",
+        "mode": "walking",
+        "label": "步行",
         "duration": "用时待核"
       }
     ],
     [
       {
-        "from": "one",
-        "to": "fukuokaairport",
+        "to": "ohori",
+        "mode": "walking",
+        "from": "fukuokamuseum",
+        "label": "步行",
+        "duration": "5–10分钟"
+      },
+      {
+        "from": "ohori",
+        "to": "food-hirao",
         "mode": "driving",
-        "label": "机场预约车",
-        "duration": "30–50分钟"
+        "label": "预约车／出租车",
+        "duration": "用时待核"
       }
-    ]
+    ],
+    []
   ],
   "alternatives": {
     "beppu": [

@@ -10,7 +10,7 @@ for i,d in enumerate(T['days']):
  for meal in ['breakfast','lunch','dinner']:
   aa=[a for a in d['dining'] if a['meal']==meal];cells.append('<br>'.join(f"[{by[a['restaurant']]['name']}]({by[a['restaurant']]['map']}) {a['time']} {'收藏主选' if a['priority']=='primary' else '收藏替换备选'}" for a in aa))
  lines.append('| '+(datetime.date(2026,11,30)+datetime.timedelta(days=i)).strftime('%m/%d')+' | '+' | '.join(cells)+' |')
-lines+=['','12/12上述安排仅适用于别府休整；选择国东则廣門与六盛均不纳入当天。不替换ENOWA及界的酒店晚餐；OND若含夕食先与あん梅择一。12/13先入住休息，一双排队超过20分钟或抵达延误则删。12/16こと需先核巴士，不能卡点赴约。','','## 逐日交通与预约理由','']
+lines+=['','12/12上述安排仅适用于别府休整；选择国东则廣門与六盛均不纳入当天。不替换ENOWA及界的酒店晚餐；OND若含夕食先与あん梅择一。12/13先入住休息，一双排队超过20分钟或抵达延误则删。12/14こと需先核巴士，不能卡点赴约。','','## 逐日交通与预约理由','']
 for i,d in enumerate(T['days']):
  for a in d['dining']:
   r=by[a['restaurant']];date=(datetime.date(2026,11,30)+datetime.timedelta(days=i)).strftime('%m/%d');lines +=[f"- **{date} {a['time']} {r['name']}**：{a['reason']} {r['rules']} [核查与订位]({r['source']})。未预约。",'']

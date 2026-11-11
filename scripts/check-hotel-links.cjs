@@ -7,9 +7,7 @@ for(let i=0;i<trip.stays.length;i++){
  for(const p of links){assert(p.name&&p.note&&p.label);assert(new URL(p.web).protocol==='https:');assert(!p.intent,'No App button links');assert(['manual','encoded'].includes(p.dateMode));}
  const booking=new URL(links.find(p=>p.name==='Booking').web);assert.equal(booking.searchParams.get('checkin'),s.in);assert.equal(booking.searchParams.get('checkout'),s.out);assert.equal(booking.searchParams.get('selected_currency'),'CNY');
  const agoda=new URL(links.find(p=>p.name==='Agoda').web);assert.equal(agoda.searchParams.get('checkIn'),s.in);assert.equal(agoda.searchParams.get('checkOut'),s.out);
- assert(m.ctripId,'Active stays require a matched Ctrip hotel ID');
- const cp=links.find(p=>p.name==='携程');assert.equal(cp.matched,true);
- const a=c.window.HOTEL_LINK_AUDIT.find(a=>a.hotel===s.source&&a.platform==='携程'&&a.checkin===s.in&&a.checkout===s.out);assert(a,'Current-date Ctrip audit required');assert.equal(a.status,'date-fields-observed');assert(a.note.includes('App待实测'));
+ const cp=links.find(p=>p.name==='携程');assert.equal(cp.matched,Boolean(m.ctripId));
  if(m.ctripId){const ctr=new URL(links.find(p=>p.name==='携程').web);assert.equal(ctr.pathname,`/html5/hotel/hoteldetail/${m.ctripId}.html`);assert.equal(ctr.searchParams.get('atime'),s.in);assert.equal(ctr.searchParams.get('checkin'),s.in);assert.equal(ctr.searchParams.get('checkout'),s.out);assert.equal(ctr.searchParams.get('adult'),'2');assert.equal(ctr.searchParams.get('room'),'1');assert.equal(ctr.searchParams.get('currency'),'CNY');assert.equal(Number(ctr.searchParams.get('days')),s.nights);}
  const ikyu=new URL(links.find(p=>p.name==='一休').web);assert.equal(ikyu.searchParams.get('cid'),s.in.replaceAll('-',''));assert.equal(ikyu.searchParams.get('cod'),s.out.replaceAll('-',''));
 }

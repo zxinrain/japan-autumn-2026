@@ -392,7 +392,7 @@
     "priority": "节奏缓冲",
     "featured": false,
     "days": [
-      14
+      17
     ],
     "images": [
       [
@@ -424,8 +424,8 @@
     "priority": "经典建筑保留",
     "featured": true,
     "days": [
-      17,
-      18
+      18,
+      16
     ],
     "images": [
       [
@@ -462,7 +462,7 @@
     "priority": "新增海岸日",
     "featured": false,
     "days": [
-      16
+      14
     ],
     "images": [
       [
@@ -553,7 +553,7 @@
     "date": "12/14 · 上午短停",
     "priority": "建筑与公共空间",
     "days": [
-      14
+      17
     ],
     "images": [
       [

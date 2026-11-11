@@ -203,51 +203,27 @@
     "agoda": "https://www.agoda.com/hoshino-resorts-kai-beppu/hotel/beppu-jp.html"
   },
   {
-    "official": "https://www.miyakohotels.ne.jp/hakata/stay/",
-    "priceReference": null,
-    "ikyu": "https://www.ikyu.com/00002619/",
-    "searchStatus": "Booking本次12/13–17未返回可售；不代表官网及其他平台满房。",
-    "photo": [
-      "miyako-official.jpg",
-      "酒店官网空间参考，非已订房型",
-      "酒店官网",
-      "https://www.miyakohotels.ne.jp/hakata/stay/"
-    ],
-    "ctripId": "705197",
-    "ctripMatch": {
-      "checked": "2026-11-10",
-      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/705197.html",
-      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    },
-    "agoda": "https://www.agoda.com/en-us/miyako-hotel-hakata/hotel/fukuoka-jp.html",
-    "booking": "https://www.booking.com/hotel/jp/hakata-miyako.html"
+    "official": "https://nid.seven-garden.com/en/",
+    "rakuten": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/202640"
   },
   {
-    "official": "https://onefukuokahotel.jp/rooms/terrace-twin/",
-    "priceReference": null,
-    "ikyu": "https://www.ikyu.com/00003268/",
-    "booking": "https://www.booking.com/hotel/jp/one-fukuoka.html",
-    "datedQuote": {
-      "platform": "Booking",
-      "totalCNY": 11077.35,
-      "checkin": "2026-12-17",
-      "checkout": "2026-12-19",
-      "checked": "2026-11-10",
-      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
-      "url": "https://www.booking.com/hotel/jp/one-fukuoka.html"
-    },
-    "photo": [
-      "one-official.jpg",
-      "酒店官网空间参考，非已订房型",
-      "酒店官网",
-      "https://onefukuokahotel.jp/rooms/terrace-twin/"
-    ],
-    "ctripId": "123465122",
-    "ctripMatch": {
-      "checked": "2026-11-10",
-      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/123465122.html",
-      "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    },
-    "agoda": "https://www.agoda.com/one-fukuoka-hotel/hotel/fukuoka-jp.html"
+    "official": "https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/"
+  },
+  {
+    "official": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/",
+    "ctripId": "106966995",
+    "ikyu": "https://www.ikyu.com/00003070/",
+    "agoda": "https://www.agoda.com/the-ritz-carlton-fukuoka/hotel/fukuoka-jp.html",
+    "booking": "https://www.booking.com/hotel/jp/the-ritz-carlton-fukuoka.html",
+    "priceReference": {
+      "lowJPY": 120176,
+      "highJPY": 136620,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00003070/",
+      "scope": "豪华／优选客房住宿及早餐方案公开起价样本；海湾双床另查。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    }
   }
 ]
