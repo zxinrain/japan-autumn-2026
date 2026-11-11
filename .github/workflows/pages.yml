@@ -30,6 +30,7 @@ jobs:
         run: |
           mkdir _site
           git archive HEAD .nojekyll assets '*.html' '*.css' '*.js' '*.csv' '*.json' itinerary.md restaurants.md city-refinement.md | tar -x -C _site
+          python3 scripts/build-calendar.py _site/itinerary.ics
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
