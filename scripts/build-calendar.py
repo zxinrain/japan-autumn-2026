@@ -35,6 +35,14 @@ def build(trip, timestamp):
         entry = original
         if index == trip["keyDays"]["kunisaki"] and trip.get("defaultKunisakiPlan") == "beppu":
             entry = {**original, **trip["alternative"]}
+        city = entry["city"]
+        if entry["title"].startswith("宫岛完整日"):
+            city = "宫岛／广岛"
+        elif index == trip["keyDays"]["kunisaki"] and trip.get("defaultKunisakiPlan") != "beppu":
+            city = "国东半岛"
+        elif city == "香港":
+            city = "福冈 → 香港"
+        summary = f"{city}｜{entry['title']}"
         stay = next((s["cn"] for s in trip["stays"] if s["in"] <= day.isoformat() < s["out"]), None)
         url = SITE + "#itinerary?date=" + day.isoformat()
         description = [f"{label}｜{entry[key]}" for key, label in (
@@ -50,7 +58,7 @@ def build(trip, timestamp):
             f"LAST-MODIFIED:{timestamp}",
             f"DTSTART;VALUE=DATE:{day:%Y%m%d}",
             f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
-            f"SUMMARY:{escape(entry['title'])}",
+            f"SUMMARY:{escape(summary)}",
             f"DESCRIPTION:{escape(chr(10).join(description))}",
             f"URL:{url}",
             "TRANSP:TRANSPARENT",
