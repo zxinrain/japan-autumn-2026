@@ -100,48 +100,40 @@
       "official": "https://nagasaki.hotelindigo.com/"
     },
     {
-      "name": "ANA 别府洲际度假酒店及水疗中心",
-      "en": "ANA InterContinental Beppu Resort & Spa",
-      "checkin": "2026-12-09",
-      "checkout": "2026-12-10",
-      "nights": 1,
-      "low": 4000,
-      "high": 6500,
-      "quote": {
-        "platform": "Booking",
-        "totalCNY": 3445.87,
-        "checkin": "2026-12-09",
-        "checkout": "2026-12-10",
-        "checked": "2026-11-10",
-        "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
-        "url": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html"
-      },
-      "basis": "官网房型／公开样本＋升级及餐食预算；本范围为人工预留，非可售报价",
-      "official": "https://anaicbeppu.com/faq/"
-    },
-    {
-      "name": "由布院 ENOWA",
-      "en": "ENOWA YUFUIN",
-      "checkin": "2026-12-10",
-      "checkout": "2026-12-11",
-      "nights": 1,
-      "low": 6500,
-      "high": 11000,
-      "quote": null,
-      "basis": "Booking未能匹配酒店；优先官网／一休。",
-      "official": "https://enowa-yufuin.jp/"
-    },
-    {
       "name": "界 别府",
       "en": "KAI Beppu",
-      "checkin": "2026-12-11",
-      "checkout": "2026-12-13",
+      "checkin": "2026-12-09",
+      "checkout": "2026-12-11",
       "nights": 2,
       "low": 6500,
       "high": 10000,
       "quote": null,
-      "basis": "Booking本次12/11–13未返回可售；需官网核查。",
+      "basis": "原预算仅作规划预留，新日期实际价格待核",
       "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
+    },
+    {
+      "name": "由布院 ENOWA",
+      "en": "ENOWA YUFUIN",
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-12",
+      "nights": 1,
+      "low": 6500,
+      "high": 11000,
+      "quote": null,
+      "basis": "原预算仅作规划预留，新日期实际价格待核",
+      "official": "https://enowa-yufuin.jp/"
+    },
+    {
+      "name": "ANA 别府洲际度假酒店及水疗中心",
+      "en": "ANA InterContinental Beppu Resort & Spa",
+      "checkin": "2026-12-12",
+      "checkout": "2026-12-13",
+      "nights": 1,
+      "low": 4000,
+      "high": 6500,
+      "quote": null,
+      "basis": "原预算仅作规划预留，新日期实际价格待核",
+      "official": "https://anaicbeppu.com/faq/"
     },
     {
       "name": "福冈 HOTEL NID",
@@ -183,7 +175,7 @@
   "transfers": [
     {
       "date": "12/9",
-      "name": "长崎英迪格→别府洲际",
+      "name": "长崎英迪格→界别府",
       "hours": "5–6小时门到门",
       "lowJPY": 140000,
       "highJPY": 200000,
@@ -193,31 +185,22 @@
     },
     {
       "date": "12/13",
-      "name": "界别府→北九州美术馆→HOTEL NID",
-      "hours": "8–9小时含午餐与参观等候",
+      "name": "别府洲际→北九州本馆→小仓→门司港→HOTEL NID",
+      "hours": "约9.5–10.25小时含停留",
       "lowJPY": 100000,
       "highJPY": 150000,
       "status": "用户已选包车，供应商成交价未提供",
-      "basis": "亀之井大型车公开8080日元/小时为本地参考；跨县空驶、高速、等待与延时需另核。",
+      "basis": "原路线预算仅作预留；新增小仓与门司港，向包车商重询总价及超时费。",
       "source": "https://kamenoi.co.jp/taxi/campaign/"
     }
   ],
   "optional": [
     {
-      "date": "12/11",
-      "name": "ENOWA→OPAM→Art Plaza→界别府，6–7小时",
-      "lowJPY": 60000,
-      "highJPY": 90000,
-      "reason": "最值得增加：带行李换酒店顺路看双馆，节省多次寄存换乘。",
-      "source": "https://kamenoi.co.jp/taxi/campaign/",
-      "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
-    },
-    {
       "date": "12/12",
-      "name": "国东富贵寺＋真木大堂，6–7小时",
+      "name": "ENOWA→国东两寺→别府洲际",
       "lowJPY": 50000,
       "highJPY": 75000,
-      "reason": "仅决定去国东时启用；否则界别府休整与老城短途出租车。",
+      "reason": "仅选国东时启用，约6.5–7.5小时，行李随车；旧预算仅供参考，按新线路询价。",
       "source": "https://kamenoi.co.jp/taxi/campaign/",
       "status": "人工预算／待询路线报价，非当地均价；日本语司机为基准，中文司机另询"
     }
@@ -314,7 +297,7 @@
       "status": "官方现行基础票价"
     },
     {
-      "date": "12/10",
+      "date": "12/11",
       "name": "COMICO",
       "perAdultJPY": 1700,
       "totalJPY": 3400,
@@ -324,7 +307,7 @@
       "status": "官方现行基础票价"
     },
     {
-      "date": "12/11",
+      "date": "12/10",
       "name": "OPAM出光美术馆名品展",
       "perAdultJPY": 1500,
       "totalJPY": 3000,
@@ -334,7 +317,7 @@
       "status": "官方现行基础票价"
     },
     {
-      "date": "12/11",
+      "date": "12/10",
       "name": "Art Plaza公共开放区域",
       "perAdultJPY": 0,
       "totalJPY": 0,

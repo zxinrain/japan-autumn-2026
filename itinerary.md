@@ -2,7 +2,7 @@
 
 11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港
 
-更新2026-11-12。NID 已预订。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
+更新2026-11-16。NID 已预订。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
 
 ## 住宿安排
 
@@ -13,9 +13,9 @@
 | 2026-12-05—2026-12-07 | [OND HOTEL / OND HOTEL](https://www.ondhotel.jp/stay/) | 2 |
 | 2026-12-07—2026-12-08 | [长崎酒店 / Hotel Nagasaki](https://hotel-nagasaki.jp/tw/) | 1 |
 | 2026-12-08—2026-12-09 | [长崎格拉巴街英迪格酒店 / Hotel Indigo Nagasaki Glover Street](https://nagasaki.hotelindigo.com/) | 1 |
-| 2026-12-09—2026-12-10 | [ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa](https://anaicbeppu.com/faq/) | 1 |
-| 2026-12-10—2026-12-11 | [由布院 ENOWA / ENOWA YUFUIN](https://enowa-yufuin.jp/) | 1 |
-| 2026-12-11—2026-12-13 | [界 别府 / KAI Beppu](https://hoshinoresorts.com/ja/hotels/kaibeppu/) | 2 |
+| 2026-12-09—2026-12-11 | [界 别府 / KAI Beppu](https://hoshinoresorts.com/ja/hotels/kaibeppu/) | 2 |
+| 2026-12-11—2026-12-12 | [由布院 ENOWA / ENOWA YUFUIN](https://enowa-yufuin.jp/) | 1 |
+| 2026-12-12—2026-12-13 | [ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa](https://anaicbeppu.com/faq/) | 1 |
 | 2026-12-13—2026-12-15 | [福冈 HOTEL NID / HOTEL NID](https://nid.seven-garden.com/en/) | 2 |
 | 2026-12-15—2026-12-17 | [福冈中洲皇家花园 CANVAS / The Royal Park Canvas Fukuoka Nakasu](https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/) | 2 |
 | 2026-12-17—2026-12-19 | [福冈丽思卡尔顿酒店 / The Ritz-Carlton, Fukuoka](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) | 2 |
@@ -25,6 +25,9 @@
 - 12/13 包车经北九州本馆后入住 NID。福冈依次住 NID、中洲 CANVAS、丽思，每家两晚。
 - 12/14 糸岛、12/15 太宰府、12/16 九州芸文馆。12/17–18 游福冈市区。
 - 12/15 先寄存行李，再搭西铁去太宰府。12/17 打车换到丽思，轻装可搭一站地铁。
+
+- 12/9–11界别府，12/11–12 ENOWA，12/12–13别府洲际。12/10轻装往返大分，12/11 COMICO与金鳞湖，12/12默认直达洲际；国东备选行李随车。
+- 12/13 09:00从洲际包车出发，看北九州美术馆本馆两小时，再游小仓与门司港。
 
 ## 每日安排
 
@@ -322,27 +325,27 @@
 
 来源：[长崎县美术馆来馆指南](https://www.nagasaki-museum.jp/visitor) · [长崎县美术馆展览](https://www.nagasaki-museum.jp/exhibition) · [吉宗营业与预约](https://yossou.co.jp/inquiry/) · [四海楼营业与12月店休](https://shikairou.com/information/info/) · [长崎格拉巴街英迪格酒店官网](https://nagasaki.hotelindigo.com/) · [思案橋ラーメン营业与订位](https://www.at-nagasaki.jp/gourmet/shop/862/index.html)
 
-### Day 10｜12/09 周三｜长崎 → 别府 · 包车直达洲际
+### Day 10｜12/09 周三｜长崎 → 别府 · 包车直达界 别府
 
-住宿：ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa。
+住宿：界 别府 / KAI Beppu。
 
-**跨城交通**：长崎 → 别府。全程预留：驾驶3.5–4.5小时；含午餐和休息5–6小时；计划出发：09:00离开英迪格；15:00目标最迟出发：09:00（以6小时反推）；预计抵达：洲际14:00–15:00。目标15:00前抵达。已选包车；高速拥堵和天气可能延后，司机确认前为规划区间。
+**跨城交通**：长崎 → 别府。全程预留：含午餐与休息约5–6小时；计划出发：09:00 离开英迪格；15:00目标最迟出发：09:00 离开英迪格；预计抵达：14:00–15:00 界 别府。规划时间。以司机确认及当天路况为准。
 
 **上午**：09:00酒店退房上车，行李随车，包车直达别府；以含服务区休息共5–6小时倒推，09:00为15:00抵达目标下的规划最迟出发时间，司机确认后可再提前。
 
 **中午**：途中服务区午餐与坐下休息45–60分钟；每90–120分钟停车休息一次。
 
-**下午**：纯驾驶规划约3.5–4.5小时，含午餐与停车休息门到门约5–6小时；09:00出发，目标14:00–15:00到洲际。遇高速拥堵、恶劣天气仍可能延后，入住后温泉休息。
+**下午**：09:00出发，含途中休息约5–6小时，目标14:00–15:00抵达界 别府。先寄存或办理入住，随后泡汤。
 
-**夜晚**：18:30–19:00酒店内晚餐待确认，入住后先休息，当晚不下山赶餐厅。
+**夜晚**：界 别府会席晚餐，按所订餐食及席次确认。
 
-**交通**：已选包车方案：长崎酒店→别府洲际，2成人＋行李；按高速路线、停车休息及接车地址询正式固定价。司机语言、高速、停车、空驶和超时须写入报价。
+**交通**：已选包车：长崎英迪格→界 别府。请向司机更新送达地址，行李随车。
 
-**休息**：午餐坐下休息，抵达洲际后不外出。
+**休息**：途中坐下用餐，抵达后留给温泉和休息。
 
 **取舍**：不加沿途景点；堵车优先保证入住与晚餐。
 
-**摄影**：从列车与客房观察沿海聚落、别府湾与山坡的关系；不为拍照影响上下车。
+**摄影**：在界 别府看海湾与北滨街区的关系。
 
 **早餐推荐**：　
 
@@ -352,17 +355,49 @@
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu)
+导航：[Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu)
 
-来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [博多一番街：博多鱼がし](https://hakata-1bangai.com/floorguide/shop13.html) · [ANA 别府洲际客房与设施常见问题](https://anaicbeppu.com/faq/) · [ANA 别府洲际 Elements 餐饮](https://anaicbeppu.com/en/dining/elements/) · [长崎格拉巴街英迪格酒店官网](https://nagasaki.hotelindigo.com/)
+来源：[长崎格拉巴街英迪格酒店官网](https://nagasaki.hotelindigo.com/) · [界别府官网](https://hoshinoresorts.com/ja/hotels/kaibeppu/)
 
-### Day 11｜12/10 周四｜洲际 → 由布院 · COMICO、金鳞湖与 ENOWA
+### Day 11｜12/10 周四｜大分美术馆日 · OPAM与Art Plaza
+
+住宿：界 别府 / KAI Beppu。
+
+**上午**：09:30从界 别府轻装出发，打车至别府站，搭JR到大分站，再短途打车到OPAM。10:30–12:30看坂茂建筑和一档展览。
+
+**中午**：12:30–13:45馆内咖啡或附近午餐，留坐下休息时间。
+
+**下午**：13:45后视体力短访Art Plaza约20–30分钟，主要看磯崎新的建筑外观和开放区。之后经大分站回界。
+
+**夜晚**：界 别府会席晚餐，按实际方案与酒店确认。
+
+**交通**：界 别府↔别府站、JR别府↔大分、大分站↔OPAM短途车。行李留在界 别府房内。
+
+**休息**：午餐后坐下休息，傍晚前回界。
+
+**取舍**：先删Art Plaza，保留OPAM两小时。三楼磯崎新常设展仍有暂停公告。
+
+**摄影**：比较 OPAM 透光木格与 Art Plaza 粗粝混凝土的尺度，观察街道行人如何进入建筑公共层。
+
+**早餐推荐**：　
+
+**午餐推荐**：　
+
+**晚餐推荐**：　
+
+[查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
+
+导航：[KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu) → [Beppu Station](https://www.google.com/maps/search/?api=1&query=Beppu%20Station) → [Oita Station](https://www.google.com/maps/search/?api=1&query=Oita%20Station) → [Oita Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Oita%20Prefectural%20Art%20Museum) → [Art Plaza Oita](https://www.google.com/maps/search/?api=1&query=Art%20Plaza%20Oita)
+
+来源：[OPAM 坂茂建筑](https://www.opam.jp/about/construction.html) · [Café Charité 运营方与菜单](https://hakuai-oita.com/shop/cafe-charite/) · [Art Plaza 最新公告](https://www.art-plaza.jp/category/お知らせ/) · [界别府官网](https://hoshinoresorts.com/ja/hotels/kaibeppu/) · [JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html)
+
+### Day 12｜12/11 周五｜界 别府 → 由布院 · COMICO、金鳞湖与 ENOWA
 
 住宿：由布院 ENOWA / ENOWA YUFUIN。
 
-**跨城交通**：别府 → 由布院。全程预留：点到点预约车50–70分钟；行李交接另留20分钟；计划出发：09:30离开洲际；15:00目标最迟出发：13:30；为COMICO11:00入馆，现方案09:30；预计抵达：由布院10:20–10:40；ENOWA约15:00入房。15:00前抵达城市。美术馆与金鳞湖保留。ENOWA15:00入住按酒店规则，不能把抵城等同已取房。
+**跨城交通**：别府 → 由布院。全程预留：预约车约50–70分钟，另留寄存时间；计划出发：09:30 离开界 别府；15:00目标最迟出发：09:30 离开界 别府；预计抵达：约10:20–10:40 抵由布院；15:00后入住ENOWA。规划时间。COMICO拟约11:00，若寄存需绕行，以实际可订时段调整。
 
-**上午**：09:30洲际退房，预约点到点车约50–70分钟到由布院。先与ENOWA协调大件行李寄存或由车送酒店，不带行李进馆；COMICO拟约11:00，停留约90分钟。
+**上午**：09:30界 别府退房，预约点到点车约50–70分钟到由布院。先与ENOWA协调大件行李寄存或由车送酒店，不带行李进馆；COMICO拟约11:00，停留约90分钟。
 
 **中午**：12:30–13:30湖区午餐与坐下休息；午餐轻量，为ENOWA晚餐留空间。
 
@@ -370,7 +405,7 @@
 
 **夜晚**：ENOWA酒店晚餐，席次与过敏提前确认；不再返别府。
 
-**交通**：洲际→由布院点到点预约出租车；COMICO、湖区短段步行／打车；ENOWA接驳仅在酒店确认的车站、时间和席位内使用，不默认馆门／金鳞湖接送。若不用跨山出租车，改别府站西口36路巴士至由布院站，班表与大件行李先核，放宽入馆时段。
+**交通**：界 别府→由布院点到点预约出租车；COMICO、湖区短段步行／打车；ENOWA接驳仅在酒店确认的车站、时间和席位内使用，不默认馆门／金鳞湖接送。若不用跨山出租车，改别府站西口36路巴士至由布院站，班表与大件行李先核，放宽入馆时段。
 
 **休息**：午餐后坐下30–45分钟；15:00后留酒店。
 
@@ -386,31 +421,31 @@
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu) → [COMICO ART MUSEUM YUFUIN](https://www.google.com/maps/search/?api=1&query=COMICO%20ART%20MUSEUM%20YUFUIN) → [Kinrin Lake](https://www.google.com/maps/search/?api=1&query=Kinrin%20Lake) → [ENOWA YUFUIN](https://www.google.com/maps/search/?api=1&query=ENOWA%20YUFUIN)
+导航：[KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu) → [COMICO ART MUSEUM YUFUIN](https://www.google.com/maps/search/?api=1&query=COMICO%20ART%20MUSEUM%20YUFUIN) → [Kinrin Lake](https://www.google.com/maps/search/?api=1&query=Kinrin%20Lake) → [ENOWA YUFUIN](https://www.google.com/maps/search/?api=1&query=ENOWA%20YUFUIN)
 
-来源：[COMICO 预约窗口与参观规则](https://www.camy.oita.jp/museumfaq) · [隈研吾事务所：COMICO](https://kkaa.co.jp/en/project/comico-art-museum-yufuin/) · [Café La Ruche 营业与当日安排](https://cafelaruche.jp/) · [由布まぶし 心 官方营业](https://www.yufumabushi-shin.com/index.html) · [大分县官方：宇奈岐日女神社](https://www.visit-oita.jp/spots/detail/4384) · [COMICO官方：预约与拍摄规则](https://www.camy.oita.jp/museumfaq) · [ENOWA官网](https://enowa-yufuin.jp/)
+来源：[COMICO 预约窗口与参观规则](https://www.camy.oita.jp/museumfaq) · [隈研吾事务所：COMICO](https://kkaa.co.jp/en/project/comico-art-museum-yufuin/) · [Café La Ruche 营业与当日安排](https://cafelaruche.jp/) · [由布まぶし 心 官方营业](https://www.yufumabushi-shin.com/index.html) · [大分县官方：宇奈岐日女神社](https://www.visit-oita.jp/spots/detail/4384) · [COMICO官方：预约与拍摄规则](https://www.camy.oita.jp/museumfaq) · [ENOWA官网](https://enowa-yufuin.jp/) · [界别府官网](https://hoshinoresorts.com/ja/hotels/kaibeppu/)
 
-### Day 12｜12/11 周五｜ENOWA → 大分双馆 → 界别府
+### Day 13｜12/12 周六｜ENOWA → 别府洲际 · 温泉休整
 
-住宿：界 别府 / KAI Beppu。
+住宿：ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa。
 
-**跨城交通**：由布院 → 大分双馆 → 别府。全程预留：驾驶约1小时45分–2小时30分；含双馆、午餐休息全程6–7小时；计划出发：10:30退房；15:00目标最迟出发：若要求界别府15:00前到，须约08:00前出发，且与酒店早餐及现有参观窗口冲突；预计抵达：大分约11:45；界别府约16:45–17:15。双馆途经日 · 存在冲突。15:00前已到大分，但终点界别府在傍晚；保留OPAM与Art Plaza，不把双馆压成赶场。提前入住终点需另行调整参观日期。
+**跨城交通**：由布院 → 别府。全程预留：预约单程车，实际车程由司机确认；计划出发：10:45–11:00 离开ENOWA；15:00目标最迟出发：10:45–11:00 离开ENOWA；预计抵达：中午前后寄存，15:00后入住。规划时间。寄存与午餐先向酒店确认。
 
-**上午**：09:00–10:00酒店早餐；10:30前后退房，预约车带行李去OPAM，预留60–90分钟，约11:45起参观坂茂建筑及出光美术馆名品展。
+**上午**：10:45–11:00 ENOWA退房，预约单程车直去洲际，先确认可寄存行李。
 
-**中午**：12:45–13:45馆内午餐与坐下休息，不为追赶入住压缩午休。
+**中午**：寄存后可打车去東洋軒吃とり天。若不想再下山，优先询洲际午餐。
 
-**下午**：14:00–15:00继续展厅；15:10–15:50 Art Plaza安全开放区，三楼建筑展不保证。16:00预约车回别府，约16:45–17:15入住界，行李直接送达。
+**下午**：15:00后入住洲际，下午留给温泉和酒店。
 
-**夜晚**：界别府会席晚餐，建议订较晚席，具体由酒店确认。
+**夜晚**：洲际酒店晚餐候选，提前确认席次。
 
-**交通**：推荐半日预约车：ENOWA→OPAM→Art Plaza→界别府，约6–7小时含等候，行李随车。若不包全程，分段出租车＋大分到别府JR，需落实寄存与上下车，搬运行李更多。
+**交通**：ENOWA→洲际预约单程车，完成行李交接后再决定午餐。
 
-**休息**：午餐后坐下休息；到界后不另去外部餐厅。
+**休息**：下午留酒店休息，为次日长距离包车留体力。
 
-**取舍**：Art Plaza限制较多时减少停留并早回店；不为补第三座馆扩大活动半径。别府城市艺术放在12/11市内替代方案，不叠加到大分双馆日。
+**取舍**：午餐排队时改酒店；不绕大分。
 
-**摄影**：比较 OPAM 透光木格与 Art Plaza 粗粝混凝土的尺度，观察街道行人如何进入建筑公共层。
+**摄影**：从酒店观察山坡、铁轮蒸汽与别府湾。
 
 **早餐推荐**：　
 
@@ -420,61 +455,29 @@
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[ENOWA YUFUIN](https://www.google.com/maps/search/?api=1&query=ENOWA%20YUFUIN) → [Oita Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Oita%20Prefectural%20Art%20Museum) → [Art Plaza Oita](https://www.google.com/maps/search/?api=1&query=Art%20Plaza%20Oita) → [KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu)
+导航：[ENOWA YUFUIN](https://www.google.com/maps/search/?api=1&query=ENOWA%20YUFUIN) → [ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu)
 
-来源：[OPAM 坂茂建筑](https://www.opam.jp/about/construction.html) · [Café Charité 运营方与菜单](https://hakuai-oita.com/shop/cafe-charite/) · [Art Plaza 最新公告](https://www.art-plaza.jp/category/お知らせ/) · [东洋轩官方网站](https://www.toyoken-beppu.co.jp/) · [SELECT BEPPU：当前营业时间](https://www.selectbeppu.com/about) · [界别府官网](https://hoshinoresorts.com/ja/hotels/kaibeppu/)
+来源：[ENOWA官网](https://enowa-yufuin.jp/) · [ANA 别府洲际客房与设施常见问题](https://anaicbeppu.com/faq/) · [ANA 别府洲际 Elements 餐饮](https://anaicbeppu.com/en/dining/elements/) · [东洋轩官方网站](https://www.toyoken-beppu.co.jp/)
 
-### Day 13｜12/12 周六｜12/12 别府休整 · 竹工艺与廣門午餐
-
-住宿：界 别府 / KAI Beppu。
-
-**上午**：09:30界出发，09:50–10:50竹工艺馆；11:00预约车至堀田，预留15–25分钟，11:45前到廣門。
-
-**中午**：12:00–14:00／14:30廣門日本料理午餐，具体用餐时长按店方确认；没有席位则以六盛简餐替换。两家均已收藏，同餐只能择一。
-
-**下午**：午餐后直接车回界别府，约15:00起温泉与休息；取消老城艺术完整串联，SELECT或竹瓦可留作备选，不加餐后赶场。
-
-**夜晚**：18:30 酒店晚餐。
-
-**交通**：界→竹工艺馆车约10–20分钟；竹馆→廣門约15–25分钟；廣門→界约20–30分钟。六盛备选走市区，不套用堀田路线。
-
-**休息**：午餐后回界休息；如用六盛简餐，13:00–14:00另留咖啡与坐下时间。
-
-**取舍**：先删老城附加散步；不压缩已约廣門用餐，没订到则改六盛简餐；不增加第二顿午餐。
-
-**摄影**：竹工艺馆看竹器编织与器物尺度；餐厅摄影先询许可，不拍其他客人。
-
-**早餐推荐**：　
-
-**午餐推荐**：[日本料理 別府廣門](https://www.google.com/maps?cid=12842902959093357174) · 12:00 · 收藏主选。仅限别府休整方案。上午竹工艺馆后预约车约15–25分钟到堀田，11:45前到；午餐留约2–2.5小时，之后回界休息，不再叠加老城长线。 未预约。；[六盛 松原本店](https://www.google.com/maps?cid=2172949632328561682) · 12:00 · 替换备选。同为收藏，仅在廣門未订到或想简餐时替换，不能同一午餐吃两家。界至松原本店约10–15分钟车程；国东方案不绕回。 未预约。
-
-**晚餐推荐**：　
-
-[查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
-
-导航：[KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu) → [Beppu City Traditional Bamboo Crafts Center](https://www.google.com/maps/search/?api=1&query=Beppu%20City%20Traditional%20Bamboo%20Crafts%20Center) → [Beppu Hirokado](https://www.google.com/maps/search/?api=1&query=Beppu%20Hirokado) → [KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu)
-
-来源：[别府市竹工艺会馆](https://beppu-tourism.com/spot/beppu-city-traditional-bamboo-crafts-center/) · [SELECT BEPPU：当前营业时间](https://www.selectbeppu.com/about) · [BEPPU PROJECT：林明弘襖绘与老屋](https://www.beppuproject.com/work/541) · [ALTERNATIVE-STATE：别府公共艺术](https://alternative-state.com/) · [日本料理 別府廣門营业与订位](https://beppu-hirokado.jp/) · [六盛 松原本店营业与订位](https://www.6-sei.com/)
-
-### Day 14｜12/13 周日｜界别府 → 北九州美术馆 → 福冈 HOTEL NID · 包车转移
+### Day 14｜12/13 周日｜别府洲际 → 北九州本馆、小仓、门司港 → 福冈
 
 住宿：福冈 HOTEL NID / HOTEL NID。
 
-**跨城交通**：别府 → 北九州本馆 → 福冈。全程预留：驾驶约3–4小时；含美术馆、午餐休息全程约7小时45分–8小时30分；计划出发：09:30离开界别府；15:00目标最迟出发：15:00减8小时30分＝06:30；过早出发还需等待美术馆开馆，须重排参观窗口；预计抵达：北九州本馆约11:45；福冈 HOTEL NID17:15–18:00。需确认到达目标。保留完整参观与午后休息，现方案无法15:00前到福冈；早出发方案待用户选择后按开馆时间再校核。
+**跨城交通**：别府 → 北九州 → 福冈。全程预留：包车约9.5–10.25小时含停留；计划出发：09:00 离开别府洲际；15:00目标最迟出发：09:00 离开别府洲际；预计抵达：18:30–19:15 HOTEL NID。保留三站，傍晚到福冈。请核对三站停留、等候及超时费。
 
-**上午**：09:30界别府退房，包车带行李，经高速前往北九州市立美术馆本馆，纯驾驶预留约1.75–2.25小时，途中休息后约11:45到馆。
+**上午**：09:00从别府洲际包车出发，行李随车。11:00–13:00北九州市立美术馆本馆，完整停留两小时，先看建筑再看摄影收藏。
 
-**中午**：12:00–13:00馆内午餐，13:00–13:30坐下休息；馆餐临休时由司机安排附近用餐。
+**中午**：13:00–13:30到小仓；13:30–14:50午餐和小仓城外观。
 
-**下午**：13:30–15:30参观摄影收藏与矶崎新建筑；15:45上车赴博多，预留约1.25–1.75小时，17:15–18:00入住福冈 HOTEL NID。
+**下午**：14:50赴门司港；15:30–16:45门司港怀旧区，先看旧门司税关，再走港边与门司港站。
 
-**夜晚**：18:30博多一双作为收藏简餐主选；先入住休息，排队超过20分钟或抵达较晚则留空，不加正式预约晚餐。
+**夜晚**：约18:30–19:15抵达HOTEL NID。晚餐灵活，博多一双仅在体力及候位允许时安排。
 
-**交通**：已选包车：界别府→北九州市立美术馆本馆→福冈 HOTEL NID，约8–9小时含观展午休。大件行李随车，不再小仓寄存或买两段Sonic；司机休息与贵重物品自行保管。
+**交通**：包车：别府洲际→北九州美术馆本馆→小仓城→门司港→HOTEL NID。预留约9.5–10.25小时，行李随车。
 
-**休息**：馆内午餐后坐下休息30分钟，晚间不再外出。
+**休息**：午餐坐下休息，门司港视体力留短休。
 
-**取舍**：堵车先删外部绕行，不加门司港／唐户市场；留足美术馆与司机休息时间。
+**取舍**：堵车时缩短小仓城外和港边散步；保留三站与美术馆两小时。
 
 **摄影**：矶崎新双筒体量、入口与山丘城市视线；先看全貌再看构件。12/13看摄影收藏，松尾铃木展12/15才开，不写入当天主线。
 
@@ -482,13 +485,13 @@
 
 **午餐推荐**：　
 
-**晚餐推荐**：[博多一双 博多駅東本店](https://www.google.com/maps?cid=14997510692567609889) · 18:30 · 收藏主选。入住福冈 HOTEL NID后先休息；酒店至博多站东本店约10–15分钟步行或短途车。跨城日只留轻量拉面，排队超过20分钟或抵达晚则留空。 未预约。
+**晚餐推荐**：[博多一双 博多駅東本店](https://www.google.com/maps?cid=14997510692567609889) · 抵达后 · 收藏主选。约18:30–19:15抵达NID，入住休息后按体力决定，队长时改附近简餐。 未预约。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[福冈 HOTEL NID](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%86%88%20HOTEL%20NID) → [KAI Beppu](https://www.google.com/maps/search/?api=1&query=KAI%20Beppu) → [Kitakyushu Municipal Museum of Art Main Building](https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Municipal%20Museum%20of%20Art%20Main%20Building)
+导航：[ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu) → [Kitakyushu Municipal Museum of Art Main Building](https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Municipal%20Museum%20of%20Art%20Main%20Building) → [Kokura Castle](https://www.google.com/maps/search/?api=1&query=Kokura%20Castle) → [Mojiko Retro](https://www.google.com/maps/search/?api=1&query=Mojiko%20Retro) → [HOTEL NID Fukuoka](https://www.google.com/maps/search/?api=1&query=HOTEL%20NID%20Fukuoka)
 
-来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [JR九州网络票价](https://www.jrkyushu-kippu.jp/fare/ticket/123) · [JR九州优惠票中途下车规则](https://helpfeel.com/jrkyushu-faq/割引きっぷは途中下車や途中乗車が可能ですか？-65e584dced91020025528d6b) · [小仓站行李储物柜](https://www.jrkyushu.co.jp/railway/station/1191572_1601.html) · [小仓站可询行李寄存](https://discoverycoworking.com/news/tenimotsu/) · [北九州美术馆本馆交通](https://kmma.jp/visitor/honkan/access/) · [北九州市立美术馆本馆展期](https://kmma.jp/) · [本馆 Café Musée](https://www.cafemusee.net/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [博多一双 博多駅東本店营业与订位](https://www.hakata-issou.com/)
+来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [JR九州网络票价](https://www.jrkyushu-kippu.jp/fare/ticket/123) · [JR九州优惠票中途下车规则](https://helpfeel.com/jrkyushu-faq/割引きっぷは途中下車や途中乗車が可能ですか？-65e584dced91020025528d6b) · [小仓站行李储物柜](https://www.jrkyushu.co.jp/railway/station/1191572_1601.html) · [小仓站可询行李寄存](https://discoverycoworking.com/news/tenimotsu/) · [北九州美术馆本馆交通](https://kmma.jp/visitor/honkan/access/) · [北九州市立美术馆本馆展期](https://kmma.jp/) · [本馆 Café Musée](https://www.cafemusee.net/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [博多一双 博多駅東本店营业与订位](https://www.hakata-issou.com/) · [小仓城官网](https://kokura-castle.jp/schedule/) · [门司港旧海关](https://mojiko-retoro9.jp/spot/former_moji_customs_bldg/)
 
 ### Day 15｜12/14 周一｜糸岛一日游 · 直达巴士与二见浦海岸
 
@@ -692,7 +695,7 @@
 
 - **土耳其饭** · [ツル茶ん](https://www.nagasaki-tabinet.com/eat/64362)。12/08 美术馆日午餐替换，滨町。炸猪排、炒饭和意面拼盘。
 
-- **鸡肉天妇罗** · [東洋軒本店](https://www.toyoken-beppu.co.jp/)。12/12 留别府时的午餐备选，与原餐段择一；选国东则跳过。
+- **鸡肉天妇罗** · [東洋軒本店](https://www.toyoken-beppu.co.jp/)。12/12 直达洲际方案的午餐候选，先寄存行李；选国东则跳过。
 
 - **水炊** · [水たき長野](https://mizutakinagano.com/)。12/17 晚餐候选，鸡汤火锅；电话预约 092-281-2200。
 

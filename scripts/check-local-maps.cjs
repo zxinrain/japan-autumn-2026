@@ -10,7 +10,7 @@ for(const [key,m] of Object.entries(d.maps)){
  assert.equal(crypto.createHash('sha256').update(b).digest('hex'),m.sha256,key+' image differs from metadata');
  assert(b.length<800000,key+' is too large for mobile');assert(m.roadFeatures>0,key+' has no street data');
  for(const u of [...m.sourceTiles,...m.vectorTiles])assert(u.startsWith('https://cyberjapandata.gsi.go.jp/xyz/'));
- const ids=key==='all'?[...new Set(routes.routes.flat())]:key==='kunisaki'?['kaiBeppu','fukiji','makiodo']:routes.routes[Number(key.slice(4))];
+ const ids=key==='all'?[...new Set(routes.routes.flat())]:key==='kunisaki'?['enowa','fukiji','makiodo','intercontinental']:routes.routes[Number(key.slice(4))];
  const [[w,s],[e,n]]=m.bounds;for(const id of ids){const p=routes.points[id];assert(p.lng>=w&&p.lng<=e&&p.lat>=s&&p.lat<=n,key+' clips '+id);}
 }
 for(const [i,day] of trip.days.entries()){

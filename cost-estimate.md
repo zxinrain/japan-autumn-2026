@@ -31,9 +31,9 @@
 | [OND HOTEL / OND HOTEL](https://www.ondhotel.jp/stay/) · 2026-12-05—2026-12-07 | 2 | 4,000–7,000 | Booking ¥3,262.51／整段；床型餐食取消待核 |
 | [长崎酒店 / Hotel Nagasaki](https://hotel-nagasaki.jp/tw/) · 2026-12-07—2026-12-08 | 1 | 2,000–3,500 | Booking ¥1,896.81／整段；床型餐食取消待核 |
 | [长崎格拉巴街英迪格酒店 / Hotel Indigo Nagasaki Glover Street](https://nagasaki.hotelindigo.com/) · 2026-12-08—2026-12-09 | 1 | 2,200–4,000 | Booking ¥1,601.75／整段；床型餐食取消待核 |
-| [ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa](https://anaicbeppu.com/faq/) · 2026-12-09—2026-12-10 | 1 | 4,000–6,500 | Booking ¥3,445.87／整段；床型餐食取消待核 |
-| [由布院 ENOWA / ENOWA YUFUIN](https://enowa-yufuin.jp/) · 2026-12-10—2026-12-11 | 1 | 6,500–11,000 | 未取得本日期报价 |
-| [界 别府 / KAI Beppu](https://hoshinoresorts.com/ja/hotels/kaibeppu/) · 2026-12-11—2026-12-13 | 2 | 6,500–10,000 | 未取得本日期报价 |
+| [界 别府 / KAI Beppu](https://hoshinoresorts.com/ja/hotels/kaibeppu/) · 2026-12-09—2026-12-11 | 2 | 6,500–10,000 | 未取得本日期报价 |
+| [由布院 ENOWA / ENOWA YUFUIN](https://enowa-yufuin.jp/) · 2026-12-11—2026-12-12 | 1 | 6,500–11,000 | 未取得本日期报价 |
+| [ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa](https://anaicbeppu.com/faq/) · 2026-12-12—2026-12-13 | 1 | 4,000–6,500 | 未取得本日期报价 |
 | [福冈 HOTEL NID / HOTEL NID](https://nid.seven-garden.com/en/) · 2026-12-13—2026-12-15 | 2 | 待报价 | 未取得本日期报价 |
 | [福冈中洲皇家花园 CANVAS / The Royal Park Canvas Fukuoka Nakasu](https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/) · 2026-12-15—2026-12-17 | 2 | 待报价 | 未取得本日期报价 |
 | [福冈丽思卡尔顿酒店 / The Ritz-Carlton, Fukuoka](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) · 2026-12-17—2026-12-19 | 2 | 待报价 | 未取得本日期报价 |
@@ -46,8 +46,8 @@
 
 | 日期／路线 | 时长 | 日元整车预留 | 人民币整车预留 |
 |---|---|---:|---:|
-| [12/9 长崎英迪格→别府洲际](https://www.citycab.jp/taxi-introduction/) | 5–6小时门到门 | 140,000–200,000 | 5,922–8,460 |
-| [12/13 界别府→北九州美术馆→HOTEL NID](https://kamenoi.co.jp/taxi/campaign/) | 8–9小时含午餐与参观等候 | 100,000–150,000 | 4,230–6,345 |
+| [12/9 长崎英迪格→界别府](https://www.citycab.jp/taxi-introduction/) | 5–6小时门到门 | 140,000–200,000 | 5,922–8,460 |
+| [12/13 别府洲际→北九州本馆→小仓→门司港→HOTEL NID](https://kamenoi.co.jp/taxi/campaign/) | 约9.5–10.25小时含停留 | 100,000–150,000 | 4,230–6,345 |
 
 长崎市内Alphard公开8,680日元/小时、8小时69,440日元，只能说明市内时租，不能直接套给长崎→别府跨县送车；亀之井大型车8,080日元/小时且不含通行停车等费用。跨县路线、返程空驶与车辆调度需正式询价。样本不足，不计算当地均价。
 
@@ -55,10 +55,9 @@
 
 | 日期／路线 | 人民币整车预留 | 建议 |
 |---|---:|---|
-| 12/11 ENOWA→OPAM→Art Plaza→界别府，6–7小时 | 2,538–3,807 | 最值得增加：带行李换酒店顺路看双馆，节省多次寄存换乘。 |
-| 12/12 国东富贵寺＋真木大堂，6–7小时 | 2,115–3,172 | 仅决定去国东时启用；否则界别府休整与老城短途出租车。 |
+| 12/12 ENOWA→国东两寺→别府洲际 | 2,115–3,172 | 仅选国东时启用，约6.5–7.5小时，行李随车；旧预算仅供参考，按新线路询价。 |
 
-建议优先增加12/11半日车，其次是决定去国东时的12/12；太宰府与糸岛不必默认包车。上表为待询路线报价；未纳入总价。若启用12/11全日车，先从“其余交通”扣除1,500元分段接送预留，再加实际包车，避免重复。12/10洲际→由布院与12/11ENOWA退房的车站接驳不能互相替代；ENOWA免费接驳仅酒店确认的由布院站区间，不默认跨城。
+12/10轻装搭JR往返大分；12/11与12/12按两段单程车询价。国东包车为12/12换房的替代，当天避免重复计算单程车。
 
 ## 门票与线上购票
 
@@ -75,9 +74,9 @@
 | 12/6 武雄温泉楼门外观 | 0 | 0.0 | [外观免费；二楼导览现场受理、另收费](https://www.takeo-kk.net/sightseeing/001373.php)。二楼导览9:00–10:00，9:30截止，约20分钟；一般成人500日元／人。町内住宿者折扣资格现场核实，若参加两人另预留1000日元，不纳入免费外观票。 **官方现行规则，导览另计** |
 | 12/7 栗生明祈念馆 | 0 | 0.0 | [免费入馆，无须购买线上票](https://www.peace-nagasaki.go.jp/guide)。 **官方现行基础票价** |
 | 12/8 长崎县美术馆收藏 | 420 | 35.53 | [现场基础票；特展按官网展览票务另购](https://www.nagasaki-museum.jp/english/visit/info)。不把收藏票当作所有特展通票。 **官方现行基础票价** |
-| 12/10 COMICO | 1700 | 143.82 | [官方线上e-ticket，选12/10时段](https://reserva.be/comicoartmuseumyufuin)。信用卡，持QR码；通常提前约一个月查看，具体库存以系统为准。 **官方现行基础票价** |
-| 12/11 OPAM出光美术馆名品展 | 1500 | 126.9 | [官方列出的销售点为OPAM，现场购买](https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de)。11/13–1/11在期，12/14休展；12/11可安排，不使用普通收藏票估价。 **官方现行基础票价** |
-| 12/11 Art Plaza公共开放区域 | 0 | 0.0 | [公共区域，无须预购；活动另收费](https://www.art-plaza.jp/)。三楼矶崎新展不保证开放。 **官方现行基础票价** |
+| 12/11 COMICO | 1700 | 143.82 | [官方线上e-ticket，选12/10时段](https://reserva.be/comicoartmuseumyufuin)。信用卡，持QR码；通常提前约一个月查看，具体库存以系统为准。 **官方现行基础票价** |
+| 12/10 OPAM出光美术馆名品展 | 1500 | 126.9 | [官方列出的销售点为OPAM，现场购买](https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de)。11/13–1/11在期，12/14休展；12/11可安排，不使用普通收藏票估价。 **官方现行基础票价** |
+| 12/10 Art Plaza公共开放区域 | 0 | 0.0 | [公共区域，无须预购；活动另收费](https://www.art-plaza.jp/)。三楼矶崎新展不保证开放。 **官方现行基础票价** |
 | 12/12可选 富贵寺＋真木大堂 | 待核 | 待核 | [现场，金额待寺方确认](https://www.makiodo.jp/access.html)。预算另预留两人100元人民币，不混入已核实票款。 **待核实** |
 | 12/13 北九州本馆摄影收藏 | 300 | 25.38 | [现场；此轮官网访问超时，出发前复核](https://kmma.jp/exhibition/collection2-photograph/)。2026/8/29–12/27在期；300日元为展览资料，未完成官网复核。 **展览资料参考，官网待复核** |
 | 12/15 九州国立博物馆文化交流展 | 700 | 59.22 | [官方参观页核对当天购票，基础票可现场买](https://www.kyuhaku.jp/visit/visit_qanda.html)。特展另计；神社公共参拜／星巴克建筑不收馆票。 **官方现行基础票价** |

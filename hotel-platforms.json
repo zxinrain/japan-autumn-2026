@@ -128,41 +128,22 @@
     "ikyu": "https://www.ikyu.com/00003252/"
   },
   {
-    "ctripId": "27391867",
-    "agoda": "https://www.agoda.com/ana-intercontinental-beppu-resort-and-spa/hotel/beppu-jp.html",
-    "ikyu": "https://www.ikyu.com/00002626/",
+    "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
+    "priceReference": null,
+    "searchStatus": "Booking本次12/11–13未返回可售；需官网核查。",
     "photo": [
-      "hotel11.webp",
-      "别府洲际客房环境参考，非已订房型",
-      "一休酒店图库",
-      "https://www.ikyu.com/00002626/"
+      "kaiBeppu-official.jpg",
+      "酒店官方空间参考，非已订房型",
+      "酒店官网",
+      "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
     ],
-    "official": "https://anaicbeppu.com/faq/",
-    "booking": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html",
-    "priceReference": {
-      "lowJPY": 75000,
-      "highJPY": 96750,
-      "rateCNYPer100JPY": 4.2286,
-      "exchangeDate": "2026-11-08",
-      "checked": "2026-11-09",
-      "source": "https://www.ikyu.com/00002626/",
-      "scope": "基础客房公开起价样本；非本次优先Club双床报价，升级另查。",
-      "status": "非指定日期公开样本，不是本行程实时可售报价"
-    },
-    "datedQuote": {
-      "platform": "Booking",
-      "totalCNY": 3445.87,
-      "checkin": "2026-12-09",
-      "checkout": "2026-12-10",
-      "checked": "2026-11-10",
-      "scope": "2成人1房，全住宿段返回价格；未返回床型、餐食、取消条款，额外地方税费结账核对；非双床同条件报价",
-      "url": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html"
-    },
+    "ctripId": "72321998",
     "ctripMatch": {
       "checked": "2026-11-10",
-      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/27391867.html",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/72321998.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    }
+    },
+    "agoda": "https://www.agoda.com/hoshino-resorts-kai-beppu/hotel/beppu-jp.html"
   },
   {
     "official": "https://enowa-yufuin.jp/",
@@ -185,22 +166,32 @@
     "booking": "https://www.booking.com/hotel/jp/enowa-da-fen-xian-you-bu-shi-tang-bu-yuan-ting.html"
   },
   {
-    "official": "https://hoshinoresorts.com/ja/hotels/kaibeppu/",
-    "priceReference": null,
-    "searchStatus": "Booking本次12/11–13未返回可售；需官网核查。",
+    "ctripId": "27391867",
+    "agoda": "https://www.agoda.com/ana-intercontinental-beppu-resort-and-spa/hotel/beppu-jp.html",
+    "ikyu": "https://www.ikyu.com/00002626/",
     "photo": [
-      "kaiBeppu-official.jpg",
-      "酒店官方空间参考，非已订房型",
-      "酒店官网",
-      "https://hoshinoresorts.com/ja/hotels/kaibeppu/"
+      "hotel11.webp",
+      "别府洲际客房环境参考，非已订房型",
+      "一休酒店图库",
+      "https://www.ikyu.com/00002626/"
     ],
-    "ctripId": "72321998",
+    "official": "https://anaicbeppu.com/faq/",
+    "booking": "https://www.booking.com/hotel/jp/intercontinental-ana-beppu-resort-spa.html",
+    "priceReference": {
+      "lowJPY": 75000,
+      "highJPY": 96750,
+      "rateCNYPer100JPY": 4.2286,
+      "exchangeDate": "2026-11-08",
+      "checked": "2026-11-09",
+      "source": "https://www.ikyu.com/00002626/",
+      "scope": "基础客房公开起价样本；非本次优先Club双床报价，升级另查。",
+      "status": "非指定日期公开样本，不是本行程实时可售报价"
+    },
     "ctripMatch": {
       "checked": "2026-11-10",
-      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/72321998.html",
+      "source": "https://m.ctrip.com/html5/hotel/hoteldetail/27391867.html",
       "basis": "携程酒店详情页名称与地址匹配；网页已观察到本次入住、退房与1房2成人；Android App接收结果待实测"
-    },
-    "agoda": "https://www.agoda.com/hoshino-resorts-kai-beppu/hotel/beppu-jp.html"
+    }
   },
   {
     "official": "https://nid.seven-garden.com/en/",

@@ -332,89 +332,124 @@
     ],
     [
       {
-        "to": "intercontinental",
-        "mode": "driving",
         "from": "indigo",
-        "label": "跨城包车",
-        "duration": "驾驶3.5–4.5小时"
+        "to": "kaiBeppu",
+        "mode": "driving",
+        "label": "预约包车",
+        "duration": "按实际路况"
       }
     ],
     [
       {
+        "from": "kaiBeppu",
+        "to": "beppu",
+        "mode": "driving",
+        "label": "短途出租车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "beppu",
+        "to": "oitaStation",
+        "mode": "rail",
+        "label": "JR日丰本线",
+        "duration": "以班次为准"
+      },
+      {
+        "from": "oitaStation",
+        "to": "opam",
+        "mode": "driving",
+        "label": "短途出租车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "opam",
+        "to": "artplaza",
+        "mode": "driving",
+        "label": "短途出租车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "artplaza",
+        "to": "oitaStation",
+        "mode": "driving",
+        "label": "短途出租车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "oitaStation",
+        "to": "beppu",
+        "mode": "rail",
+        "label": "JR日丰本线",
+        "duration": "以班次为准"
+      },
+      {
+        "from": "beppu",
+        "to": "kaiBeppu",
+        "mode": "driving",
+        "label": "短途出租车",
+        "duration": "按实际路况"
+      }
+    ],
+    [
+      {
+        "from": "kaiBeppu",
         "to": "comico",
         "mode": "driving",
-        "from": "intercontinental",
-        "label": "预约出租车",
+        "label": "预约单程车",
         "duration": "50–70分钟"
       },
       {
-        "to": "kinrin",
-        "mode": "driving",
         "from": "comico",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "to": "kinrin",
+        "mode": "walking",
+        "label": "短段步行",
+        "duration": "按体力调整"
       },
       {
+        "from": "kinrin",
         "to": "enowa",
         "mode": "driving",
-        "from": "kinrin",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "短途出租车",
+        "duration": "按实际路况"
       }
     ],
     [
       {
-        "to": "opam",
-        "mode": "driving",
         "from": "enowa",
-        "label": "预约车",
-        "duration": "60–90分钟"
-      },
-      {
-        "to": "artplaza",
+        "to": "intercontinental",
         "mode": "driving",
-        "from": "opam",
-        "label": "出租车",
-        "duration": "5–10分钟"
-      },
-      {
-        "to": "kaiBeppu",
-        "mode": "driving",
-        "from": "artplaza",
-        "label": "预约车",
-        "duration": "45–60分钟"
+        "label": "预约单程车",
+        "duration": "由司机确认"
       }
     ],
     [
       {
-        "to": "bamboo",
-        "mode": "driving",
-        "from": "kaiBeppu",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "bamboo",
-        "to": "food-hirokado",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-hirokado",
-        "to": "kaiBeppu",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      }
-    ],
-    [
-      {
+        "from": "intercontinental",
         "to": "kitakyushumuseum",
         "mode": "driving",
-        "from": "kaiBeppu",
-        "label": "跨城包车",
-        "duration": "1小时45分–2小时15分"
+        "label": "预约包车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "kitakyushumuseum",
+        "to": "kokuracastle",
+        "mode": "driving",
+        "label": "预约包车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "kokuracastle",
+        "to": "mojiko",
+        "mode": "driving",
+        "label": "预约包车",
+        "duration": "按实际路况"
+      },
+      {
+        "from": "mojiko",
+        "to": "food-issou",
+        "mode": "mixed",
+        "label": "包车至HOTEL NID；晚餐另行决定",
+        "duration": "以当日抵达时间为准"
       }
     ],
     [
@@ -509,48 +544,34 @@
   "alternatives": {
     "beppu": [
       {
-        "to": "bamboo",
+        "from": "enowa",
+        "to": "intercontinental",
         "mode": "driving",
-        "from": "kaiBeppu",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "bamboo",
-        "to": "food-hirokado",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
-      },
-      {
-        "from": "food-hirokado",
-        "to": "kaiBeppu",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "预约单程车",
+        "duration": "由司机确认"
       }
     ],
     "kunisaki": [
       {
-        "from": "kaiBeppu",
+        "from": "enowa",
         "to": "fukiji",
         "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "预约包车",
+        "duration": "按实际路况"
       },
       {
         "from": "fukiji",
         "to": "makiodo",
         "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "预约包车",
+        "duration": "按实际路况"
       },
       {
         "from": "makiodo",
-        "to": "kaiBeppu",
+        "to": "intercontinental",
         "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "预约包车",
+        "duration": "按实际路况"
       }
     ]
   }

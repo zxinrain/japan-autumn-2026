@@ -32,7 +32,7 @@ def ll(x,y,z):
 variants={'all':list(points)}
 variants['all']=list(dict.fromkeys(sum(data['routes'],[])))
 for i,route in enumerate(data['routes']):variants[f'day-{i:02}']=route
-variants['kunisaki']=['kaiBeppu','fukiji','makiodo'];meta={}
+variants['kunisaki']=['enowa','fukiji','makiodo','intercontinental'];meta={}
 for key,ids in variants.items():
  ids=list(dict.fromkeys(ids));loc=[points[i] for i in ids];west=min(p['lng'] for p in loc);east=max(p['lng'] for p in loc);south=min(p['lat'] for p in loc);north=max(p['lat'] for p in loc)
  # Cover the visible map around a fitted route at phone and desktop aspect ratios.

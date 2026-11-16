@@ -15,7 +15,7 @@ lines+=['', '五平台同日期入口见[酒店比价页](hotels.html)。官网�
 for v in b['transfers']:lines.append(f"| [{v['date']} {v['name']}]({v['source']}) | {v['hours']} | {v['lowJPY']:,}–{v['highJPY']:,} | {round(v['lowJPY']*b['rate']):,}–{round(v['highJPY']*b['rate']):,} |")
 lines+=['','长崎市内Alphard公开8,680日元/小时、8小时69,440日元，只能说明市内时租，不能直接套给长崎→别府跨县送车；亀之井大型车8,080日元/小时且不含通行停车等费用。跨县路线、返程空驶与车辆调度需正式询价。样本不足，不计算当地均价。','', '## 其他单日包车优先级','', '| 日期／路线 | 人民币整车预留 | 建议 |','|---|---:|---|']
 for v in b['optional']:lines.append(f"| {v['date']} {v['name']} | {round(v['lowJPY']*b['rate']):,}–{round(v['highJPY']*b['rate']):,} | {v['reason']} |")
-lines+=['','建议优先增加12/11半日车，其次是决定去国东时的12/12；太宰府与糸岛不必默认包车。上表为待询路线报价；未纳入总价。若启用12/11全日车，先从“其余交通”扣除1,500元分段接送预留，再加实际包车，避免重复。12/10洲际→由布院与12/11ENOWA退房的车站接驳不能互相替代；ENOWA免费接驳仅酒店确认的由布院站区间，不默认跨城。','', '## 门票与线上购票','', '优先按真实票种；网上只能进入指南的明确写“入口”，不宣称已选好日期或已付款。现场售票场所不会伪造购票按钮。','', '| 日期／目的地 | 成人日元／人 | 两人人民币 | 官方入口与操作 |','|---|---:|---:|---|']
+lines+=['','12/10轻装搭JR往返大分；12/11与12/12按两段单程车询价。国东包车为12/12换房的替代，当天避免重复计算单程车。','', '## 门票与线上购票','', '优先按真实票种；网上只能进入指南的明确写“入口”，不宣称已选好日期或已付款。现场售票场所不会伪造购票按钮。','', '| 日期／目的地 | 成人日元／人 | 两人人民币 | 官方入口与操作 |','|---|---:|---:|---|']
 for v in b['tickets']:
  fee='待核' if v['perAdultJPY'] is None else str(v['perAdultJPY']);rmb='待核' if v['totalJPY'] is None else str(round(v['totalJPY']*b['rate'],2));lines.append(f"| {v['date']} {v['name']} | {fee} | {rmb} | [{v['method']}]({v['url']})。{v['note']} **{v['status']}** |")
 lines+=['', 'MOCA若同时看收藏，另预留350日元/人，除非馆方确认特展票包含。SIMOSE网上优惠按实际票种结算，预算保守用2000日元。御船山分两天各买600日元单段票，两人共2400日元；比原同日昼夜票增加600日元（约25元人民币），已在门票预留内。楼门二楼如参加另付一般成人500日元，两人约42元，原门票预留仍可覆盖；teamLab、桑拿与其他酒店体验不默认包含。本次不安排军舰岛，不计其船票。','', '## 预算依据及待落实','', '- 酒店房型最终未指定，全部优先独立双床。ENOWA以含夕朝食作为预算假设；界两段亦按夕朝食，实际以订单为准。','- 公开起价锚点：[博多都一休](https://www.ikyu.com/00002619/)每房两人31,910日元起（折扣前）；[ENOWA一休](https://www.ikyu.com/00002995/)别墅夕朝食公开样本221,376日元起（折扣前）；[界别府官方秋季样本](https://hoshinoresorts.com/jp/cards/e99kgxzcq/)每人38,200日元起。均非本次日期报价。','- 指定日期Booking：希尔顿12/1–5、OND12/5–7、Hotel Nagasaki12/7–8、英迪格12/8–9、洲际12/9–10、ONE12/17–19。返回价格仅作快照，库存及最终税费可能变化。','- 长崎酒店观景露天汤池官网2800日元/60分钟，需入住时预约；未计入基础总价。','- 国际机票仍待确认，不能把上述基础总价称为包含往返机票的全包总价。','- 铁路余票、指定席与巴士时刻另核；原12/9与12/13铁路已从主线删除。']
@@ -47,7 +47,7 @@ charterrows=[]
 for v in b['transfers']:
  charterrows.append([inline_link(v['date']+' '+v['name'],v['source']),esc(v['hours']),money(round(v['lowJPY']*b['rate']),round(v['highJPY']*b['rate'])),esc(v['status'])+'<small>日元整车预留 '+f"{v['lowJPY']:,}–{v['highJPY']:,}"+'</small>'])
 charters=table(['已选包车路线','时长','整车预留 · 人民币','报价口径'],charterrows)+'<p class="cost-note">2位成人与行李，舒适MPV／Alphard级。司机语言、等待、空驶、高速、停车及超时由供应商写入固定报价。</p>'
-optional=table(['可选包车路线','日期','整车预留 · 人民币','采用理由'],[[inline_link(v['name'],v['source']),esc(v['date']),money(round(v['lowJPY']*b['rate']),round(v['highJPY']*b['rate'])),esc(v['reason'])] for v in b['optional']])+'<p class="cost-note">上表未纳入总额。若启用12/11全日车，先扣除原分段接送预留1,500元，再加实际报价。</p>'
+optional=table(['可选包车路线','日期','整车预留 · 人民币','采用理由'],[[inline_link(v['name'],v['source']),esc(v['date']),money(round(v['lowJPY']*b['rate']),round(v['highJPY']*b['rate'])),esc(v['reason'])] for v in b['optional']])+'<p class="cost-note">上表未纳入总额。若启用12/12国东包车，用实际报价替换当天单程车预算。</p>'
 ticketrows=[]
 for v in b['tickets']:
  j='待核' if v['perAdultJPY'] is None else f"{v['perAdultJPY']:,}円";c='待核' if v['totalJPY'] is None else '¥'+f"{v['totalJPY']*b['rate']:,.2f}"
