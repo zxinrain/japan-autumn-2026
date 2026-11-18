@@ -185,10 +185,17 @@
       },
       {
         "from": "mifuneyama",
+        "to": "food-anbai",
+        "mode": "driving",
+        "label": "18:20预约出租车",
+        "duration": "暂留10–20分钟"
+      },
+      {
+        "from": "food-anbai",
         "to": "ond",
         "mode": "driving",
-        "label": "预约出租车",
-        "duration": "5–15分钟"
+        "label": "餐后预约出租车",
+        "duration": "10–15分钟"
       }
     ],
     [
@@ -239,20 +246,6 @@
         "to": "ond",
         "mode": "driving",
         "label": "出租车",
-        "duration": "10–15分钟"
-      },
-      {
-        "from": "ond",
-        "to": "food-anbai",
-        "mode": "driving",
-        "label": "预约出租车",
-        "duration": "10–15分钟"
-      },
-      {
-        "from": "food-anbai",
-        "to": "ond",
-        "mode": "driving",
-        "label": "预约出租车",
         "duration": "10–15分钟"
       }
     ],

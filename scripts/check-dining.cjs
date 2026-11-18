@@ -44,3 +44,22 @@ assert(bookedEvent.includes('SEQUENCE:2\r\n'));assert.match(bookedEvent,/SUMMARY
 assert.match(bookedEvent,/餐食预约｜19:00 釜饭 酔心本店/);assert(bookedEvent.includes('広島市中区立町6-7'));
 assert(!bookedEvent.includes('晚餐待定'));assert(!bookedEvent.includes('ekie'));
 console.log('PASS: booked dinner rendering and navigation, no duplicate candidate, documents and 20-event subscription with stable UIDs and UTF-8 folding.');
+
+// The confirmed Takeo dinner replaces the following day's candidate and keeps night viewing feasible.
+const takeoDay=trip.days[5],takeoReservation=takeoDay.mealReservations.find(r=>r.restaurant==='anbai');
+assert.equal(takeoReservation.time,'19:00');assert.equal(takeoReservation.status,'已预订');
+assert.equal(takeoDay.dining.find(a=>a.restaurant==='anbai').status,'已预订');
+assert(!trip.days[6].dining.some(a=>a.restaurant==='anbai'));assert.equal(trip.days[6].dinner,'');
+assert.match(takeoDay.timelineCompact.night,/17:30–18:15/);assert.match(takeoDay.timelineCompact.night,/18:20/);
+assert.match(fd.mealCard(takeoDay,5),/19:00 · 已预订/);
+const anbaiDetail=fd.detail('anbai');assert(anbaiDetail.includes('#day/2026-12-05'));assert(!anbaiDetail.includes('#day/2026-12-06'));
+assert(!anbaiDetail.includes('未实际预订'));assert(!anbaiDetail.includes('12/6拟'));
+assert(m.routes[5].includes('food-anbai'));assert(!m.routes[6].includes('food-anbai'));
+const takeoEvent=events.find(event=>event.includes('DTSTART;VALUE=DATE:20261205\r\n'));
+assert(takeoEvent.includes('UID:japan-autumn-2026-day-6@zxinrain.github.io\r\n'));
+assert.match(takeoEvent,/SUMMARY:武雄｜[^\r\n]*19:00 あん梅 Anbai（已预订）/);
+assert.match(takeoEvent,/17:30–18:15/);assert.match(takeoEvent,/18:20/);
+assert(!events.find(event=>event.includes('DTSTART;VALUE=DATE:20261206\r\n')).includes('19:00 あん梅 Anbai（已预订）'));
+const plan=JSON.parse(read('amap-route-plan.json'));
+for(const i of [5,6])assert.deepEqual(plan.days[i].map(leg=>[leg.from,leg.to]),m.routes[i].slice(1).map((id,j)=>[m.routes[i][j],id]));
+console.log('PASS: 12/5 19:00 Anbai confirmed, dinner moved from 12/6, shortened night viewing, map legs and subscribed calendar stay consistent.');

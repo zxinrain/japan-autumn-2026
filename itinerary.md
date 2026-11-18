@@ -2,7 +2,7 @@
 
 11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港
 
-更新2026-11-18。NID、12/2 19:00酔心本店晚餐已预订（用户确认）。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
+更新2026-11-18。NID、12/2 19:00酔心本店、12/5 19:00あん梅晚餐已预订（用户确认）。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
 
 ## 住宿安排
 
@@ -205,13 +205,13 @@
 
 **下午**：午餐后预约车约10–15分钟到OND，按15:00入住；15:00–16:15回房休息，不安排神社或图书馆。16:45前后预约车到御船山入口，单程暂留5–15分钟，另留周末排队缓冲。
 
-**夜晚**：17:30–19:00御船山夜枫，以镜池与低处园路为主；约19:15–19:30回OND。提前向酒店协调夜游前的餐食或19:30左右晚餐席次，不默认酒店接受晚席。あん梅移至12/6晚上，不与夜游冲突。
+**夜晚**：17:30–18:15御船山夜枫，以镜池与低处园路为主；18:20在园门会合预约出租车，按10–20分钟规划至あん梅并留入席缓冲，不先回OND。19:00あん梅 Anbai晚餐（已预订，用户确认）；餐后预约车回OND，目标20:30–21:00抵店，按实际用餐时长调整。
 
-**交通**：广岛→博多新干线、博多→武雄温泉特急宽松换乘；抵站后预约车到餃子会館、OND。OND↔御船山预约出租车，单程暂留5–15分钟并加周末排队；提前约好19:00左右园门接车，不依赖临时叫车或未确认送迎。
+**交通**：广岛→博多新干线、博多→武雄温泉特急宽松换乘；抵站后预约车到餃子会館、OND。OND→御船山预约出租车，暂留5–15分钟并加周末排队；18:20御船山园门接车直送あん梅，车程按10–20分钟规划；晚餐后あん梅→OND预约车约10–15分钟。提前约好两段接车，不依赖临时叫车或未确认送迎。
 
-**休息**：15:00入住后休息至16:15；夜游结束即回酒店，不再外出赶餐厅。
+**休息**：15:00入住后休息至16:15；夜枫后直接赴已订餐厅，餐后回酒店，不加其他活动。
 
-**取舍**：跨城列车晚点时先减少拍摄和园路，保留镜池短段夜枫；大雨、湿滑或临时停运时以安全为先，不赶往其他城市补灯光。日景仍保留在12/6。
+**取舍**：跨城列车晚点时先减少拍摄和园路；最迟18:15结束夜枫，保留19:00あん梅预约和接车缓冲。大雨、湿滑或临时停运时取消夜游，改从OND约车赴店；日景仍保留在12/6。
 
 **摄影**：夜间在镜池岸边观察树冠灯光、御船山轮廓与水面倒影；避免堵住窄道，不为机位走湿滑坡地。次日从相近池岸对照日景。
 
@@ -219,13 +219,13 @@
 
 **午餐推荐**：[饺子会馆／餃子会館](https://www.google.com/maps?cid=14479798018477298872) · 13:15左右 · 收藏主选。武雄温泉站到店车约5–10分钟；按正式列车接续顺延，候位超过20分钟不等，14:30前离店去OND，目标15:00前抵达。 未预约。
 
-**晚餐推荐**：　
+**晚餐推荐**：[あん梅 Anbai](https://www.google.com/maps?cid=465917174018206201) · 19:00 · 已预订（用户确认）。武雄市武雄町武雄7751-31。12/5 19:00已确认预订；18:20从御船山园门乘预约车直送。套餐、费用与取消条件以实际订单为准。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima) → [Hiroshima Station](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Station) → [Hakata Station](https://www.google.com/maps/search/?api=1&query=Hakata%20Station) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [餃子会館 武雄](https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E4%BC%9A%E9%A4%A8%20%E6%AD%A6%E9%9B%84) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Mifuneyama Rakuen](https://www.google.com/maps/search/?api=1&query=Mifuneyama%20Rakuen) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL)
+导航：[Hilton Hiroshima](https://www.google.com/maps/search/?api=1&query=Hilton%20Hiroshima) → [Hiroshima Station](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Station) → [Hakata Station](https://www.google.com/maps/search/?api=1&query=Hakata%20Station) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [餃子会館 武雄](https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E4%BC%9A%E9%A4%A8%20%E6%AD%A6%E9%9B%84) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Mifuneyama Rakuen](https://www.google.com/maps/search/?api=1&query=Mifuneyama%20Rakuen) → [あん梅 武雄](https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%82%93%E6%A2%85%20%E6%AD%A6%E9%9B%84) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL)
 
-来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [OND HOTEL客房](https://www.ondhotel.jp/stay/) · [OND入住与退房规则](https://www.ondhotel.jp/faq/faq-reservation/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [御船山 2026 红叶祭](https://www.mifuneyamarakuen.jp/autumn/) · [饺子会馆／餃子会館营业与订位](https://gyouza-kaikan.jp/)
+来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [OND HOTEL客房](https://www.ondhotel.jp/stay/) · [OND入住与退房规则](https://www.ondhotel.jp/faq/faq-reservation/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [御船山 2026 红叶祭](https://www.mifuneyamarakuen.jp/autumn/) · [饺子会馆／餃子会館营业与订位](https://gyouza-kaikan.jp/) · [あん梅／武雄温泉割烹营业与订位](https://takeo-anbai.jp/reservation/)
 
 ### Day 7｜12/06 周日｜武雄第二日 · 楼门、御船山日枫与城市建筑
 
@@ -237,9 +237,9 @@
 
 **下午**：13:30–14:45酒店休息。14:45预约车约10–15分钟到武雄神社，15:00–15:40参拜与大楠；竹林小道和境内有台阶，按体力慢走。再步行约5–10分钟到相邻的武雄市图书馆，15:50–16:35阅读空间与咖啡，不近拍读者；约16:45回OND短休。
 
-**夜晚**：18:00あん梅作为收藏晚餐主选，预约车约10–15分钟赴店，20:00–20:30回OND。先确认目标日营业、席位与OND是否含夕食，两者择一；今晚不重复安排御船山夜游。
+**夜晚**：18:30前后晚餐暂留空，酒店含餐与餐厅后续确认；あん梅已安排在12/5 19:00，不重复订位。餐后在OND休息，20:00–21:00回房。
 
-**交通**：09:00 OND→楼门预约车约10–15分钟；楼门→御船山约10–15分钟；御船山→武雄温泉站约10分钟；站→OND约10–15分钟。午后OND→神社约10–15分钟，神社→图书馆步行5–10分钟，图书馆→OND约10–15分钟。晚餐往返另约出租车；车程为规划区间，接车点由酒店确认。
+**交通**：09:00 OND→楼门预约车约10–15分钟；楼门→御船山约10–15分钟；御船山→武雄温泉站约10分钟；站→OND约10–15分钟。午后OND→神社约10–15分钟，神社→图书馆步行5–10分钟，图书馆→OND约10–15分钟。晚餐地点后续确认；车程为规划区间，接车点由酒店确认。
 
 **休息**：13:30–14:45回OND休息75分钟；16:45回酒店后，再留约1小时整理与短休。
 
@@ -251,13 +251,13 @@
 
 **午餐推荐**：[カイロ堂／武雄站佐贺牛便当](https://www.google.com/maps?cid=1898065628002053801) · 12:15 · 收藏主选。御船山至武雄温泉站约10分钟车程；用餐约60分钟，随后回OND休息。确认堂食；如只供应便当，由酒店确认可用餐空间。 未预约。
 
-**晚餐推荐**：[あん梅／武雄温泉割烹](https://www.google.com/maps?cid=465917174018206201) · 18:00 · 收藏主选。武雄第二晚：16:45前后从图书馆回OND休息，再预约车约10–15分钟赴あん梅。原12/5晚餐移到12/6，避开御船山夜枫；先确认营业、席位及OND含餐，避免重复付费。 未预约。
+**晚餐推荐**：　
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [武雄温泉楼門](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E6%B8%A9%E6%B3%89%E6%A5%BC%E9%96%80) → [Mifuneyama Rakuen](https://www.google.com/maps/search/?api=1&query=Mifuneyama%20Rakuen) → [カイロ堂 武雄温泉駅](https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%A4%E3%83%AD%E5%A0%82%20%E6%AD%A6%E9%9B%84%E6%B8%A9%E6%B3%89%E9%A7%85) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [武雄神社](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E7%A5%9E%E7%A4%BE) → [武雄市図書館](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E5%B8%82%E5%9B%B3%E6%9B%B8%E9%A4%A8) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [あん梅 武雄](https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%82%93%E6%A2%85%20%E6%AD%A6%E9%9B%84) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL)
+导航：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [武雄温泉楼門](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E6%B8%A9%E6%B3%89%E6%A5%BC%E9%96%80) → [Mifuneyama Rakuen](https://www.google.com/maps/search/?api=1&query=Mifuneyama%20Rakuen) → [カイロ堂 武雄温泉駅](https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%A4%E3%83%AD%E5%A0%82%20%E6%AD%A6%E9%9B%84%E6%B8%A9%E6%B3%89%E9%A7%85) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [武雄神社](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E7%A5%9E%E7%A4%BE) → [武雄市図書館](https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E9%9B%84%E5%B8%82%E5%9B%B3%E6%9B%B8%E9%A4%A8) → [OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL)
 
-来源：[御船山 2026 红叶祭](https://www.mifuneyamarakuen.jp/autumn/) · [OND HOTEL客房](https://www.ondhotel.jp/stay/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [武雄市旅游协会：楼门与二楼干支导览](https://www.takeo-kk.net/sightseeing/001373.php) · [佐贺县官方：武雄神社与大楠](https://www.asobo-saga.jp/spots/detail/f407f55d-a51c-4be8-a286-c632a27fff7d) · [武雄市图书馆：开放与参观指南](https://takeo.city-library.jp/guide/) · [カイロ堂／武雄站佐贺牛便当营业与订位](https://kairodo.com/) · [あん梅／武雄温泉割烹营业与订位](https://takeo-anbai.jp/reservation/)
+来源：[御船山 2026 红叶祭](https://www.mifuneyamarakuen.jp/autumn/) · [OND HOTEL客房](https://www.ondhotel.jp/stay/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [武雄市旅游协会：楼门与二楼干支导览](https://www.takeo-kk.net/sightseeing/001373.php) · [佐贺县官方：武雄神社与大楠](https://www.asobo-saga.jp/spots/detail/f407f55d-a51c-4be8-a286-c632a27fff7d) · [武雄市图书馆：开放与参观指南](https://takeo.city-library.jp/guide/) · [カイロ堂／武雄站佐贺牛便当营业与订位](https://kairodo.com/)
 
 ### Day 8｜12/07 周一｜武雄 → 长崎 · 栗生明纪念空间与港湾夜景
 
