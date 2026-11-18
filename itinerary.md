@@ -2,7 +2,7 @@
 
 11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港
 
-更新2026-11-16。NID 已预订。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
+更新2026-11-18。NID、12/2 18:30酔心本店晚餐已预订（用户确认）。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
 
 ## 住宿安排
 
@@ -107,7 +107,7 @@
 
 **下午**：14:00–15:30继续资料馆，或按已完成展陈转公园；15:30–16:30在资料馆—慰灵碑—和平之灯—原爆圆顶轴线上分段停留，加儿童和平纪念碑约10分钟。需重新入馆先询问票券规则；不为补其他街区压缩看展。
 
-**夜晚**：18:30前后晚餐，具体餐厅与席次后续确认；其余时间酒店休息，通常20:00–21:00前回房，不加深夜活动。
+**夜晚**：18:00前后从希尔顿出发，出租车约10–20分钟至立町酔心本店；预留抵店与入席缓冲。18:30釜饭 酔心本店晚餐（已预订，按用户确认）。餐后打车回酒店，通常20:00–21:00回房，不加其他活动。
 
 **交通**：出租车到馆门附近；公园内分段步行 5–15 分钟。需要再次入馆时，宁可另购合适票券，也不压缩完整参观日。
 
@@ -121,13 +121,13 @@
 
 **午餐推荐**：　
 
-**晚餐推荐**：　
+**晚餐推荐**：[釜饭 酔心本店](https://www.google.com/maps/search/?api=1&query=%E9%85%94%E5%BF%83%E6%9C%AC%E5%BA%97%20%E5%BA%83%E5%B3%B6%E5%B8%82%E4%B8%AD%E5%8C%BA%E7%AB%8B%E7%94%BA6-7) · 18:30 · 已预订（用户确认）。広島市中区立町6-7。18:30入席，预约由你确认；具体套餐与取消条件以实际订单为准。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[Hiroshima Peace Memorial Museum](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Museum) → [Nagataya Hiroshima](https://www.google.com/maps/search/?api=1&query=Nagataya%20Hiroshima) → [Hiroshima Peace Memorial Park](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Park) → [Atomic Bomb Dome](https://www.google.com/maps/search/?api=1&query=Atomic%20Bomb%20Dome)
+导航：[Hiroshima Peace Memorial Museum](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Museum) → [Nagataya Hiroshima](https://www.google.com/maps/search/?api=1&query=Nagataya%20Hiroshima) → [Hiroshima Peace Memorial Park](https://www.google.com/maps/search/?api=1&query=Hiroshima%20Peace%20Memorial%20Park) → [Atomic Bomb Dome](https://www.google.com/maps/search/?api=1&query=Atomic%20Bomb%20Dome) → [酔心本店 広島市中区立町6-7](https://www.google.com/maps/search/?api=1&query=%E9%85%94%E5%BF%83%E6%9C%AC%E5%BA%97%20%E5%BA%83%E5%B3%B6%E5%B8%82%E4%B8%AD%E5%8C%BA%E7%AB%8B%E7%94%BA6-7)
 
-来源：[和平纪念资料馆参观与购票](https://hpmmuseum.jp/) · [广岛烧协会：长田屋](https://okonomiyaki.or.jp/shop/view/10023) · [广岛县：和平纪念资料馆建筑](https://www.pref.hiroshima.lg.jp/soshiki_file/tatemonogatari/page001.html) · [广岛资料馆：当前开放及预约时段](https://www.city.hiroshima.lg.jp/faq/atomicbomb-peace/1001613/1002380.html) · [希尔顿广岛客房](https://hiroshima.hiltonjapan.co.jp/rooms/)
+来源：[和平纪念资料馆参观与购票](https://hpmmuseum.jp/) · [广岛烧协会：长田屋](https://okonomiyaki.or.jp/shop/view/10023) · [广岛县：和平纪念资料馆建筑](https://www.pref.hiroshima.lg.jp/soshiki_file/tatemonogatari/page001.html) · [广岛资料馆：当前开放及预约时段](https://www.city.hiroshima.lg.jp/faq/atomicbomb-peace/1001613/1002380.html) · [希尔顿广岛客房](https://hiroshima.hiltonjapan.co.jp/rooms/) · [酔心本店 · 官方店铺资料](https://www.suishin.or.jp/honten/)
 
 ### Day 4｜12/03 周四｜SIMOSE 完整日归 · 坂茂与加莱陶艺
 
@@ -691,7 +691,7 @@
 
 - **广岛烧** · [長田屋](https://www.nagataya-okonomi.com/)。12/02 午餐候选，和平公园东侧。经典猪肉、卷心菜与面；队长则改其他餐段。
 
-- **釜饭** · [酔心本店](https://www.suishin.or.jp/honten/info/p7320.html)。12/04 晚餐候选，立町。牡蛎或穴子釜饭，本店通常周三休。
+- **釜饭** · [酔心本店](https://www.suishin.or.jp/honten/)。12/02 18:30 已预订（用户确认）。広島市中区立町6-7；按本店赴约，具体套餐以订单为准。
 
 - **土耳其饭** · [ツル茶ん](https://www.nagasaki-tabinet.com/eat/64362)。12/08 美术馆日午餐替换，滨町。炸猪排、炒饭和意面拼盘。
 

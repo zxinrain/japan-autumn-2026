@@ -4,14 +4,21 @@ import json,datetime
 R=Path(__file__).resolve().parents[1]
 D=json.loads((R/'restaurants.json').read_text());T=json.loads((R/'trip.json').read_text());by={r['id']:r for r in D['restaurants']}
 preferred=sum(r['userPriority']=='preferred' for r in D['restaurants']);scheduled=len({a['restaurant'] for d in T['days'] for a in d['dining'] if a['priority']=='primary'})
-lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。所有餐厅均未预约，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
+lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。收藏主选不代表已预约；12/2 18:30酔心本店晚餐已预订（用户2026-11-18确认）。其他预约状态以逐日标注为准，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
 for i,d in enumerate(T['days']):
  cells=[]
  for meal in ['breakfast','lunch','dinner']:
+  booked=[a for a in d.get('mealReservations',[]) if a['meal']==meal]
+  if booked:
+   cells.append('<br>'.join(f"[{a['name']}]({a['map']}) {a['time']} {a['status']}" for a in booked))
+   continue
   aa=[a for a in d['dining'] if a['meal']==meal];cells.append('<br>'.join(f"[{by[a['restaurant']]['name']}]({by[a['restaurant']]['map']}) {a['time']} {'收藏主选' if a['priority']=='primary' else '收藏替换备选'}" for a in aa))
  lines.append('| '+(datetime.date(2026,11,30)+datetime.timedelta(days=i)).strftime('%m/%d')+' | '+' | '.join(cells)+' |')
 lines+=['','12/12先到洲际寄存行李，东洋轩为午餐候选；选国东则在半岛用餐。不替换ENOWA及界的酒店晚餐；OND若含夕食先与あん梅择一。12/13先入住休息，一双排队超过20分钟或抵达延误则删。12/14こと需先核巴士，不能卡点赴约。','','## 逐日交通与预约理由','']
 for i,d in enumerate(T['days']):
+ for a in d.get('mealReservations',[]):
+  date=(datetime.date.fromisoformat(T['departure'])+datetime.timedelta(days=i)).strftime('%m/%d')
+  lines +=[f"- **{date} {a['time']} {a['name']} · {a['status']}**（{a['confirmedBy']}）：{a['address']}。{a['note']} [地图导航]({a['map']}) · [店铺资料]({a['source']})。",'']
  for a in d['dining']:
   r=by[a['restaurant']];date=(datetime.date(2026,11,30)+datetime.timedelta(days=i)).strftime('%m/%d');lines +=[f"- **{date} {a['time']} {r['name']}**：{a['reason']} {r['rules']} [核查与订位]({r['source']})。未预约。",'']
 lines+=['## 按城市分类','']

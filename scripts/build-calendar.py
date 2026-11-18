@@ -43,11 +43,16 @@ def build(trip, timestamp):
         elif city == "香港":
             city = "福冈 → 香港"
         summary = f"{city}｜{entry['title']}"
+        for reservation in entry.get("mealReservations", []):
+            summary += f" · {reservation['time']} {reservation['name']}（{reservation['status']}）"
         stay = next((s["cn"] for s in trip["stays"] if s["in"] <= day.isoformat() < s["out"]), None)
         url = SITE + "#itinerary?date=" + day.isoformat()
         description = [f"{label}｜{entry[key]}" for key, label in (
             ("am", "上午"), ("noon", "中午"), ("pm", "下午"), ("night", "夜晚"), ("transport", "交通")
         ) if entry.get(key)]
+        for reservation in entry.get("mealReservations", []):
+            description.append(f"餐食预约｜{reservation['time']} {reservation['name']} · {reservation['status']}（{reservation['confirmedBy']}） · {reservation['address']}")
+            description.append(reservation["map"])
         if stay:
             description.append(f"住宿｜{stay}")
         description.append(url)
@@ -56,6 +61,7 @@ def build(trip, timestamp):
             f"UID:japan-autumn-2026-day-{index + 1}@zxinrain.github.io",
             f"DTSTAMP:{timestamp}",
             f"LAST-MODIFIED:{timestamp}",
+            f"SEQUENCE:{entry.get('calendarSequence', 0)}",
             f"DTSTART;VALUE=DATE:{day:%Y%m%d}",
             f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
             f"SUMMARY:{escape(summary)}",

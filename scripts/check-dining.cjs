@@ -17,3 +17,30 @@ const memory=new Map(),favoritesContext={window:{JAPAN_TRIP:sandbox.window.JAPAN
 vm.runInNewContext(read('dining.js'),favoritesContext);let fd=favoritesContext.window.JAPAN_DINING;assert.equal(fd.isFavorite(by.nakashima),true);fd.setFavorite('nakashima',false);assert.equal(fd.isFavorite(by.nakashima),false);
 vm.runInNewContext(read('dining.js'),favoritesContext);fd=favoritesContext.window.JAPAN_DINING;assert.equal(fd.isFavorite(by.nakashima),false);fd.setFavorite('nakashima',true);assert.equal(fd.isFavorite(by.nakashima),true);assert.equal(trip.days.flatMap(d=>d.dining).filter(a=>a.priority==='primary').length,15);assert(!fd.index(new URLSearchParams()).includes('未标收藏，保留备选，不自动填入空餐段'));
 console.log('PASS: favorite defaults, local persistence, reversible toggle and explicit meal assignments.');
+
+// User-confirmed reservations stay visible without inventing a saved-list identity.
+const bookedDay=trip.days[2],reservation=bookedDay.mealReservations[0];
+assert.equal(reservation.time,'18:30');assert.equal(reservation.status,'已预订');
+assert.equal(reservation.address,'広島市中区立町6-7');
+assert.equal(new URL(reservation.map).searchParams.get('query'),'酔心本店 広島市中区立町6-7');
+const bookedHtml=fd.mealCard(bookedDay,2);
+assert.match(bookedHtml,/18:30 · 已预订/);assert.match(bookedHtml,/<h4>釜饭 酔心本店<\/h4>/);
+assert(!bookedHtml.includes('晚餐尚未安排'));assert(!bookedHtml.includes('未预约'));
+assert.equal((bookedHtml.match(/<h[34]>[^<]*酔心本店<\/h[34]>/g)||[]).length,1,'Do not duplicate the booked restaurant as a local-food candidate');
+assert.match(fd.mealCard(trip.days[3],3),/未预约/,'Unconfirmed candidates must retain their status');
+assert.equal(trip.localFood.filter(([, ,name])=>name==='酔心本店').length,1);
+assert.equal(trip.localFood.find(([, ,name])=>name==='酔心本店')[0],2);
+for(const file of ['itinerary.md','restaurants.md'])assert.match(read(file),/18:30[^\n]*已预订/);
+const {execFileSync}=require('node:child_process');
+const calendar=execFileSync('python3',['-c',`import runpy,json,sys
+m=runpy.run_path('scripts/build-calendar.py')
+sys.stdout.buffer.write(m['build'](json.load(open('trip.json')), '20261118T100000Z'))`],{cwd:R});
+for(const line of calendar.toString().split('\r\n'))assert(Buffer.byteLength(line)<=75,'ICS line folding follows the UTF-8 byte limit');
+const events=calendar.toString().replace(/\r\n[ \t]/g,'').split('BEGIN:VEVENT\r\n').slice(1);
+assert.equal(events.length,20);assert.equal(new Set(events.map(event=>event.match(/^UID:(.+)$/m)[1].trim())).size,20);
+const bookedEvent=events.find(event=>event.includes('DTSTART;VALUE=DATE:20261202\r\n'));
+assert(bookedEvent.includes('UID:japan-autumn-2026-day-3@zxinrain.github.io\r\n'),'Preserve the subscribed event identity');
+assert(bookedEvent.includes('SEQUENCE:1\r\n'));assert.match(bookedEvent,/SUMMARY:广岛｜[^\r\n]*18:30 釜饭 酔心本店（已预订）/);
+assert.match(bookedEvent,/餐食预约｜18:30 釜饭 酔心本店/);assert(bookedEvent.includes('広島市中区立町6-7'));
+assert(!bookedEvent.includes('晚餐待定'));assert(!bookedEvent.includes('ekie'));
+console.log('PASS: booked dinner rendering and navigation, no duplicate candidate, documents and 20-event subscription with stable UIDs and UTF-8 folding.');
