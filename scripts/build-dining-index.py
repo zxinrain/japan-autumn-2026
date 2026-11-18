@@ -4,7 +4,7 @@ import json,datetime
 R=Path(__file__).resolve().parents[1]
 D=json.loads((R/'restaurants.json').read_text());T=json.loads((R/'trip.json').read_text());by={r['id']:r for r in D['restaurants']}
 preferred=sum(r['userPriority']=='preferred' for r in D['restaurants']);scheduled=len({a['restaurant'] for d in T['days'] for a in d['dining'] if a['priority']=='primary'})
-lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。收藏主选不代表已预约；12/2 18:30酔心本店晚餐已预订（用户2026-11-18确认）。其他预约状态以逐日标注为准，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
+lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。收藏主选不代表已预约；12/2 19:00酔心本店晚餐已预订（用户2026-11-18确认）。其他预约状态以逐日标注为准，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
 for i,d in enumerate(T['days']):
  cells=[]
  for meal in ['breakfast','lunch','dinner']:
