@@ -722,5 +722,82 @@
         "lng": 131.5038907
       }
     ]
+  },
+  "nagasakiNorthSouthUpdate": {
+    "checked": "2026-11-20",
+    "coordinateSystem": "WGS-84",
+    "points": [
+      {
+        "id": "nagasakipeace",
+        "name": "长崎平和公园",
+        "lat": 32.776921,
+        "lng": 129.863964,
+        "place": null,
+        "query": "長崎 平和公園 平和祈念像",
+        "source": "https://www.at-nagasaki.jp/spot/130",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "urakami",
+        "name": "浦上天主堂",
+        "lat": 32.776155,
+        "lng": 129.868387,
+        "place": null,
+        "query": "浦上天主堂",
+        "source": "https://www.at-nagasaki.jp/spot/122",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "skyroad",
+        "name": "格拉巴天空之路斜行电梯",
+        "lat": 32.732896,
+        "lng": 129.872861,
+        "place": null,
+        "query": "グラバースカイロード",
+        "source": "https://www.at-nagasaki.jp/spot/62406",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "aioiUpper",
+        "name": "相生地狱坂上段 · 大浦展望公园",
+        "lat": 32.733425,
+        "lng": 129.870713,
+        "place": null,
+        "query": "大浦展望公園 長崎",
+        "source": "https://www.at-nagasaki.jp/spot/61035",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "oura",
+        "name": "大浦天主堂",
+        "lat": 32.734154,
+        "lng": 129.870137,
+        "place": null,
+        "query": "大浦天主堂",
+        "source": "https://www.at-nagasaki.jp/spot/102",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "nabekanmuri",
+        "name": "锅冠山展望台",
+        "lat": 32.729366,
+        "lng": 129.868969,
+        "place": null,
+        "query": "鍋冠山公園 展望台",
+        "source": "https://www.at-nagasaki.jp/spot/60842",
+        "coordinateNote": "长崎市官方旅游页面GeoCoordinates，WGS-84；景点定位不是保证车辆落客点；2026-11-20核对"
+      },
+      {
+        "id": "cocowalk",
+        "name": "COCOWALK · 午餐与休息",
+        "lat": 32.762456,
+        "lng": 129.865823,
+        "place": null,
+        "query": "みらい長崎ココウォーク ごとうち食堂",
+        "source": "https://cocowalk.jp/shop/gotouchi",
+        "coordinateNote": "商场官网Google地图嵌入坐标，WGS-84；4楼餐厅，非公交站点；2026-11-20核对"
+      }
+    ],
+    "note": "仅展示官方有来源的景点坐标；电车与公交未取得真实轨迹，不绘制猜测连线。相生地狱坂标记为官方大浦展望公园上段观察点，非下端入口。"
   }
 }

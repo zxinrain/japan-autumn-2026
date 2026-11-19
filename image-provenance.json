@@ -76,6 +76,30 @@
       "description": "长崎市官方稻佐山港湾夜景；仅为城市代表图，不新增登山行程",
       "checked": "2026-11-10",
       "status": "历史实景参考，版权归原网站"
+    },
+    {
+      "file": "assets/nagasaki-urakami-official.jpg",
+      "source_image": "https://www.at-nagasaki.jp/storage/tourism_attractions/122/responsive_images/ov4jYKWRxkwxnUxtqFreV3o9nMZM3VmYpCaM7rPs__1787_1340.jpg",
+      "source_page": "https://www.at-nagasaki.jp/spot/122",
+      "checked": "2026-11-20",
+      "kind": "官方历史参考照片，非本次出行实景",
+      "size": 280644
+    },
+    {
+      "file": "assets/nagasaki-oura-official.jpg",
+      "source_image": "https://www.at-nagasaki.jp/storage/tourism_attractions/102/responsive_images/STUHDrlN7BszsXSzVMBAzbsL32dcME7bFk1xVy1e__1714_1143.jpg",
+      "source_page": "https://www.at-nagasaki.jp/spot/102",
+      "checked": "2026-11-20",
+      "kind": "官方历史参考照片，非本次出行实景",
+      "size": 263989
+    },
+    {
+      "file": "assets/nagasaki-nabekanmuri-official.jpg",
+      "source_image": "https://www.at-nagasaki.jp/storage/tourism_attractions/60842/responsive_images/IMV0yH5AalXdmig5QGPtQRjGLVRuMAVD6pMpMpXA__1673_941.jpg",
+      "source_page": "https://www.at-nagasaki.jp/spot/60842",
+      "checked": "2026-11-20",
+      "kind": "官方历史参考照片，非本次出行实景",
+      "size": 245794
     }
   ]
 }

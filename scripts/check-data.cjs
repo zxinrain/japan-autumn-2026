@@ -30,7 +30,7 @@ for(const s of trip.stays){assert.equal(s.in,cursor);assert.equal((Date.parse(s.
 assert.equal(cursor,trip.returnDate);
 for(const d of trip.days){for(const k of ['am','noon','pm','night','transport','rest','cut','photo'])assert(d[k]);for(const s of d.sources)assert(trip.sources[s]);}
 assert.match(trip.days[6].title,/御船山/);assert.match(trip.days[4].title,/MOCA/);assert.match(trip.days[3].title,/SIMOSE/);
-assert.match(trip.days[7].pm,/16:00/);assert.match(trip.days[11].title,/由布院/);
+assert.match(trip.days[7].pm,/浦上天主堂/);assert.match(trip.days[11].title,/由布院/);
 assert(trip.days.slice(5,19).every(d=>!d.city.includes('广岛')),'Do not return to Hiroshima after leaving');
 assert.deepEqual(Array.from(trip.stays,s=>s.source),['kai','hilton','ond','hotelNagasaki','indigo','kaiBeppu','enowa','beppuHotel','nid','canvas','ritz']);
 assert.equal(trip.stays.at(-1).out,'2026-12-19');
@@ -45,3 +45,20 @@ assert.deepEqual(Array.from(map.routes[13].slice(0,2)),['intercontinental','kita
 if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'selected');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[11].includes('kinrin'));assert(map.routes[11].includes('enowa'));assert(map.routes[17].includes('tochoji'));assert(map.routes[12].includes('intercontinental'));assert(map.routes[14].includes('food-koto'));}
 
 require('./check-local-maps.cjs');
+
+// Nagasaki is divided into a luggage-first Urakami day and a south-coast day.
+const north=trip.days[7],south=trip.days[8];
+assert.equal(north.railBooking.departure,'11:03');assert.equal(north.railBooking.arrival,'11:28');
+assert(north.maps.indexOf('Hotel Nagasaki')<north.maps.indexOf('国立長崎原爆死没者追悼平和祈念館'));
+assert(map.routes[7].indexOf('hotelNagasaki')<map.routes[7].indexOf('nagasakimemorial'));
+for(const id of ['nagasakipeace','urakami'])assert(map.routes[7].includes(id));
+for(const id of ['skyroad','aioiUpper','oura','nabekanmuri']){assert(map.routes[8].includes(id));assert.match(map.points[id].source,/at-nagasaki\.jp/);}
+assert.match(north.transport,/12:15/);assert.match(north.transport,/12:21/);
+assert.match(south.noon,/メディカルセンター/);assert.match(south.noon,/5号石橋/);
+assert.match(south.night,/17:14/);assert.match(south.pm,/不爬完223级/);
+assert.equal(north.dining[0].meal,'dinner');assert.equal(south.dining[0].meal,'dinner');
+const transitPlan=JSON.parse(fs.readFileSync(path.join(root,'amap-route-plan.json'),'utf8'));
+for(const i of [7,8])assert.deepEqual(transitPlan.days[i].map(l=>[l.from,l.to]),Array.from(map.routes[i].slice(1),(id,n)=>[map.routes[i][n],id]));
+const ticket=JSON.parse(fs.readFileSync(path.join(root,'cost-estimate.json'),'utf8')).tickets.find(v=>v.name==='大浦天主堂＋基督教博物馆');
+assert.equal(ticket.perAdultJPY,1000);assert.equal(ticket.date,'12/8');
+console.log('PASS: Nagasaki booked railway, luggage-first route, north/south grouping, tram/elevator access, sunset and Oura tickets.');

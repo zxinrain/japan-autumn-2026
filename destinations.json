@@ -159,8 +159,8 @@
   {
     "id": "nagasaki",
     "region": "长崎",
-    "name": "长崎 · 港湾、艺术与纪念空间",
-    "en": "Nagasaki Prefectural Art Museum",
+    "name": "长崎 · 浦上北线与南山手港湾",
+    "en": "Nagasaki · Urakami & Minamiyamate",
     "date": "12/7–12/8 · 两日",
     "priority": "重点推荐",
     "featured": true,
@@ -180,21 +180,48 @@
         "运河两侧馆舍与水岸公共空间",
         "长崎县美术馆官网",
         "nagasaki"
+      ],
+      [
+        "nagasaki-urakami-official.jpg",
+        "浦上天主堂砖砌立面，官方历史参考照片",
+        "长崎市官方旅游网站",
+        "urakamiCathedral"
+      ],
+      [
+        "nagasaki-oura-official.jpg",
+        "大浦天主堂白色正立面与入口石阶，官方历史参考照片",
+        "长崎市官方旅游网站",
+        "ouraChurch"
+      ],
+      [
+        "nagasaki-nabekanmuri-official.jpg",
+        "锅冠山视角的长崎港夜景，官方历史参考照片",
+        "长崎市官方旅游网站",
+        "nabekanmuri"
       ]
     ],
-    "feature": "港湾连接隈研吾的运河美术馆与栗生明的地下纪念空间，两天从水岸走向城市记忆。",
-    "reason": "用两天阅读长崎：12/7保留栗生明祈念馆，12/8完整留给县美术馆；不为合并卡片删掉任何参观。",
-    "look": "跨运河连接空间、玻璃的反射、杂贺雄二关于军舰岛的摄影。",
-    "effort": "馆内为主，穿插滨町午餐与港边短走；酒店往返用车。",
-    "tradeoff": "周日可能受同期 Hello Kitty 特展人流影响；屋顶是否开放按天气确认。",
-    "decision": "12/7抵达与祈念馆；12/8县美术馆完整日，港边散步按体力安排。",
+    "feature": "首日从酒店轻装去浦上；次日换到英迪格，以运河美术馆、坡地住宅、教堂和港湾黄昏串起南线。",
+    "reason": "先寄存行李再游览；北线集中浦上，南线留在港口与南山手，避免带箱穿街爬坡。",
+    "look": "栗生明的地下追悼空间；雜賀雄二摄影与隈研吾运河馆舍；相生地狱坂的住宅高差；大浦天主堂与锅冠山港景。",
+    "effort": "12/7浦上分段约1.5–2公里；12/8约2–3公里加馆内。地狱坂用斜行电梯绕行，锅冠山预约车往返，仍有短段石阶。",
+    "tradeoff": "12/8美术馆由整日改为10:10–12:25重点参观，不加Hello Kitty及哥拉巴园完整游览；雨天先取消锅冠山，时间还给美术馆。",
+    "decision": "12/7酒店寄存→浦上祈念馆、平和公园、浦上天主堂；12/8美术馆→相生地狱坂与电梯→大浦→锅冠山。",
     "sources": [
       "nagasaki",
       "nagasakiEx",
       "nagasakiPort",
       "memorialNagasaki",
-      "nagasakiPanorama"
-    ]
+      "nagasakiPanorama",
+      "nagasakiPeacePark",
+      "urakamiCathedral",
+      "gloverSkyroad",
+      "aioiSlope",
+      "ouraChurch",
+      "nabekanmuri",
+      "nagasakiSunset",
+      "nagasakiSaiga"
+    ],
+    "checked": "2026-11-20"
   },
   {
     "id": "opam",
@@ -515,13 +542,14 @@
     "reason": "与丹下的架空纪念空间形成对照，也与隈研吾港口美术馆不同；可加入到达长崎日，不挤压完整看展日。",
     "look": "先在地面读水与树的边界，再沿许可路线进入地下；注意追悼厅里的光、尺度和名册架。拍摄须遵守馆方要求。",
     "effort": "14:10–15:00约50分钟，馆内有电梯；从滨町另预留20–30分钟车程，不标为港边顺路。",
-    "tradeoff": "取代原到达日的出岛随走；若不想再看战争纪念，以出岛替换，不把两处都加进去。",
+    "tradeoff": "12/7先在Hotel Nagasaki寄存行李，再轻装去浦上；与平和公园、浦上天主堂同区，不把港口美术馆塞进北线。",
     "decision": "12/7午饭与休息后前往，15:00后车回花园露台，约16:00入房。",
     "sources": [
       "memorialNagasaki",
       "memorialDesign"
     ],
-    "atlasParent": "nagasaki"
+    "atlasParent": "nagasaki",
+    "checked": "2026-11-20"
   },
   {
     "id": "unagihime",

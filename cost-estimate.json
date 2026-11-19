@@ -291,10 +291,40 @@
       "name": "长崎县美术馆收藏",
       "perAdultJPY": 420,
       "totalJPY": 840,
-      "url": "https://www.nagasaki-museum.jp/english/visit/info",
+      "url": "https://www.nagasaki-museum.jp/visitor",
       "method": "现场基础票；特展按官网展览票务另购",
-      "note": "不把收藏票当作所有特展通票。",
+      "note": "12/8收藏票含雜賀雄二第1、4室小企划，两组都在展期内；不含Hello Kitty等另售特展。2026-11-20核对。",
       "status": "官方现行基础票价"
+    },
+    {
+      "date": "12/7",
+      "name": "浦上天主堂／平和公园",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://www.at-nagasaki.jp/spot/122",
+      "method": "免费参观，礼拜或活动限制优先；献金自愿",
+      "note": "浦上天主堂通常9:00–17:00，入口有坡。2026-11-20核对。",
+      "status": "官方现行信息，临时开放另核"
+    },
+    {
+      "date": "12/8",
+      "name": "大浦天主堂＋基督教博物馆",
+      "perAdultJPY": 1000,
+      "totalJPY": 2000,
+      "url": "https://oura-church.jp/guide/",
+      "method": "个人通常现场购票；官网为参观指南，未确认个人线上付款入口",
+      "note": "冬季8:30–17:30，17:00截止入场；行程14:40到访。2026-11-20核对；费用在既有门票及特展预留内，不重复累加。",
+      "status": "官方现行票价"
+    },
+    {
+      "date": "12/8",
+      "name": "格拉巴天空之路电梯／锅冠山公园",
+      "perAdultJPY": 0,
+      "totalJPY": 0,
+      "url": "https://www.at-nagasaki.jp/spot/62406",
+      "method": "免费使用／参观，无需线上票；往返出租车另计",
+      "note": "电梯通常6:00–23:30；锅冠山停车与最后步行由司机确认，临时停运及天气出行前复核。",
+      "status": "2026-11-20官方信息核对"
     },
     {
       "date": "12/11",

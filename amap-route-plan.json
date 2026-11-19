@@ -253,74 +253,144 @@
       {
         "to": "takeo",
         "mode": "driving",
-        "from": "ond",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "预约出租车",
+        "duration": "含接送暂留15–25分钟",
+        "from": "ond"
       },
       {
         "to": "nagasaki",
         "mode": "rail",
-        "from": "takeo",
-        "label": "西九州新干线",
-        "duration": "30–35分钟"
-      },
-      {
-        "from": "nagasaki",
-        "to": "food-yossou",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "10–15分钟"
-      },
-      {
-        "from": "food-yossou",
-        "to": "nagasakimemorial",
-        "mode": "driving",
-        "label": "预约车",
-        "duration": "20–30分钟"
+        "label": "かもめ17号 · 已订",
+        "duration": "11:03→11:28；25分钟",
+        "from": "takeo"
       },
       {
         "to": "hotelNagasaki",
         "mode": "driving",
-        "from": "nagasakimemorial",
-        "label": "预约车",
-        "duration": "20–30分钟"
+        "label": "出租车 · 先寄存行李",
+        "duration": "10–15分钟，出站另计",
+        "from": "nagasaki"
+      },
+      {
+        "from": "hotelNagasaki",
+        "to": "cocowalk",
+        "mode": "bus",
+        "label": "12:15立山→12:21目覚町＋步行",
+        "duration": "约15–20分钟，午餐休息另计"
+      },
+      {
+        "from": "cocowalk",
+        "to": "nagasakimemorial",
+        "mode": "mixed",
+        "label": "步行＋1/3号赤迫行至原爆資料館",
+        "duration": "25–30分钟，含候车与末段步行"
+      },
+      {
+        "to": "nagasakipeace",
+        "mode": "walking",
+        "label": "步行／短途车",
+        "duration": "10–15分钟",
+        "from": "nagasakimemorial"
+      },
+      {
+        "to": "urakami",
+        "mode": "walking",
+        "label": "步行／短途车",
+        "duration": "10–15分钟；有坡",
+        "from": "nagasakipeace"
+      },
+      {
+        "to": "hotelNagasaki",
+        "mode": "driving",
+        "label": "出租车回酒店",
+        "duration": "15–25分钟",
+        "from": "urakami"
+      },
+      {
+        "to": "food-yossou",
+        "mode": "driving",
+        "label": "晚餐候选 · 出租车",
+        "duration": "15–25分钟",
+        "from": "hotelNagasaki"
+      },
+      {
+        "to": "hotelNagasaki",
+        "mode": "driving",
+        "label": "餐后出租车",
+        "duration": "15–25分钟",
+        "from": "food-yossou"
       }
     ],
     [
       {
         "to": "indigo",
         "mode": "driving",
-        "from": "hotelNagasaki",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "带行李换酒店 · 出租车",
+        "duration": "20–30分钟；寄存另留20分钟",
+        "from": "hotelNagasaki"
       },
       {
         "to": "nagasakimuseum",
         "mode": "driving",
-        "from": "indigo",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "轻装出租车",
+        "duration": "10–15分钟",
+        "from": "indigo"
       },
       {
-        "from": "nagasakimuseum",
-        "to": "food-shianbashi",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "5–10分钟"
+        "to": "skyroad",
+        "mode": "mixed",
+        "label": "步行＋5号石橋行＋短走",
+        "duration": "25–35分钟，候车另计",
+        "from": "nagasakimuseum"
       },
       {
-        "from": "food-shianbashi",
-        "to": "nagasakimuseum",
+        "to": "aioiUpper",
+        "mode": "mixed",
+        "label": "斜行／垂直电梯＋地狱坂上段",
+        "duration": "15–25分钟；不走全223级",
+        "from": "skyroad"
+      },
+      {
+        "to": "oura",
+        "mode": "walking",
+        "label": "南山手步道",
+        "duration": "10–15分钟；有短段石阶",
+        "from": "aioiUpper"
+      },
+      {
+        "to": "indigo",
+        "mode": "mixed",
+        "label": "步行／短途出租车",
+        "duration": "10–20分钟",
+        "from": "oura"
+      },
+      {
+        "to": "nabekanmuri",
         "mode": "driving",
-        "label": "出租车",
-        "duration": "5–10分钟"
+        "label": "预约出租车至可通车位置",
+        "duration": "10–20分钟；末段短走另计",
+        "from": "indigo"
       },
       {
         "to": "indigo",
         "mode": "driving",
-        "from": "nagasakimuseum",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "约17:40预约回程车",
+        "duration": "10–20分钟",
+        "from": "nabekanmuri"
+      },
+      {
+        "to": "food-shianbashi",
+        "mode": "driving",
+        "label": "晚餐候选 · 出租车",
+        "duration": "10–20分钟",
+        "from": "indigo"
+      },
+      {
+        "to": "indigo",
+        "mode": "driving",
+        "label": "餐后出租车",
+        "duration": "10–20分钟",
+        "from": "food-shianbashi"
       }
     ],
     [

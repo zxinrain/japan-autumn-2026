@@ -2,7 +2,7 @@
 
 11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港
 
-更新2026-11-18。NID、12/2 19:00酔心本店、12/5 19:00あん梅晚餐已预订（用户确认）。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
+行程更新2026-11-20；餐食预约确认2026-11-18。NID、12/2 19:00酔心本店、12/5 19:00あん梅晚餐已预订（用户确认）。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
 
 ## 住宿安排
 
@@ -22,6 +22,8 @@
 
 ## 此次调整
 
+- 12/7かもめ17号11:03–11:28抵达，先到Hotel Nagasaki寄存行李，再游浦上北线。
+- 12/8换英迪格，县美术馆重点参观后，以电车5号、斜行电梯与短途车串起相生地狱坂、大浦天主堂和锅冠山。美术馆从整日改为约2小时15分。
 - 12/13 包车经北九州本馆后入住 NID。福冈依次住 NID、中洲 CANVAS、丽思，每家两晚。
 - 12/14 糸岛、12/15 太宰府、12/16 九州芸文馆。12/17–18 游福冈市区。
 - 12/15 先寄存行李，再搭西铁去太宰府。12/17 打车换到丽思，轻装可搭一站地铁。
@@ -259,71 +261,71 @@
 
 来源：[御船山 2026 红叶祭](https://www.mifuneyamarakuen.jp/autumn/) · [OND HOTEL客房](https://www.ondhotel.jp/stay/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [武雄市旅游协会：楼门与二楼干支导览](https://www.takeo-kk.net/sightseeing/001373.php) · [佐贺县官方：武雄神社与大楠](https://www.asobo-saga.jp/spots/detail/f407f55d-a51c-4be8-a286-c632a27fff7d) · [武雄市图书馆：开放与参观指南](https://takeo.city-library.jp/guide/) · [カイロ堂／武雄站佐贺牛便当营业与订位](https://kairodo.com/)
 
-### Day 8｜12/07 周一｜武雄 → 长崎 · 栗生明纪念空间与港湾夜景
+### Day 8｜12/07 周一｜武雄 → 长崎 · 先寄存行李，再游浦上北线
 
 住宿：长崎酒店 / Hotel Nagasaki。
 
-**跨城交通**：武雄 → 长崎。全程预留：かもめ约30–35分钟；酒店至长崎站约1小时15分–2小时（含送站、候车）；计划出发：09:30–10:00退房；15:00目标最迟出发：13:00前离开OND；现方案10:00前；预计抵达：长崎站约11:00–11:45。15:00前抵达城市。到长崎先午餐与参观；Hotel Nagasaki通常16:00入房，城市抵达与酒店可入房时间分开。
+**跨城交通**：武雄 → 长崎。全程预留：新干线25分钟；OND退房至酒店寄存约2小时15分–2小时30分，含候车与出站；计划出发：09:45前退房；11:03列车；15:00目标最迟出发：按已订11:03班次，10:20–10:30到武雄温泉站；预计抵达：长崎站11:28；酒店约11:55–12:10先寄存。已订班次 · 先寄存再游览。不把寄存当作提前入房；Hotel Nagasaki官网通常15:00入住、10:00退房，按订单执行。已订信息依据11/18邮件核对，乘车前须领取纸票。
 
-**上午**：09:00早餐，09:30–10:00退房；OND通常10:00退房，11:00只适用已确认方案。预约送站后搭かもめ至长崎约30–35分钟。
+**上午**：09:45前办理OND退房，预约出租车送武雄温泉站，目标10:20–10:30到站。按已订かもめ17号11:03出发、11:28抵达长崎，运行25分钟；先领取纸票，确认邮件不作乘车凭证。班次与已订状态依据11/18核对的确认邮件，出行前再查有无变更。
 
-**中午**：12:00滨町吉宗午餐约60分钟；长崎站车约10–15分钟。行李寄存或随接送车须先落实，午后休息保留。
+**中午**：11:28到长崎站，出站找车留10–15分钟；出租车约10–15分钟到Hotel Nagasaki，11:55–12:10寄存大行李，不假定提前入房。12:15从酒店旁立山站搭县营目覚线，12:21到目覚町，步行约5–10分钟至COCOWALK。12:35–13:25在4楼ごとうち食堂午餐候选，13:25–13:45咖啡休息。随后步行至浦上駅前电停，搭1号或3号赤迫方向至原爆資料館，再步行至祈念馆，门到门预留约25–30分钟。寶來軒官方12月月历明确12/7休业，不安排当天午餐；若没赶上12:15巴士，改出租车去COCOWALK，不等下一小时班次。
 
-**下午**：13:00–13:40午饭后坐下休息；13:40左右预约车从滨町至浦上祈念馆，预留20–30分钟。14:10–15:00国立长崎原爆死没者追悼平和祈念馆：地面水盘、下降路径与地下追悼空间；使用电梯减少台阶。15:00后车20–30分钟到Hotel Nagasaki，约16:00按通常时间入房。
+**下午**：14:15–15:10国立长崎原爆死没者追悼平和祈念馆：地面水盘、地下追悼厅，按许可使用电梯。步行约10–15分钟到平和公园，15:25–15:55看平和祈念像与泉；再步行约10–15分钟或短途车至浦上天主堂，16:10–16:35看外观及允许进入的区域，教堂入口仍有坡道。16:40前后出租车约15–25分钟回Hotel Nagasaki，17:00前后办理入房、休息；官网通常15:00入住、10:00退房，按实际订单执行。
 
-**夜晚**：18:00–18:30酒店晚餐待确认，餐后从酒店看港湾；不再另赶稻佐山或锅冠山。
+**夜晚**：18:30吉宗 浜町本店作为原收藏餐厅晚餐候选，由午餐移至晚餐；Hotel Nagasaki往返滨町分别预留15–25分钟出租车。若想留在酒店看港景，改酒店晚餐，具体含餐与席次先确认。20:00–21:00前回房，不再去其他夜景台。
 
-**交通**：武雄温泉→长崎かもめ约30–35分钟，站前与酒店接送另计。滨町→祈念馆车20–30分钟，祈念馆→山坡酒店车20–30分钟；不是与港口美术馆步行顺路。大行李留预约车须事先确认安全寄存与用车时长。
+**交通**：已订铁路：かもめ17号，武雄温泉11:03→长崎11:28，25分钟；按11/18邮件核对，纸票需先领取。长崎站→Hotel Nagasaki：带行李首选出租车10–15分钟；公共交通备选为县营巴士目覚线11:40长崎駅前→11:52立山，站至酒店约1分钟，出站步行与找站牌至少留10–15分钟，赶不上不追车。寄存后北线：立山12:15→目覚町12:21（县营目覚线）→步行5–10分钟至COCOWALK午餐休息；13:45前后离馆，步行至浦上駅前，电车1/3号赤迫方向→原爆資料館，车程约4–6分钟，候车另计；再步行约5–10分钟到祈念馆，馆到馆交通合计留25–30分钟。祈念馆→平和公园→浦上天主堂，每段步行约10–15分钟，有坡道；疲劳改短途车。返Hotel Nagasaki优先出租车15–25分钟。县营目覚线车次约每小时一班，以官方2026/4/1时刻表为核对依据，出行前复核12月调整；不能误搭经中央桥绕行的浜平线。电车成人每次150日元，不需预购指定席。
 
-**休息**：午饭后约40分钟，16:00入房后至少90分钟空白；不再安排黄昏登高。
+**休息**：13:40–14:10午餐后坐下休息；17:00前后回Hotel Nagasaki入房，晚餐外出可取消。
 
-**取舍**：到站晚、情绪疲惫或不想连续接触战争主题时，以出岛60分钟替换祈念馆，二者不叠加；二十六圣人纪念馆是另一替换，不是新增第三站。军舰岛、千绵站、南山手长坡与锅冠山本版均不加。
+**取舍**：保留先寄存行李与栗生明祈念馆。体力或情绪不足时先取消平和公园绕行，再只看浦上天主堂外观；不追加原爆资料馆完整展览。列车或寄存延误时以出租车替代12:15巴士，不为赶车压缩安全缓冲。
 
-**摄影**：用水盘、地面与地下的界面观察纪念空间，不把追悼厅当拍照布景；拍摄权限按馆方指示。到酒店后再看木质表皮与港湾的远近关系。
+**摄影**：在祈念馆比较水盘、地面与地下追悼空间的界面，按馆方拍摄要求。浦上天主堂观察砖墙、重建痕迹与社区坡道，不拍礼拜者；傍晚回酒店从高处观察港湾灯光。
 
 **早餐推荐**：　
 
-**午餐推荐**：[吉宗 浜町本店](https://www.google.com/maps?cid=10315780853087379114) · 12:00 · 收藏主选。长崎站至滨町车约10–15分钟，用餐约60分钟；餐后休息，再去栗生明祈念馆。不排通常休息的周二。 未预约。
+**午餐推荐**：　
 
-**晚餐推荐**：　
+**晚餐推荐**：[吉宗 浜町本店](https://www.google.com/maps?cid=10315780853087379114) · 18:30 · 收藏主选。北线日午餐留在浦上；吉宗改晚餐候选。先回Hotel Nagasaki休息，再出租车约15–25分钟到滨町；若酒店含晚餐或不想再外出则删，不重复付费。 未预约。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [Nagasaki Station](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station) → [吉宗 浜町本店 長崎](https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%AE%97%20%E6%B5%9C%E7%94%BA%E6%9C%AC%E5%BA%97%20%E9%95%B7%E5%B4%8E) → [国立長崎原爆死没者追悼平和祈念館](https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E7%AB%8B%E9%95%B7%E5%B4%8E%E5%8E%9F%E7%88%86%E6%AD%BB%E6%B2%A1%E8%80%85%E8%BF%BD%E6%82%BC%E5%B9%B3%E5%92%8C%E7%A5%88%E5%BF%B5%E9%A4%A8) → [Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki)
+导航：[OND HOTEL](https://www.google.com/maps/search/?api=1&query=OND%20HOTEL) → [Takeo Onsen Station](https://www.google.com/maps/search/?api=1&query=Takeo%20Onsen%20Station) → [Nagasaki Station](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Station) → [Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki) → [COCOWALK 長崎 ごとうち食堂](https://www.google.com/maps/search/?api=1&query=COCOWALK%20%E9%95%B7%E5%B4%8E%20%E3%81%94%E3%81%A8%E3%81%86%E3%81%A1%E9%A3%9F%E5%A0%82) → [国立長崎原爆死没者追悼平和祈念館](https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E7%AB%8B%E9%95%B7%E5%B4%8E%E5%8E%9F%E7%88%86%E6%AD%BB%E6%B2%A1%E8%80%85%E8%BF%BD%E6%82%BC%E5%B9%B3%E5%92%8C%E7%A5%88%E5%BF%B5%E9%A4%A8) → [長崎 平和公園 平和祈念像](https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E5%B4%8E%20%E5%B9%B3%E5%92%8C%E5%85%AC%E5%9C%92%20%E5%B9%B3%E5%92%8C%E7%A5%88%E5%BF%B5%E5%83%8F) → [浦上天主堂](https://www.google.com/maps/search/?api=1&query=%E6%B5%A6%E4%B8%8A%E5%A4%A9%E4%B8%BB%E5%A0%82) → [Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki) → [吉宗 浜町本店 長崎](https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%AE%97%20%E6%B5%9C%E7%94%BA%E6%9C%AC%E5%BA%97%20%E9%95%B7%E5%B4%8E) → [Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki)
 
-来源：[OND入住与退房规则](https://www.ondhotel.jp/faq/faq-reservation/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [Garden Terrace 餐厅](https://www.gt-nagasaki.jp/restaurant/) · [长崎祈念馆：开放、免费与电梯](https://www.peace-nagasaki.go.jp/guide) · [栗生明：长崎祈念馆建筑资料](https://www.nikkenren.com/kenchiku/pdf/721/0721.pdf) · [长崎酒店官网](https://hotel-nagasaki.jp/tw/) · [吉宗 浜町本店营业与订位](https://yossou.co.jp/inquiry/)
+来源：[OND入住与退房规则](https://www.ondhotel.jp/faq/faq-reservation/) · [OND预约送迎](https://www.ondhotel.jp/stay/bus_service/) · [JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [Hotel Nagasaki官网：交通与入住退房](https://hotel-nagasaki.jp/#access) · [长崎县营巴士：目覚线官方时刻表](https://www.keneibus.jp/fs/2/3/1/4/3/_/K16_____2026.04.01.pdf) · [长崎电气轨道：2026路线、票价与换乘](https://www.naga-den.com/relays/download/9/1789/155//?file=%2Ffiles%2Flibs%2F6996%2F%2F202603271529469650.pdf) · [长崎祈念馆：开放、免费与电梯](https://www.peace-nagasaki.go.jp/guide) · [栗生明：长崎祈念馆建筑资料](https://www.nikkenren.com/kenchiku/pdf/721/0721.pdf) · [长崎市官方：平和公园](https://www.at-nagasaki.jp/spot/130) · [长崎市官方：浦上天主堂](https://www.at-nagasaki.jp/spot/122) · [吉宗 浜町本店营业与订位](https://yossou.co.jp/inquiry/) · [COCOWALK官方：ごとうち食堂](https://cocowalk.jp/shop/gotouchi) · [寶來軒官方2026年12月营业月历](https://static.wixstatic.com/media/02c605_9a42ed45912543a4a0d19a660c7b08f5~mv2.png)
 
-### Day 9｜12/08 周二｜长崎县美术馆完整日 · 运河与摄影展
+### Day 9｜12/08 周二｜长崎南线 · 县美术馆、相生地狱坂、大浦与锅冠山
 
 住宿：长崎格拉巴街英迪格酒店 / Hotel Indigo Nagasaki Glover Street。
 
-**上午**：09:30 Hotel Nagasaki退房，预约车先将行李送英迪格寄存，再到长崎县美术馆；两段行车合计预留30–45分钟及寄存缓冲，10:30左右开始建筑与展览。
+**上午**：09:00–09:15 Hotel Nagasaki退房，预约出租车约20–30分钟直送英迪格；09:35–09:55寄存大行李，再车约10–15分钟至长崎县美术馆，10:10–12:25重点看日本设计与隈研吾的馆舍、雜賀雄二两组军舰岛摄影。原完整美术馆日调整为约2小时15分钟重点参观；不把Hello Kitty特展加入主线。
 
-**中午**：12:30思案橋ラーメン午餐，馆至滨町车约5–10分钟；餐后坐下休息，14:00回馆。营业与展厅重入先核。
+**中午**：12:25–13:15馆内桥廊咖啡厅午餐及休息，长崎火腿三明治或角煮饭为当前官网菜单参考，当日供应再核。13:15离馆，步行约5–8分钟至メディカルセンター电停，搭5号石橋方向到终点石橋；候车、乘车与末段步行合计预留20–30分钟。
 
-**下午**：午餐与休息后14:00–15:30回馆参观；16:00左右到英迪格办理入住。南山手只作酒店附近短走，不加长坡完整环线。
+**下午**：13:45–14:00看相生地狱坂下端的住宅与石阶，不爬完223级。改乘旁边免费グラバースカイロード斜行电梯及垂直电梯，到上部步道；14:10–14:25在大浦展望公园看地狱坂上段，向大浦天主堂一侧分段慢走约10–15分钟。14:40–15:25参观大浦天主堂及按时间选择的基督教博物馆；冬季17:00停止入场，教堂仍有石阶与坡道。15:25后步行约10–20分钟或短途车回英迪格，约15:45办理入住，休息至16:25；不把寄存等同于可提前入房。
 
-**夜晚**：18:30前后晚餐，具体餐厅与席次后续确认；其余时间酒店休息，通常20:00–21:00前回房，不加深夜活动。
+**夜晚**：16:25预约出租车去鍋冠山公园停车／可通车落客点，车程暂留10–20分钟，最后步行约3–10分钟由司机确认；不走上山步道。16:50–17:35看港湾黄昏与初亮灯光，12/8长崎市区计算日落17:14（日本时间，实际山体遮挡会更早）。约17:40按约定地点接车，18:00前后回英迪格。18:30思案橋ラーメン作为原收藏晚餐候选，车约10–20分钟赴滨町；若疲劳或等位超过20分钟，改英迪格酒店用餐，20:00–21:00前回房。
 
-**交通**：Hotel Nagasaki→英迪格寄存→长崎县美术馆→英迪格；分段预约出租车，不徒步带行李爬坡。
+**交通**：带行李换房：Hotel Nagasaki→英迪格出租车约20–30分钟，寄存后再车10–15分钟去县美术馆；不拖箱乘电车爬南山手。公共交通备选为立山→长崎駅前（县营目覚线）→电车1号崇福寺方向至新地中華街→换5号石橋方向，在大浦天主堂或石橋下车，末段仍有坡道，门到门留60–90分钟，不作为携行李主线。轻装南线：县美术馆→步行5–8分钟至メディカルセンター→5号石橋行至石橋约5–8分钟，候车另计；相生地狱坂下端→免费斜行＋垂直电梯→大浦展望公园／地狱坂上段→大浦天主堂，分段步行5–15分钟。锅冠山往返预约同一辆出租车，司机确认可通车落客点与回程会合，不默认山上可临时叫车；不推荐二本松团地下车后还须步行约15分钟的公交方案。电车成人150日元／次，Suica等一人一卡上下车刷卡；符合条件的换乘须30分钟内，现金不享受换乘优惠。
 
-**休息**：午饭后约 45 分钟，下午馆内咖啡再休息 30 分钟。
+**休息**：12:25–13:15馆内午餐和咖啡；15:45–16:25英迪格入房后休息。锅冠山回店后可直接酒店晚餐。
 
-**取舍**：先删临展之外的屋顶与海边长走；完整美术馆日保留。祈念馆安排在前一天，不把浦上与港口说成步行顺路，也不压缩本日去军舰岛。
+**取舍**：美术馆由完整日改为约2小时15分重点参观，以容纳你新增的南线。先删额外特展、购物及哥拉巴园完整参观；相生地狱坂只看上下短段，不走全223级。若风雨或能见度差，锅冠山不勉强上山，时间回给美术馆或酒店；电梯停运时短途车替代，不改成爬完整石阶。
 
-**摄影**：沿运河观察玻璃、石材与水面反光；摄影展把城市旅行与产业遗迹的观看方式联系起来，不需要为此再安排军舰岛登岛。
+**摄影**：美术馆在运河桥廊比较玻璃、格栅与水面。地狱坂观察石阶与住宅入口的高差，勿对着居民门窗拍摄；大浦天主堂按现场规则，室内不擅自拍摄。锅冠山16:50–17:35比较仍有天光的港口、船舶与初亮灯光；17:14为城市基准日落，并非保证夕阳可见。
 
 **早餐推荐**：　
 
-**午餐推荐**：[思案橋ラーメン](https://www.google.com/maps?cid=17207842959802552025) · 12:30 · 收藏主选。美术馆至滨町约5–10分钟出租车；用餐约45–60分钟再坐下休息，14:00回馆。先确认当日午间营业与展厅再入条件。 未预约。
+**午餐推荐**：　
 
-**晚餐推荐**：　
+**晚餐推荐**：[思案橋ラーメン](https://www.google.com/maps?cid=17207842959802552025) · 18:30 · 收藏主选。午餐留在县美术馆，原收藏思案橋ラーメン改晚餐候选。锅冠山返回英迪格后再车约10–20分钟赴滨町；疲劳或排队超过20分钟删去，改酒店用餐，晚间营业需核。 未预约。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [Nagasaki Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Prefectural%20Art%20Museum) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street)
+导航：[Hotel Nagasaki](https://www.google.com/maps/search/?api=1&query=Hotel%20Nagasaki) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [Nagasaki Prefectural Art Museum](https://www.google.com/maps/search/?api=1&query=Nagasaki%20Prefectural%20Art%20Museum) → [メディカルセンター 電停 長崎](https://www.google.com/maps/search/?api=1&query=%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20%E9%9B%BB%E5%81%9C%20%E9%95%B7%E5%B4%8E) → [石橋 電停 長崎](https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E6%A9%8B%20%E9%9B%BB%E5%81%9C%20%E9%95%B7%E5%B4%8E) → [相生地獄坂 長崎](https://www.google.com/maps/search/?api=1&query=%E7%9B%B8%E7%94%9F%E5%9C%B0%E7%8D%84%E5%9D%82%20%E9%95%B7%E5%B4%8E) → [グラバースカイロード](https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%A9%E3%83%90%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%AD%E3%83%BC%E3%83%89) → [大浦展望公園](https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B5%A6%E5%B1%95%E6%9C%9B%E5%85%AC%E5%9C%92) → [大浦天主堂](https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B5%A6%E5%A4%A9%E4%B8%BB%E5%A0%82) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [鍋冠山公園 展望台](https://www.google.com/maps/search/?api=1&query=%E9%8D%8B%E5%86%A0%E5%B1%B1%E5%85%AC%E5%9C%92%20%E5%B1%95%E6%9C%9B%E5%8F%B0) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street) → [思案橋ラーメン 長崎](https://www.google.com/maps/search/?api=1&query=%E6%80%9D%E6%A1%88%E6%A9%8B%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E9%95%B7%E5%B4%8E) → [Hotel Indigo Nagasaki Glover Street](https://www.google.com/maps/search/?api=1&query=Hotel%20Indigo%20Nagasaki%20Glover%20Street)
 
-来源：[长崎县美术馆来馆指南](https://www.nagasaki-museum.jp/visitor) · [长崎县美术馆展览](https://www.nagasaki-museum.jp/exhibition) · [吉宗营业与预约](https://yossou.co.jp/inquiry/) · [四海楼营业与12月店休](https://shikairou.com/information/info/) · [长崎格拉巴街英迪格酒店官网](https://nagasaki.hotelindigo.com/) · [思案橋ラーメン营业与订位](https://www.at-nagasaki.jp/gourmet/shop/862/index.html)
+来源：[Hotel Nagasaki官网：交通与入住退房](https://hotel-nagasaki.jp/#access) · [英迪格官网：入住时间与接驳](https://nagasaki.hotelindigo.com/faq/) · [长崎县美术馆来馆指南](https://www.nagasaki-museum.jp/visitor) · [长崎县美术馆：雜賀雄二军舰岛摄影展](https://www.nagasaki-museum.jp/archives/exhibition_post/31186) · [长崎县美术馆展览](https://www.nagasaki-museum.jp/exhibition) · [长崎县美术馆：桥廊咖啡厅与菜单](https://www.nagasaki-museum.jp/visitor/cafe) · [长崎电气轨道：2026路线、票价与换乘](https://www.naga-den.com/relays/download/9/1789/155//?file=%2Ffiles%2Flibs%2F6996%2F%2F202603271529469650.pdf) · [长崎市官方：相生地狱坂与斜行电梯](https://www.at-nagasaki.jp/feature/nagasaki_saka) · [长崎市官方：大浦展望公园与地狱坂上段](https://www.at-nagasaki.jp/spot/61035) · [长崎市官方：免费グラバースカイロード](https://www.at-nagasaki.jp/spot/62406) · [大浦天主堂官网：冬季开放与门票](https://oura-church.jp/guide/) · [长崎市官方：锅冠山公园与交通](https://www.at-nagasaki.jp/spot/60842) · [国立天文台：2026年12月长崎日出日落](https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s4312.html) · [思案橋ラーメン营业与订位](https://www.at-nagasaki.jp/gourmet/shop/862/index.html)
 
 ### Day 10｜12/09 周三｜长崎 → 别府 · 包车直达界 别府
 
@@ -693,7 +695,7 @@
 
 - **釜饭** · [酔心本店](https://www.suishin.or.jp/honten/)。12/02 19:00 已预订（用户确认）。広島市中区立町6-7；按本店赴约，具体套餐以订单为准。
 
-- **土耳其饭** · [ツル茶ん](https://www.nagasaki-tabinet.com/eat/64362)。12/08 美术馆日午餐替换，滨町。炸猪排、炒饭和意面拼盘。
+- **土耳其饭** · [ツル茶ん](https://www.nagasaki-tabinet.com/eat/64362)。12/08晚餐替换备选，滨町。午餐留在美术馆；若晚间不想外出，直接酒店用餐。炸猪排、炒饭和意面拼盘。
 
 - **鸡肉天妇罗** · [東洋軒本店](https://www.toyoken-beppu.co.jp/)。12/12 直达洲际方案的午餐候选，先寄存行李；选国东则跳过。
 
@@ -706,6 +708,10 @@
 - **天神屋台** · [あごだし亭 きさいち](https://yokanavi.com/spots/161438)。丽思段备选，飞鱼高汤料理；与当晚正式晚餐择一。
 
 - **天神屋台** · [天一](https://yokanavi.com/spots/122517)。丽思段备选，天妇罗、烤鱼和关东煮。出门前核实开档。
+
+- **日本定食** · [ごとうち食堂／COCOWALK 4楼](https://cocowalk.jp/shop/gotouchi)。12/07 12:35午餐候选，目覚町巴士下车后步行约5–10分钟。官网通常11:00–22:00，具体菜单临行核对；同馆咖啡休息后再搭电车去浦上祈念馆。
+
+- **馆内轻食** · [长崎县美术馆桥廊咖啡厅](https://www.nagasaki-museum.jp/visitor/cafe)。12/08 12:25午餐与休息；当前官网列长崎火腿三明治、角煮饭，具体供应出行前复核。
 
 ## 费用、门票与购票
 
