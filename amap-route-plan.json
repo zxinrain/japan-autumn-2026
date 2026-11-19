@@ -653,30 +653,30 @@
       {
         "from": "ohori",
         "to": "food-hirao",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "mode": "mixed",
+        "label": "步行＋机场线回天神",
+        "duration": "约25–40分钟含步行候车"
       },
       {
         "from": "food-hirao",
         "to": "ritz",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "10–20分钟"
+        "mode": "walking",
+        "label": "步行回酒店",
+        "duration": "约5–10分钟"
       },
       {
         "from": "ritz",
         "to": "food-tsugumi",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "15–30分钟含缓冲"
+        "mode": "mixed",
+        "label": "步行＋七隈线1站",
+        "duration": "门到门35–45分钟"
       },
       {
         "from": "food-tsugumi",
         "to": "ritz",
-        "mode": "driving",
-        "label": "出租车",
-        "duration": "15–30分钟含缓冲"
+        "mode": "mixed",
+        "label": "步行＋七隈线1站",
+        "duration": "门到门35–45分钟"
       }
     ],
     []

@@ -103,3 +103,11 @@ assert.match(tsugumiEvent,/19:00 郷土料理 嗣味（已预订）/);
 assert(!events.find(e=>e.includes('DTSTART;VALUE=DATE:20261215\r\n')).includes('郷土料理 嗣味（已预订）'));
 for(const i of [13,14,15,17,18])assert.deepEqual(plan.days[i].map(l=>[l.from,l.to]),m.routes[i].slice(1).map((id,j)=>[m.routes[i][j],id]));
 console.log('PASS: Dec 18 Tsugumi at 19:00, Dec 13 yatai, unbooked route ramen cards, no duplicate meals, map and calendar consistency.');
+
+// Public transit is the main plan; booking time and subscribed event identity stay fixed.
+assert.match(tsugumiDay.night,/天神南/);assert.match(tsugumiDay.night,/往桥本方向1站/);
+assert.match(tsugumiDay.night,/往博多方向1站/);assert.match(tsugumiDay.night,/18:00/);
+assert.match(tsugumiDay.mealReservations[0].note,/35–45分钟/);
+for(const leg of plan.days[18].filter(l=>[l.from,l.to].includes('food-tsugumi'))){assert.equal(leg.mode,'mixed');assert.match(leg.label,/七隈线/);}
+assert.match(tsugumiEvent,/天神南/);assert.match(tsugumiEvent,/往桥本方向1站/);
+console.log('PASS: Dec 18 subway directions, walking and waiting buffers, fixed 19:00 reservation, map modes and subscription.');
