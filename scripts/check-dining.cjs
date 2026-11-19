@@ -6,16 +6,16 @@ const counts={};rows.forEach(r=>counts[r.city]=(counts[r.city]||0)+1);assert.dee
 const by=Object.fromEntries(rows.map(r=>[r.id,r]));assert.notEqual(by['hyogodori-fukuoka'].map,by['hyogodori-kumamoto'].map);assert.equal(by.kiyotan.city,'广岛市');assert.equal(by.kiku.city,'春日市');assert.equal(by.takeuchi.city,'那珂川市');
 for(const r of rows){assert.equal(new URL(r.map).hostname,'www.google.com');assert.match(r.map,/^https:\/\/www\.google\.com\/maps\?cid=\d+$/);assert.equal(new URL(r.source).protocol,'https:');assert(r.lat>32&&r.lat<35&&r.lng>129&&r.lng<133);assert(fs.existsSync(path.join(R,'assets/icons/food-'+r.icon+'.svg')));assert(r.googleRating>=1&&r.googleRating<=5);assert(r.googleReviews>0);assert(r.feature&&r.dishes&&r.rules);assert.equal(typeof r.suggestion,'string');}
 for(const [i,d] of trip.days.entries()){for(const a of d.dining){assert(by[a.restaurant]);assert(['primary','backup','conditional'].includes(a.priority));if(a.priority==='primary'){assert(!['熊本市','唐津市','久留米市'].includes(by[a.restaurant].city));assert(d[a.meal].includes(by[a.restaurant].name));assert(!['chikamatsu','hacchan','rokusei'].includes(a.restaurant));}}for(const meal of ['lunch','dinner'])assert(d.dining.filter(a=>a.meal===meal&&a.priority==='primary').length<=1);}
-assert.equal(trip.mealPresentation,'selected');assert.equal(rows.filter(r=>r.userPriority==='preferred').length,18);assert.equal(trip.days.flatMap(d=>d.dining).filter(a=>a.priority==='primary').length,14);assert(trip.days.every(d=>!d.dining.some(a=>a.meal==='breakfast')));for(const d of trip.days)for(const a of d.dining)if(a.priority==='primary')assert.equal(by[a.restaurant].userPriority,'preferred');assert.match(trip.days[9].transport,/包车/);assert.match(by.hacchan.rules,/资料冲突/);assert.match(by.chikamatsu.rules,/介绍制/);
+assert.equal(trip.mealPresentation,'selected');assert.equal(rows.filter(r=>r.userPriority==='preferred').length,18);assert.equal(trip.days.flatMap(d=>d.dining).filter(a=>a.priority==='primary').length,11);assert(trip.days.every(d=>!d.dining.some(a=>a.meal==='breakfast')));for(const d of trip.days)for(const a of d.dining)if(a.priority==='primary')assert.equal(by[a.restaurant].userPriority,'preferred');assert.match(trip.days[9].transport,/包车/);assert.match(by.hacchan.rules,/资料冲突/);assert.match(by.chikamatsu.rules,/介绍制/);
 const sandbox={window:{}};vm.runInNewContext(read('travel-data.js'),sandbox);assert.deepEqual(JSON.parse(JSON.stringify(sandbox.window.JAPAN_TRIP.dining)),data);assert.deepEqual(JSON.parse(read('plans/itinerary-20261112.json')),trip);
 const m=JSON.parse(read('route-data.js').split('window.JAPAN_ROUTE_DATA=')[1].trim().replace(/;$/,''));if(trip.mealPresentation!=='template')for(const [i,d] of trip.days.entries())for(const a of d.dining.filter(a=>a.priority==='primary'))assert(m.routes[i].includes('food-'+a.restaurant));assert(m.routes[13].includes('kitakyushumuseum'));assert(!m.routes[11].includes('bamboo'));
 for(const r of rows)assert(read('restaurants.md').includes(r.en));for(const f of ['restaurants.json','restaurants.md','dining.js','travel-data.js','itinerary.md'])assert(!/maps\.app\.goo\.gl|authuser=|!11m|accounts\.google\.com|cAANaYf8nqbrQnw89/.test(read(f)),f+' should not expose private account/list parameters');
-console.log('PASS: 35 restaurants / 11 cities, 18 default favorites / 14 saved-list primary, unique branches, one primary per meal, closed-day correction, railway meals, map/document/data consistency, sanitized public links.');
+console.log('PASS: 35 restaurants / 11 cities, 18 default favorites / 11 saved-list primary, unique branches, one primary per meal, closed-day correction, railway meals, map/document/data consistency, sanitized public links.');
 
 // Defaults migrate to stars, local overrides persist, and scheduling stays explicit.
 const memory=new Map(),favoritesContext={window:{JAPAN_TRIP:sandbox.window.JAPAN_TRIP,TRAVEL_LAYOUT:{foldSummary:()=>''}},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)}};
 vm.runInNewContext(read('dining.js'),favoritesContext);let fd=favoritesContext.window.JAPAN_DINING;assert.equal(fd.isFavorite(by.nakashima),true);fd.setFavorite('nakashima',false);assert.equal(fd.isFavorite(by.nakashima),false);
-vm.runInNewContext(read('dining.js'),favoritesContext);fd=favoritesContext.window.JAPAN_DINING;assert.equal(fd.isFavorite(by.nakashima),false);fd.setFavorite('nakashima',true);assert.equal(fd.isFavorite(by.nakashima),true);assert.equal(trip.days.flatMap(d=>d.dining).filter(a=>a.priority==='primary').length,14);assert(!fd.index(new URLSearchParams()).includes('未标收藏，保留备选，不自动填入空餐段'));
+vm.runInNewContext(read('dining.js'),favoritesContext);fd=favoritesContext.window.JAPAN_DINING;assert.equal(fd.isFavorite(by.nakashima),false);fd.setFavorite('nakashima',true);assert.equal(fd.isFavorite(by.nakashima),true);assert.equal(trip.days.flatMap(d=>d.dining).filter(a=>a.priority==='primary').length,11);assert(!fd.index(new URLSearchParams()).includes('未标收藏，保留备选，不自动填入空餐段'));
 console.log('PASS: favorite defaults, local persistence, reversible toggle and explicit meal assignments.');
 
 // User-confirmed reservations stay visible without inventing a saved-list identity.
@@ -79,3 +79,27 @@ assert.deepEqual(trip.stays.slice(-2).map(s=>[s.source,s.in,s.out,s.nights]),[['
 assert(m.routes[16].includes('food-koyama'));assert(m.routes[16].includes('ritz'));
 assert(!m.routes[16].includes('food-hyogodori-fukuoka'));
 console.log('PASS: Fukuoka NID/Ritz three-night stays, confirmed Koyama dinner, replaced candidate removed, map and stable subscription updated.');
+
+// Confirmed Tsugumi dinner and route-researched options retain distinct booking status.
+const tsugumiDay=trip.days[18],tsugumiReservation=tsugumiDay.mealReservations.find(r=>r.restaurant==='tsugumi');
+assert.equal(tsugumiReservation.time,'19:00');assert.equal(tsugumiReservation.status,'已预订');
+assert(!trip.days[15].dining.some(a=>a.restaurant==='tsugumi'));
+assert(!tsugumiDay.dining.some(a=>a.restaurant==='choji'));
+assert.match(fd.detail('tsugumi'),/#day\/2026-12-18/);
+assert(!fd.detail('tsugumi').includes('#day/2026-12-15'));
+assert(!fd.detail('tsugumi').includes('未实际预订'));
+assert.match(fd.mealCard(tsugumiDay,18),/19:00 · 已预订/);
+for(const i of [13,14,15]){
+ const option=trip.days[i].mealRecommendations[0],html=fd.mealCard(trip.days[i],i);
+ assert(!trip.days[i].mealReservations?.length);assert.match(option.status,/未预约/);
+ assert(html.includes('<h4>'+option.name+'</h4>'));
+ assert.equal(html.split('<h4>'+option.name+'</h4>').length-1,1);
+ assert(!html.includes('晚餐尚未安排'));
+}
+assert.match(trip.days[13].night,/中洲/);assert(!m.routes[13].includes('food-issou'));
+assert(m.routes[18].includes('food-tsugumi'));assert(!m.routes[18].includes('food-choji'));
+const tsugumiEvent=events.find(e=>e.includes('DTSTART;VALUE=DATE:20261218\r\n'));
+assert.match(tsugumiEvent,/19:00 郷土料理 嗣味（已预订）/);
+assert(!events.find(e=>e.includes('DTSTART;VALUE=DATE:20261215\r\n')).includes('郷土料理 嗣味（已预订）'));
+for(const i of [13,14,15,17,18])assert.deepEqual(plan.days[i].map(l=>[l.from,l.to]),m.routes[i].slice(1).map((id,j)=>[m.routes[i][j],id]));
+console.log('PASS: Dec 18 Tsugumi at 19:00, Dec 13 yatai, unbooked route ramen cards, no duplicate meals, map and calendar consistency.');

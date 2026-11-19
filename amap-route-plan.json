@@ -509,10 +509,10 @@
       },
       {
         "from": "mojiko",
-        "to": "food-issou",
-        "mode": "mixed",
-        "label": "包车至HOTEL NID；晚餐另行决定",
-        "duration": "以当日抵达时间为准"
+        "to": "food-yatai-tsukasa",
+        "mode": "driving",
+        "label": "包车后市内接驳",
+        "duration": "按当日正文与实际导航"
       }
     ],
     [
@@ -522,6 +522,13 @@
         "mode": "walking",
         "label": "步行",
         "duration": "用时待核"
+      },
+      {
+        "from": "palmbeach",
+        "to": "food-shinshin-tenjin",
+        "mode": "mixed",
+        "label": "返城巴士＋市内接驳",
+        "duration": "按当日正文与实际导航"
       }
     ],
     [
@@ -531,6 +538,13 @@
         "mode": "walking",
         "label": "步行",
         "duration": "用时待核"
+      },
+      {
+        "from": "kyuhaku",
+        "to": "food-issou-nakasu",
+        "mode": "mixed",
+        "label": "西铁＋步行／短途车",
+        "duration": "按当日正文与实际导航"
       }
     ],
     [
@@ -594,24 +608,38 @@
     [
       {
         "from": "meiji",
-        "to": "acros",
+        "to": "tochoji",
         "mode": "driving",
-        "label": "出租车",
-        "duration": "15–25分钟"
-      },
-      {
-        "from": "acros",
-        "to": "food-genki",
-        "mode": "driving",
-        "label": "预约车／出租车",
-        "duration": "用时待核"
+        "label": "短途出租车／分段步行",
+        "duration": "按当日正文与实际导航"
       },
       {
         "from": "tochoji",
+        "to": "food-genki",
+        "mode": "driving",
+        "label": "短途出租车／分段步行",
+        "duration": "按当日正文与实际导航"
+      },
+      {
+        "from": "food-genki",
         "to": "kushida",
-        "mode": "walking",
-        "label": "步行",
-        "duration": "用时待核"
+        "mode": "driving",
+        "label": "短途出租车／分段步行",
+        "duration": "按当日正文与实际导航"
+      },
+      {
+        "from": "kushida",
+        "to": "acros",
+        "mode": "driving",
+        "label": "短途出租车／分段步行",
+        "duration": "按当日正文与实际导航"
+      },
+      {
+        "from": "acros",
+        "to": "food-nagano",
+        "mode": "driving",
+        "label": "短途出租车／分段步行",
+        "duration": "按当日正文与实际导航"
       }
     ],
     [
@@ -628,6 +656,27 @@
         "mode": "driving",
         "label": "预约车／出租车",
         "duration": "用时待核"
+      },
+      {
+        "from": "food-hirao",
+        "to": "ritz",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟"
+      },
+      {
+        "from": "ritz",
+        "to": "food-tsugumi",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–30分钟含缓冲"
+      },
+      {
+        "from": "food-tsugumi",
+        "to": "ritz",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–30分钟含缓冲"
       }
     ],
     []

@@ -53,6 +53,9 @@ def build(trip, timestamp):
         for reservation in entry.get("mealReservations", []):
             description.append(f"餐食预约｜{reservation['time']} {reservation['name']} · {reservation['status']}（{reservation['confirmedBy']}） · {reservation['address']}")
             description.append(reservation["map"])
+        for recommendation in entry.get("mealRecommendations", []):
+            description.append(f"餐食候选｜{recommendation['time']} {recommendation['name']} · {recommendation['status']}。{recommendation['note']}")
+            description.append(recommendation["map"])
         if stay:
             description.append(f"住宿｜{stay}")
         description.append(url)

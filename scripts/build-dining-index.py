@@ -4,7 +4,7 @@ import json,datetime
 R=Path(__file__).resolve().parents[1]
 D=json.loads((R/'restaurants.json').read_text());T=json.loads((R/'trip.json').read_text());by={r['id']:r for r in D['restaurants']}
 preferred=sum(r['userPriority']=='preferred' for r in D['restaurants']);scheduled=len({a['restaurant'] for d in T['days'] for a in d['dining'] if a['priority']=='primary'})
-lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。收藏主选不代表已预约；12/2 19:00酔心本店、12/5 19:00あん梅、12/16 19:00めしや コヤマパーキング晚餐已预订（用户确认，最新2026-11-20）。其他预约状态以逐日标注为准，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
+lines=['# 九州 · Winn｜收藏餐厅与逐日安排','',f'核对2026-11-10。共35家餐厅，默认收藏{preferred}家；{scheduled}家作为逐日主选，六盛同餐替换，なかしま待安排。其余为备选。网页右上角星标可调整，选择只保存在当前浏览器，不自动改变已排餐段。收藏主选不代表已预约；12/2 19:00酔心本店、12/5 19:00あん梅、12/16 19:00めしや コヤマパーキング、12/18 19:00郷土料理嗣味晚餐已预订（用户确认，最新2026-11-20）。其他预约状态以逐日标注为准，未安排餐段保持空白。','','## 每日餐饮','','| 日期 | 早餐 | 午餐 | 晚餐 |','|---|---|---|---|']
 for i,d in enumerate(T['days']):
  cells=[]
  for meal in ['breakfast','lunch','dinner']:
@@ -12,10 +12,17 @@ for i,d in enumerate(T['days']):
   if booked:
    cells.append('<br>'.join(f"[{a['name']}]({a['map']}) {a['time']} {a['status']}" for a in booked))
    continue
+  suggested=[a for a in d.get('mealRecommendations',[]) if a['meal']==meal]
+  if suggested:
+   cells.append('<br>'.join(f"[{a['name']}]({a['map']}) {a['time']} {a['status']}" for a in suggested))
+   continue
   aa=[a for a in d['dining'] if a['meal']==meal];cells.append('<br>'.join(f"[{by[a['restaurant']]['name']}]({by[a['restaurant']]['map']}) {a['time']} {'收藏主选' if a['priority']=='primary' else '收藏替换备选'}" for a in aa))
  lines.append('| '+(datetime.date(2026,11,30)+datetime.timedelta(days=i)).strftime('%m/%d')+' | '+' | '.join(cells)+' |')
-lines+=['','12/12先到洲际寄存行李，东洋轩为午餐候选；选国东则在半岛用餐。不替换ENOWA及界的酒店晚餐；12/5あん梅19:00已预订，OND若含夕食提前协调。12/13先入住休息，一双排队超过20分钟或抵达延误则删。12/14こと需先核巴士，不能卡点赴约。','','## 逐日交通与预约理由','']
+lines+=['','12/12先到洲际寄存行李，东洋轩为午餐候选；选国东则在半岛用餐。不替换ENOWA及界的酒店晚餐；12/5あん梅19:00已预订，OND若含夕食提前协调。12/13先入住NID再去中洲屋台，风雨或长队改附近简餐；12/14天神ShinShin、12/15一双中洲店、12/17元気一杯顺路候选，均设候位20分钟上限。12/18嗣味19:00已订，旧12/15候选及12/18鳥次已移除；こと保留替换备选，不能叠加两顿晚餐。','','## 逐日交通与预约理由','']
 for i,d in enumerate(T['days']):
+ for a in d.get('mealRecommendations',[]):
+  date=(datetime.date.fromisoformat(T['departure'])+datetime.timedelta(days=i)).strftime('%m/%d')
+  lines +=[f"- **{date} {a['time']} {a['name']} · {a['status']}**：{a['note']} 地址：{a['address']}。[地图导航]({a['map']}) · [店铺资料]({a['source']})。",'']
  for a in d.get('mealReservations',[]):
   date=(datetime.date.fromisoformat(T['departure'])+datetime.timedelta(days=i)).strftime('%m/%d')
   lines +=[f"- **{date} {a['time']} {a['name']} · {a['status']}**（{a['confirmedBy']}）：{a['address']}。{a['note']} [地图导航]({a['map']}) · [店铺资料]({a['source']})。",'']

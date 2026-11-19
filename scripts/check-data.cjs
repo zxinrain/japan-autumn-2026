@@ -42,7 +42,7 @@ console.log('PASS: JS syntax; 20 continuous days / 19 nights; 18 destination the
 
 assert.deepEqual(Array.from(map.routes[13].slice(0,2)),['intercontinental','kitakyushumuseum']);assert.match(trip.days[13].transport,/包车/);assert.match(trip.days[14].title,/糸岛/);assert.match(trip.days[18].title,/福冈市美术馆/);assert.match(trip.days[16].title,/九州芸文馆/);
 
-if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'selected');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[11].includes('kinrin'));assert(map.routes[11].includes('enowa'));assert(map.routes[17].includes('tochoji'));assert(map.routes[12].includes('intercontinental'));assert(map.routes[14].includes('food-koto'));}
+if(trip.refinement){assert(trip.days.every(d=>typeof d.walkingNote==='string'&&d.walkingNote.length>0));assert.equal(trip.mealPresentation,'selected');assert(map.routes[7].includes('nagasakimemorial'));assert(map.routes[11].includes('kinrin'));assert(map.routes[11].includes('enowa'));assert(map.routes[17].includes('tochoji'));assert(map.routes[12].includes('intercontinental'));assert(map.routes[14].includes('food-shinshin-tenjin'));}
 
 require('./check-local-maps.cjs');
 

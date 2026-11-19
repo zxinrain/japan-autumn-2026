@@ -2,7 +2,7 @@
 
 11/30–12/19，20天19晚｜两位成人1间房｜香港→广岛、福冈→香港
 
-行程更新2026-11-20；餐食预约更新2026-11-20。12/2 19:00酔心本店、12/5 19:00あん梅、12/16 19:00めしや コヤマパーキング晚餐已预订（用户确认）；福冈NID与丽思各三晚，调整后酒店订单待核对。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
+行程更新2026-11-20；餐食预约更新2026-11-20。12/2 19:00酔心本店、12/5 19:00あん梅、12/16 19:00めしや コヤマパーキング、12/18 19:00郷土料理嗣味晚餐已预订（用户确认）；福冈NID与丽思各三晚，调整后酒店订单待核对。其余订单状态按实际确认。独立双床、含餐、取消与库存仍以实际订单为准。
 
 ## 住宿安排
 
@@ -29,6 +29,8 @@
 
 - 12/9–11界别府，12/11–12 ENOWA，12/12–13别府洲际。12/10轻装往返大分，12/11 COMICO与金鳞湖，12/12默认直达洲际；国东备选行李随车。
 - 12/13 09:00从洲际包车出发，看北九州美术馆本馆两小时，再游小仓与门司港。
+
+- 12/13晚餐改中洲屋台；12/14天神ShinShin、12/15博多一双中洲店、12/17元気一杯为顺路拉面候选，均未预约。12/18嗣味19:00已预订。
 
 ## 每日安排
 
@@ -472,13 +474,13 @@
 
 **下午**：14:50赴门司港；15:30–16:45门司港怀旧区，先看旧门司税关，再走港边与门司港站。
 
-**夜晚**：约18:30–19:15抵达HOTEL NID。晚餐灵活，博多一双仅在体力及候位允许时安排。
+**夜晚**：约18:30–19:15抵达HOTEL NID，先入住放行李；19:45左右去中洲清流公园屋台晚餐，以司为首选，按当晚开档决定。只选一家，20:30左右结束、21:00前回酒店；风雨或抵达延误则改附近简餐。
 
 **交通**：包车：别府洲际→北九州美术馆本馆→小仓城→门司港→HOTEL NID。预留约9.5–10.25小时，行李随车。
 
 **休息**：午餐坐下休息，门司港视体力留短休。
 
-**取舍**：堵车时缩短小仓城外和港边散步；保留三站与美术馆两小时。
+**取舍**：堵车时缩短小仓城外和港边散步；保留三站与美术馆两小时。 中洲屋台遇停档或长队就改附近简餐，不再去博多站东侧吃面。
 
 **摄影**：矶崎新双筒体量、入口与山丘城市视线；先看全貌再看构件。12/13看摄影收藏，松尾铃木展12/15才开，不写入当天主线。
 
@@ -486,13 +488,13 @@
 
 **午餐推荐**：　
 
-**晚餐推荐**：[博多一双 博多駅東本店](https://www.google.com/maps?cid=14997510692567609889) · 抵达后 · 收藏主选。约18:30–19:15抵达NID，入住休息后按体力决定，队长时改附近简餐。 未预约。
+**晚餐推荐**：[屋台 司](https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%20%E5%8F%B8%20%E4%B8%AD%E6%B4%B2%20%E6%B8%85%E6%B5%81%E5%85%AC%E5%9C%92) · 19:45–20:30左右，按抵达调整 · 未预约 · 看当晚开档。先入住NID、放行李再去中洲清流公园；优先一家屋台，明太子天妇罗与烧物按当日供应选择。20:30左右结束，21:00前回酒店。风雨停档、等候超过20分钟或跨城抵达延误时改酒店附近简餐，不再赶博多站吃面。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu) → [Kitakyushu Municipal Museum of Art Main Building](https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Municipal%20Museum%20of%20Art%20Main%20Building) → [Kokura Castle](https://www.google.com/maps/search/?api=1&query=Kokura%20Castle) → [Mojiko Retro](https://www.google.com/maps/search/?api=1&query=Mojiko%20Retro) → [HOTEL NID Fukuoka](https://www.google.com/maps/search/?api=1&query=HOTEL%20NID%20Fukuoka)
+导航：[ANA InterContinental Beppu](https://www.google.com/maps/search/?api=1&query=ANA%20InterContinental%20Beppu) → [Kitakyushu Municipal Museum of Art Main Building](https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Municipal%20Museum%20of%20Art%20Main%20Building) → [Kokura Castle](https://www.google.com/maps/search/?api=1&query=Kokura%20Castle) → [Mojiko Retro](https://www.google.com/maps/search/?api=1&query=Mojiko%20Retro) → [HOTEL NID Fukuoka](https://www.google.com/maps/search/?api=1&query=HOTEL%20NID%20Fukuoka) → [屋台 司 中洲 清流公園](https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%20%E5%8F%B8%20%E4%B8%AD%E6%B4%B2%20%E6%B8%85%E6%B5%81%E5%85%AC%E5%9C%92)
 
-来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [JR九州网络票价](https://www.jrkyushu-kippu.jp/fare/ticket/123) · [JR九州优惠票中途下车规则](https://helpfeel.com/jrkyushu-faq/割引きっぷは途中下車や途中乗車が可能ですか？-65e584dced91020025528d6b) · [小仓站行李储物柜](https://www.jrkyushu.co.jp/railway/station/1191572_1601.html) · [小仓站可询行李寄存](https://discoverycoworking.com/news/tenimotsu/) · [北九州美术馆本馆交通](https://kmma.jp/visitor/honkan/access/) · [北九州市立美术馆本馆展期](https://kmma.jp/) · [本馆 Café Musée](https://www.cafemusee.net/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [博多一双 博多駅東本店营业与订位](https://www.hakata-issou.com/) · [小仓城官网](https://kokura-castle.jp/schedule/) · [门司港旧海关](https://mojiko-retoro9.jp/spot/former_moji_customs_bldg/)
+来源：[JR 九州预约与开售规则](https://www.jrkyushu.co.jp/railway/netyoyaku/guide/search.html) · [JR九州网络票价](https://www.jrkyushu-kippu.jp/fare/ticket/123) · [JR九州优惠票中途下车规则](https://helpfeel.com/jrkyushu-faq/割引きっぷは途中下車や途中乗車が可能ですか？-65e584dced91020025528d6b) · [小仓站行李储物柜](https://www.jrkyushu.co.jp/railway/station/1191572_1601.html) · [小仓站可询行李寄存](https://discoverycoworking.com/news/tenimotsu/) · [北九州美术馆本馆交通](https://kmma.jp/visitor/honkan/access/) · [北九州市立美术馆本馆展期](https://kmma.jp/) · [本馆 Café Musée](https://www.cafemusee.net/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [小仓城官网](https://kokura-castle.jp/schedule/) · [门司港旧海关](https://mojiko-retoro9.jp/spot/former_moji_customs_bldg/) · [中洲屋台司／福冈市官方旅游资料](https://yokanavi.com/spots/124494)
 
 ### Day 15｜12/14 周一｜糸岛一日游 · 直达巴士与二见浦海岸
 
@@ -504,7 +506,7 @@
 
 **下午**：海湾短走后，从PALMBEACH前乘车回天神，步行或短途车回NID。
 
-**夜晚**：18:00焼き鳥こと作为收藏晚餐主选。预约前核对返城巴士，目标16:30前到酒店休息，17:15左右出车；不能安排极限公交接续。
+**夜晚**：糸岛返回天神后，18:00左右ShinShin天神本店晚餐，按实际巴士抵达时间调整；返城早则先回NID休息再赴店。候位超过20分钟改附近简餐。焼き鳥こと改为需另预约的替换备选，不安排两顿晚餐。
 
 **交通**：NID→天神三丁目→二见浦，直达昭和巴士；返程天神四丁目下车，核对冬季班次。
 
@@ -518,13 +520,13 @@
 
 **午餐推荐**：　
 
-**晚餐推荐**：[焼き鳥こと](https://www.google.com/maps?cid=945335606223743466) · 18:00 · 收藏主选。糸岛日归目标16:30前到福冈 HOTEL NID休息，从NID步行或短途车赴渡边通；套餐约2.5小时。公交延误风险在订席前协调，不能当天临时爽约。 未预约。
+**晚餐推荐**：[博多らーめん ShinShin 天神本店](https://www.google.com/maps/search/?api=1&query=ShinShin%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97%20%E5%A4%A9%E7%A5%9E3-2-19) · 18:00左右 · 未预约 · 顺路候选。糸岛巴士回到天神四丁目后，门店在天神三丁目一带，适合在返NID前吃晚餐；若较早返城，先回酒店休息再赴店。豚骨细面，营业与临休按官网日历复核。候位超过20分钟则改附近简餐，不为排队延后休息；烧鸟こと保留为需另预约的替换备选。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[福冈 HOTEL NID](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%86%88%20HOTEL%20NID) → [天神三丁目 昭和バス](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E4%B8%89%E4%B8%81%E7%9B%AE%20%E6%98%AD%E5%92%8C%E3%83%90%E3%82%B9) → [桜井二見ヶ浦](https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6) → [糸島茶房](https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%B3%B6%E8%8C%B6%E6%88%BF) → [PALM BEACH THE GARDENS 福岡](https://www.google.com/maps/search/?api=1&query=PALM%20BEACH%20THE%20GARDENS%20%E7%A6%8F%E5%B2%A1)
+导航：[福冈 HOTEL NID](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%86%88%20HOTEL%20NID) → [天神三丁目 昭和バス](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E4%B8%89%E4%B8%81%E7%9B%AE%20%E6%98%AD%E5%92%8C%E3%83%90%E3%82%B9) → [桜井二見ヶ浦](https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6) → [糸島茶房](https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%B3%B6%E8%8C%B6%E6%88%BF) → [PALM BEACH THE GARDENS 福岡](https://www.google.com/maps/search/?api=1&query=PALM%20BEACH%20THE%20GARDENS%20%E7%A6%8F%E5%B2%A1) → [ShinShin 天神本店](https://www.google.com/maps/search/?api=1&query=ShinShin%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97)
 
-来源：[糸岛旅游协会：二见浦](https://kanko-itoshima.jp/spot/sakuraihutamigaura/) · [昭和巴士现行平日与周末班表](https://www.showa-bus.jp/wp-content/uploads/2026/03/0_04_westcoastliner_20260401.pdf) · [昭和巴士2026站点调整](https://www.showa-bus.jp/2026/03/10/daiyakaisei_20260404/) · [糸岛茶房营业与菜单](https://futamigaura.com/itoshima-sabo/index.html) · [PALM BEACH店铺与营业通知](https://pb-gardens.com/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [焼き鳥こと营业与订位](https://www.tablecheck.com/ja/shops/yakitori-koto/reserve)
+来源：[糸岛旅游协会：二见浦](https://kanko-itoshima.jp/spot/sakuraihutamigaura/) · [昭和巴士现行平日与周末班表](https://www.showa-bus.jp/wp-content/uploads/2026/03/0_04_westcoastliner_20260401.pdf) · [昭和巴士2026站点调整](https://www.showa-bus.jp/2026/03/10/daiyakaisei_20260404/) · [糸岛茶房营业与菜单](https://futamigaura.com/itoshima-sabo/index.html) · [PALM BEACH店铺与营业通知](https://pb-gardens.com/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [焼き鳥こと营业与订位](https://www.tablecheck.com/ja/shops/yakitori-koto/reserve) · [ShinShin天神本店官网](https://www.hakata-shinshin.com/tenpo_tenjin) · [ShinShin官方营业日历](https://www.hakata-shinshin.com/calendar)
 
 ### Day 16｜12/15 周二｜太宰府与九州国立博物馆 · 西铁日归
 
@@ -536,7 +538,7 @@
 
 **下午**：13:45–16:15 九州国立博物馆，以文化交流展示及菊竹清训／久米设计建筑为主；通道、电梯与末端步行由司机和馆方确认。
 
-**夜晚**：18:30郷土料理嗣味作为晚餐候选；太宰府返回HOTEL NID后先休息，再预约出租车赴店。席位与海鲜过敏先核，尚未预约。
+**夜晚**：太宰府返城后先回NID休息；19:00左右到博多一双中洲店吃拉面，候位超过20分钟改附近简餐，20:30前后返酒店。
 
 **交通**：HOTEL NID→西铁福冈（天神）站步行或短途车；西铁经二日市换乘太宰府线，列车运行约30–40分钟，候车及两端步行另计。单程门到门预留60–90分钟，返程回NID。
 
@@ -550,13 +552,13 @@
 
 **午餐推荐**：　
 
-**晚餐推荐**：[郷土料理 嗣味](https://www.google.com/maps?cid=8214511838218247218) · 18:30 · 收藏主选。太宰府返回HOTEL NID后先休息，再预约出租车赴店；具体席次和海鲜忌口先确认。 未预约。
+**晚餐推荐**：[博多一双 中洲店](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E4%B8%80%E5%8F%8C%20%E4%B8%AD%E6%B4%B2%E5%BA%97%20%E4%B8%AD%E6%B4%B22-6-6) · 19:00左右 · 未预约 · 顺路候选。太宰府经天神返回NID后休息，19:00左右到中洲店吃泡沫豚骨拉面。平台与福冈市资料均列19:00开门，不提前到18点等。与博多站东本店为不同门店，不沿用本店百名店资格；排队超过20分钟改附近简餐，不等深夜。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[HOTEL NID Fukuoka](https://www.google.com/maps/search/?api=1&query=HOTEL%20NID%20Fukuoka) → [Starbucks Dazaifu Tenmangu Omotesando](https://www.google.com/maps/search/?api=1&query=Starbucks%20Dazaifu%20Tenmangu%20Omotesando) → [Umenohana Dazaifu Shizenan](https://www.google.com/maps/search/?api=1&query=Umenohana%20Dazaifu%20Shizenan) → [Kyushu National Museum](https://www.google.com/maps/search/?api=1&query=Kyushu%20National%20Museum)
+导航：[HOTEL NID Fukuoka](https://www.google.com/maps/search/?api=1&query=HOTEL%20NID%20Fukuoka) → [Starbucks Dazaifu Tenmangu Omotesando](https://www.google.com/maps/search/?api=1&query=Starbucks%20Dazaifu%20Tenmangu%20Omotesando) → [Umenohana Dazaifu Shizenan](https://www.google.com/maps/search/?api=1&query=Umenohana%20Dazaifu%20Shizenan) → [Kyushu National Museum](https://www.google.com/maps/search/?api=1&query=Kyushu%20National%20Museum) → [博多一双 中洲店](https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E4%B8%80%E5%8F%8C%20%E4%B8%AD%E6%B4%B2%E5%BA%97)
 
-来源：[九州国立博物馆展览日程](https://www.kyuhaku.jp/exhibition/exhibition_schedule.html) · [隈研吾事务所：太宰府星巴克](https://kkaa.co.jp/en/project/starbucks-coffee-at-dazaifutenmangu-omotesando/) · [太宰府市：自然庵等参道午餐](https://www.city.dazaifu.lg.jp/site/kanko/16904.html) · [Toriden 水炊锅官网](https://toriden.com/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [郷土料理 嗣味营业与订位](https://tabelog.com/fukuoka/A4001/A400103/40054472/)
+来源：[九州国立博物馆展览日程](https://www.kyuhaku.jp/exhibition/exhibition_schedule.html) · [隈研吾事务所：太宰府星巴克](https://kkaa.co.jp/en/project/starbucks-coffee-at-dazaifutenmangu-omotesando/) · [太宰府市：自然庵等参道午餐](https://www.city.dazaifu.lg.jp/site/kanko/16904.html) · [Toriden 水炊锅官网](https://toriden.com/) · [福冈 HOTEL NID](https://nid.seven-garden.com/en/) · [博多一双中洲店／福冈市食材推广资料](https://umakamon.city.fukuoka.lg.jp/store/18334/) · [博多一双中洲店营业资料](https://tabelog.com/fukuoka/A4001/A400102/40036823/)
 
 ### Day 17｜12/16 周三｜换住丽思 · 九州芸文馆 · Koyama晚餐
 
@@ -564,7 +566,7 @@
 
 **上午**：09:00 HOTEL NID退房，出租车到福冈丽思卡尔顿寄存行李，连等车与交接预留30–45分钟；寄存先向酒店确认。约09:45–10:00轻装乘车赴博多站，转实际停靠筑后船小屋的新干线，出站步行约5分钟到九州芸文馆，目标10:45–11:15抵馆。车次按正式时刻表确认。
 
-**中午**：12:15–13:15在馆区或车站附近经确认营业的店午餐；餐饮选择少，提前核好，备用便当只在允许用餐区使用。13:15–14:00坐下休息。
+**中午**：12:15–13:15在馆区或车站附近经确认营业的店午餐；餐饮选择少，提前核好，备用便当只在允许用餐区使用。13:15–14:00坐下休息。 返城经过博多站时，一双博多站东本店仅作未用午餐时的替换，已用餐就跳过，不额外加餐。
 
 **下午**：14:00–14:30继续看建筑与近处公园；14:30–15:00离馆，配合列车返博多，再乘车到丽思，目标16:00–17:00办理入住并休息。不另加天神购物。
 
@@ -580,7 +582,7 @@
 
 **早餐推荐**：　
 
-**午餐推荐**：　
+**午餐推荐**：[博多一双 博多駅東本店](https://www.google.com/maps?cid=14997510692567609889) · 返城经过博多站时，仅作午餐替换 · 替换备选。若已在馆区吃午餐则跳过；只有午餐未吃、返城尚早且等候不超过20分钟时才替换为站东本店，不加一餐、不影响19:00 Koyama。 未预约。
 
 **晚餐推荐**：[めしや コヤマパーキング](https://www.google.com/maps/search/?api=1&query=%E3%82%81%E3%81%97%E3%82%84%20%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%AD%A6%E5%9B%BA1-6-4%20KENT%20KEGO%20A) · 19:00 · 已预订（用户确认）。福岡市中央区警固1-6-4 KENT KEGO A。12/16 19:00已预订（用户确认）；返城先到丽思入住休息，18:15–18:30出发，18:50前抵店。套餐、费用与取消条件以实际订单为准。
 
@@ -594,11 +596,11 @@
 
 住宿：福冈丽思卡尔顿酒店 / The Ritz-Carlton, Fukuoka。
 
-**上午**：09:30从丽思出发，乘车前往博多明治公园，参观地面庭园及低层回廊。不再安排换酒店。
+**上午**：09:30从丽思出发，乘车前往博多明治公园；之后短途车或步行分段到东长寺，上午以公园与寺院为主。
 
-**中午**：博多旧城附近午餐；元气一杯可作候选，排队过长另选简餐。
+**中午**：12:15左右到下吴服町博多元気一杯!!午餐，旧城内短途出租车接驳，或按体力分段步行；浓汤豚骨拉面，候位超过20分钟改附近简餐。餐后安排咖啡或酒店休息。
 
-**下午**：东长寺→栉田神社分段步行，再回天神看ACROS或直接回丽思休息。
+**下午**：休息后看栉田神社与川端街区，再回天神看ACROS或直接回丽思；不为午餐从ACROS折返吴服町。
 
 **夜晚**：18:00 水たき長野候选，电话确认席位。若改屋台，从天神出发看当晚开档。
 
@@ -612,7 +614,7 @@
 
 **早餐推荐**：　
 
-**午餐推荐**：[博多元気一杯!!](https://www.google.com/maps?cid=4563141796542890085) · 12:00 · 收藏主选。博多旧城日顺路安排；水炊需电话预约，午餐依候位决定。 未预约。
+**午餐推荐**：[博多元気一杯!!](https://www.google.com/maps?cid=4563141796542890085) · 12:15 · 收藏主选。明治公园、东长寺之后在吴服町一带吃午餐，餐后休息；用短途车减少步行，不从ACROS折返。 未预约。
 
 **晚餐推荐**：[水たき 長野](https://www.google.com/maps?cid=15175599952932772184) · 18:00 · 收藏主选。博多旧城日顺路安排；水炊需电话预约，午餐依候位决定。 未预约。
 
@@ -632,7 +634,7 @@
 
 **下午**：午餐后回丽思休息，傍晚可在大名短走。
 
-**夜晚**：18:00焼とり鳥次作为收藏晚餐主选，丽思卡尔顿出发约10–20分钟车；不在大濠等到晚餐，先回酒店休息。
+**夜晚**：18:15–18:30从丽思预约出租车赴高砂，按路况预留15–30分钟及到店余量，18:50前抵店。19:00 郷土料理 嗣味已预订（用户确认），套餐与用餐时长以订单为准；餐后直接回酒店整理返港行李，不再安排烧鸟或屋台。
 
 **交通**：丽思往返福冈市美术馆分段出租车，大濠只走近岸。
 
@@ -644,15 +646,15 @@
 
 **早餐推荐**：　
 
-**午餐推荐**：[天麩羅処ひらお 大名店](https://www.google.com/maps?cid=18392552247942850334) · 12:40 · 收藏主选。市美术馆及大濠近岸短走后，出租车约10–20分钟至大名店；候位上限20分钟，15:00前后到丽思卡尔顿入住休息。 未预约。
+**午餐推荐**：[天麩羅処ひらお 大名店](https://www.google.com/maps?cid=18392552247942850334) · 12:40 · 收藏主选。市美术馆及大濠近岸短走后，出租车约10–20分钟至大名店；候位上限20分钟，15:00前后回丽思卡尔顿休息。 未预约。
 
-**晚餐推荐**：[焼とり鳥次](https://www.google.com/maps?cid=5615244489185309654) · 18:00 · 收藏主选。丽思卡尔顿休息后车约10–20分钟至大手门；靠近当天美术馆区域但不在下午原地等开餐，晚饭后回酒店。预约时确认套餐为烧鸟。 未预约。
+**晚餐推荐**：[郷土料理 嗣味](https://www.google.com/maps?cid=8214511838218247218) · 19:00 · 已预订（用户确认）。福岡市中央区高砂1-6-6 1F。12/18 19:00已预订（用户确认）。丽思休息后18:15–18:30出发，18:50前抵店；套餐、费用与取消条款以订单为准。
 
 [查看美食图鉴](https://zxinrain.github.io/japan-autumn-2026/index.html#destinations?tab=food)
 
-导航：[福冈丽思卡尔顿酒店](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%86%88%E4%B8%BD%E6%80%9D%E5%8D%A1%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97) → [Fukuoka Art Museum](https://www.google.com/maps/search/?api=1&query=Fukuoka%20Art%20Museum) → [Ohori Park](https://www.google.com/maps/search/?api=1&query=Ohori%20Park)
+导航：[福冈丽思卡尔顿酒店](https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%86%88%E4%B8%BD%E6%80%9D%E5%8D%A1%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97) → [Fukuoka Art Museum](https://www.google.com/maps/search/?api=1&query=Fukuoka%20Art%20Museum) → [Ohori Park](https://www.google.com/maps/search/?api=1&query=Ohori%20Park) → [郷土料理 嗣味 高砂1-6-6](https://www.google.com/maps/search/?api=1&query=%E9%83%B7%E5%9C%9F%E6%96%99%E7%90%86%20%E5%97%A3%E5%91%B3%20%E9%AB%98%E7%A0%821-6-6)
 
-来源：[福冈市美术馆开放规则](https://www.fukuoka-art-museum.jp/guide/) · [福冈市美术馆餐饮](https://www.fukuoka-art-museum.jp/guide/restaurant/) · [福冈丽思卡尔顿酒店](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) · [天麩羅処ひらお 大名店营业与订位](https://www.hirao-foods.net/shop/) · [焼とり鳥次营业与订位](https://tabelog.com/fukuoka/A4001/A400105/40004687/)
+来源：[福冈市美术馆开放规则](https://www.fukuoka-art-museum.jp/guide/) · [福冈市美术馆餐饮](https://www.fukuoka-art-museum.jp/guide/restaurant/) · [福冈丽思卡尔顿酒店](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) · [天麩羅処ひらお 大名店营业与订位](https://www.hirao-foods.net/shop/) · [郷土料理 嗣味营业与订位](https://tabelog.com/fukuoka/A4001/A400103/40054472/) · [嗣味官方TableCheck预约规则](https://www.tablecheck.com/ja/shops/tsugumi-fukuoka/reserve)
 
 ### Day 20｜12/19 周六｜福冈返回香港 · 航班待确认
 
@@ -700,19 +702,23 @@
 
 - **水炊** · [水たき長野](https://mizutakinagano.com/)。12/17 晚餐候选，鸡汤火锅；电话预约 092-281-2200。
 
-- **中洲屋台** · [司](https://yokanavi.com/spots/124494)。NID 段候选，清流公园。现炸天妇罗、烧鸟。
+- **中洲屋台** · [司](https://yokanavi.com/spots/124494)。12/13中洲屋台晚餐首选；入住NID后约19:45到清流公园，以当晚开档和体力决定，未预约。
 
-- **中洲屋台** · [ひょうたん](https://yokanavi.com/spots/161392)。12/15 NID住宿段备选，明太子天妇罗、盐烤牛舌；可问预约。
+- **中洲屋台** · [ひょうたん](https://yokanavi.com/spots/161392)。中洲屋台备用，不与12/15一双拉面叠加成第二顿晚餐。
 
 - **天神屋台** · [あごだし亭 きさいち](https://yokanavi.com/spots/161438)。丽思段备选，飞鱼高汤料理；与当晚正式晚餐择一。
 
-- **天神屋台** · [天一](https://yokanavi.com/spots/122517)。丽思段备选，天妇罗、烤鱼和关东煮。出门前核实开档。
+- **天神屋台** · [天一](https://yokanavi.com/spots/122517)。福冈屋台备用；12/18 19:00已订嗣味，当晚不安排。
 
 - **日本定食** · [ごとうち食堂／COCOWALK 4楼](https://cocowalk.jp/shop/gotouchi)。12/07 12:35午餐候选，目覚町巴士下车后步行约5–10分钟。官网通常11:00–22:00，具体菜单临行核对；同馆咖啡休息后再搭电车去浦上祈念馆。
 
 - **馆内轻食** · [长崎县美术馆桥廊咖啡厅](https://www.nagasaki-museum.jp/visitor/cafe)。12/08 12:25午餐与休息；当前官网列长崎火腿三明治、角煮饭，具体供应出行前复核。
 
 - **创作料理** · [めしや コヤマパーキング](https://tabelog.com/fukuoka/A4001/A400104/40047075/)。12/16 19:00晚餐已预订（用户确认）；警固店，返城先在丽思入住休息。
+
+- **拉面** · [博多らーめん ShinShin 天神本店](https://tabelog.com/fukuoka/A4001/A400103/40004980/)。12/14 18:00左右晚餐候选，糸岛巴士返天神后顺路；按官方营业日历复核，候位超过20分钟放弃。
+
+- **拉面** · [博多一双 中洲店](https://tabelog.com/fukuoka/A4001/A400102/40036823/)。12/15 19:00左右晚餐候选；太宰府返NID休息后赴店。中洲店不是本店百名店获奖门店，未预约。
 
 ## 费用、门票与购票
 
