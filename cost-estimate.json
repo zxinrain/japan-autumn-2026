@@ -5,7 +5,7 @@
   "rooms": 1,
   "rate": 0.0423,
   "rateNote": "规划汇率1日元=0.0423人民币，并非银行实时成交价；刷卡及入汤／住宿税按订单核算。",
-  "scope": "当前合计不含福冈六晚住宿；NID、CANVAS、丽思的实际住宿价格待补。全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。",
+  "scope": "当前合计不含福冈六晚住宿；NID、丽思的实际住宿价格待补。全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。",
   "hotels": [
     {
       "name": "界宮島",
@@ -139,36 +139,24 @@
       "name": "福冈 HOTEL NID",
       "en": "HOTEL NID",
       "checkin": "2026-12-13",
-      "checkout": "2026-12-15",
-      "nights": 2,
+      "checkout": "2026-12-16",
+      "nights": 3,
       "low": null,
       "high": null,
       "quote": null,
-      "basis": "实际订单或同条件报价待填",
+      "basis": "12/13–16共三晚，延住订单与成交总价待核对",
       "official": "https://nid.seven-garden.com/en/"
-    },
-    {
-      "name": "福冈中洲皇家花园 CANVAS",
-      "en": "The Royal Park Canvas Fukuoka Nakasu",
-      "checkin": "2026-12-15",
-      "checkout": "2026-12-17",
-      "nights": 2,
-      "low": null,
-      "high": null,
-      "quote": null,
-      "basis": "实际订单或同条件报价待填",
-      "official": "https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/"
     },
     {
       "name": "福冈丽思卡尔顿酒店",
       "en": "The Ritz-Carlton, Fukuoka",
-      "checkin": "2026-12-17",
+      "checkin": "2026-12-16",
       "checkout": "2026-12-19",
-      "nights": 2,
+      "nights": 3,
       "low": null,
       "high": null,
       "quote": null,
-      "basis": "实际订单或同条件报价待填",
+      "basis": "12/16–19共三晚，提前入住日期的订单与成交总价待核对",
       "official": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/"
     }
   ],

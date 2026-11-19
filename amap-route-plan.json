@@ -535,11 +535,18 @@
     ],
     [
       {
+        "from": "ritz",
+        "to": "fukuoka",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–30分钟"
+      },
+      {
         "from": "fukuoka",
         "to": "chikugo",
         "mode": "rail",
         "label": "新干线",
-        "duration": "25–40分钟"
+        "duration": "25–40分钟＋候车"
       },
       {
         "from": "chikugo",
@@ -560,7 +567,28 @@
         "to": "fukuoka",
         "mode": "rail",
         "label": "新干线",
-        "duration": "25–40分钟"
+        "duration": "25–40分钟＋候车"
+      },
+      {
+        "from": "fukuoka",
+        "to": "ritz",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "15–30分钟"
+      },
+      {
+        "from": "ritz",
+        "to": "food-koyama",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟含缓冲"
+      },
+      {
+        "from": "food-koyama",
+        "to": "ritz",
+        "mode": "driving",
+        "label": "出租车",
+        "duration": "10–20分钟含缓冲"
       }
     ],
     [

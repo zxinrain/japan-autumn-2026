@@ -32,7 +32,7 @@ for(const d of trip.days){for(const k of ['am','noon','pm','night','transport','
 assert.match(trip.days[6].title,/御船山/);assert.match(trip.days[4].title,/MOCA/);assert.match(trip.days[3].title,/SIMOSE/);
 assert.match(trip.days[7].pm,/浦上天主堂/);assert.match(trip.days[11].title,/由布院/);
 assert(trip.days.slice(5,19).every(d=>!d.city.includes('广岛')),'Do not return to Hiroshima after leaving');
-assert.deepEqual(Array.from(trip.stays,s=>s.source),['kai','hilton','ond','hotelNagasaki','indigo','kaiBeppu','enowa','beppuHotel','nid','canvas','ritz']);
+assert.deepEqual(Array.from(trip.stays,s=>s.source),['kai','hilton','ond','hotelNagasaki','indigo','kaiBeppu','enowa','beppuHotel','nid','ritz']);
 assert.equal(trip.stays.at(-1).out,'2026-12-19');
 for(let i=0;i<trip.stays.length;i++){assert.equal(hotelMeta[i].official,trip.sources[trip.stays[i].source][1]);const p=hotelMeta[i].priceReference;if(p)assert(p.lowJPY>0&&p.highJPY>=p.lowJPY&&p.source&&p.status);else assert(trip.stays[i].source);}
 for(const p of catalog){assert(p.reason&&p.tradeoff&&p.look&&p.effort);for(const image of p.images){assert(fs.existsSync(path.join(root,'assets',image[0])),image[0]);assert(trip.sources[image[3]]);}for(const day of p.days)assert(day>=0&&day<20);}

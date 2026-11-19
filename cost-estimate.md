@@ -4,7 +4,7 @@
 
 规划汇率1日元=0.0423人民币，并非银行实时成交价；刷卡及入汤／住宿税按订单核算。
 
-当前合计不含福冈六晚住宿；NID、CANVAS、丽思的实际住宿价格待补。全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。
+当前合计不含福冈六晚住宿；NID、丽思的实际住宿价格待补。全部为两人合计；未付款。酒店预算为所列住宿段总额，非每人；国际机票、购物、水疗与高额酒水未计。
 
 ## 总费用
 
@@ -34,9 +34,8 @@
 | [界 别府 / KAI Beppu](https://hoshinoresorts.com/ja/hotels/kaibeppu/) · 2026-12-09—2026-12-11 | 2 | 6,500–10,000 | 未取得本日期报价 |
 | [由布院 ENOWA / ENOWA YUFUIN](https://enowa-yufuin.jp/) · 2026-12-11—2026-12-12 | 1 | 6,500–11,000 | 未取得本日期报价 |
 | [ANA 别府洲际度假酒店及水疗中心 / ANA InterContinental Beppu Resort & Spa](https://anaicbeppu.com/faq/) · 2026-12-12—2026-12-13 | 1 | 4,000–6,500 | 未取得本日期报价 |
-| [福冈 HOTEL NID / HOTEL NID](https://nid.seven-garden.com/en/) · 2026-12-13—2026-12-15 | 2 | 待报价 | 未取得本日期报价 |
-| [福冈中洲皇家花园 CANVAS / The Royal Park Canvas Fukuoka Nakasu](https://www.royalparkhotels.co.jp/canvas/fukuokanakasu/) · 2026-12-15—2026-12-17 | 2 | 待报价 | 未取得本日期报价 |
-| [福冈丽思卡尔顿酒店 / The Ritz-Carlton, Fukuoka](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) · 2026-12-17—2026-12-19 | 2 | 待报价 | 未取得本日期报价 |
+| [福冈 HOTEL NID / HOTEL NID](https://nid.seven-garden.com/en/) · 2026-12-13—2026-12-16 | 3 | 待报价 | 未取得本日期报价 |
+| [福冈丽思卡尔顿酒店 / The Ritz-Carlton, Fukuoka](https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/) · 2026-12-16—2026-12-19 | 3 | 待报价 | 未取得本日期报价 |
 
 五平台同日期入口见[酒店比价页](hotels.html)。官网、携程、Agoda、一休同条件实时报价尚未取得，不标“已完成五平台比价”。Booking界别府本次未返回可售，不代表所有渠道满房；ENOWA未匹配，优先[官网](https://enowa-yufuin.jp/)与[一休](https://www.ikyu.com/00002995/)。一休公开样本可能包含积分即用折扣，不直接作为人人可得价格。
 
